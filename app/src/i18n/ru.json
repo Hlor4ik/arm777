@@ -58,5 +58,17 @@
   "alphabet.miniWords": "Мини-слова",
   "speed.timeLeft": "Осталось",
   "speed.score": "Счёт",
+  "study.noWeak": "Пока нет слабых слов — отлично!",
+  "study.noWords": "Нет слов для этой сессии",
+  "study.clear": "Очистить",
+  "game.worldTitle": "Мой двор",
+  "game.worldSubtitle": "Зарабатывай звёзды в режимах и прокачивай дом, питомца и машину",
+  "game.stars": "звёзд",
+  "game.upgrade": "Улучшить",
+  "game.maxLevel": "Максимальный уровень!",
+  "game.toWorld": "Мой двор",
+  "game.backProgress": "К прогрессу",
+  "game.openWorld": "Открыть двор",
+  "progress.stars": "Звёзды",
   "marathon.question": "Вопрос"
 }

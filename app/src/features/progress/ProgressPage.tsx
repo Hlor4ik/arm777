@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { getFoldersMeta, loadWords } from '../../data/loaders';
 import { ALL_STUDY_FOLDER_IDS } from '../../data/folders';
 import { getFolderStats, getReadiness } from '../../engine/progress';
@@ -9,6 +10,7 @@ import styles from './ProgressPage.module.css';
 
 export function ProgressPage() {
   const { t, lang } = useT();
+  const navigate = useNavigate();
   const progress = useProgressStore();
   const [totals, setTotals] = useState({ learned: 0, inProgress: 0, weak: 0, total: 0 });
   const [readinessList, setReadinessList] = useState<{ id: string; name: string; pct: number }[]>([]);
@@ -57,6 +59,17 @@ export function ProgressPage() {
           <div className={styles.streakLabel}>{t('progress.streak')}</div>
         </div>
       </div>
+
+      <button type="button" className={styles.worldCard} onClick={() => navigate('/world')}>
+        <div className={styles.worldLeft}>
+          <span className={styles.worldIcon}>⭐</span>
+          <div>
+            <div className={styles.worldStars}>{progress.game.stars}</div>
+            <div className={styles.worldLabel}>{t('progress.stars')}</div>
+          </div>
+        </div>
+        <span className={styles.worldCta}>{t('game.openWorld')} →</span>
+      </button>
 
       <div className={styles.stats}>
         <Stat label={t('progress.learned')} value={totals.learned} />

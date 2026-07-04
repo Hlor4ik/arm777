@@ -6,13 +6,15 @@ import type {
   UserProgress,
   WordProgress,
 } from '../data/types';
+import { getUpgradeCost, INITIAL_GAME, STAR_REWARDS } from '../engine/gamification';
+import type { UpgradeTrack } from '../engine/gamification';
 import { createWordProgress, reviewAgain, reviewKnown } from '../engine/sm2';
 import { todayISO } from '../engine/utils';
 import { getFoldersMeta } from '../data/loaders';
 import { ALL_STUDY_FOLDER_IDS } from '../data/folders';
 
 const STORAGE_KEY = 'armenian-learn-v1';
-const PROGRESS_VERSION = 2;
+const PROGRESS_VERSION = 3;
 
 export const INITIAL_PROGRESS: UserProgress = {
   version: PROGRESS_VERSION,
@@ -25,6 +27,7 @@ export const INITIAL_PROGRESS: UserProgress = {
   settings: { baseLang: 'ru', dialect: 'eastern' },
   streak: { current: 0, lastDate: null },
   lastModeId: null,
+  game: { ...INITIAL_GAME },
 };
 
 function unlockAllSections(state: UserProgress): UserProgress {
@@ -36,6 +39,19 @@ function unlockAllSections(state: UserProgress): UserProgress {
     alphabetPassed: true,
     updatedAt: new Date().toISOString(),
   };
+}
+
+function migrateProgress(state: UserProgress): UserProgress {
+  let next = { ...state };
+  if (state.version < 2) {
+    next = unlockAllSections(next);
+  }
+  if (state.version < 3 || !state.game) {
+    next.game = state.game ?? { ...INITIAL_GAME };
+  }
+  next.version = PROGRESS_VERSION;
+  next.updatedAt = new Date().toISOString();
+  return next;
 }
 
 interface ProgressState extends UserProgress {
@@ -51,6 +67,8 @@ interface ProgressState extends UserProgress {
   markAgain: (wordId: string) => void;
   resetProgress: () => void;
   setLastMode: (modeId: string) => void;
+  addStars: (amount: number) => void;
+  buyUpgrade: (track: 'home' | 'pet' | 'car') => boolean;
 }
 
 async function unlockNextFolder(passedId: string) {
@@ -85,6 +103,7 @@ export const useProgressStore = create<ProgressState>()(
         const y = yesterday.toISOString().slice(0, 10);
         const current = streak.lastDate === y ? streak.current + 1 : 1;
         set({ streak: { current, lastDate: today }, updatedAt: new Date().toISOString() });
+        get().addStars(STAR_REWARDS.streakDaily);
       },
 
       openFolder: (folderId) => {
@@ -143,12 +162,35 @@ export const useProgressStore = create<ProgressState>()(
       resetProgress: () => set({ ...INITIAL_PROGRESS, hydrated: true }),
 
       setLastMode: (modeId) => set({ lastModeId: modeId }),
+
+      addStars: (amount) => {
+        if (amount <= 0) return;
+        set((s) => ({
+          game: { ...s.game, stars: s.game.stars + amount },
+          updatedAt: new Date().toISOString(),
+        }));
+      },
+
+      buyUpgrade: (track: UpgradeTrack) => {
+        const { game } = get();
+        const cost = getUpgradeCost(track, game.upgrades[track]);
+        if (cost === null || game.stars < cost) return false;
+        set((s) => ({
+          game: {
+            ...s.game,
+            stars: s.game.stars - cost,
+            upgrades: { ...s.game.upgrades, [track]: s.game.upgrades[track] + 1 },
+          },
+          updatedAt: new Date().toISOString(),
+        }));
+        return true;
+      },
     }),
     {
       name: STORAGE_KEY,
       onRehydrateStorage: () => (state) => {
         if (state && state.version < PROGRESS_VERSION) {
-          Object.assign(state, unlockAllSections(state));
+          Object.assign(state, migrateProgress(state));
         }
         state?.setHydrated(true);
       },

@@ -1,3 +1,5 @@
+import type { GameProfile } from '../engine/gamification';
+
 export type BaseLang = 'ru' | 'en';
 export type Dialect = 'eastern' | 'lori';
 
@@ -69,6 +71,7 @@ export interface UserProgress {
   settings: UserSettings;
   streak: StreakData;
   lastModeId: string | null;
+  game: GameProfile;
 }
 
 export type StudyModeId =

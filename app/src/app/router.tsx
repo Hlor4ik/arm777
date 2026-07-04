@@ -8,6 +8,7 @@ import { StudyPage } from '../features/study/StudyPage';
 import { ExamPage } from '../features/exam/ExamPage';
 import { AlphabetPage } from '../features/alphabet/AlphabetPage';
 import { AboutPage } from '../features/settings/AboutPage';
+import { WorldPage } from '../features/world/WorldPage';
 
 export const router = createBrowserRouter([
   {
@@ -17,6 +18,7 @@ export const router = createBrowserRouter([
       { path: '/modes', element: <ModesPage /> },
       { path: '/folders', element: <FoldersPage /> },
       { path: '/progress', element: <ProgressPage /> },
+      { path: '/world', element: <WorldPage /> },
       { path: '/settings', element: <SettingsPage /> },
       { path: '/settings/about', element: <AboutPage /> },
       { path: '/study/:modeId/:folderId', element: <StudyPage /> },

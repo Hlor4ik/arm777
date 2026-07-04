@@ -24,6 +24,49 @@
   color: var(--text-secondary);
 }
 
+.worldCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, rgba(242, 168, 0, 0.18), rgba(242, 168, 0, 0.04));
+  border: 1px solid rgba(242, 168, 0, 0.35);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  text-align: left;
+  color: inherit;
+  font: inherit;
+}
+
+.worldLeft {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.worldIcon {
+  font-size: 28px;
+}
+
+.worldStars {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--accent-primary);
+}
+
+.worldLabel {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.worldCta {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent-primary);
+}
+
 .stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

@@ -3,6 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { loadAlphabet, loadWords } from '../../data/loaders';
 import type { ExamQuestion } from '../../data/types';
 import { buildExamQuestions } from '../../engine/questions';
+import { STAR_REWARDS } from '../../engine/gamification';
 import { checkAnswer, shuffle } from '../../engine/utils';
 import { useProgressStore } from '../../store/progressStore';
 import { useT } from '../../i18n/useT';
@@ -18,6 +19,7 @@ export function ExamPage() {
   const { t } = useT();
   const settings = useProgressStore((s) => s.settings);
   const passExam = useProgressStore((s) => s.passExam);
+  const addStars = useProgressStore((s) => s.addStars);
   const markAgain = useProgressStore((s) => s.markAgain);
   const touchStreak = useProgressStore((s) => s.touchStreak);
 
@@ -78,6 +80,7 @@ export function ExamPage() {
     setFinished(true);
     if (ok) {
       haptic('success');
+      addStars(STAR_REWARDS.examPass);
       passExam(folderId!, isAlphabet);
     } else {
       haptic('error');

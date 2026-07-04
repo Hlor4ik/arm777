@@ -58,5 +58,17 @@
   "alphabet.miniWords": "Mini words",
   "speed.timeLeft": "Time left",
   "speed.score": "Score",
+  "study.noWeak": "No weak words yet — great job!",
+  "study.noWords": "No words for this session",
+  "study.clear": "Clear",
+  "game.worldTitle": "My courtyard",
+  "game.worldSubtitle": "Earn stars in study modes and upgrade your home, pet, and car",
+  "game.stars": "stars",
+  "game.upgrade": "Upgrade",
+  "game.maxLevel": "Max level!",
+  "game.toWorld": "My courtyard",
+  "game.backProgress": "Back to progress",
+  "game.openWorld": "Open courtyard",
+  "progress.stars": "Stars",
   "marathon.question": "Question"
 }

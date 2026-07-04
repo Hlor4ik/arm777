@@ -1,0 +1,121 @@
+.page {
+  padding: 16px;
+  min-height: 100%;
+  background:
+    radial-gradient(ellipse 100% 50% at 50% 0%, rgba(242, 168, 0, 0.12), transparent 55%),
+    var(--bg-base);
+}
+
+.header {
+  margin-bottom: 16px;
+}
+
+.flagStripe {
+  height: 4px;
+  background: var(--gradient-flag);
+  border-radius: 2px;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.starsBar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, rgba(242, 168, 0, 0.2), rgba(242, 168, 0, 0.05));
+  border: 1px solid rgba(242, 168, 0, 0.35);
+  border-radius: var(--radius-lg);
+  margin-bottom: 20px;
+}
+
+.starsIcon {
+  font-size: 28px;
+}
+
+.starsCount {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--accent-primary);
+}
+
+.starsLabel {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-left: auto;
+}
+
+.scene {
+  text-align: center;
+  padding: 24px;
+  background: var(--bg-elevated);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--border-subtle);
+  margin-bottom: 20px;
+}
+
+.sceneItem {
+  font-size: 64px;
+  margin-bottom: 12px;
+}
+
+.sceneRow {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  font-size: 40px;
+}
+
+.tracks {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.trackCard {
+  padding: 16px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+}
+
+.trackHead {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.trackIcon {
+  font-size: 28px;
+}
+
+.trackHead h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.levelName {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.maxed {
+  text-align: center;
+  color: var(--accent-primary);
+  font-weight: 600;
+  font-size: 14px;
+}
