@@ -1,59 +1,50 @@
-.dock {
-  padding: 0 12px calc(10px + var(--safe-bottom));
+.panel {
+  margin: 0 10px calc(8px + var(--safe-bottom));
+  padding: 14px 14px 12px;
+  background: rgba(12, 12, 14, 0.94);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px 18px 14px 14px;
+  backdrop-filter: blur(14px);
+  box-shadow: 0 -8px 40px rgba(0, 0, 0, 0.5);
 }
 
 .tabs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-  margin-bottom: 10px;
+  gap: 0;
+  margin-bottom: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .tab {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
-  padding: 8px 4px 6px;
-  border-radius: var(--radius-md);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background: rgba(18, 22, 28, 0.55);
-  backdrop-filter: blur(8px);
+  gap: 4px;
+  padding: 0 4px 12px;
+  color: var(--text-muted);
+  position: relative;
   cursor: pointer;
-  color: var(--text-secondary);
-  transition: border-color 0.2s, background 0.2s, transform 0.12s;
-}
-
-.tab:active {
-  transform: scale(0.98);
 }
 
 .tabActive {
-  border-color: rgba(212, 168, 83, 0.55);
-  background: rgba(212, 168, 83, 0.12);
-  color: var(--text-primary);
+  color: var(--accent-primary);
 }
 
-.tabMaxed.tabActive {
-  border-color: rgba(107, 143, 113, 0.55);
-  background: rgba(107, 143, 113, 0.12);
+.tabActive::after {
+  content: '';
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  bottom: 0;
+  height: 2px;
+  background: var(--gradient-cta);
+  border-radius: 2px 2px 0 0;
 }
 
-.tabImg {
-  width: 38px;
-  height: 38px;
-  object-fit: contain;
-  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.35));
-}
-
-.tabPlaceholder {
-  width: 38px;
-  height: 38px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.tabIcon {
   font-size: 18px;
-  opacity: 0.4;
+  line-height: 1;
 }
 
 .tabName {
@@ -61,74 +52,73 @@
   font-weight: 600;
 }
 
-.tabLevel {
-  font-size: 9px;
-  opacity: 0.65;
-}
-
-.actionRow {
+.footer {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 10px 12px;
-  border-radius: var(--radius-md);
-  background: rgba(18, 22, 28, 0.72);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  gap: 12px;
 }
 
-.trackInfo {
+.levelBlock {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.levelCircle {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid var(--border-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--accent-primary);
+  flex-shrink: 0;
+}
+
+.levelInfo {
   flex: 1;
   min-width: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
 }
 
-.trackTitle {
-  font-size: 10px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--text-muted);
-}
-
-.trackMeta {
-  font-size: 13px;
+.levelTitle {
+  display: block;
+  font-size: 12px;
   font-weight: 600;
-  line-height: 1.25;
-  color: var(--text-primary);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  margin-bottom: 6px;
 }
 
-.arrow {
-  color: var(--accent-primary);
+.levelBar {
+  margin-bottom: 4px;
 }
 
-.nextName {
-  color: var(--accent-primary);
+.levelMeta {
+  font-size: 10px;
+  color: var(--text-muted);
 }
 
 .upgradeBtn {
   flex-shrink: 0;
   font-size: 13px !important;
-  padding: 10px 14px !important;
+  padding: 12px 16px !important;
   white-space: nowrap;
+  border-radius: 10px !important;
 }
 
 .maxedBadge {
   flex-shrink: 0;
-  width: 38px;
-  height: 38px;
+  width: 44px;
+  height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
-  background: rgba(107, 143, 113, 0.2);
-  border: 1px solid rgba(107, 143, 113, 0.45);
+  border-radius: 10px;
+  background: rgba(107, 143, 113, 0.15);
+  border: 1px solid rgba(107, 143, 113, 0.4);
   color: var(--accent-sage);
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 18px;
 }

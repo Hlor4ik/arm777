@@ -52,7 +52,7 @@ export function FoldersPage() {
   return (
     <div className="screen">
       <div className="ornamentDivider" />
-      <h1 className="screenTitle">{t('folders.title')}</h1>
+      <h1 className={`screenTitle ${styles.title}`}>{t('folders.title')}</h1>
       <p className="screenSubtitle">{lang === 'ru' ? 'Ваш путь к fluency' : 'Your path to fluency'}</p>
       <div className={styles.list}>
         {folders.map((folder) => {

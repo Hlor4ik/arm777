@@ -1,4 +1,5 @@
 @import './colors.css';
+@import './premium.css';
 
 *,
 *::before,
@@ -16,7 +17,7 @@ body,
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: var(--font-sans);
   background: var(--bg-base);
   color: var(--text-primary);
   -webkit-font-smoothing: antialiased;

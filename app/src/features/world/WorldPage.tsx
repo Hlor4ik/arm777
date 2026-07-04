@@ -54,7 +54,7 @@ export function WorldPage() {
           >
             ‹
           </button>
-          <StarHud stars={game.stars} label={t('game.stars')} />
+          <StarHud stars={game.stars} label="" />
         </div>
       </div>
 

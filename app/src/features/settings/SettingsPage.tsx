@@ -22,12 +22,15 @@ export function SettingsPage() {
   };
 
   return (
-    <div className="screen">
-      <div className="ornamentDivider" />
-      <h1 className="screenTitle">{t('settings.title')}</h1>
+    <div className={styles.page}>
+      <header className={styles.header}>
+        <div className="ornateDivider" />
+        <h1 className={styles.title}>{t('settings.title')}</h1>
+      </header>
 
       <section className={styles.section}>
-        <h2 className={styles.sectionHeader}>{t('settings.baseLang')}</h2>
+        <h2 className={styles.sectionHeader}>{t('settings.sectionLang')}</h2>
+        <p className={styles.rowLabel}>{t('settings.baseLang')}</p>
         <SegmentedControl<BaseLang>
           value={settings.baseLang}
           onChange={setBaseLang}
@@ -41,7 +44,8 @@ export function SettingsPage() {
       <div className={styles.divider} />
 
       <section className={styles.section}>
-        <h2 className={styles.sectionHeader}>{t('settings.dialect')}</h2>
+        <h2 className={styles.sectionHeader}>{t('settings.sectionDialect')}</h2>
+        <p className={styles.rowLabel}>{t('settings.dialect')}</p>
         <SegmentedControl<Dialect>
           value={settings.dialect}
           onChange={setDialect}
@@ -53,7 +57,10 @@ export function SettingsPage() {
       </section>
 
       <button type="button" className={styles.row} onClick={() => navigate('/settings/about')}>
-        <span>{t('settings.about')}</span>
+        <span className={styles.rowLeft}>
+          <span className={styles.rowIcon}>i</span>
+          {t('settings.about')}
+        </span>
         <span className={styles.chevron}>›</span>
       </button>
 

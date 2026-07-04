@@ -7,7 +7,6 @@ import { getReadiness } from '../../engine/progress';
 import { getModeTitle } from '../../engine/questions';
 import { useProgressStore } from '../../store/progressStore';
 import { useT } from '../../i18n/useT';
-import { Button } from '../../components/Button/Button';
 import styles from './HomePage.module.css';
 
 export function HomePage() {
@@ -16,6 +15,7 @@ export function HomePage() {
   const progress = useProgressStore();
   const [readiness, setReadiness] = useState(0);
   const [topicName, setTopicName] = useState('');
+  const [topicDesc, setTopicDesc] = useState('');
 
   useEffect(() => {
     (async () => {
@@ -26,11 +26,8 @@ export function HomePage() {
 
       let totalPct = 0;
       let count = 0;
-      let lowestOpen = folders.find(
-        (f) =>
-          progress.openedFolders.includes(f.id) ||
-          ALL_STUDY_FOLDER_IDS.includes(f.id as (typeof ALL_STUDY_FOLDER_IDS)[number])
-      );
+      let current: (typeof folders)[0] | undefined;
+      let lowestPct = 101;
 
       for (const f of folders) {
         const isOpen =
@@ -41,19 +38,27 @@ export function HomePage() {
         const pct = getReadiness(f.id, words, progress.wordProgress);
         totalPct += pct;
         count += 1;
-        if (lowestOpen && f.id === lowestOpen.id && pct < 100) {
-          lowestOpen = f;
+        if (pct < lowestPct) {
+          lowestPct = pct;
+          current = f;
         }
       }
 
       setReadiness(count > 0 ? Math.round(totalPct / count) : 0);
-      if (lowestOpen) {
-        setTopicName(lang === 'ru' ? lowestOpen.nameRu : lowestOpen.nameEn);
+      if (current) {
+        setTopicName(lang === 'ru' ? current.nameRu : current.nameEn);
+        setTopicDesc(
+          lang === 'ru'
+            ? `Изучайте тему «${current.nameRu}» и закрепляйте слова в режимах`
+            : `Study "${current.nameEn}" and reinforce words in practice modes`
+        );
       }
     })();
   }, [progress.openedFolders, progress.wordProgress, lang]);
 
   const continueMode = (progress.lastModeId || 'flashcards') as StudyModeId;
+  const dailyMinutes = Math.min(30, Math.round(Object.keys(progress.wordProgress).length / 3));
+  const dailyGoal = 30;
 
   const handleContinue = () => {
     if (continueMode === 'alphabet') {
@@ -69,63 +74,98 @@ export function HomePage() {
 
   return (
     <div className={styles.page}>
-      <div className={styles.ornamentDivider} />
-      <p className={styles.greeting}>{t('home.greeting')}</p>
-      <h1 className={styles.title}>{t('home.title')}</h1>
+      <div className={styles.header}>
+        <div className={styles.headerText}>
+          <h1 className={styles.welcome}>{t('home.greeting')}</h1>
+          <p className={styles.subtitle}>{t('home.subtitle')}</p>
+        </div>
+        <div className={styles.streakBadge} aria-hidden>
+          <span className={styles.streakBadgeIcon}>🔥</span>
+        </div>
+      </div>
 
-      <div className={styles.heroCard}>
-        <div className={styles.ringWrap}>
-          <svg className={styles.ring} viewBox="0 0 80 80">
-            <circle cx="40" cy="40" r="34" className={styles.ringTrack} />
-            <circle
-              cx="40"
-              cy="40"
-              r="34"
-              className={styles.ringFill}
-              style={{
-                strokeDasharray: `${2 * Math.PI * 34}`,
-                strokeDashoffset: `${2 * Math.PI * 34 * (1 - readiness / 100)}`,
-              }}
+      <div className={`ornateFrame ${styles.topicFrame}`}>
+        <div className={styles.topicInner}>
+          <div className={styles.ringWrap}>
+            <svg className={styles.ring} viewBox="0 0 88 88">
+              <circle cx="44" cy="44" r="36" className={styles.ringTrack} />
+              <circle
+                cx="44"
+                cy="44"
+                r="36"
+                className={styles.ringFill}
+                style={{
+                  strokeDasharray: `${2 * Math.PI * 36}`,
+                  strokeDashoffset: `${2 * Math.PI * 36 * (1 - readiness / 100)}`,
+                }}
+              />
+            </svg>
+            <div className={styles.ringCenter}>
+              <span className={styles.ringPct}>{readiness}%</span>
+              <span className={styles.ringCaption}>{t('home.completed')}</span>
+            </div>
+          </div>
+
+          <div className={styles.topicInfo}>
+            <p className={styles.topicLabel}>
+              <span>✦</span> {t('home.continueTopic')} <span>✦</span>
+            </p>
+            <h2 className={styles.topicName}>{topicName || '—'}</h2>
+            <p className={styles.topicDesc}>{topicDesc}</p>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.statsRow}>
+        <div className={`panelCard ${styles.statCard}`}>
+          <span className={styles.statIcon}>🔥</span>
+          <div>
+            <div className={styles.statValue}>{progress.streak.current}</div>
+            <div className={styles.statUnit}>{lang === 'ru' ? 'дней' : 'days'}</div>
+            <div className={styles.statLabel}>{t('home.streakHint')}</div>
+          </div>
+        </div>
+        <div className={`panelCard ${styles.statCard}`}>
+          <span className={styles.statIcon}>★</span>
+          <div>
+            <div className={styles.statValue}>{progress.game.stars.toLocaleString()}</div>
+            <div className={styles.statUnit}>{t('progress.stars')}</div>
+            <div className={styles.statLabel}>{t('home.starsHint')}</div>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.actionRow}>
+        <button type="button" className={styles.continueCard} onClick={handleContinue}>
+          <div className={styles.continueLeft}>
+            <span className={styles.continueIcon}>📖</span>
+            <div>
+              <div className={styles.continueTitle}>{t('home.continueShort')}</div>
+              <div className={styles.continueMeta}>
+                {getModeTitle(continueMode, lang)}
+                {topicName ? ` • ${topicName}` : ''}
+              </div>
+            </div>
+          </div>
+          <span className={styles.continueArrow}>→</span>
+          <div className={styles.khachkar} aria-hidden />
+        </button>
+
+        <div className={`panelCard ${styles.goalCard}`}>
+          <div className={styles.goalTitle}>{t('home.dailyGoal')}</div>
+          <div className={styles.goalMeta}>
+            {dailyMinutes} / {dailyGoal} {lang === 'ru' ? 'мин' : 'min'}
+          </div>
+          <div className={styles.goalTrack}>
+            <div
+              className={styles.goalFill}
+              style={{ width: `${Math.min(100, (dailyMinutes / dailyGoal) * 100)}%` }}
             />
-          </svg>
-          <span className={styles.ringValue}>{readiness}%</span>
-        </div>
-        <div className={styles.heroInfo}>
-          <span className={styles.heroLabel}>{t('home.continueTopic')}</span>
-          <span className={styles.heroTopic}>{topicName || '—'}</span>
-          <span className={styles.heroMode}>{getModeTitle(continueMode, lang)}</span>
-          <Button fullWidth onClick={handleContinue} className={styles.continueBtn}>
-            {t('home.continue')}
-          </Button>
-        </div>
-      </div>
-
-      <div className={styles.chips}>
-        <div className={styles.chip}>
-          <span className={styles.chipIcon}>🔥</span>
-          <div>
-            <div className={styles.chipValue}>{progress.streak.current}</div>
-            <div className={styles.chipLabel}>{t('progress.streak')}</div>
+          </div>
+          <div className={styles.goalRemain}>
+            ⏱ {Math.max(0, dailyGoal - dailyMinutes)} {t('home.minLeft')}
           </div>
         </div>
-        <div className={styles.chip}>
-          <span className={styles.chipIcon}>★</span>
-          <div>
-            <div className={styles.chipValue}>{progress.game.stars.toLocaleString()}</div>
-            <div className={styles.chipLabel}>{t('progress.stars')}</div>
-          </div>
-        </div>
-      </div>
-
-      <div className={styles.quickRow}>
-        <button type="button" className={styles.quickCard} onClick={() => navigate('/modes')}>
-          <span className={styles.quickTitle}>{t('home.allModes')}</span>
-          <span className={styles.quickHint}>{t('home.allModesHint')}</span>
-        </button>
-        <button type="button" className={styles.quickCard} onClick={() => navigate('/world')}>
-          <span className={styles.quickTitle}>{t('game.toWorld')}</span>
-          <span className={styles.quickHint}>{t('home.worldHint')}</span>
-        </button>
       </div>
     </div>
   );

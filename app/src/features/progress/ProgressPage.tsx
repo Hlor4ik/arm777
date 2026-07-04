@@ -51,7 +51,7 @@ export function ProgressPage() {
   return (
     <div className="screen">
       <div className="ornamentDivider" />
-      <h1 className="screenTitle">{t('progress.title')}</h1>
+      <h1 className={`screenTitle ${styles.title}`}>{t('progress.title')}</h1>
 
       <div className={styles.streak}>
         <span className={styles.streakIcon}>🔥</span>

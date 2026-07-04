@@ -50,7 +50,7 @@ export function ModesPage() {
   return (
     <div className={styles.page}>
       <header className={styles.header}>
-        <div className={styles.ornamentDivider} />
+        <div className="ornateDivider" />
         <h1 className={styles.title}>{t('modes.title')}</h1>
         <p className={styles.subtitle}>
           {lang === 'ru'
@@ -60,14 +60,14 @@ export function ModesPage() {
       </header>
 
       <div className={styles.grid}>
-        {MODES.map((mode, i) => (
+        {MODES.map((mode) => (
           <button
             key={mode.id}
             type="button"
             className={[
               styles.modeCard,
               mode.alphabet ? styles.alphabet : '',
-              i === 1 ? styles.featured : '',
+              mode.id === 'flashcards' ? styles.featured : '',
               styles[`accent_${mode.accent}`],
             ]
               .filter(Boolean)
@@ -75,7 +75,7 @@ export function ModesPage() {
             onClick={() => handleMode(mode)}
           >
             <span className={styles.iconWrap}>{mode.icon}</span>
-            {i === 1 ? (
+            {mode.id === 'flashcards' ? (
               <div className={styles.featuredBody}>
                 <h3 className={styles.modeTitle}>{getModeTitle(mode.id, lang)}</h3>
                 <p className={styles.desc}>{lang === 'ru' ? mode.descRu : mode.descEn}</p>
