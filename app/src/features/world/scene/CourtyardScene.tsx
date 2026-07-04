@@ -28,7 +28,10 @@ export function CourtyardScene({ upgrades, highlight, celebrate }: CourtyardScen
         className={`${styles.slot} ${styles.homeSlot} ${highlight === 'home' ? styles.highlight : ''} ${celebrate === 'home' ? styles.celebrate : ''}`}
       >
         {homeSrc ? (
-          <img src={homeSrc} alt="" className={styles.homeImg} draggable={false} />
+          <div className={styles.spriteWrap}>
+            <span className={styles.groundContact} />
+            <img src={homeSrc} alt="" className={styles.homeImg} draggable={false} />
+          </div>
         ) : (
           <div className={styles.emptyPlot}>
             <span className={styles.plotMarker} />
@@ -41,7 +44,10 @@ export function CourtyardScene({ upgrades, highlight, celebrate }: CourtyardScen
         className={`${styles.slot} ${styles.petSlot} ${highlight === 'pet' ? styles.highlight : ''} ${celebrate === 'pet' ? styles.celebrate : ''}`}
       >
         {petSrc ? (
-          <img src={petSrc} alt="" className={styles.petImg} draggable={false} />
+          <div className={styles.spriteWrap}>
+            <span className={styles.groundContact} />
+            <img src={petSrc} alt="" className={styles.petImg} draggable={false} />
+          </div>
         ) : (
           <div className={styles.emptyPet}>
             <span className={styles.petShadow} />
@@ -53,7 +59,10 @@ export function CourtyardScene({ upgrades, highlight, celebrate }: CourtyardScen
         className={`${styles.slot} ${styles.carSlot} ${highlight === 'car' ? styles.highlight : ''} ${celebrate === 'car' ? styles.celebrate : ''}`}
       >
         {carSrc ? (
-          <img src={carSrc} alt="" className={styles.carImg} draggable={false} />
+          <div className={styles.spriteWrap}>
+            <span className={styles.groundContact} />
+            <img src={carSrc} alt="" className={styles.carImg} draggable={false} />
+          </div>
         ) : (
           <div className={styles.emptyDriveway}>
             <span className={styles.driveLine} />
