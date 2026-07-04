@@ -1,0 +1,109 @@
+.frame {
+  position: relative;
+  padding: 18px 16px;
+  background:
+    linear-gradient(168deg, rgba(42, 36, 30, 0.95) 0%, rgba(16, 14, 12, 0.98) 100%);
+  border: 1px solid rgba(212, 168, 83, 0.38);
+  border-radius: 4px;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 230, 170, 0.06),
+    0 16px 48px rgba(0, 0, 0, 0.45);
+}
+
+.innerBorder {
+  position: absolute;
+  inset: 7px;
+  border: 1px solid rgba(212, 168, 83, 0.12);
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.corner {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  pointer-events: none;
+}
+
+.corner::before,
+.corner::after {
+  content: '';
+  position: absolute;
+  background: rgba(212, 168, 83, 0.55);
+}
+
+.cornerTL {
+  top: 5px;
+  left: 5px;
+}
+
+.cornerTL::before {
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 1px;
+}
+
+.cornerTL::after {
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 18px;
+}
+
+.cornerTR {
+  top: 5px;
+  right: 5px;
+}
+
+.cornerTR::before {
+  top: 0;
+  right: 0;
+  width: 18px;
+  height: 1px;
+}
+
+.cornerTR::after {
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 18px;
+}
+
+.cornerBL {
+  bottom: 5px;
+  left: 5px;
+}
+
+.cornerBL::before {
+  bottom: 0;
+  left: 0;
+  width: 18px;
+  height: 1px;
+}
+
+.cornerBL::after {
+  bottom: 0;
+  left: 0;
+  width: 1px;
+  height: 18px;
+}
+
+.cornerBR {
+  bottom: 5px;
+  right: 5px;
+}
+
+.cornerBR::before {
+  bottom: 0;
+  right: 0;
+  width: 18px;
+  height: 1px;
+}
+
+.cornerBR::after {
+  bottom: 0;
+  right: 0;
+  width: 1px;
+  height: 18px;
+}

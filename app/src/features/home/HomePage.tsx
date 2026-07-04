@@ -7,7 +7,15 @@ import { getReadiness } from '../../engine/progress';
 import { getModeTitle } from '../../engine/questions';
 import { useProgressStore } from '../../store/progressStore';
 import { useT } from '../../i18n/useT';
+import { OrnateFrame } from '../../components/ui/OrnateFrame';
 import styles from './HomePage.module.css';
+
+const TOPIC_DESC: Record<string, { ru: string; en: string }> = {
+  greetings: {
+    ru: 'Научитесь уверенно приветствовать и знакомиться на армянском',
+    en: 'Learn to confidently greet and introduce yourself in Armenian',
+  },
+};
 
 export function HomePage() {
   const { t, lang } = useT();
@@ -15,14 +23,13 @@ export function HomePage() {
   const progress = useProgressStore();
   const [readiness, setReadiness] = useState(0);
   const [topicName, setTopicName] = useState('');
-  const [topicDesc, setTopicDesc] = useState('');
+  const [topicId, setTopicId] = useState('');
+  const [lessonNum, setLessonNum] = useState(1);
 
   useEffect(() => {
     (async () => {
       const meta = await getFoldersMeta();
-      const folders = meta
-        .filter((f) => !f.isAlphabet)
-        .sort((a, b) => a.order - b.order);
+      const folders = meta.filter((f) => !f.isAlphabet).sort((a, b) => a.order - b.order);
 
       let totalPct = 0;
       let count = 0;
@@ -44,14 +51,12 @@ export function HomePage() {
         }
       }
 
-      setReadiness(count > 0 ? Math.round(totalPct / count) : 0);
+      const avg = count > 0 ? Math.round(totalPct / count) : 0;
+      setReadiness(avg);
       if (current) {
+        setTopicId(current.id);
         setTopicName(lang === 'ru' ? current.nameRu : current.nameEn);
-        setTopicDesc(
-          lang === 'ru'
-            ? `Изучайте тему «${current.nameRu}» и закрепляйте слова в режимах`
-            : `Study "${current.nameEn}" and reinforce words in practice modes`
-        );
+        setLessonNum(Math.max(1, Math.round((avg / 100) * 8)));
       }
     })();
   }, [progress.openedFolders, progress.wordProgress, lang]);
@@ -59,6 +64,18 @@ export function HomePage() {
   const continueMode = (progress.lastModeId || 'flashcards') as StudyModeId;
   const dailyMinutes = Math.min(30, Math.round(Object.keys(progress.wordProgress).length / 3));
   const dailyGoal = 30;
+  const dailyRemain = Math.max(0, dailyGoal - dailyMinutes);
+
+  const topicDesc =
+    TOPIC_DESC[topicId]?.[lang] ??
+    (lang === 'ru'
+      ? `Изучайте тему «${topicName}» и закрепляйте слова в режимах`
+      : `Study "${topicName}" and reinforce words in practice modes`);
+
+  const continueSubtitle =
+    lang === 'ru'
+      ? `Урок ${lessonNum} • ${getModeTitle(continueMode, lang)}`
+      : `Lesson ${lessonNum} • ${getModeTitle(continueMode, lang)}`;
 
   const handleContinue = () => {
     if (continueMode === 'alphabet') {
@@ -74,29 +91,34 @@ export function HomePage() {
 
   return (
     <div className={styles.page}>
-      <div className={styles.header}>
-        <div className={styles.headerText}>
-          <h1 className={styles.welcome}>{t('home.greeting')}</h1>
-          <p className={styles.subtitle}>{t('home.subtitle')}</p>
-        </div>
-        <div className={styles.streakBadge} aria-hidden>
-          <span className={styles.streakBadgeIcon}>🔥</span>
-        </div>
-      </div>
+      <div className={styles.ararat} aria-hidden />
 
-      <div className={`ornateFrame ${styles.topicFrame}`}>
-        <div className={styles.topicInner}>
+      <header className={styles.header}>
+        <div>
+          <h1 className={styles.welcome}>{t('home.greeting')}</h1>
+          <p className={styles.subtitle}>
+            {t('home.subtitle')}
+            <span className={styles.dot} aria-hidden> ·</span>
+          </p>
+        </div>
+        <div className={styles.flameBadge} aria-hidden>
+          <span>🔥</span>
+        </div>
+      </header>
+
+      <OrnateFrame className={styles.topicFrame}>
+        <div className={styles.topicRow}>
           <div className={styles.ringWrap}>
-            <svg className={styles.ring} viewBox="0 0 88 88">
-              <circle cx="44" cy="44" r="36" className={styles.ringTrack} />
+            <svg className={styles.ring} viewBox="0 0 96 96">
+              <circle cx="48" cy="48" r="40" className={styles.ringTrack} />
               <circle
-                cx="44"
-                cy="44"
-                r="36"
+                cx="48"
+                cy="48"
+                r="40"
                 className={styles.ringFill}
                 style={{
-                  strokeDasharray: `${2 * Math.PI * 36}`,
-                  strokeDashoffset: `${2 * Math.PI * 36 * (1 - readiness / 100)}`,
+                  strokeDasharray: `${2 * Math.PI * 40}`,
+                  strokeDashoffset: `${2 * Math.PI * 40 * (1 - readiness / 100)}`,
                 }}
               />
             </svg>
@@ -108,50 +130,52 @@ export function HomePage() {
 
           <div className={styles.topicInfo}>
             <p className={styles.topicLabel}>
-              <span>✦</span> {t('home.continueTopic')} <span>✦</span>
+              <span className={styles.diamond}>✦</span>
+              {t('home.continueTopic')}
+              <span className={styles.diamond}>✦</span>
             </p>
             <h2 className={styles.topicName}>{topicName || '—'}</h2>
             <p className={styles.topicDesc}>{topicDesc}</p>
           </div>
         </div>
-      </div>
+      </OrnateFrame>
 
       <div className={styles.statsRow}>
-        <div className={`panelCard ${styles.statCard}`}>
+        <div className={styles.statCard}>
           <span className={styles.statIcon}>🔥</span>
-          <div>
-            <div className={styles.statValue}>{progress.streak.current}</div>
-            <div className={styles.statUnit}>{lang === 'ru' ? 'дней' : 'days'}</div>
-            <div className={styles.statLabel}>{t('home.streakHint')}</div>
+          <div className={styles.statBody}>
+            <div className={styles.statLine}>
+              <span className={styles.statNum}>{progress.streak.current}</span>
+              <span className={styles.statUnit}>{lang === 'ru' ? 'дней' : 'days'}</span>
+            </div>
+            <div className={styles.statHint}>{t('home.streakHint')}</div>
           </div>
         </div>
-        <div className={`panelCard ${styles.statCard}`}>
-          <span className={styles.statIcon}>★</span>
-          <div>
-            <div className={styles.statValue}>{progress.game.stars.toLocaleString()}</div>
-            <div className={styles.statUnit}>{t('progress.stars')}</div>
-            <div className={styles.statLabel}>{t('home.starsHint')}</div>
+        <div className={styles.statCard}>
+          <div className={styles.statBody}>
+            <div className={styles.statLine}>
+              <span className={styles.statNum}>{progress.game.stars.toLocaleString()}</span>
+              <span className={styles.statStar}>★</span>
+            </div>
+            <div className={styles.statHint}>{t('home.starsHint')}</div>
           </div>
         </div>
       </div>
 
       <div className={styles.actionRow}>
         <button type="button" className={styles.continueCard} onClick={handleContinue}>
-          <div className={styles.continueLeft}>
-            <span className={styles.continueIcon}>📖</span>
-            <div>
-              <div className={styles.continueTitle}>{t('home.continueShort')}</div>
-              <div className={styles.continueMeta}>
-                {getModeTitle(continueMode, lang)}
-                {topicName ? ` • ${topicName}` : ''}
-              </div>
-            </div>
+          <div className={styles.continueTop}>
+            <span className={styles.bookIcon}>📖</span>
+          </div>
+          <div className={styles.continueText}>
+            <div className={styles.continueTitle}>{t('home.continueShort')}</div>
+            <div className={styles.continueMeta}>{continueSubtitle}</div>
           </div>
           <span className={styles.continueArrow}>→</span>
           <div className={styles.khachkar} aria-hidden />
         </button>
 
-        <div className={`panelCard ${styles.goalCard}`}>
+        <div className={styles.goalCard}>
           <div className={styles.goalTitle}>{t('home.dailyGoal')}</div>
           <div className={styles.goalMeta}>
             {dailyMinutes} / {dailyGoal} {lang === 'ru' ? 'мин' : 'min'}
@@ -163,7 +187,7 @@ export function HomePage() {
             />
           </div>
           <div className={styles.goalRemain}>
-            ⏱ {Math.max(0, dailyGoal - dailyMinutes)} {t('home.minLeft')}
+            ⏱ {dailyRemain} {t('home.minLeft')}
           </div>
         </div>
       </div>

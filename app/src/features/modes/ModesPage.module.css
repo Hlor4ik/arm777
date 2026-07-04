@@ -1,19 +1,30 @@
 .page {
   padding: 16px 16px 28px;
   min-height: 100%;
-  background: var(--gradient-ambient), var(--bg-base);
+  background:
+    radial-gradient(circle at 15% 20%, rgba(212, 168, 83, 0.06), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(212, 168, 83, 0.05), transparent 20%),
+    radial-gradient(circle at 50% 80%, rgba(90, 122, 154, 0.04), transparent 30%),
+    #080809;
 }
 
 .header {
   text-align: center;
-  margin-bottom: 6px;
+  margin-bottom: 18px;
 }
 
 .title {
   font-family: var(--font-serif);
-  font-size: 32px;
+  font-size: 34px;
   font-weight: 600;
-  margin-bottom: 14px;
+  color: #f5f0e8;
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: #8a8580;
 }
 
 .grid {
@@ -28,22 +39,14 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
-  min-height: 136px;
+  min-height: 140px;
   padding: 16px 14px;
   text-align: left;
   border-radius: 14px;
   border: 1px solid rgba(255, 255, 255, 0.06);
   overflow: hidden;
-  transition: transform 0.12s ease, box-shadow 0.12s ease;
-  box-shadow: var(--shadow-soft);
-}
-
-.modeCard::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  opacity: 0.35;
-  pointer-events: none;
+  transition: transform 0.12s ease;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
 }
 
 .modeCard:active {
@@ -51,14 +54,15 @@
 }
 
 .modeCard.featured {
+  border-color: rgba(212, 168, 83, 0.45);
   box-shadow:
-    var(--shadow-gold-glow),
-    0 0 0 1px rgba(212, 168, 83, 0.35);
+    0 0 28px rgba(212, 168, 83, 0.2),
+    inset 0 0 0 1px rgba(212, 168, 83, 0.15);
 }
 
 .iconWrap {
-  width: 44px;
-  height: 44px;
+  width: 46px;
+  height: 46px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -82,7 +86,7 @@
 
 .desc {
   font-size: 11px;
-  color: rgba(245, 243, 239, 0.72);
+  color: rgba(245, 240, 232, 0.72);
   line-height: 1.4;
   margin-top: auto;
   position: relative;
@@ -100,48 +104,21 @@
   background: linear-gradient(155deg, #4a3520 0%, #2a2018 100%);
 }
 
-.accent_orange::before {
-  background: radial-gradient(circle at 80% 20%, rgba(212, 168, 83, 0.35), transparent 55%);
-}
-
-.accent_orange.featured {
-  background: linear-gradient(155deg, #5c4228 0%, #3a2a18 55%, #241a10 100%);
-}
-
 .accent_blue {
   background: linear-gradient(155deg, #1e2a32 0%, #141a20 100%);
-}
-
-.accent_blue::before {
-  background: radial-gradient(circle at 70% 30%, rgba(90, 122, 154, 0.25), transparent 50%);
 }
 
 .accent_red {
   background: linear-gradient(155deg, #3a2222 0%, #1e1414 100%);
 }
 
-.accent_red::before {
-  background: radial-gradient(circle at 70% 20%, rgba(168, 72, 72, 0.25), transparent 50%);
-}
-
 .modeCard.alphabet {
   border-color: rgba(212, 168, 83, 0.25);
 }
 
-.subtitle {
-  font-size: 13px;
-  color: var(--text-secondary);
-  text-align: center;
-  margin-bottom: 18px;
-}
-
-.ornamentDivider {
-  margin-bottom: 16px;
-}
-
 .featured {
   grid-column: span 2;
-  min-height: 100px;
+  min-height: 104px;
   flex-direction: row;
   align-items: center;
   gap: 14px;

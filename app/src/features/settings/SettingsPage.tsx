@@ -1,6 +1,5 @@
 import { useNavigate } from 'react-router-dom';
 import { SegmentedControl } from '../../components/SegmentedControl/SegmentedControl';
-import { Button } from '../../components/Button/Button';
 import { useT } from '../../i18n/useT';
 import { useProgressStore } from '../../store/progressStore';
 import type { BaseLang, Dialect } from '../../data/types';
@@ -30,8 +29,9 @@ export function SettingsPage() {
 
       <section className={styles.section}>
         <h2 className={styles.sectionHeader}>{t('settings.sectionLang')}</h2>
-        <p className={styles.rowLabel}>{t('settings.baseLang')}</p>
-        <SegmentedControl<BaseLang>
+        <div className={styles.card}>
+          <p className={styles.rowLabel}>{t('settings.baseLang')}</p>
+          <SegmentedControl<BaseLang>
           value={settings.baseLang}
           onChange={setBaseLang}
           options={[
@@ -39,14 +39,16 @@ export function SettingsPage() {
             { value: 'en', label: t('settings.baseLang.en') },
           ]}
         />
+        </div>
       </section>
 
       <div className={styles.divider} />
 
       <section className={styles.section}>
         <h2 className={styles.sectionHeader}>{t('settings.sectionDialect')}</h2>
-        <p className={styles.rowLabel}>{t('settings.dialect')}</p>
-        <SegmentedControl<Dialect>
+        <div className={styles.card}>
+          <p className={styles.rowLabel}>{t('settings.dialect')}</p>
+          <SegmentedControl<Dialect>
           value={settings.dialect}
           onChange={setDialect}
           options={[
@@ -54,20 +56,26 @@ export function SettingsPage() {
             { value: 'lori', label: t('settings.dialect.lori') },
           ]}
         />
+        </div>
       </section>
 
-      <button type="button" className={styles.row} onClick={() => navigate('/settings/about')}>
+      <div className={styles.divider} />
+
+      <div className={styles.aboutSection}>
+        <h2 className={styles.sectionHeader}>{t('settings.sectionAbout')}</h2>
+        <button type="button" className={styles.row} onClick={() => navigate('/settings/about')}>
         <span className={styles.rowLeft}>
           <span className={styles.rowIcon}>i</span>
           {t('settings.about')}
         </span>
         <span className={styles.chevron}>›</span>
-      </button>
+        </button>
+      </div>
 
       <div className={styles.resetWrap}>
-        <Button variant="outline" fullWidth onClick={handleReset}>
-          {t('settings.reset')}
-        </Button>
+        <button type="button" className={styles.resetBtn} onClick={handleReset}>
+          {t('settings.resetAll')}
+        </button>
       </div>
     </div>
   );
