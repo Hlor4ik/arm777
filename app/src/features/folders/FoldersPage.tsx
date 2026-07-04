@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getFoldersMeta, loadWords } from '../../data/loaders';
 import type { FolderMeta } from '../../data/types';
-import { canTakeExam, getFolderStatus, getReadiness } from '../../engine/progress';
+import { getFolderStatus, getReadiness } from '../../engine/progress';
+import { ALL_STUDY_FOLDER_IDS } from '../../data/folders';
 import { useProgressStore } from '../../store/progressStore';
 import { useT } from '../../i18n/useT';
 import { Button } from '../../components/Button/Button';
@@ -41,25 +42,25 @@ export function FoldersPage() {
         {folders.map((folder) => {
           if (folder.isAlphabet) return null;
           const status = getFolderStatus(folder, progress);
+          const isOpen =
+            status === 'opened' ||
+            status === 'passed' ||
+            ALL_STUDY_FOLDER_IDS.includes(folder.id as (typeof ALL_STUDY_FOLDER_IDS)[number]);
           const readiness = readinessMap[folder.id] ?? 0;
           const passed = progress.passedExams.includes(folder.id);
-          const showExam = canTakeExam(readiness, passed);
+          const showExam = !passed && readiness >= 70 && isOpen;
 
           return (
             <Card
               key={folder.id}
-              disabled={status === 'locked'}
               onClick={() => {
-                if (status === 'opened' || status === 'passed') navigate('/modes');
+                if (isOpen) navigate('/modes');
               }}
               className={styles.folderCard}
             >
               <div className={styles.row}>
                 <div>
                   <h3 className={styles.name}>{getName(folder)}</h3>
-                  {status === 'locked' && (
-                    <span className={styles.muted}>🔒 {t('folders.locked')}</span>
-                  )}
                   {passed && <span className={styles.passed}>✓ {t('folders.passed')}</span>}
                 </div>
                 {showExam && (
@@ -77,7 +78,7 @@ export function FoldersPage() {
                 )}
               </div>
 
-              {(status === 'opened' || status === 'passed') && (
+              {isOpen && (
                 <div className={styles.progressWrap}>
                   <ProgressBar value={readiness} />
                   <span className={styles.pct}>{readiness}%</span>

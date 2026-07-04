@@ -63,14 +63,48 @@
 }
 
 .folderPick {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
-  padding: 16px;
-  background: var(--bg-elevated);
+  padding: 16px 18px;
+  background: linear-gradient(160deg, var(--bg-elevated), var(--bg-surface));
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   text-align: left;
   font-size: 16px;
+  font-weight: 500;
+  transition: transform 0.12s, border-color 0.12s;
+}
+
+.folderPick:active {
+  transform: scale(0.98);
+  border-color: var(--accent-blue-light);
+}
+
+.chevron {
+  color: var(--accent-primary);
+  font-size: 20px;
+}
+
+.picker {
+  background:
+    radial-gradient(ellipse 100% 50% at 50% 0%, rgba(0, 51, 160, 0.18), transparent),
+    var(--bg-base);
+}
+
+.pickerStripe {
+  height: 4px;
+  background: var(--gradient-flag);
+  border-radius: 2px;
+  margin-bottom: 16px;
+}
+
+.pickerList {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
 }
 
 .matching {

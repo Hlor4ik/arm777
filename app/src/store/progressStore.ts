@@ -9,21 +9,34 @@ import type {
 import { createWordProgress, reviewAgain, reviewKnown } from '../engine/sm2';
 import { todayISO } from '../engine/utils';
 import { getFoldersMeta } from '../data/loaders';
+import { ALL_STUDY_FOLDER_IDS } from '../data/folders';
 
 const STORAGE_KEY = 'armenian-learn-v1';
+const PROGRESS_VERSION = 2;
 
 export const INITIAL_PROGRESS: UserProgress = {
-  version: 1,
+  version: PROGRESS_VERSION,
   updatedAt: new Date().toISOString(),
-  availableFolders: ['alphabet'],
-  openedFolders: [],
+  availableFolders: [],
+  openedFolders: [...ALL_STUDY_FOLDER_IDS],
   passedExams: [],
-  alphabetPassed: false,
+  alphabetPassed: true,
   wordProgress: {},
   settings: { baseLang: 'ru', dialect: 'eastern' },
   streak: { current: 0, lastDate: null },
   lastModeId: null,
 };
+
+function unlockAllSections(state: UserProgress): UserProgress {
+  return {
+    ...state,
+    version: PROGRESS_VERSION,
+    availableFolders: [],
+    openedFolders: [...ALL_STUDY_FOLDER_IDS],
+    alphabetPassed: true,
+    updatedAt: new Date().toISOString(),
+  };
+}
 
 interface ProgressState extends UserProgress {
   hydrated: boolean;
@@ -134,6 +147,9 @@ export const useProgressStore = create<ProgressState>()(
     {
       name: STORAGE_KEY,
       onRehydrateStorage: () => (state) => {
+        if (state && state.version < PROGRESS_VERSION) {
+          Object.assign(state, unlockAllSections(state));
+        }
         state?.setHydrated(true);
       },
     }

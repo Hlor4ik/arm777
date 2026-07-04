@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { getFoldersMeta, loadAllWordsForFolders, loadWords } from '../../data/loaders';
+import { ALL_STUDY_FOLDER_IDS } from '../../data/folders';
 import type { StudyModeId, Word } from '../../data/types';
 import { useProgressStore } from '../../store/progressStore';
 import { useT } from '../../i18n/useT';
@@ -26,6 +27,7 @@ export function StudyPage() {
   const { t, lang } = useT();
   const settings = useProgressStore((s) => s.settings);
   const opened = useProgressStore((s) => s.openedFolders);
+  const studyFolders = opened.length > 0 ? opened : [...ALL_STUDY_FOLDER_IDS];
   const wordProgress = useProgressStore((s) => s.wordProgress);
   const markKnown = useProgressStore((s) => s.markKnown);
   const markAgain = useProgressStore((s) => s.markAgain);
@@ -46,7 +48,7 @@ export function StudyPage() {
       if (folderId === 'pick') return;
       let list: Word[] = [];
       if (folderId === 'all' || modeId === 'weak') {
-        list = await loadAllWordsForFolders(opened);
+        list = await loadAllWordsForFolders(studyFolders);
         if (modeId === 'weak') {
           list = list.filter((w) => isWeakWord(wordProgress[w.id]));
         }
@@ -55,7 +57,7 @@ export function StudyPage() {
       }
       setWords(shuffle(list));
     })();
-  }, [modeId, folderId, opened, wordProgress]);
+  }, [modeId, folderId, studyFolders, wordProgress]);
 
   useEffect(() => {
     if (modeId !== 'speed' || done) return;
@@ -119,7 +121,7 @@ export function StudyPage() {
   };
 
   if (folderId === 'pick') {
-    return <FolderPicker modeId={modeId!} opened={opened} />;
+    return <FolderPicker modeId={modeId!} folders={studyFolders} />;
   }
 
   if (done) {
@@ -279,32 +281,42 @@ export function StudyPage() {
   }
 }
 
-function FolderPicker({ modeId, opened }: { modeId: StudyModeId; opened: string[] }) {
+function FolderPicker({ modeId, folders }: { modeId: StudyModeId; folders: string[] }) {
   const navigate = useNavigate();
-  const { t } = useT();
-  const [names, setNames] = useState<Record<string, string>>({});
+  const { t, lang } = useT();
+  const [items, setItems] = useState<{ id: string; name: string }[]>([]);
 
   useEffect(() => {
     getFoldersMeta().then((meta) => {
-      const map: Record<string, string> = {};
-      meta.forEach((f) => { map[f.id] = f.nameRu; });
-      setNames(map);
+      setItems(
+        meta
+          .filter((f) => !f.isAlphabet && folders.includes(f.id))
+          .sort((a, b) => a.order - b.order)
+          .map((f) => ({
+            id: f.id,
+            name: lang === 'ru' ? f.nameRu : f.nameEn,
+          }))
+      );
     });
-  }, []);
+  }, [folders, lang]);
 
   return (
-    <div className="screen">
+    <div className={`screen ${styles.picker}`}>
+      <div className={styles.pickerStripe} />
       <h1 className="screenTitle">{t('modes.pickFolder')}</h1>
-      {opened.map((id) => (
-        <button
-          key={id}
-          type="button"
-          className={styles.folderPick}
-          onClick={() => navigate(`/study/${modeId}/${id}`)}
-        >
-          {names[id] ?? id}
-        </button>
-      ))}
+      <div className={styles.pickerList}>
+        {items.map((item) => (
+          <button
+            key={item.id}
+            type="button"
+            className={styles.folderPick}
+            onClick={() => navigate(`/study/${modeId}/${item.id}`)}
+          >
+            <span>{item.name}</span>
+            <span className={styles.chevron}>›</span>
+          </button>
+        ))}
+      </div>
     </div>
   );
 }

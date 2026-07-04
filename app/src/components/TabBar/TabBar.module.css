@@ -8,7 +8,8 @@
   height: calc(var(--tab-bar-height) + var(--safe-bottom));
   padding-bottom: var(--safe-bottom);
   display: flex;
-  background: var(--bg-elevated);
+  background: rgba(18, 31, 56, 0.95);
+  backdrop-filter: blur(12px);
   border-top: 1px solid var(--border-subtle);
   z-index: 100;
 }
@@ -23,16 +24,31 @@
   color: var(--text-muted);
   font-size: 11px;
   transition: color 0.2s;
+  position: relative;
 }
 
 .tab.active {
   color: var(--accent-primary);
 }
 
+.tab.active::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 32px;
+  height: 3px;
+  background: var(--gradient-cta);
+  border-radius: 0 0 3px 3px;
+}
+
 .icon {
-  font-size: 20px;
+  font-size: 22px;
+  line-height: 1;
 }
 
 .label {
-  font-weight: 500;
+  font-weight: 600;
+  letter-spacing: 0.01em;
 }

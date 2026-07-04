@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { getFoldersMeta, loadWords } from '../../data/loaders';
+import { ALL_STUDY_FOLDER_IDS } from '../../data/folders';
 import { getFolderStats, getReadiness } from '../../engine/progress';
 import { useProgressStore } from '../../store/progressStore';
 import { useT } from '../../i18n/useT';
@@ -15,7 +16,9 @@ export function ProgressPage() {
   useEffect(() => {
     (async () => {
       const meta = await getFoldersMeta();
-      const wordFolders = meta.filter((f) => !f.isAlphabet && progress.openedFolders.includes(f.id));
+      const wordFolders = meta.filter(
+        (f) => !f.isAlphabet && (progress.openedFolders.includes(f.id) || ALL_STUDY_FOLDER_IDS.includes(f.id as (typeof ALL_STUDY_FOLDER_IDS)[number]))
+      );
 
       let learned = 0;
       let inProgress = 0;
