@@ -12,75 +12,111 @@ const sizes = {
   'star-icon.webp': 128,
 };
 
-/** Full scene background — only resize, never strip pixels */
 const SKIP_CUTOUT = new Set(['courtyard-bg.webp']);
 
-function isBackgroundColor(r, g, b) {
+/** Pure flat backdrop — avoids eating cream/white fur or wall highlights */
+function isBackdrop(r, g, b) {
   const min = Math.min(r, g, b);
   const max = Math.max(r, g, b);
   const sat = max - min;
-  // Only treat flat bright areas as removable backdrop (not subject highlights)
-  return min >= 218 && sat <= 36;
+  return min >= 248 && sat <= 18;
 }
 
-/**
- * Remove ONLY backdrop connected to image edges.
- * Keeps white fur, walls, windows inside the subject intact.
- */
-function removeEdgeBackground(data, width, height) {
+/** Rich pixels that must never be cut (fur shading, windows, metal, etc.) */
+function isProtected(r, g, b) {
+  const min = Math.min(r, g, b);
+  const max = Math.max(r, g, b);
+  const sat = max - min;
+  return sat > 38 || min < 188;
+}
+
+function removeEdgeBackdrop(data, width, height) {
   const total = width * height;
   const bg = new Uint8Array(total);
+  const protectedPx = new Uint8Array(total);
   const queue = [];
 
-  const pushIfBg = (idx) => {
-    if (bg[idx]) return;
+  for (let idx = 0; idx < total; idx++) {
     const i = idx * 4;
-    if (!isBackgroundColor(data[i], data[i + 1], data[i + 2])) return;
+    if (isProtected(data[i], data[i + 1], data[i + 2])) {
+      protectedPx[idx] = 1;
+    }
+  }
+
+  const tryBg = (idx) => {
+    if (bg[idx] || protectedPx[idx]) return;
+    const i = idx * 4;
+    if (!isBackdrop(data[i], data[i + 1], data[i + 2])) return;
     bg[idx] = 1;
     queue.push(idx);
   };
 
   for (let x = 0; x < width; x++) {
-    pushIfBg(x);
-    pushIfBg((height - 1) * width + x);
+    tryBg(x);
+    tryBg((height - 1) * width + x);
   }
   for (let y = 0; y < height; y++) {
-    pushIfBg(y * width);
-    pushIfBg(y * width + width - 1);
+    tryBg(y * width);
+    tryBg(y * width + width - 1);
   }
 
   while (queue.length) {
     const idx = queue.pop();
     const x = idx % width;
     const y = (idx / width) | 0;
-
-    if (x > 0) pushIfBg(idx - 1);
-    if (x < width - 1) pushIfBg(idx + 1);
-    if (y > 0) pushIfBg(idx - width);
-    if (y < height - 1) pushIfBg(idx + width);
+    if (x > 0) tryBg(idx - 1);
+    if (x < width - 1) tryBg(idx + 1);
+    if (y > 0) tryBg(idx - width);
+    if (y < height - 1) tryBg(idx + width);
   }
 
   for (let idx = 0; idx < total; idx++) {
     if (!bg[idx]) continue;
-    const i = idx * 4;
-    data[i + 3] = 0;
+    data[idx * 4 + 3] = 0;
+  }
+}
+
+/** Fix accidental transparent speckles inside the subject (head, body, etc.) */
+function fillSubjectHoles(data, width, height) {
+  const total = width * height;
+
+  for (let pass = 0; pass < 4; pass++) {
+    for (let y = 1; y < height - 1; y++) {
+      for (let x = 1; x < width - 1; x++) {
+        const idx = y * width + x;
+        const i = idx * 4;
+        if (data[i + 3] >= 240) continue;
+
+        const neighbors = [idx - 1, idx + 1, idx - width, idx + width];
+        let opaque = 0;
+        let rSum = 0;
+        let gSum = 0;
+        let bSum = 0;
+
+        for (const n of neighbors) {
+          const ni = n * 4;
+          if (data[ni + 3] >= 240) {
+            opaque++;
+            rSum += data[ni];
+            gSum += data[ni + 1];
+            bSum += data[ni + 2];
+          }
+        }
+
+        if (opaque >= 3) {
+          data[i] = Math.round(rSum / opaque);
+          data[i + 1] = Math.round(gSum / opaque);
+          data[i + 2] = Math.round(bSum / opaque);
+          data[i + 3] = 255;
+        }
+      }
+    }
   }
 
-  // Soft 1px fringe on cutout edge for smoother blend on grass
-  for (let y = 1; y < height - 1; y++) {
-    for (let x = 1; x < width - 1; x++) {
-      const idx = y * width + x;
-      if (bg[idx]) continue;
-      const i = idx * 4;
-      if (data[i + 3] === 0) continue;
-
-      let touchesBg = false;
-      for (const n of [idx - 1, idx + 1, idx - width, idx + width]) {
-        if (bg[n]) touchesBg = true;
-      }
-      if (touchesBg && isBackgroundColor(data[i], data[i + 1], data[i + 2])) {
-        data[i + 3] = Math.round(data[i + 3] * 0.35);
-      }
+  for (let idx = 0; idx < total; idx++) {
+    const i = idx * 4;
+    if (data[i + 3] > 0 && data[i + 3] < 255 && !isBackdrop(data[i], data[i + 1], data[i + 2])) {
+      data[i + 3] = 255;
     }
   }
 }
@@ -101,23 +137,24 @@ async function processFile(file) {
   const maxWidth = sizes[file] ?? 360;
   const before = (await stat(input)).size;
 
-  let pipeline = sharp(await readFile(input)).resize({
-    width: maxWidth,
-    withoutEnlargement: true,
-  });
-
   if (SKIP_CUTOUT.has(file)) {
-    const buffer = await pipeline.webp({ quality: 86, effort: 6 }).toBuffer();
+    const buffer = await sharp(await readFile(input))
+      .resize({ width: maxWidth, withoutEnlargement: true })
+      .webp({ quality: 86, effort: 6 })
+      .toBuffer();
     await writeViaTemp(input, buffer);
   } else {
-    pipeline = pipeline.ensureAlpha();
-    const { data, info } = await pipeline.clone().raw().toBuffer({ resolveWithObject: true });
-    removeEdgeBackground(data, info.width, info.height);
+    const resized = sharp(await readFile(input))
+      .resize({ width: maxWidth, withoutEnlargement: true })
+      .ensureAlpha();
+    const { data, info } = await resized.raw().toBuffer({ resolveWithObject: true });
+    removeEdgeBackdrop(data, info.width, info.height);
+    fillSubjectHoles(data, info.width, info.height);
     const buffer = await sharp(data, {
       raw: { width: info.width, height: info.height, channels: 4 },
     })
       .trim({ threshold: 10 })
-      .webp({ quality: 90, alphaQuality: 100, effort: 6 })
+      .webp({ quality: 92, alphaQuality: 100, effort: 6 })
       .toBuffer();
     await writeViaTemp(input, buffer);
   }
