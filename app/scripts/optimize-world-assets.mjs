@@ -1,5 +1,5 @@
 import sharp from 'sharp';
-import { copyFile, mkdtemp, readdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
+import { copyFile, mkdtemp, readdir, readFile, rm, stat, unlink, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -9,25 +9,28 @@ const dir = path.join(__dirname, '../src/assets/world');
 
 const sizes = {
   'courtyard-bg.webp': 960,
-  'star-icon.webp': 128,
+  'star-icon.png': 128,
 };
 
-const SKIP_CUTOUT = new Set(['courtyard-bg.webp']);
+const SCENE_FILES = new Set(['courtyard-bg.webp']);
 
-/** Pure flat backdrop — avoids eating cream/white fur or wall highlights */
 function isBackdrop(r, g, b) {
   const min = Math.min(r, g, b);
   const max = Math.max(r, g, b);
   const sat = max - min;
-  return min >= 248 && sat <= 18;
+  const avg = (r + g + b) / 3;
+
+  if (sat > 32) return false;
+  if (avg >= 160 && avg <= 242 && max - min <= 16) return true;
+  if (min >= 238 && avg >= 240) return true;
+  return false;
 }
 
-/** Rich pixels that must never be cut (fur shading, windows, metal, etc.) */
 function isProtected(r, g, b) {
   const min = Math.min(r, g, b);
   const max = Math.max(r, g, b);
   const sat = max - min;
-  return sat > 38 || min < 188;
+  return sat > 36 || min < 168;
 }
 
 function removeEdgeBackdrop(data, width, height) {
@@ -38,9 +41,7 @@ function removeEdgeBackdrop(data, width, height) {
 
   for (let idx = 0; idx < total; idx++) {
     const i = idx * 4;
-    if (isProtected(data[i], data[i + 1], data[i + 2])) {
-      protectedPx[idx] = 1;
-    }
+    if (isProtected(data[i], data[i + 1], data[i + 2])) protectedPx[idx] = 1;
   }
 
   const tryBg = (idx) => {
@@ -76,16 +77,21 @@ function removeEdgeBackdrop(data, width, height) {
   }
 }
 
-/** Fix accidental transparent speckles inside the subject (head, body, etc.) */
-function fillSubjectHoles(data, width, height) {
-  const total = width * height;
+function removeAllBackdrop(data) {
+  for (let i = 0; i < data.length; i += 4) {
+    if (isProtected(data[i], data[i + 1], data[i + 2])) continue;
+    if (!isBackdrop(data[i], data[i + 1], data[i + 2])) continue;
+    data[i + 3] = 0;
+  }
+}
 
-  for (let pass = 0; pass < 4; pass++) {
+function fillSubjectHoles(data, width, height) {
+  for (let pass = 0; pass < 10; pass++) {
     for (let y = 1; y < height - 1; y++) {
       for (let x = 1; x < width - 1; x++) {
         const idx = y * width + x;
         const i = idx * 4;
-        if (data[i + 3] >= 240) continue;
+        if (data[i + 3] >= 250) continue;
 
         const neighbors = [idx - 1, idx + 1, idx - width, idx + width];
         let opaque = 0;
@@ -95,7 +101,7 @@ function fillSubjectHoles(data, width, height) {
 
         for (const n of neighbors) {
           const ni = n * 4;
-          if (data[ni + 3] >= 240) {
+          if (data[ni + 3] >= 250) {
             opaque++;
             rSum += data[ni];
             gSum += data[ni + 1];
@@ -112,13 +118,6 @@ function fillSubjectHoles(data, width, height) {
       }
     }
   }
-
-  for (let idx = 0; idx < total; idx++) {
-    const i = idx * 4;
-    if (data[i + 3] > 0 && data[i + 3] < 255 && !isBackdrop(data[i], data[i + 1], data[i + 2])) {
-      data[i + 3] = 255;
-    }
-  }
 }
 
 async function writeViaTemp(targetPath, buffer) {
@@ -132,43 +131,55 @@ async function writeViaTemp(targetPath, buffer) {
   }
 }
 
-async function processFile(file) {
+async function processScene(file) {
   const input = path.join(dir, file);
-  const maxWidth = sizes[file] ?? 360;
+  const before = (await stat(input)).size;
+  const buffer = await sharp(await readFile(input))
+    .resize({ width: sizes[file], withoutEnlargement: true })
+    .webp({ quality: 86, effort: 6 })
+    .toBuffer();
+  await writeViaTemp(input, buffer);
+  console.log(`${file} [scene]: ${(before / 1024).toFixed(0)}KB → ${(buffer.length / 1024).toFixed(0)}KB`);
+}
+
+async function processObject(webpName) {
+  const pngName = webpName.replace(/\.webp$/, '.png');
+  const input = path.join(dir, webpName);
+  const output = path.join(dir, pngName);
+  const maxWidth = sizes[pngName] ?? 360;
   const before = (await stat(input)).size;
 
-  if (SKIP_CUTOUT.has(file)) {
-    const buffer = await sharp(await readFile(input))
-      .resize({ width: maxWidth, withoutEnlargement: true })
-      .webp({ quality: 86, effort: 6 })
-      .toBuffer();
-    await writeViaTemp(input, buffer);
-  } else {
-    const resized = sharp(await readFile(input))
-      .resize({ width: maxWidth, withoutEnlargement: true })
-      .ensureAlpha();
-    const { data, info } = await resized.raw().toBuffer({ resolveWithObject: true });
-    removeEdgeBackdrop(data, info.width, info.height);
-    fillSubjectHoles(data, info.width, info.height);
-    const buffer = await sharp(data, {
-      raw: { width: info.width, height: info.height, channels: 4 },
-    })
-      .trim({ threshold: 10 })
-      .webp({ quality: 92, alphaQuality: 100, effort: 6 })
-      .toBuffer();
-    await writeViaTemp(input, buffer);
+  const { data, info } = await sharp(await readFile(input))
+    .resize({ width: maxWidth, withoutEnlargement: true })
+    .ensureAlpha()
+    .raw()
+    .toBuffer({ resolveWithObject: true });
+
+  removeEdgeBackdrop(data, info.width, info.height);
+  removeAllBackdrop(data);
+  fillSubjectHoles(data, info.width, info.height);
+
+  const buffer = await sharp(data, {
+    raw: { width: info.width, height: info.height, channels: 4 },
+  })
+    .trim({ threshold: 12 })
+    .png({ compressionLevel: 9, adaptiveFiltering: true })
+    .toBuffer();
+
+  await writeViaTemp(output, buffer);
+  if (pngName !== webpName) {
+    await unlink(input).catch(() => {});
   }
 
-  const after = (await stat(input)).size;
-  const tag = SKIP_CUTOUT.has(file) ? 'scene' : 'object';
-  console.log(`${file} [${tag}]: ${(before / 1024).toFixed(0)}KB → ${(after / 1024).toFixed(0)}KB`);
+  console.log(`${webpName} → ${pngName} [object]: ${(before / 1024).toFixed(0)}KB → ${(buffer.length / 1024).toFixed(0)}KB`);
 }
 
 async function optimize() {
   const files = (await readdir(dir)).filter((f) => f.endsWith('.webp'));
   for (const file of files) {
     try {
-      await processFile(file);
+      if (SCENE_FILES.has(file)) await processScene(file);
+      else await processObject(file);
     } catch (err) {
       console.warn(`${file}: skipped (${err instanceof Error ? err.message : err})`);
     }

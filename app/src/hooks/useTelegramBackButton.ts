@@ -5,7 +5,8 @@ function applySafeAreaInsets() {
   const tg = window.Telegram?.WebApp;
   const contentTop = tg?.contentSafeAreaInset?.top ?? 0;
   const safeTop = tg?.safeAreaInset?.top ?? 0;
-  const headerFallback = tg?.isFullscreen ? 52 : 0;
+  const isMobile = tg?.platform === 'ios' || tg?.platform === 'android';
+  const headerFallback = tg?.isFullscreen ? 58 : isMobile ? 48 : 0;
   const top = Math.max(contentTop, safeTop, headerFallback);
   const bottom = Math.max(tg?.safeAreaInset?.bottom ?? 0, 0);
 

@@ -15,6 +15,7 @@ declare global {
         expand: () => void;
         close: () => void;
         isFullscreen?: boolean;
+        platform?: string;
         setHeaderColor: (color: string) => void;
         setBackgroundColor: (color: string) => void;
         safeAreaInset?: SafeAreaInset;

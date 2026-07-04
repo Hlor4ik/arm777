@@ -1,20 +1,20 @@
 import courtyardBg from './courtyard-bg.webp';
-import starIcon from './star-icon.webp';
-import houseShed from './house-shed.webp';
-import houseRoom from './house-room.webp';
-import houseCottage from './house-cottage.webp';
-import houseTownhouse from './house-townhouse.webp';
-import houseVilla from './house-villa.webp';
-import petLamb from './pet-lamb.webp';
-import petKitten from './pet-kitten.webp';
-import petPuppy from './pet-puppy.webp';
-import petEagle from './pet-eagle.webp';
-import petLion from './pet-lion.webp';
-import vehicleBike from './vehicle-bike.webp';
-import vehicleScooter from './vehicle-scooter.webp';
-import vehicleSedan from './vehicle-sedan.webp';
-import vehicleSuv from './vehicle-suv.webp';
-import vehicleSport from './vehicle-sport.webp';
+import starIcon from './star-icon.png';
+import houseShed from './house-shed.png';
+import houseRoom from './house-room.png';
+import houseCottage from './house-cottage.png';
+import houseTownhouse from './house-townhouse.png';
+import houseVilla from './house-villa.png';
+import petLamb from './pet-lamb.png';
+import petKitten from './pet-kitten.png';
+import petPuppy from './pet-puppy.png';
+import petEagle from './pet-eagle.png';
+import petLion from './pet-lion.png';
+import vehicleBike from './vehicle-bike.png';
+import vehicleScooter from './vehicle-scooter.png';
+import vehicleSedan from './vehicle-sedan.png';
+import vehicleSuv from './vehicle-suv.png';
+import vehicleSport from './vehicle-sport.png';
 
 export const WORLD_ASSETS = {
   courtyardBg,
