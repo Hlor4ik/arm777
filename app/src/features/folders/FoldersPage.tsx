@@ -34,10 +34,26 @@ export function FoldersPage() {
 
   const getName = (f: FolderMeta) => (lang === 'ru' ? f.nameRu : f.nameEn);
 
+  const folderIcon = (id: string, locked: boolean) => {
+    if (locked) return '🔒';
+    const icons: Record<string, string> = {
+      greetings: '🤝',
+      food: '🍷',
+      travel: '🧭',
+      family: '🏠',
+      numbers: '🔢',
+      time: '🕐',
+      colors: '🎨',
+      body: '💪',
+    };
+    return icons[id] ?? '📁';
+  };
+
   return (
     <div className="screen">
-      <div className="flagStripe" />
+      <div className="ornamentDivider" />
       <h1 className="screenTitle">{t('folders.title')}</h1>
+      <p className="screenSubtitle">{lang === 'ru' ? 'Ваш путь к fluency' : 'Your path to fluency'}</p>
       <div className={styles.list}>
         {folders.map((folder) => {
           if (folder.isAlphabet) return null;
@@ -49,6 +65,7 @@ export function FoldersPage() {
           const readiness = readinessMap[folder.id] ?? 0;
           const passed = progress.passedExams.includes(folder.id);
           const showExam = !passed && readiness >= 70 && isOpen;
+          const locked = !isOpen && status !== 'available';
 
           return (
             <Card
@@ -56,12 +73,17 @@ export function FoldersPage() {
               onClick={() => {
                 if (isOpen) navigate('/modes');
               }}
-              className={styles.folderCard}
+              className={`${styles.folderCard} ${isOpen ? styles.open : ''} ${passed ? styles.passedCard : ''}`}
             >
               <div className={styles.row}>
-                <div>
-                  <h3 className={styles.name}>{getName(folder)}</h3>
-                  {passed && <span className={styles.passed}>✓ {t('folders.passed')}</span>}
+                <div className={styles.left}>
+                  <span className={`${styles.thumb} ${locked ? styles.thumbLocked : ''}`}>
+                    {folderIcon(folder.id, locked)}
+                  </span>
+                  <div>
+                    <h3 className={styles.name}>{getName(folder)}</h3>
+                    {passed && <span className={styles.passed}>✓ {t('folders.passed')}</span>}
+                  </div>
                 </div>
                 {showExam && (
                   <button
@@ -71,9 +93,8 @@ export function FoldersPage() {
                       e.stopPropagation();
                       navigate(`/exam/${folder.id}`);
                     }}
-                    aria-label={t('folders.examReady')}
                   >
-                    📝
+                    {lang === 'ru' ? 'Экзамен' : 'Exam'}
                   </button>
                 )}
               </div>

@@ -1,4 +1,5 @@
 {
+  "tabs.home": "Home",
   "tabs.modes": "Modes",
   "tabs.folders": "Folders",
   "tabs.progress": "Progress",
@@ -70,5 +71,12 @@
   "game.backProgress": "Back to progress",
   "game.openWorld": "Open courtyard",
   "progress.stars": "Stars",
-  "marathon.question": "Question"
+  "marathon.question": "Question",
+  "home.greeting": "Welcome back",
+  "home.title": "Continue?",
+  "home.continueTopic": "Current topic",
+  "home.continue": "Continue lesson",
+  "home.allModes": "All modes",
+  "home.allModesHint": "12 ways to learn",
+  "home.worldHint": "Upgrade courtyard"
 }

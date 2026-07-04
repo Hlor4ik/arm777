@@ -6,22 +6,27 @@
 }
 
 .option {
-  padding: 16px;
-  background: var(--bg-hover);
-  border: 2px solid transparent;
+  padding: 16px 18px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
   font-size: 16px;
   text-align: center;
-  transition: border-color 0.2s, background 0.2s;
+  transition: border-color 0.2s, background 0.2s, transform 0.1s;
+}
+
+.option:active {
+  transform: scale(0.99);
 }
 
 .option.selected {
-  border-color: var(--accent-blue);
+  border-color: var(--accent-primary);
+  background: rgba(212, 168, 83, 0.08);
 }
 
 .option.correct {
-  border-color: var(--accent-primary);
-  background: rgba(242, 168, 0, 0.15);
+  border-color: var(--accent-sage);
+  background: var(--accent-sage-soft);
 }
 
 .option.wrong {

@@ -39,39 +39,40 @@ export function WorldPage() {
 
   return (
     <div className={styles.page}>
-      <div className={styles.topBar}>
-        <button type="button" className={styles.backBtn} onClick={() => navigate('/progress')} aria-label={t('game.backProgress')}>
-          ‹
-        </button>
-        <StarHud stars={game.stars} label={t('game.stars')} />
-      </div>
-
-      <div className={styles.hero}>
-        <h1 className={styles.title}>{t('game.worldTitle')}</h1>
-        <p className={styles.subtitle}>{t('game.worldSubtitle')}</p>
-      </div>
-
-      <div className={styles.sceneWrap}>
+      <div className={styles.sceneStage}>
         <CourtyardScene
           upgrades={game.upgrades}
           highlight={activeTrack}
           celebrate={celebrate}
         />
+        <div className={styles.topOverlay}>
+          <button
+            type="button"
+            className={styles.backBtn}
+            onClick={() => navigate('/progress')}
+            aria-label={t('game.backProgress')}
+          >
+            ‹
+          </button>
+          <StarHud stars={game.stars} label={t('game.stars')} />
+        </div>
       </div>
 
-      <UpgradeDock
-        lang={lang}
-        stars={game.stars}
-        upgrades={game.upgrades}
-        activeTrack={activeTrack}
-        onSelectTrack={setActiveTrack}
-        onUpgrade={handleUpgrade}
-        labels={{
-          upgrade: t('game.upgrade'),
-          maxLevel: t('game.maxLevel'),
-          notOwned: lang === 'ru' ? 'Не куплено' : 'Not owned',
-        }}
-      />
+      <div className={styles.bottomHud}>
+        <UpgradeDock
+          lang={lang}
+          stars={game.stars}
+          upgrades={game.upgrades}
+          activeTrack={activeTrack}
+          onSelectTrack={setActiveTrack}
+          onUpgrade={handleUpgrade}
+          labels={{
+            upgrade: t('game.upgrade'),
+            maxLevel: t('game.maxLevel'),
+            notOwned: lang === 'ru' ? 'Не куплено' : 'Not owned',
+          }}
+        />
+      </div>
     </div>
   );
 }

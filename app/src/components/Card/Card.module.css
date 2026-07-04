@@ -5,7 +5,12 @@
   padding: 16px;
   width: 100%;
   text-align: left;
-  transition: opacity 0.2s;
+  transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s;
+  box-shadow: var(--shadow-soft);
+}
+
+.card:active {
+  transform: scale(0.99);
 }
 
 .card.disabled {
@@ -13,8 +18,5 @@
 }
 
 .stripe {
-  height: 4px;
-  background: var(--gradient-flag);
-  border-radius: 2px;
-  margin: -16px -16px 12px;
+  display: none;
 }

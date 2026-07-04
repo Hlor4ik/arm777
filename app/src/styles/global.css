@@ -49,6 +49,7 @@ input {
   max-width: 480px;
   margin: 0 auto;
   padding-top: var(--safe-top);
+  background: var(--bg-base);
 }
 
 .appMain {
@@ -58,6 +59,12 @@ input {
   padding-bottom: calc(var(--tab-bar-height) + var(--safe-bottom) + 8px);
 }
 
+.appShell.worldShell {
+  max-width: none;
+  height: 100dvh;
+  padding-top: 0;
+}
+
 .appMain.noTabBar {
   padding-bottom: var(--safe-bottom);
   overflow: hidden;
@@ -65,20 +72,63 @@ input {
   flex-direction: column;
 }
 
+.appMain.worldMain {
+  padding-bottom: 0;
+  height: 100%;
+  min-height: 0;
+}
+
 .screen {
-  padding: 16px;
+  padding: 20px 16px 24px;
   min-height: 100%;
+  background: var(--gradient-ambient), var(--bg-base);
 }
 
 .screenTitle {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 700;
-  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+  margin-bottom: 6px;
+}
+
+.screenSubtitle {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
+.ornamentDivider {
+  height: 1px;
+  margin-bottom: 18px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(212, 168, 83, 0.35) 20%,
+    rgba(212, 168, 83, 0.35) 80%,
+    transparent
+  );
+  position: relative;
+}
+
+.ornamentDivider::before,
+.ornamentDivider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  transform: translateY(-50%) rotate(45deg);
+  border: 1px solid rgba(212, 168, 83, 0.4);
+}
+
+.ornamentDivider::before {
+  left: 12%;
+}
+
+.ornamentDivider::after {
+  right: 12%;
 }
 
 .flagStripe {
-  height: 4px;
-  background: var(--gradient-flag);
-  border-radius: 2px;
-  margin-bottom: 16px;
+  display: none;
 }

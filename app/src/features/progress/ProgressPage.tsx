@@ -50,7 +50,7 @@ export function ProgressPage() {
 
   return (
     <div className="screen">
-      <div className="flagStripe" />
+      <div className="ornamentDivider" />
       <h1 className="screenTitle">{t('progress.title')}</h1>
 
       <div className={styles.streak}>
@@ -66,8 +66,8 @@ export function ProgressPage() {
           <img src={WORLD_ASSETS.starIcon} alt="" className={styles.worldStarBadge} draggable={false} />
         </div>
         <div className={styles.worldInfo}>
-          <div className={styles.worldStars}>{progress.game.stars.toLocaleString()}</div>
-          <div className={styles.worldLabel}>{t('progress.stars')} · {t('game.toWorld')}</div>
+          <span className={styles.worldTitle}>{t('game.toWorld')}</span>
+          <div className={styles.worldStars}>{progress.game.stars.toLocaleString()} ★</div>
           <span className={styles.worldCta}>{t('game.openWorld')} →</span>
         </div>
       </button>
@@ -82,10 +82,10 @@ export function ProgressPage() {
       <div className={styles.list}>
         {readinessList.map((item) => (
           <div key={item.id} className={styles.item}>
-            <span>{item.name}</span>
+            <div className={styles.itemName}>{item.name}</div>
             <div className={styles.barWrap}>
               <ProgressBar value={item.pct} />
-              <span>{item.pct}%</span>
+              <span className={styles.barPct}>{item.pct}%</span>
             </div>
           </div>
         ))}

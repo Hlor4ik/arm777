@@ -1,12 +1,29 @@
 .section {
-  margin-bottom: 24px;
+  margin-bottom: 22px;
+  padding: 16px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
 }
 
-.label {
-  font-size: 14px;
-  color: var(--text-secondary);
-  margin-bottom: 10px;
-  font-weight: 500;
+.sectionHeader {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.divider {
+  height: 1px;
+  margin: 4px 0 20px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(212, 168, 83, 0.2) 50%,
+    transparent
+  );
 }
 
 .row {
@@ -17,9 +34,14 @@
   padding: 16px;
   background: var(--bg-elevated);
   border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
   margin-bottom: 24px;
   font-size: 16px;
+  transition: border-color 0.15s;
+}
+
+.row:active {
+  border-color: rgba(212, 168, 83, 0.25);
 }
 
 .chevron {
@@ -28,5 +50,5 @@
 }
 
 .resetWrap {
-  margin-top: 32px;
+  margin-top: 8px;
 }

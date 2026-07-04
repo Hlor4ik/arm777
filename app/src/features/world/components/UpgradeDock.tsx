@@ -38,9 +38,10 @@ export function UpgradeDock({
   const cost = getUpgradeCost(activeTrack, level);
   const maxed = cost === null;
   const next = cfg.levels[level];
-  const currentImg = getTrackAsset(activeTrack, level);
-  const nextImg = getNextTrackAsset(activeTrack, level);
   const canAfford = cost !== null && stars >= cost;
+  const trackTitle = lang === 'ru' ? cfg.titleRu : cfg.titleEn;
+  const currentName = getUpgradeDisplay(activeTrack, level, lang);
+  const nextName = next ? (lang === 'ru' ? next.nameRu : next.nameEn) : null;
 
   return (
     <div className={styles.dock}>
@@ -70,37 +71,30 @@ export function UpgradeDock({
         })}
       </div>
 
-      <div className={styles.panel}>
-        <div className={styles.previewRow}>
-          <div className={styles.previewBox}>
-            {currentImg ? (
-              <img src={currentImg} alt="" className={styles.previewImg} draggable={false} />
+      <div className={styles.actionRow}>
+        <div className={styles.trackInfo}>
+          <span className={styles.trackTitle}>{trackTitle}</span>
+          <span className={styles.trackMeta}>
+            {maxed ? (
+              labels.maxLevel
             ) : (
-              <span className={styles.previewEmpty}>?</span>
+              <>
+                {currentName}
+                {nextName && (
+                  <>
+                    <span className={styles.arrow}> → </span>
+                    <span className={styles.nextName}>{nextName}</span>
+                  </>
+                )}
+              </>
             )}
-            <span className={styles.previewCaption}>
-              {getUpgradeDisplay(activeTrack, level, lang)}
-            </span>
-          </div>
-
-          {!maxed && nextImg && (
-            <>
-              <span className={styles.arrow}>→</span>
-              <div className={`${styles.previewBox} ${styles.previewNext}`}>
-                <img src={nextImg} alt="" className={styles.previewImg} draggable={false} />
-                <span className={styles.previewCaption}>
-                  {lang === 'ru' ? next!.nameRu : next!.nameEn}
-                </span>
-              </div>
-            </>
-          )}
+          </span>
         </div>
 
         {maxed ? (
-          <p className={styles.maxed}>{labels.maxLevel}</p>
+          <span className={styles.maxedBadge}>✓</span>
         ) : (
           <Button
-            fullWidth
             disabled={!canAfford}
             onClick={() => onUpgrade(activeTrack)}
             className={styles.upgradeBtn}

@@ -1,5 +1,6 @@
-import { createBrowserRouter, Navigate } from 'react-router-dom';
+import { createBrowserRouter } from 'react-router-dom';
 import { Layout } from './Layout';
+import { HomePage } from '../features/home/HomePage';
 import { ModesPage } from '../features/modes/ModesPage';
 import { FoldersPage } from '../features/folders/FoldersPage';
 import { ProgressPage } from '../features/progress/ProgressPage';
@@ -14,7 +15,7 @@ export const router = createBrowserRouter([
   {
     element: <Layout />,
     children: [
-      { path: '/', element: <Navigate to="/modes" replace /> },
+      { path: '/', element: <HomePage /> },
       { path: '/modes', element: <ModesPage /> },
       { path: '/folders', element: <FoldersPage /> },
       { path: '/progress', element: <ProgressPage /> },

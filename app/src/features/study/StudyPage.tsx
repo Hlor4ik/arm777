@@ -238,120 +238,126 @@ export function StudyPage() {
 
   return (
     <div className={`screen ${styles.study}`}>
-      <header className={styles.header}>
-        <span>{getModeTitle(modeId, lang)} · {folderId}</span>
-        <span>{isMatching ? `${index + 1}/${MATCHING_ROUNDS}` : isSpeed ? `${speedScore} ⭐` : `${index + 1}/${totalSteps}`}</span>
-      </header>
-      <ProgressBar value={progressValue} max={progressMax} />
+      <div className={styles.topBar}>
+        <span className={styles.modeLabel}>{getModeTitle(modeId, lang)}</span>
+        <span className={styles.stepLabel}>
+          {isMatching ? `${index + 1} / ${MATCHING_ROUNDS}` : isSpeed ? `${speedScore} ★` : `${index + 1} / ${totalSteps}`}
+        </span>
+      </div>
+      <ProgressBar value={progressValue} max={progressMax} className={styles.progressTrack} />
       {isSpeed && <p className={styles.timer}>{t('speed.timeLeft')}: {timeLeft}s</p>}
 
-      {modeId === 'flashcards' && (
-        <FlashcardView
-          front={getTranslation(current, settings.baseLang)}
-          back={getTranscription(current, settings.dialect)}
-          onKnow={() => { rewardCorrect(); markKnown(current.id); advance(); haptic('success'); }}
-          onAgain={() => { markAgain(current.id); advance(); haptic('light'); }}
-          tapHint={t('study.tapFlip')}
-          swipeHintLeft={t('study.swipeLeft')}
-          swipeHintRight={t('study.swipeRight')}
-        />
-      )}
-
-      {(modeId === 'choice' || modeId === 'reverse-choice' || modeId === 'speed') && choiceQ && (
-        <>
-          <p className={styles.prompt}>{choiceQ.prompt}</p>
-          <AnswerOptions
-            options={choiceQ.options}
-            selected={selected}
-            correct={choiceQ.correct}
-            revealed={revealed}
-            onSelect={(opt) => {
-              if (revealed) return;
-              setSelected(opt);
-              setRevealed(true);
-              if (opt === choiceQ.correct) setTimeout(handleCorrect, 600);
-              else setTimeout(handleWrong, 600);
-            }}
-          />
-        </>
-      )}
-
-      {(modeId === 'dictation' || modeId === 'reverse-dictation') && (
-        <>
-          <p className={styles.prompt}>
-            {modeId === 'dictation'
-              ? getTranslation(current, settings.baseLang)
-              : getTranscription(current, settings.dialect)}
-          </p>
-          <input
-            className={styles.input}
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            onKeyDown={(e) => e.key === 'Enter' && !revealed && submitDictation()}
-          />
-          {!revealed && <Button fullWidth onClick={submitDictation}>{t('study.check')}</Button>}
-          {revealed && (
-            <p className={selected === 'ok' ? styles.ok : styles.bad}>
-              {selected === 'ok' ? t('study.correct') : t('study.wrong')}
-            </p>
+      <div className={styles.lessonBody}>
+        <div className={styles.questionCard}>
+          {modeId === 'flashcards' && (
+            <FlashcardView
+              front={getTranslation(current, settings.baseLang)}
+              back={getTranscription(current, settings.dialect)}
+              onKnow={() => { rewardCorrect(); markKnown(current.id); advance(); haptic('success'); }}
+              onAgain={() => { markAgain(current.id); advance(); haptic('light'); }}
+              tapHint={t('study.tapFlip')}
+              swipeHintLeft={t('study.swipeLeft')}
+              swipeHintRight={t('study.swipeRight')}
+            />
           )}
-        </>
-      )}
 
-      {modeId === 'fill-blank' && fillQ && (
-        <>
-          <p className={styles.prompt}>{fillQ.prefix}___​{fillQ.suffix}</p>
-          <AnswerOptions
-            options={fillOptions}
-            selected={selected}
-            correct={fillQ.correct}
-            revealed={revealed}
-            onSelect={(opt) => {
-              if (revealed) return;
-              setSelected(opt);
-              setRevealed(true);
-              if (opt === fillQ.correct) setTimeout(handleCorrect, 600);
-              else setTimeout(handleWrong, 600);
-            }}
-          />
-        </>
-      )}
+          {(modeId === 'choice' || modeId === 'reverse-choice' || modeId === 'speed') && choiceQ && (
+            <>
+              <p className={styles.prompt}>{choiceQ.prompt}</p>
+              <AnswerOptions
+                options={choiceQ.options}
+                selected={selected}
+                correct={choiceQ.correct}
+                revealed={revealed}
+                onSelect={(opt) => {
+                  if (revealed) return;
+                  setSelected(opt);
+                  setRevealed(true);
+                  if (opt === choiceQ.correct) setTimeout(handleCorrect, 600);
+                  else setTimeout(handleWrong, 600);
+                }}
+              />
+            </>
+          )}
 
-      {modeId === 'word-builder' && (
-        <>
-          <p className={styles.prompt}>{getTranslation(current, settings.baseLang)}</p>
-          <div className={styles.builderResult}>{builder.join('') || '...'}</div>
-          <div className={styles.syllables}>
-            {syllables.map((s, i) => (
-              <button key={`${s}-${i}`} type="button" className={styles.syllable} onClick={() => setBuilder((b) => [...b, s])}>
-                {s}
-              </button>
-            ))}
-          </div>
-          <Button fullWidth onClick={() => {
-            if (checkAnswer(builder.join(''), getTranscription(current, settings.dialect))) handleCorrect();
-            else handleWrong();
-          }}>
-            {t('study.check')}
-          </Button>
-          <Button variant="ghost" fullWidth onClick={() => setBuilder([])}>{t('study.clear')}</Button>
-        </>
-      )}
+          {(modeId === 'dictation' || modeId === 'reverse-dictation') && (
+            <>
+              <p className={styles.prompt}>
+                {modeId === 'dictation'
+                  ? getTranslation(current, settings.baseLang)
+                  : getTranscription(current, settings.dialect)}
+              </p>
+              <input
+                className={styles.input}
+                value={input}
+                onChange={(e) => setInput(e.target.value)}
+                onKeyDown={(e) => e.key === 'Enter' && !revealed && submitDictation()}
+              />
+              {!revealed && <Button fullWidth onClick={submitDictation}>{t('study.check')}</Button>}
+              {revealed && (
+                <p className={selected === 'ok' ? styles.ok : styles.bad}>
+                  {selected === 'ok' ? t('study.correct') : t('study.wrong')}
+                </p>
+              )}
+            </>
+          )}
 
-      {modeId === 'matching' && matchRound && (
-        <MatchingView
-          key={index}
-          left={matchRound.left}
-          right={matchRound.right}
-          words={matchRound.words}
-          settings={settings}
-          onComplete={handleCorrect}
-        />
-      )}
+          {modeId === 'fill-blank' && fillQ && (
+            <>
+              <p className={styles.prompt}>{fillQ.prefix}___​{fillQ.suffix}</p>
+              <AnswerOptions
+                options={fillOptions}
+                selected={selected}
+                correct={fillQ.correct}
+                revealed={revealed}
+                onSelect={(opt) => {
+                  if (revealed) return;
+                  setSelected(opt);
+                  setRevealed(true);
+                  if (opt === fillQ.correct) setTimeout(handleCorrect, 600);
+                  else setTimeout(handleWrong, 600);
+                }}
+              />
+            </>
+          )}
 
-      {modeId === 'marathon' && (
-        <MarathonRound word={current} pool={pool} settings={settings} index={index} onDone={(ok) => (ok ? handleCorrect() : handleWrong())} />
-      )}
+          {modeId === 'word-builder' && (
+            <>
+              <p className={styles.prompt}>{getTranslation(current, settings.baseLang)}</p>
+              <div className={styles.builderResult}>{builder.join('') || '...'}</div>
+              <div className={styles.syllables}>
+                {syllables.map((s, i) => (
+                  <button key={`${s}-${i}`} type="button" className={styles.syllable} onClick={() => setBuilder((b) => [...b, s])}>
+                    {s}
+                  </button>
+                ))}
+              </div>
+              <Button fullWidth onClick={() => {
+                if (checkAnswer(builder.join(''), getTranscription(current, settings.dialect))) handleCorrect();
+                else handleWrong();
+              }}>
+                {t('study.check')}
+              </Button>
+              <Button variant="ghost" fullWidth onClick={() => setBuilder([])}>{t('study.clear')}</Button>
+            </>
+          )}
+
+          {modeId === 'matching' && matchRound && (
+            <MatchingView
+              key={index}
+              left={matchRound.left}
+              right={matchRound.right}
+              words={matchRound.words}
+              settings={settings}
+              onComplete={handleCorrect}
+            />
+          )}
+
+          {modeId === 'marathon' && (
+            <MarathonRound word={current} pool={pool} settings={settings} index={index} onDone={(ok) => (ok ? handleCorrect() : handleWrong())} />
+          )}
+        </div>
+      </div>
     </div>
   );
 

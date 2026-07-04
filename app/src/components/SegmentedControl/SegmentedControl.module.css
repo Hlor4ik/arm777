@@ -1,9 +1,10 @@
 .wrap {
   display: flex;
-  background: var(--bg-hover);
+  background: var(--bg-surface);
   border-radius: var(--radius-md);
   padding: 4px;
   gap: 4px;
+  border: 1px solid var(--border-subtle);
 }
 
 .item {
@@ -13,15 +14,11 @@
   font-size: 14px;
   font-weight: 500;
   color: var(--text-secondary);
-  transition: background 0.2s, color 0.2s;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
 }
 
 .item.active {
-  background: var(--accent-blue);
-  color: var(--text-primary);
-}
-
-.item:first-child.active {
-  background: var(--accent-primary);
+  background: var(--gradient-cta);
   color: var(--tg-button-text-color);
+  box-shadow: var(--shadow-cta);
 }

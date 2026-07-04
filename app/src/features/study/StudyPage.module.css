@@ -1,32 +1,71 @@
 .study {
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - var(--tab-bar-height));
+  min-height: calc(100vh - var(--safe-top));
+  padding-top: 16px;
 }
 
-.header {
+.topBar {
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+
+.modeLabel {
   color: var(--text-secondary);
-  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.stepLabel {
+  color: var(--accent-primary);
+  font-weight: 600;
+}
+
+.progressTrack {
+  margin-bottom: 20px;
+}
+
+.lessonBody {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 16px;
+}
+
+.questionCard {
+  width: 100%;
+  padding: 24px 18px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
 }
 
 .prompt {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 600;
   text-align: center;
-  margin: 32px 0 24px;
+  margin: 0 0 24px;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
 }
 
 .input {
   width: 100%;
   padding: 14px 16px;
-  background: var(--bg-hover);
-  border: 2px solid var(--border-subtle);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
   margin-bottom: 16px;
   font-size: 18px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: rgba(212, 168, 83, 0.45);
 }
 
 .center {
@@ -41,8 +80,9 @@
 .timer {
   text-align: center;
   color: var(--accent-red);
-  margin: 12px 0;
+  margin: 0 0 12px;
   font-weight: 600;
+  font-size: 14px;
 }
 
 .score {
@@ -68,19 +108,20 @@
   justify-content: space-between;
   width: 100%;
   padding: 16px 18px;
-  background: linear-gradient(160deg, var(--bg-elevated), var(--bg-surface));
+  background: var(--bg-elevated);
   border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
   margin-bottom: 10px;
   text-align: left;
   font-size: 16px;
   font-weight: 500;
   transition: transform 0.12s, border-color 0.12s;
+  box-shadow: var(--shadow-soft);
 }
 
 .folderPick:active {
   transform: scale(0.98);
-  border-color: var(--accent-blue-light);
+  border-color: rgba(212, 168, 83, 0.3);
 }
 
 .chevron {
@@ -89,16 +130,11 @@
 }
 
 .picker {
-  background:
-    radial-gradient(ellipse 100% 50% at 50% 0%, rgba(0, 51, 160, 0.18), transparent),
-    var(--bg-base);
+  background: var(--gradient-ambient), var(--bg-base);
 }
 
 .pickerStripe {
-  height: 4px;
-  background: var(--gradient-flag);
-  border-radius: 2px;
-  margin-bottom: 16px;
+  display: none;
 }
 
 .pickerList {
@@ -115,6 +151,7 @@
   text-align: center;
   color: var(--text-secondary);
   margin-bottom: 16px;
+  font-size: 14px;
 }
 
 .matchCols {
@@ -126,15 +163,15 @@
 .matchItem {
   width: 100%;
   padding: 12px 8px;
-  background: var(--bg-hover);
+  background: var(--bg-surface);
   border-radius: var(--radius-sm);
   margin-bottom: 8px;
   font-size: 14px;
-  border: 2px solid transparent;
+  border: 1px solid var(--border-subtle);
 }
 
 .matchItem.selected {
-  border-color: var(--accent-blue);
+  border-color: var(--accent-primary);
 }
 
 .matchItem.matched {
@@ -157,12 +194,20 @@
   margin-bottom: 20px;
 }
 
+.syllable {
+  padding: 10px 14px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  font-size: 16px;
+}
+
 .starsEarned {
   display: inline-flex;
   align-items: center;
   gap: 8px;
   font-size: 22px;
-  color: #ffd54f;
+  color: var(--accent-primary);
   font-weight: 700;
 }
 

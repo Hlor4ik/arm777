@@ -1,0 +1,183 @@
+.page {
+  padding: 20px 16px 24px;
+  min-height: 100%;
+  background:
+    radial-gradient(ellipse 100% 60% at 50% -15%, rgba(212, 168, 83, 0.1), transparent 55%),
+    var(--bg-base);
+}
+
+.ornamentDivider {
+  height: 1px;
+  margin-bottom: 20px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(212, 168, 83, 0.35) 20%,
+    rgba(212, 168, 83, 0.35) 80%,
+    transparent
+  );
+}
+
+.greeting {
+  font-size: 13px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 4px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-bottom: 22px;
+}
+
+.heroCard {
+  display: flex;
+  gap: 16px;
+  padding: 18px;
+  margin-bottom: 16px;
+  background: var(--bg-glass);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 168, 83, 0.18);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+}
+
+.ringWrap {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+.ring {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.ringTrack {
+  fill: none;
+  stroke: var(--bg-surface);
+  stroke-width: 6;
+}
+
+.ringFill {
+  fill: none;
+  stroke: var(--accent-primary);
+  stroke-width: 6;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease;
+}
+
+.ringValue {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--accent-primary);
+}
+
+.heroInfo {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.heroLabel {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}
+
+.heroTopic {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.heroMode {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.continueBtn {
+  margin-top: auto;
+}
+
+.chips {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.chip {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+}
+
+.chipIcon {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.chipValue {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--accent-primary);
+  line-height: 1.1;
+}
+
+.chipLabel {
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+.quickRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.quickCard {
+  padding: 16px 14px;
+  text-align: left;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  transition: border-color 0.15s, transform 0.12s;
+}
+
+.quickCard:active {
+  transform: scale(0.98);
+  border-color: rgba(212, 168, 83, 0.35);
+}
+
+.quickTitle {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.quickHint {
+  display: block;
+  font-size: 11px;
+  color: var(--text-secondary);
+  line-height: 1.3;
+}

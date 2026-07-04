@@ -23,11 +23,11 @@ export function SettingsPage() {
 
   return (
     <div className="screen">
-      <div className="flagStripe" />
+      <div className="ornamentDivider" />
       <h1 className="screenTitle">{t('settings.title')}</h1>
 
       <section className={styles.section}>
-        <h2 className={styles.label}>{t('settings.baseLang')}</h2>
+        <h2 className={styles.sectionHeader}>{t('settings.baseLang')}</h2>
         <SegmentedControl<BaseLang>
           value={settings.baseLang}
           onChange={setBaseLang}
@@ -38,8 +38,10 @@ export function SettingsPage() {
         />
       </section>
 
+      <div className={styles.divider} />
+
       <section className={styles.section}>
-        <h2 className={styles.label}>{t('settings.dialect')}</h2>
+        <h2 className={styles.sectionHeader}>{t('settings.dialect')}</h2>
         <SegmentedControl<Dialect>
           value={settings.dialect}
           onChange={setDialect}

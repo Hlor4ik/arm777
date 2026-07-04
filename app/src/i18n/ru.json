@@ -1,4 +1,5 @@
 {
+  "tabs.home": "Главная",
   "tabs.modes": "Режимы",
   "tabs.folders": "Папки",
   "tabs.progress": "Прогресс",
@@ -70,5 +71,12 @@
   "game.backProgress": "К прогрессу",
   "game.openWorld": "Открыть двор",
   "progress.stars": "Звёзды",
-  "marathon.question": "Вопрос"
+  "marathon.question": "Вопрос",
+  "home.greeting": "С возвращением",
+  "home.title": "Продолжим?",
+  "home.continueTopic": "Текущая тема",
+  "home.continue": "Продолжить урок",
+  "home.allModes": "Все режимы",
+  "home.allModesHint": "12 способов учить",
+  "home.worldHint": "Улучшить двор"
 }

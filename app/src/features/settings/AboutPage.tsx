@@ -6,6 +6,7 @@ export function AboutPage() {
 
   return (
     <div className="screen">
+      <div className="ornamentDivider" />
       <h1 className="screenTitle">{t('about.title')}</h1>
       <p className={styles.text}>{t('about.text')}</p>
       <p className={styles.version}>
