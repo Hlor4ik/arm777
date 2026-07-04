@@ -1,0 +1,20 @@
+.card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  width: 100%;
+  text-align: left;
+  transition: opacity 0.2s;
+}
+
+.card.disabled {
+  opacity: 0.45;
+}
+
+.stripe {
+  height: 4px;
+  background: var(--gradient-flag);
+  border-radius: 2px;
+  margin: -16px -16px 12px;
+}

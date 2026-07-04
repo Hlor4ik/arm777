@@ -1,0 +1,131 @@
+.study {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - var(--tab-bar-height));
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.prompt {
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  margin: 32px 0 24px;
+}
+
+.input {
+  width: 100%;
+  padding: 14px 16px;
+  background: var(--bg-hover);
+  border: 2px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  min-height: 60vh;
+}
+
+.timer {
+  text-align: center;
+  color: var(--accent-red);
+  margin: 12px 0;
+  font-weight: 600;
+}
+
+.score {
+  font-size: 20px;
+  color: var(--accent-primary);
+}
+
+.ok {
+  color: var(--color-success);
+  text-align: center;
+  margin-top: 12px;
+}
+
+.bad {
+  color: var(--accent-red);
+  text-align: center;
+  margin-top: 12px;
+}
+
+.folderPick {
+  width: 100%;
+  padding: 16px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  margin-bottom: 8px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.matching {
+  flex: 1;
+}
+
+.hint {
+  text-align: center;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+.matchCols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.matchItem {
+  width: 100%;
+  padding: 12px 8px;
+  background: var(--bg-hover);
+  border-radius: var(--radius-sm);
+  margin-bottom: 8px;
+  font-size: 14px;
+  border: 2px solid transparent;
+}
+
+.matchItem.selected {
+  border-color: var(--accent-blue);
+}
+
+.matchItem.matched {
+  opacity: 0.4;
+}
+
+.builderResult {
+  text-align: center;
+  font-size: 24px;
+  color: var(--text-transcription);
+  min-height: 40px;
+  margin-bottom: 16px;
+}
+
+.syllables {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.syllable {
+  padding: 10px 16px;
+  background: var(--bg-hover);
+  border-radius: var(--radius-sm);
+  font-size: 16px;
+}

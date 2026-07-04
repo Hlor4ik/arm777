@@ -1,0 +1,17 @@
+[
+  { "id": "alphabet", "order": 0, "nameRu": "Алфавит", "nameEn": "Alphabet", "requiresExam": null, "isAlphabet": true },
+  { "id": "greetings", "order": 1, "nameRu": "Приветствия", "nameEn": "Greetings", "requiresExam": "alphabet" },
+  { "id": "numbers", "order": 2, "nameRu": "Числа и время", "nameEn": "Numbers & time", "requiresExam": "greetings" },
+  { "id": "family", "order": 3, "nameRu": "Семья", "nameEn": "Family", "requiresExam": "numbers" },
+  { "id": "food", "order": 4, "nameRu": "Еда и напитки", "nameEn": "Food & drinks", "requiresExam": "family" },
+  { "id": "home", "order": 5, "nameRu": "Дом", "nameEn": "Home", "requiresExam": "food" },
+  { "id": "clothes", "order": 6, "nameRu": "Одежда", "nameEn": "Clothes", "requiresExam": "home" },
+  { "id": "body", "order": 7, "nameRu": "Тело и здоровье", "nameEn": "Body & health", "requiresExam": "clothes" },
+  { "id": "city", "order": 8, "nameRu": "Город и транспорт", "nameEn": "City & transport", "requiresExam": "body" },
+  { "id": "work", "order": 9, "nameRu": "Работа и учёба", "nameEn": "Work & study", "requiresExam": "city" },
+  { "id": "nature", "order": 10, "nameRu": "Природа и погода", "nameEn": "Nature & weather", "requiresExam": "work" },
+  { "id": "emotions", "order": 11, "nameRu": "Эмоции", "nameEn": "Emotions", "requiresExam": "nature" },
+  { "id": "verbs", "order": 12, "nameRu": "Глаголы", "nameEn": "Verbs", "requiresExam": "emotions" },
+  { "id": "adjectives", "order": 13, "nameRu": "Прилагательные", "nameEn": "Adjectives", "requiresExam": "verbs" },
+  { "id": "phrases", "order": 14, "nameRu": "Разговорные фразы", "nameEn": "Phrases", "requiresExam": "adjectives" }
+]

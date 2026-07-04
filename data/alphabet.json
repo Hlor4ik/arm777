@@ -1,0 +1,452 @@
+{
+  "letters": [
+    {
+      "id": "letter-01",
+      "letter": "Ա",
+      "name": "այբ",
+      "transcription": "a",
+      "order": 1
+    },
+    {
+      "id": "letter-02",
+      "letter": "Բ",
+      "name": "բեն",
+      "transcription": "b",
+      "order": 2
+    },
+    {
+      "id": "letter-03",
+      "letter": "Գ",
+      "name": "գիմ",
+      "transcription": "g",
+      "order": 3
+    },
+    {
+      "id": "letter-04",
+      "letter": "Դ",
+      "name": "դա",
+      "transcription": "d",
+      "order": 4
+    },
+    {
+      "id": "letter-05",
+      "letter": "Ե",
+      "name": "եչ",
+      "transcription": "ye",
+      "order": 5
+    },
+    {
+      "id": "letter-06",
+      "letter": "Զ",
+      "name": "զա",
+      "transcription": "z",
+      "order": 6
+    },
+    {
+      "id": "letter-07",
+      "letter": "Է",
+      "name": "ը",
+      "transcription": "e",
+      "order": 7
+    },
+    {
+      "id": "letter-08",
+      "letter": "Ը",
+      "name": "ըթ",
+      "transcription": "ə",
+      "order": 8
+    },
+    {
+      "id": "letter-09",
+      "letter": "Թ",
+      "name": "թօ",
+      "transcription": "t'",
+      "order": 9
+    },
+    {
+      "id": "letter-10",
+      "letter": "Ժ",
+      "name": "ժե",
+      "transcription": "zh",
+      "order": 10
+    },
+    {
+      "id": "letter-11",
+      "letter": "Ի",
+      "name": "ինի",
+      "transcription": "i",
+      "order": 11
+    },
+    {
+      "id": "letter-12",
+      "letter": "Լ",
+      "name": "լյուն",
+      "transcription": "l",
+      "order": 12
+    },
+    {
+      "id": "letter-13",
+      "letter": "Խ",
+      "name": "խե",
+      "transcription": "kh",
+      "order": 13
+    },
+    {
+      "id": "letter-14",
+      "letter": "Ծ",
+      "name": "ցա",
+      "transcription": "ts",
+      "order": 14
+    },
+    {
+      "id": "letter-15",
+      "letter": "Կ",
+      "name": "կեն",
+      "transcription": "k",
+      "order": 15
+    },
+    {
+      "id": "letter-16",
+      "letter": "Հ",
+      "name": "հո",
+      "transcription": "h",
+      "order": 16
+    },
+    {
+      "id": "letter-17",
+      "letter": "Ձ",
+      "name": "ձա",
+      "transcription": "dz",
+      "order": 17
+    },
+    {
+      "id": "letter-18",
+      "letter": "Ղ",
+      "name": "ղա",
+      "transcription": "gh",
+      "order": 18
+    },
+    {
+      "id": "letter-19",
+      "letter": "Ճ",
+      "name": "չե",
+      "transcription": "tch",
+      "order": 19
+    },
+    {
+      "id": "letter-20",
+      "letter": "Մ",
+      "name": "մեն",
+      "transcription": "m",
+      "order": 20
+    },
+    {
+      "id": "letter-21",
+      "letter": "Յ",
+      "name": "յի",
+      "transcription": "y",
+      "order": 21
+    },
+    {
+      "id": "letter-22",
+      "letter": "Ն",
+      "name": "նո",
+      "transcription": "n",
+      "order": 22
+    },
+    {
+      "id": "letter-23",
+      "letter": "Շ",
+      "name": "շա",
+      "transcription": "sh",
+      "order": 23
+    },
+    {
+      "id": "letter-24",
+      "letter": "Ո",
+      "name": "վо",
+      "transcription": "vo",
+      "order": 24
+    },
+    {
+      "id": "letter-25",
+      "letter": "Չ",
+      "name": "չա",
+      "transcription": "ch'",
+      "order": 25
+    },
+    {
+      "id": "letter-26",
+      "letter": "Պ",
+      "name": "պե",
+      "transcription": "p",
+      "order": 26
+    },
+    {
+      "id": "letter-27",
+      "letter": "Ջ",
+      "name": "ջե",
+      "transcription": "j",
+      "order": 27
+    },
+    {
+      "id": "letter-28",
+      "letter": "Ռ",
+      "name": "րա",
+      "transcription": "rr",
+      "order": 28
+    },
+    {
+      "id": "letter-29",
+      "letter": "Ս",
+      "name": "սե",
+      "transcription": "s",
+      "order": 29
+    },
+    {
+      "id": "letter-30",
+      "letter": "Վ",
+      "name": "վև",
+      "transcription": "v",
+      "order": 30
+    },
+    {
+      "id": "letter-31",
+      "letter": "Տ",
+      "name": "տյուն",
+      "transcription": "t",
+      "order": 31
+    },
+    {
+      "id": "letter-32",
+      "letter": "Ր",
+      "name": "րե",
+      "transcription": "r",
+      "order": 32
+    },
+    {
+      "id": "letter-33",
+      "letter": "Ց",
+      "name": "ցո",
+      "transcription": "ts'",
+      "order": 33
+    },
+    {
+      "id": "letter-34",
+      "letter": "Ւ",
+      "name": "հիւն",
+      "transcription": "w",
+      "order": 34
+    },
+    {
+      "id": "letter-35",
+      "letter": "Փ",
+      "name": "փիւր",
+      "transcription": "p'",
+      "order": 35
+    },
+    {
+      "id": "letter-36",
+      "letter": "Ք",
+      "name": "քե",
+      "transcription": "k'",
+      "order": 36
+    },
+    {
+      "id": "letter-37",
+      "letter": "Օ",
+      "name": "օ",
+      "transcription": "o",
+      "order": 37
+    },
+    {
+      "id": "letter-38",
+      "letter": "Ֆ",
+      "name": "ֆի",
+      "transcription": "f",
+      "order": 38
+    }
+  ],
+  "syllables": [
+    {
+      "id": "syllable-01",
+      "syllable": "բա",
+      "transcription": "ba",
+      "order": 1
+    },
+    {
+      "id": "syllable-02",
+      "syllable": "գա",
+      "transcription": "ga",
+      "order": 2
+    },
+    {
+      "id": "syllable-03",
+      "syllable": "դա",
+      "transcription": "da",
+      "order": 3
+    },
+    {
+      "id": "syllable-04",
+      "syllable": "մա",
+      "transcription": "ma",
+      "order": 4
+    },
+    {
+      "id": "syllable-05",
+      "syllable": "նա",
+      "transcription": "na",
+      "order": 5
+    },
+    {
+      "id": "syllable-06",
+      "syllable": "րա",
+      "transcription": "ra",
+      "order": 6
+    },
+    {
+      "id": "syllable-07",
+      "syllable": "սա",
+      "transcription": "sa",
+      "order": 7
+    },
+    {
+      "id": "syllable-08",
+      "syllable": "վա",
+      "transcription": "va",
+      "order": 8
+    },
+    {
+      "id": "syllable-09",
+      "syllable": "տա",
+      "transcription": "ta",
+      "order": 9
+    },
+    {
+      "id": "syllable-10",
+      "syllable": "կա",
+      "transcription": "ka",
+      "order": 10
+    },
+    {
+      "id": "syllable-11",
+      "syllable": "լա",
+      "transcription": "la",
+      "order": 11
+    },
+    {
+      "id": "syllable-12",
+      "syllable": "հա",
+      "transcription": "ha",
+      "order": 12
+    },
+    {
+      "id": "syllable-13",
+      "syllable": "պա",
+      "transcription": "pa",
+      "order": 13
+    },
+    {
+      "id": "syllable-14",
+      "syllable": "ծա",
+      "transcription": "tsa",
+      "order": 14
+    },
+    {
+      "id": "syllable-15",
+      "syllable": "չա",
+      "transcription": "cha",
+      "order": 15
+    },
+    {
+      "id": "syllable-16",
+      "syllable": "շա",
+      "transcription": "sha",
+      "order": 16
+    },
+    {
+      "id": "syllable-17",
+      "syllable": "ժա",
+      "transcription": "zha",
+      "order": 17
+    },
+    {
+      "id": "syllable-18",
+      "syllable": "խա",
+      "transcription": "kha",
+      "order": 18
+    },
+    {
+      "id": "syllable-19",
+      "syllable": "ձա",
+      "transcription": "dza",
+      "order": 19
+    },
+    {
+      "id": "syllable-20",
+      "syllable": "ջա",
+      "transcription": "ja",
+      "order": 20
+    },
+    {
+      "id": "syllable-21",
+      "syllable": "ղա",
+      "transcription": "gha",
+      "order": 21
+    },
+    {
+      "id": "syllable-22",
+      "syllable": "փա",
+      "transcription": "pa",
+      "order": 22
+    },
+    {
+      "id": "syllable-23",
+      "syllable": "քա",
+      "transcription": "ka",
+      "order": 23
+    },
+    {
+      "id": "syllable-24",
+      "syllable": "օա",
+      "transcription": "oa",
+      "order": 24
+    },
+    {
+      "id": "syllable-25",
+      "syllable": "ֆա",
+      "transcription": "fa",
+      "order": 25
+    },
+    {
+      "id": "syllable-26",
+      "syllable": "բե",
+      "transcription": "be",
+      "order": 26
+    },
+    {
+      "id": "syllable-27",
+      "syllable": "գե",
+      "transcription": "ge",
+      "order": 27
+    },
+    {
+      "id": "syllable-28",
+      "syllable": "դե",
+      "transcription": "de",
+      "order": 28
+    },
+    {
+      "id": "syllable-29",
+      "syllable": "մե",
+      "transcription": "me",
+      "order": 29
+    },
+    {
+      "id": "syllable-30",
+      "syllable": "նե",
+      "transcription": "ne",
+      "order": 30
+    }
+  ]
+}

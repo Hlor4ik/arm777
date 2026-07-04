@@ -1,0 +1,32 @@
+.section {
+  margin-bottom: 24px;
+}
+
+.label {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 16px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.chevron {
+  color: var(--text-muted);
+  font-size: 20px;
+}
+
+.resetWrap {
+  margin-top: 32px;
+}

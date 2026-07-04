@@ -1,0 +1,75 @@
+/**
+ * Armenian Learn — design tokens
+ * Цвета армянского флага: красный #D90012 · синий #0033A0 · оранжевый #F2A800
+ */
+
+:root {
+  --flag-red: #d90012;
+  --flag-blue: #0033a0;
+  --flag-orange: #f2a800;
+
+  --bg-base: #0b1426;
+  --bg-elevated: #121f38;
+  --bg-surface: #1a2d4f;
+  --bg-hover: #243b66;
+
+  --text-primary: #f4f6fa;
+  --text-secondary: #9aabc4;
+  --text-muted: #6b7f9e;
+
+  --accent-primary: var(--flag-orange);
+  --accent-primary-hover: #ffbd33;
+  --accent-primary-pressed: #c98900;
+  --accent-blue: var(--flag-blue);
+  --accent-blue-light: #3d5fb8;
+  --accent-red: var(--flag-red);
+  --accent-red-soft: #3d1520;
+
+  --color-success: #2e7d52;
+  --color-success-bg: rgba(46, 125, 82, 0.15);
+  --color-error: var(--flag-red);
+  --color-error-bg: var(--accent-red-soft);
+  --color-locked: #4a5568;
+
+  --border-subtle: #243b66;
+  --border-focus: var(--flag-blue);
+
+  --gradient-flag: linear-gradient(
+    180deg,
+    #d90012 0%,
+    #d90012 33.33%,
+    #0033a0 33.33%,
+    #0033a0 66.66%,
+    #f2a800 66.66%,
+    #f2a800 100%
+  );
+
+  --gradient-cta: linear-gradient(
+    180deg,
+    #ffbd33 0%,
+    #f2a800 50%,
+    #c98900 100%
+  );
+
+  --gradient-progress: linear-gradient(
+    90deg,
+    var(--flag-blue) 0%,
+    var(--flag-orange) 100%
+  );
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.35);
+  --shadow-cta: 0 4px 16px rgba(242, 168, 0, 0.25);
+
+  --text-transcription: var(--flag-orange);
+
+  --tg-button-color: var(--flag-orange);
+  --tg-button-text-color: #0b1426;
+
+  --tab-bar-height: 64px;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}

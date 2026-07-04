@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "phrases-0001",
+    "folderId": "phrases",
+    "ru": "Как дела?",
+    "en": "How are you?",
+    "transcription_eastern": "inchpes es?",
+    "transcription_lori": "inchepes es?"
+  },
+  {
+    "id": "phrases-0002",
+    "folderId": "phrases",
+    "ru": "Я в порядке",
+    "en": "I am fine",
+    "transcription_eastern": "lav em",
+    "transcription_lori": "lav em"
+  },
+  {
+    "id": "phrases-0003",
+    "folderId": "phrases",
+    "ru": "Спасибо",
+    "en": "Thank you",
+    "transcription_eastern": "shnorhakal em",
+    "transcription_lori": "shnorhakal em"
+  },
+  {
+    "id": "phrases-0004",
+    "folderId": "phrases",
+    "ru": "Пожалуйста",
+    "en": "Please",
+    "transcription_eastern": "khndrum em",
+    "transcription_lori": "khndrum em"
+  },
+  {
+    "id": "phrases-0005",
+    "folderId": "phrases",
+    "ru": "Извините",
+    "en": "Excuse me",
+    "transcription_eastern": "neroghutyun",
+    "transcription_lori": "neroghutyun"
+  },
+  {
+    "id": "phrases-0006",
+    "folderId": "phrases",
+    "ru": "Простите",
+    "en": "Sorry",
+    "transcription_eastern": "nerogh em",
+    "transcription_lori": "nerogh em"
+  },
+  {
+    "id": "phrases-0007",
+    "folderId": "phrases",
+    "ru": "Не за что",
+    "en": "You are welcome",
+    "transcription_eastern": "voch inch",
+    "transcription_lori": "voch inch"
+  },
+  {
+    "id": "phrases-0008",
+    "folderId": "phrases",
+    "ru": "До свидания",
+    "en": "Goodbye",
+    "transcription_eastern": "ts'tesutyun",
+    "transcription_lori": "ts'tesutyun"
+  },
+  {
+    "id": "phrases-0009",
+    "folderId": "phrases",
+    "ru": "Пока",
+    "en": "Bye",
+    "transcription_eastern": "het",
+    "transcription_lori": "het"
+  },
+  {
+    "id": "phrases-0010",
+    "folderId": "phrases",
+    "ru": "Доброе утро",
+    "en": "Good morning",
+    "transcription_eastern": "bari luis",
+    "transcription_lori": "bari luis"
+  },
+  {
+    "id": "phrases-0011",
+    "folderId": "phrases",
+    "ru": "Добрый день",
+    "en": "Good afternoon",
+    "transcription_eastern": "bari or",
+    "transcription_lori": "bari or"
+  },
+  {
+    "id": "phrases-0012",
+    "folderId": "phrases",
+    "ru": "Добрый вечер",
+    "en": "Good evening",
+    "transcription_eastern": "bari yerekon",
+    "transcription_lori": "bari yerekon"
+  },
+  {
+    "id": "phrases-0013",
+    "folderId": "phrases",
+    "ru": "Доброй ночи",
+    "en": "Good night",
+    "transcription_eastern": "bari gisher",
+    "transcription_lori": "bari gisher"
+  },
+  {
+    "id": "phrases-0014",
+    "folderId": "phrases",
+    "ru": "Как тебя зовут?",
+    "en": "What is your name?",
+    "transcription_eastern": "inch e qo anuny?",
+    "transcription_lori": "inche qo anuny?"
+  },
+  {
+    "id": "phrases-0015",
+    "folderId": "phrases",
+    "ru": "Меня зовут...",
+    "en": "My name is...",
+    "transcription_eastern": "im anuny ... e",
+    "transcription_lori": "im anuny ... e"
+  },
+  {
+    "id": "phrases-0016",
+    "folderId": "phrases",
+    "ru": "Приятно познакомиться",
+    "en": "Nice to meet you",
+    "transcription_eastern": "urakh em tsanotanal",
+    "transcription_lori": "urakh em tsanotanal"
+  },
+  {
+    "id": "phrases-0017",
+    "folderId": "phrases",
+    "ru": "Я не понимаю",
+    "en": "I don't understand",
+    "transcription_eastern": "ch haskanum",
+    "transcription_lori": "chi haskanum"
+  },
+  {
+    "id": "phrases-0018",
+    "folderId": "phrases",
+    "ru": "Я не знаю",
+    "en": "I don't know",
+    "transcription_eastern": "ch gitem",
+    "transcription_lori": "chi gitem"
+  },
+  {
+    "id": "phrases-0019",
+    "folderId": "phrases",
+    "ru": "Повторите, пожалуйста",
+    "en": "Repeat please",
+    "transcription_eastern": "krkneq, khndrum em",
+    "transcription_lori": "krkneq, khndrum em"
+  },
+  {
+    "id": "phrases-0020",
+    "folderId": "phrases",
+    "ru": "Говорите медленнее",
+    "en": "Speak slower",
+    "transcription_eastern": "dandagh khosq",
+    "transcription_lori": "dandagh khosq"
+  },
+  {
+    "id": "phrases-0021",
+    "folderId": "phrases",
+    "ru": "Где находится...?",
+    "en": "Where is...?",
+    "transcription_eastern": "vortegh e gtnvum...?",
+    "transcription_lori": "vortegh e gtnvum...?"
+  },
+  {
+    "id": "phrases-0022",
+    "folderId": "phrases",
+    "ru": "Сколько стоит?",
+    "en": "How much does it cost?",
+    "transcription_eastern": "qani e arzhe?",
+    "transcription_lori": "qani e arzhe?"
+  },
+  {
+    "id": "phrases-0023",
+    "folderId": "phrases",
+    "ru": "Который час?",
+    "en": "What time is it?",
+    "transcription_eastern": "qani e zhamanaky?",
+    "transcription_lori": "qani e zhamanaky?"
+  },
+  {
+    "id": "phrases-0024",
+    "folderId": "phrases",
+    "ru": "Я опаздываю",
+    "en": "I am late",
+    "transcription_eastern": "us em",
+    "transcription_lori": "us em"
+  },
+  {
+    "id": "phrases-0025",
+    "folderId": "phrases",
+    "ru": "Я уже иду",
+    "en": "I am coming",
+    "transcription_eastern": "ardyoq gnum em",
+    "transcription_lori": "ardyoq gnum em"
+  },
+  {
+    "id": "phrases-0026",
+    "folderId": "phrases",
+    "ru": "Подождите минуту",
+    "en": "Wait a minute",
+    "transcription_eastern": "spasir mi rope",
+    "transcription_lori": "spasir mi rope"
+  },
+  {
+    "id": "phrases-0027",
+    "folderId": "phrases",
+    "ru": "Одну секунду",
+    "en": "One second",
+    "transcription_eastern": "mi vayrkyan",
+    "transcription_lori": "mi vayrkyan"
+  },
+  {
+    "id": "phrases-0028",
+    "folderId": "phrases",
+    "ru": "Всё хорошо",
+    "en": "Everything is fine",
+    "transcription_eastern": "amen inch lav e",
+    "transcription_lori": "amen inch lav e"
+  },
+  {
+    "id": "phrases-0029",
+    "folderId": "phrases",
+    "ru": "Ничего страшного",
+    "en": "No problem",
+    "transcription_eastern": "voch inch",
+    "transcription_lori": "voch inch"
+  },
+  {
+    "id": "phrases-0030",
+    "folderId": "phrases",
+    "ru": "Конечно",
+    "en": "Of course",
+    "transcription_eastern": "albatt",
+    "transcription_lori": "albatt"
+  },
+  {
+    "id": "phrases-0031",
+    "folderId": "phrases",
+    "ru": "Возможно",
+    "en": "Maybe",
+    "transcription_eastern": "karox e",
+    "transcription_lori": "karox e"
+  },
+  {
+    "id": "phrases-0032",
+    "folderId": "phrases",
+    "ru": "Наверное",
+    "en": "Probably",
+    "transcription_eastern": "havanakan",
+    "transcription_lori": "havanakan"
+  },
+  {
+    "id": "phrases-0033",
+    "folderId": "phrases",
+    "ru": "Точно",
+    "en": "Exactly",
+    "transcription_eastern": "hushak",
+    "transcription_lori": "hushak"
+  },
+  {
+    "id": "phrases-0034",
+    "folderId": "phrases",
+    "ru": "Конечно нет",
+    "en": "Of course not",
+    "transcription_eastern": "albatt voch",
+    "transcription_lori": "albatt voch"
+  },
+  {
+    "id": "phrases-0035",
+    "folderId": "phrases",
+    "ru": "Конечно да",
+    "en": "Of course yes",
+    "transcription_eastern": "albatt ayo",
+    "transcription_lori": "albatt ayo"
+  },
+  {
+    "id": "phrases-0036",
+    "folderId": "phrases",
+    "ru": "Да",
+    "en": "Yes",
+    "transcription_eastern": "ayo",
+    "transcription_lori": "ayo"
+  },
+  {
+    "id": "phrases-0037",
+    "folderId": "phrases",
+    "ru": "Нет",
+    "en": "No",
+    "transcription_eastern": "voch",
+    "transcription_lori": "voch"
+  },
+  {
+    "id": "phrases-0038",
+    "folderId": "phrases",
+    "ru": "Можно?",
+    "en": "May I?",
+    "transcription_eastern": "karox em?",
+    "transcription_lori": "karox em?"
+  },
+  {
+    "id": "phrases-0039",
+    "folderId": "phrases",
+    "ru": "Нельзя",
+    "en": "Not allowed",
+    "transcription_eastern": "chi kareli",
+    "transcription_lori": "chi kareli"
+  },
+  {
+    "id": "phrases-0040",
+    "folderId": "phrases",
+    "ru": "Разрешите",
+    "en": "Allow me",
+    "transcription_eastern": "tughtek",
+    "transcription_lori": "tughtek"
+  },
+  {
+    "id": "phrases-0041",
+    "folderId": "phrases",
+    "ru": "Согласен",
+    "en": "I agree",
+    "transcription_eastern": "hamemat em",
+    "transcription_lori": "hamemat em"
+  },
+  {
+    "id": "phrases-0042",
+    "folderId": "phrases",
+    "ru": "Не согласен",
+    "en": "I disagree",
+    "transcription_eastern": "ch hamemat em",
+    "transcription_lori": "chi hamemat em"
+  },
+  {
+    "id": "phrases-0043",
+    "folderId": "phrases",
+    "ru": "Понял",
+    "en": "Understood",
+    "transcription_eastern": "haskanacel em",
+    "transcription_lori": "haskanacel em"
+  },
+  {
+    "id": "phrases-0044",
+    "folderId": "phrases",
+    "ru": "Не понял",
+    "en": "Didn't understand",
+    "transcription_eastern": "ch haskanacel",
+    "transcription_lori": "chi haskanacel"
+  },
+  {
+    "id": "phrases-0045",
+    "folderId": "phrases",
+    "ru": "Ясно",
+    "en": "Clear",
+    "transcription_eastern": "patasxan e",
+    "transcription_lori": "patasxan e"
+  },
+  {
+    "id": "phrases-0046",
+    "folderId": "phrases",
+    "ru": "Понятно",
+    "en": "I see",
+    "transcription_eastern": "haskanum em",
+    "transcription_lori": "haskanum em"
+  },
+  {
+    "id": "phrases-0047",
+    "folderId": "phrases",
+    "ru": "Ладно",
+    "en": "Okay",
+    "transcription_eastern": "lav",
+    "transcription_lori": "lav"
+  },
+  {
+    "id": "phrases-0048",
+    "folderId": "phrases",
+    "ru": "Хорошо",
+    "en": "Good",
+    "transcription_eastern": "lav",
+    "transcription_lori": "lav"
+  },
+  {
+    "id": "phrases-0049",
+    "folderId": "phrases",
+    "ru": "Плохо",
+    "en": "Bad",
+    "transcription_eastern": "vats",
+    "transcription_lori": "vats"
+  },
+  {
+    "id": "phrases-0050",
+    "folderId": "phrases",
+    "ru": "Отлично",
+    "en": "Excellent",
+    "transcription_eastern": "shat lav",
+    "transcription_lori": "shat lav"
+  },
+  {
+    "id": "phrases-0051",
+    "folderId": "phrases",
+    "ru": "Нормально",
+    "en": "Normal",
+    "transcription_eastern": "normal",
+    "transcription_lori": "normal"
+  },
+  {
+    "id": "phrases-0052",
+    "folderId": "phrases",
+    "ru": "Так себе",
+    "en": "So-so",
+    "transcription_eastern": "miqich",
+    "transcription_lori": "miqich"
+  },
+  {
+    "id": "phrases-0053",
+    "folderId": "phrases",
+    "ru": "Не очень",
+    "en": "Not very",
+    "transcription_eastern": "shat che",
+    "transcription_lori": "shat che"
+  },
+  {
+    "id": "phrases-0054",
+    "folderId": "phrases",
+    "ru": "Замечательно",
+    "en": "Wonderful",
+    "transcription_eastern": "hashiv",
+    "transcription_lori": "hashiv"
+  },
+  {
+    "id": "phrases-0055",
+    "folderId": "phrases",
+    "ru": "Прекрасно",
+    "en": "Wonderful",
+    "transcription_eastern": "hashiv",
+    "transcription_lori": "hashiv"
+  },
+  {
+    "id": "phrases-0056",
+    "folderId": "phrases",
+    "ru": "Ура!",
+    "en": "Hurray!",
+    "transcription_eastern": "urakh!",
+    "transcription_lori": "urakh!"
+  },
+  {
+    "id": "phrases-0057",
+    "folderId": "phrases",
+    "ru": "Браво!",
+    "en": "Bravo!",
+    "transcription_eastern": "urakh!",
+    "transcription_lori": "urakh!"
+  },
+  {
+    "id": "phrases-0058",
+    "folderId": "phrases",
+    "ru": "Молодец!",
+    "en": "Well done!",
+    "transcription_eastern": "lav ekes!",
+    "transcription_lori": "lav ekes!"
+  },
+  {
+    "id": "phrases-0059",
+    "folderId": "phrases",
+    "ru": "Поздравляю!",
+    "en": "Congratulations!",
+    "transcription_eastern": "norhavorum em!",
+    "transcription_lori": "norhavorum em!"
+  },
+  {
+    "id": "phrases-0060",
+    "folderId": "phrases",
+    "ru": "С днём рождения!",
+    "en": "Happy birthday!",
+    "transcription_eastern": "dzen taredatsutyan!",
+    "transcription_lori": "dzen taredatsutyan!"
+  },
+  {
+    "id": "phrases-0061",
+    "folderId": "phrases",
+    "ru": "С новым годом!",
+    "en": "Happy New Year!",
+    "transcription_eastern": "nor tari!",
+    "transcription_lori": "nor tari!"
+  },
+  {
+    "id": "phrases-0062",
+    "folderId": "phrases",
+    "ru": "С праздником!",
+    "en": "Happy holiday!",
+    "transcription_eastern": "ton pari!",
+    "transcription_lori": "ton pari!"
+  },
+  {
+    "id": "phrases-0063",
+    "folderId": "phrases",
+    "ru": "Удачи!",
+    "en": "Good luck!",
+    "transcription_eastern": "hajoxutyun!",
+    "transcription_lori": "hajoxutyun!"
+  },
+  {
+    "id": "phrases-0064",
+    "folderId": "phrases",
+    "ru": "Будь здоров",
+    "en": "Stay healthy",
+    "transcription_eastern": "aroghj lini",
+    "transcription_lori": "aroghj lini"
+  },
+  {
+    "id": "phrases-0065",
+    "folderId": "phrases",
+    "ru": "Береги себя",
+    "en": "Take care",
+    "transcription_eastern": "pahpanir",
+    "transcription_lori": "pahpanir"
+  },
+  {
+    "id": "phrases-0066",
+    "folderId": "phrases",
+    "ru": "До скорого",
+    "en": "See you soon",
+    "transcription_eastern": "shur tesutyun",
+    "transcription_lori": "shur tesutyun"
+  },
+  {
+    "id": "phrases-0067",
+    "folderId": "phrases",
+    "ru": "Увидимся",
+    "en": "See you",
+    "transcription_eastern": "kp tesnenq",
+    "transcription_lori": "kp tesnenq"
+  },
+  {
+    "id": "phrases-0068",
+    "folderId": "phrases",
+    "ru": "До завтра",
+    "en": "See you tomorrow",
+    "transcription_eastern": "vaghva tesutyun",
+    "transcription_lori": "vaghva tesutyun"
+  },
+  {
+    "id": "phrases-0069",
+    "folderId": "phrases",
+    "ru": "Доброй дороги",
+    "en": "Have a safe journey",
+    "transcription_eastern": "bari yntanq",
+    "transcription_lori": "bari yntanq"
+  },
+  {
+    "id": "phrases-0070",
+    "folderId": "phrases",
+    "ru": "Приятного аппетита",
+    "en": "Enjoy your meal",
+    "transcription_eastern": "bun pari hac",
+    "transcription_lori": "bun pari hac"
+  },
+  {
+    "id": "phrases-0071",
+    "folderId": "phrases",
+    "ru": "На здоровье",
+    "en": "Cheers",
+    "transcription_eastern": "aroghjutyan",
+    "transcription_lori": "aroghjutyan"
+  },
+  {
+    "id": "phrases-0072",
+    "folderId": "phrases",
+    "ru": "За здоровье",
+    "en": "To your health",
+    "transcription_eastern": "aroghjutyan",
+    "transcription_lori": "aroghjutyan"
+  },
+  {
+    "id": "phrases-0073",
+    "folderId": "phrases",
+    "ru": "Я люблю тебя",
+    "en": "I love you",
+    "transcription_eastern": "ser em qez",
+    "transcription_lori": "ser em qez"
+  },
+  {
+    "id": "phrases-0074",
+    "folderId": "phrases",
+    "ru": "Я скучаю по тебе",
+    "en": "I miss you",
+    "transcription_eastern": "kspem qez",
+    "transcription_lori": "kspem qez"
+  },
+  {
+    "id": "phrases-0075",
+    "folderId": "phrases",
+    "ru": "Мне нравится",
+    "en": "I like it",
+    "transcription_eastern": "ser em",
+    "transcription_lori": "ser em"
+  },
+  {
+    "id": "phrases-0076",
+    "folderId": "phrases",
+    "ru": "Мне не нравится",
+    "en": "I don't like it",
+    "transcription_eastern": "chtem",
+    "transcription_lori": "chtem"
+  },
+  {
+    "id": "phrases-0077",
+    "folderId": "phrases",
+    "ru": "Я хочу",
+    "en": "I want",
+    "transcription_eastern": "uzum em",
+    "transcription_lori": "uzum em"
+  },
+  {
+    "id": "phrases-0078",
+    "folderId": "phrases",
+    "ru": "Я не хочу",
+    "en": "I don't want",
+    "transcription_eastern": "ch uzum",
+    "transcription_lori": "chi uzum"
+  },
+  {
+    "id": "phrases-0079",
+    "folderId": "phrases",
+    "ru": "Мне нужно",
+    "en": "I need",
+    "transcription_eastern": "enak e",
+    "transcription_lori": "enak e"
+  },
+  {
+    "id": "phrases-0080",
+    "folderId": "phrases",
+    "ru": "Мне не нужно",
+    "en": "I don't need",
+    "transcription_eastern": "ch enak",
+    "transcription_lori": "chi enak"
+  },
+  {
+    "id": "phrases-0081",
+    "folderId": "phrases",
+    "ru": "Я могу",
+    "en": "I can",
+    "transcription_eastern": "karox em",
+    "transcription_lori": "karox em"
+  },
+  {
+    "id": "phrases-0082",
+    "folderId": "phrases",
+    "ru": "Я не могу",
+    "en": "I can't",
+    "transcription_eastern": "ch karox",
+    "transcription_lori": "chi karox"
+  },
+  {
+    "id": "phrases-0083",
+    "folderId": "phrases",
+    "ru": "Я должен",
+    "en": "I must",
+    "transcription_eastern": "patasxan em",
+    "transcription_lori": "patasxan em"
+  },
+  {
+    "id": "phrases-0084",
+    "folderId": "phrases",
+    "ru": "Я не должен",
+    "en": "I must not",
+    "transcription_eastern": "ch patasxan",
+    "transcription_lori": "chi patasxan"
+  },
+  {
+    "id": "phrases-0085",
+    "folderId": "phrases",
+    "ru": "Я буду",
+    "en": "I will",
+    "transcription_eastern": "kp linem",
+    "transcription_lori": "kp linem"
+  },
+  {
+    "id": "phrases-0086",
+    "folderId": "phrases",
+    "ru": "Я не буду",
+    "en": "I won't",
+    "transcription_eastern": "chi kp linem",
+    "transcription_lori": "chi kp linem"
+  },
+  {
+    "id": "phrases-0087",
+    "folderId": "phrases",
+    "ru": "Я иду",
+    "en": "I am going",
+    "transcription_eastern": "gnum em",
+    "transcription_lori": "gnum em"
+  },
+  {
+    "id": "phrases-0088",
+    "folderId": "phrases",
+    "ru": "Я пришёл",
+    "en": "I came",
+    "transcription_eastern": "ekel em",
+    "transcription_lori": "ekel em"
+  },
+  {
+    "id": "phrases-0089",
+    "folderId": "phrases",
+    "ru": "Я ушёл",
+    "en": "I left",
+    "transcription_eastern": "gnacel em",
+    "transcription_lori": "gnacel em"
+  },
+  {
+    "id": "phrases-0090",
+    "folderId": "phrases",
+    "ru": "Я здесь",
+    "en": "I am here",
+    "transcription_eastern": "aystegh em",
+    "transcription_lori": "aystegh em"
+  },
+  {
+    "id": "phrases-0091",
+    "folderId": "phrases",
+    "ru": "Я там",
+    "en": "I am there",
+    "transcription_eastern": "aynstegh em",
+    "transcription_lori": "aynstegh em"
+  },
+  {
+    "id": "phrases-0092",
+    "folderId": "phrases",
+    "ru": "Где ты?",
+    "en": "Where are you?",
+    "transcription_eastern": "vortegh es?",
+    "transcription_lori": "vortegh es?"
+  },
+  {
+    "id": "phrases-0093",
+    "folderId": "phrases",
+    "ru": "Когда?",
+    "en": "When?",
+    "transcription_eastern": "erb?",
+    "transcription_lori": "erb?"
+  },
+  {
+    "id": "phrases-0094",
+    "folderId": "phrases",
+    "ru": "Почему?",
+    "en": "Why?",
+    "transcription_eastern": "inchu?",
+    "transcription_lori": "inchu?"
+  },
+  {
+    "id": "phrases-0095",
+    "folderId": "phrases",
+    "ru": "Как?",
+    "en": "How?",
+    "transcription_eastern": "inchpes?",
+    "transcription_lori": "inchepes?"
+  },
+  {
+    "id": "phrases-0096",
+    "folderId": "phrases",
+    "ru": "Что?",
+    "en": "What?",
+    "transcription_eastern": "inch?",
+    "transcription_lori": "inch?"
+  },
+  {
+    "id": "phrases-0097",
+    "folderId": "phrases",
+    "ru": "Кто?",
+    "en": "Who?",
+    "transcription_eastern": "ov?",
+    "transcription_lori": "ov?"
+  },
+  {
+    "id": "phrases-0098",
+    "folderId": "phrases",
+    "ru": "Сколько?",
+    "en": "How much?",
+    "transcription_eastern": "qani?",
+    "transcription_lori": "qani?"
+  },
+  {
+    "id": "phrases-0099",
+    "folderId": "phrases",
+    "ru": "Какой?",
+    "en": "Which?",
+    "transcription_eastern": "vor?",
+    "transcription_lori": "vor?"
+  },
+  {
+    "id": "phrases-0100",
+    "folderId": "phrases",
+    "ru": "Чей?",
+    "en": "Whose?",
+    "transcription_eastern": "ovi?",
+    "transcription_lori": "ovi?"
+  },
+  {
+    "id": "phrases-0101",
+    "folderId": "phrases",
+    "ru": "Что случилось?",
+    "en": "What happened?",
+    "transcription_eastern": "inch e exel?",
+    "transcription_lori": "inch e exel?"
+  },
+  {
+    "id": "phrases-0102",
+    "folderId": "phrases",
+    "ru": "В чём дело?",
+    "en": "What's the matter?",
+    "transcription_eastern": "inch e xndiry?",
+    "transcription_lori": "inch e xndiry?"
+  },
+  {
+    "id": "phrases-0103",
+    "folderId": "phrases",
+    "ru": "Что нового?",
+    "en": "What's new?",
+    "transcription_eastern": "inch e nor?",
+    "transcription_lori": "inch e nor?"
+  },
+  {
+    "id": "phrases-0104",
+    "folderId": "phrases",
+    "ru": "Как поживаете?",
+    "en": "How are you? (formal)",
+    "transcription_eastern": "inchpes eq?",
+    "transcription_lori": "inchepes eq?"
+  },
+  {
+    "id": "phrases-0105",
+    "folderId": "phrases",
+    "ru": "Как семья?",
+    "en": "How is the family?",
+    "transcription_eastern": "inchpes e tnjaky?",
+    "transcription_lori": "inchepes e tnjaky?"
+  },
+  {
+    "id": "phrases-0106",
+    "folderId": "phrases",
+    "ru": "Как настроение?",
+    "en": "How is your mood?",
+    "transcription_eastern": "inchpes e kendanaky?",
+    "transcription_lori": "inchepes e kendanaky?"
+  },
+  {
+    "id": "phrases-0107",
+    "folderId": "phrases",
+    "ru": "Что делаешь?",
+    "en": "What are you doing?",
+    "transcription_eastern": "inch anes?",
+    "transcription_lori": "inch anes?"
+  },
+  {
+    "id": "phrases-0108",
+    "folderId": "phrases",
+    "ru": "Чем занимаешься?",
+    "en": "What are you busy with?",
+    "transcription_eastern": "inchov es zbaxvum?",
+    "transcription_lori": "inchov es zbaxvum?"
+  },
+  {
+    "id": "phrases-0109",
+    "folderId": "phrases",
+    "ru": "Куда идёшь?",
+    "en": "Where are you going?",
+    "transcription_eastern": "vortegh es gnum?",
+    "transcription_lori": "vortegh es gnum?"
+  },
+  {
+    "id": "phrases-0110",
+    "folderId": "phrases",
+    "ru": "Откуда пришёл?",
+    "en": "Where did you come from?",
+    "transcription_eastern": "vorteghic ekel es?",
+    "transcription_lori": "vorteghic ekel es?"
+  },
+  {
+    "id": "phrases-0111",
+    "folderId": "phrases",
+    "ru": "Когда придёшь?",
+    "en": "When will you come?",
+    "transcription_eastern": "erb kp ekels?",
+    "transcription_lori": "erb kp ekels?"
+  },
+  {
+    "id": "phrases-0112",
+    "folderId": "phrases",
+    "ru": "Сколько времени?",
+    "en": "How long?",
+    "transcription_eastern": "qani zhamanak?",
+    "transcription_lori": "qani zhamanak?"
+  },
+  {
+    "id": "phrases-0113",
+    "folderId": "phrases",
+    "ru": "Сколько стоит?",
+    "en": "How much?",
+    "transcription_eastern": "qani e arzhe?",
+    "transcription_lori": "qani e arzhe?"
+  },
+  {
+    "id": "phrases-0114",
+    "folderId": "phrases",
+    "ru": "Сколько тебе лет?",
+    "en": "How old are you?",
+    "transcription_eastern": "qani tarekan es?",
+    "transcription_lori": "qani tarekan es?"
+  },
+  {
+    "id": "phrases-0115",
+    "folderId": "phrases",
+    "ru": "Мне ... лет",
+    "en": "I am ... years old",
+    "transcription_eastern": "... tarekan em",
+    "transcription_lori": "... tarekan em"
+  },
+  {
+    "id": "phrases-0116",
+    "folderId": "phrases",
+    "ru": "Я из Армении",
+    "en": "I am from Armenia",
+    "transcription_eastern": "Hayastanic em",
+    "transcription_lori": "Hayastanic em"
+  },
+  {
+    "id": "phrases-0117",
+    "folderId": "phrases",
+    "ru": "Я армянин",
+    "en": "I am Armenian",
+    "transcription_eastern": "hay em",
+    "transcription_lori": "hay em"
+  },
+  {
+    "id": "phrases-0118",
+    "folderId": "phrases",
+    "ru": "Я живу в Ереване",
+    "en": "I live in Yerevan",
+    "transcription_eastern": "Yerevanum em aprum",
+    "transcription_lori": "Yerevanum em aprum"
+  },
+  {
+    "id": "phrases-0119",
+    "folderId": "phrases",
+    "ru": "Я работаю",
+    "en": "I work",
+    "transcription_eastern": "ashxatum em",
+    "transcription_lori": "ashxatum em"
+  },
+  {
+    "id": "phrases-0120",
+    "folderId": "phrases",
+    "ru": "Я учусь",
+    "en": "I study",
+    "transcription_eastern": "sooroum em",
+    "transcription_lori": "sooroum em"
+  },
+  {
+    "id": "phrases-0121",
+    "folderId": "phrases",
+    "ru": "Я отдыхаю",
+    "en": "I rest",
+    "transcription_eastern": "hangist em",
+    "transcription_lori": "hangist em"
+  },
+  {
+    "id": "phrases-0122",
+    "folderId": "phrases",
+    "ru": "Я болею",
+    "en": "I am sick",
+    "transcription_eastern": "hivand em",
+    "transcription_lori": "hivand em"
+  },
+  {
+    "id": "phrases-0123",
+    "folderId": "phrases",
+    "ru": "Мне плохо",
+    "en": "I feel bad",
+    "transcription_eastern": "vats em",
+    "transcription_lori": "vats em"
+  },
+  {
+    "id": "phrases-0124",
+    "folderId": "phrases",
+    "ru": "Мне хорошо",
+    "en": "I feel good",
+    "transcription_eastern": "lav em",
+    "transcription_lori": "lav em"
+  },
+  {
+    "id": "phrases-0125",
+    "folderId": "phrases",
+    "ru": "Мне больно",
+    "en": "It hurts",
+    "transcription_eastern": "ts'vogh e",
+    "transcription_lori": "ts'vogh e"
+  },
+  {
+    "id": "phrases-0126",
+    "folderId": "phrases",
+    "ru": "У меня болит голова",
+    "en": "I have a headache",
+    "transcription_eastern": "glukhi ts'vogh uni",
+    "transcription_lori": "glukhi ts'vogh uni"
+  },
+  {
+    "id": "phrases-0127",
+    "folderId": "phrases",
+    "ru": "У меня температура",
+    "en": "I have a fever",
+    "transcription_eastern": "t'emperatura uni",
+    "transcription_lori": "t'emperatura uni"
+  },
+  {
+    "id": "phrases-0128",
+    "folderId": "phrases",
+    "ru": "Мне нужен врач",
+    "en": "I need a doctor",
+    "transcription_eastern": "bzhshk enak e",
+    "transcription_lori": "bzhshk enak e"
+  },
+  {
+    "id": "phrases-0129",
+    "folderId": "phrases",
+    "ru": "Помогите!",
+    "en": "Help!",
+    "transcription_eastern": "ognecq!",
+    "transcription_lori": "ognecq!"
+  },
+  {
+    "id": "phrases-0130",
+    "folderId": "phrases",
+    "ru": "Спасите!",
+    "en": "Save me!",
+    "transcription_eastern": "pahpanecq!",
+    "transcription_lori": "pahpanecq!"
+  },
+  {
+    "id": "phrases-0131",
+    "folderId": "phrases",
+    "ru": "Осторожно!",
+    "en": "Careful!",
+    "transcription_eastern": "zugart!",
+    "transcription_lori": "zugart!"
+  },
+  {
+    "id": "phrases-0132",
+    "folderId": "phrases",
+    "ru": "Стой!",
+    "en": "Stop!",
+    "transcription_eastern": "kangni!",
+    "transcription_lori": "kangni!"
+  },
+  {
+    "id": "phrases-0133",
+    "folderId": "phrases",
+    "ru": "Идём!",
+    "en": "Let's go!",
+    "transcription_eastern": "gnanq!",
+    "transcription_lori": "gnanq!"
+  },
+  {
+    "id": "phrases-0134",
+    "folderId": "phrases",
+    "ru": "Пошли!",
+    "en": "Let's go!",
+    "transcription_eastern": "gnanq!",
+    "transcription_lori": "gnanq!"
+  },
+  {
+    "id": "phrases-0135",
+    "folderId": "phrases",
+    "ru": "Давай!",
+    "en": "Come on!",
+    "transcription_eastern": "ari",
+    "transcription_lori": "gha"
+  },
+  {
+    "id": "phrases-0136",
+    "folderId": "phrases",
+    "ru": "Быстрее!",
+    "en": "Faster!",
+    "transcription_eastern": "arag!",
+    "transcription_lori": "arag!"
+  },
+  {
+    "id": "phrases-0137",
+    "folderId": "phrases",
+    "ru": "Медленнее!",
+    "en": "Slower!",
+    "transcription_eastern": "dandagh!",
+    "transcription_lori": "dandagh!"
+  },
+  {
+    "id": "phrases-0138",
+    "folderId": "phrases",
+    "ru": "Тише!",
+    "en": "Quieter!",
+    "transcription_eastern": "ts'ats'!",
+    "transcription_lori": "ts'ats'!"
+  },
+  {
+    "id": "phrases-0139",
+    "folderId": "phrases",
+    "ru": "Громче!",
+    "en": "Louder!",
+    "transcription_eastern": "bats!",
+    "transcription_lori": "bats!"
+  },
+  {
+    "id": "phrases-0140",
+    "folderId": "phrases",
+    "ru": "Ещё раз!",
+    "en": "Once more!",
+    "transcription_eastern": "el mi angam!",
+    "transcription_lori": "el mi angam!"
+  },
+  {
+    "id": "phrases-0141",
+    "folderId": "phrases",
+    "ru": "Хватит!",
+    "en": "Enough!",
+    "transcription_eastern": "bavarar e!",
+    "transcription_lori": "bavarar e!"
+  },
+  {
+    "id": "phrases-0142",
+    "folderId": "phrases",
+    "ru": "Достаточно",
+    "en": "Enough",
+    "transcription_eastern": "bavarar",
+    "transcription_lori": "bavarar"
+  },
+  {
+    "id": "phrases-0143",
+    "folderId": "phrases",
+    "ru": "Ещё немного",
+    "en": "A little more",
+    "transcription_eastern": "el miqich",
+    "transcription_lori": "el miqich"
+  },
+  {
+    "id": "phrases-0144",
+    "folderId": "phrases",
+    "ru": "Чуть-чуть",
+    "en": "A tiny bit",
+    "transcription_eastern": "miqich",
+    "transcription_lori": "miqich"
+  },
+  {
+    "id": "phrases-0145",
+    "folderId": "phrases",
+    "ru": "Почти",
+    "en": "Almost",
+    "transcription_eastern": "garegin",
+    "transcription_lori": "garegin"
+  },
+  {
+    "id": "phrases-0146",
+    "folderId": "phrases",
+    "ru": "Уже",
+    "en": "Already",
+    "transcription_eastern": "ardyoq",
+    "transcription_lori": "ardyoq"
+  },
+  {
+    "id": "phrases-0147",
+    "folderId": "phrases",
+    "ru": "Ещё",
+    "en": "Still / more",
+    "transcription_eastern": "el",
+    "transcription_lori": "el"
+  },
+  {
+    "id": "phrases-0148",
+    "folderId": "phrases",
+    "ru": "Сейчас",
+    "en": "Now",
+    "transcription_eastern": "hima",
+    "transcription_lori": "hima"
+  },
+  {
+    "id": "phrases-0149",
+    "folderId": "phrases",
+    "ru": "Потом",
+    "en": "Later",
+    "transcription_eastern": "heto",
+    "transcription_lori": "heto"
+  },
+  {
+    "id": "phrases-0150",
+    "folderId": "phrases",
+    "ru": "Скоро",
+    "en": "Soon",
+    "transcription_eastern": "shur",
+    "transcription_lori": "shur"
+  },
+  {
+    "id": "phrases-0151",
+    "folderId": "phrases",
+    "ru": "Давно",
+    "en": "Long ago",
+    "transcription_eastern": "shat",
+    "transcription_lori": "shat"
+  },
+  {
+    "id": "phrases-0152",
+    "folderId": "phrases",
+    "ru": "Недавно",
+    "en": "Recently",
+    "transcription_eastern": "verev",
+    "transcription_lori": "verev"
+  },
+  {
+    "id": "phrases-0153",
+    "folderId": "phrases",
+    "ru": "Всегда",
+    "en": "Always",
+    "transcription_eastern": "misht",
+    "transcription_lori": "misht"
+  },
+  {
+    "id": "phrases-0154",
+    "folderId": "phrases",
+    "ru": "Никогда",
+    "en": "Never",
+    "transcription_eastern": "yerbeq",
+    "transcription_lori": "yerbeq"
+  },
+  {
+    "id": "phrases-0155",
+    "folderId": "phrases",
+    "ru": "Иногда",
+    "en": "Sometimes",
+    "transcription_eastern": "yerbemer",
+    "transcription_lori": "yerbemer"
+  },
+  {
+    "id": "phrases-0156",
+    "folderId": "phrases",
+    "ru": "Часто",
+    "en": "Often",
+    "transcription_eastern": "hachax",
+    "transcription_lori": "hachax"
+  },
+  {
+    "id": "phrases-0157",
+    "folderId": "phrases",
+    "ru": "Редко",
+    "en": "Rarely",
+    "transcription_eastern": "qich",
+    "transcription_lori": "qich"
+  },
+  {
+    "id": "phrases-0158",
+    "folderId": "phrases",
+    "ru": "Каждый день",
+    "en": "Every day",
+    "transcription_eastern": "amen or",
+    "transcription_lori": "amen or"
+  },
+  {
+    "id": "phrases-0159",
+    "folderId": "phrases",
+    "ru": "На самом деле",
+    "en": "Actually",
+    "transcription_eastern": "irakanum",
+    "transcription_lori": "irakanum"
+  },
+  {
+    "id": "phrases-0160",
+    "folderId": "phrases",
+    "ru": "Честно говоря",
+    "en": "Honestly",
+    "transcription_eastern": "anunakan",
+    "transcription_lori": "anunakan"
+  },
+  {
+    "id": "phrases-0161",
+    "folderId": "phrases",
+    "ru": "Кстати",
+    "en": "By the way",
+    "transcription_eastern": "naxapes",
+    "transcription_lori": "naxapes"
+  },
+  {
+    "id": "phrases-0162",
+    "folderId": "phrases",
+    "ru": "Короче",
+    "en": "In short",
+    "transcription_eastern": "karch",
+    "transcription_lori": "karch"
+  },
+  {
+    "id": "phrases-0163",
+    "folderId": "phrases",
+    "ru": "В общем",
+    "en": "In general",
+    "transcription_eastern": "ynts'el",
+    "transcription_lori": "ynts'el"
+  },
+  {
+    "id": "phrases-0164",
+    "folderId": "phrases",
+    "ru": "Например",
+    "en": "For example",
+    "transcription_eastern": "orinak",
+    "transcription_lori": "orinak"
+  },
+  {
+    "id": "phrases-0165",
+    "folderId": "phrases",
+    "ru": "Главное",
+    "en": "The main thing",
+    "transcription_eastern": "hings",
+    "transcription_lori": "hings"
+  },
+  {
+    "id": "phrases-0166",
+    "folderId": "phrases",
+    "ru": "Важно",
+    "en": "Important",
+    "transcription_eastern": "karevor",
+    "transcription_lori": "karevor"
+  },
+  {
+    "id": "phrases-0167",
+    "folderId": "phrases",
+    "ru": "Не важно",
+    "en": "Not important",
+    "transcription_eastern": "ch karevor",
+    "transcription_lori": "chi karevor"
+  },
+  {
+    "id": "phrases-0168",
+    "folderId": "phrases",
+    "ru": "Не страшно",
+    "en": "No big deal",
+    "transcription_eastern": "voch inch",
+    "transcription_lori": "voch inch"
+  },
+  {
+    "id": "phrases-0169",
+    "folderId": "phrases",
+    "ru": "Без проблем",
+    "en": "No problem",
+    "transcription_eastern": "xndir chka",
+    "transcription_lori": "xndir chka"
+  },
+  {
+    "id": "phrases-0170",
+    "folderId": "phrases",
+    "ru": "Я думаю",
+    "en": "I think",
+    "transcription_eastern": "metshel em",
+    "transcription_lori": "metshel em"
+  },
+  {
+    "id": "phrases-0171",
+    "folderId": "phrases",
+    "ru": "Я считаю",
+    "en": "I believe",
+    "transcription_eastern": "hashvel em",
+    "transcription_lori": "hashvel em"
+  },
+  {
+    "id": "phrases-0172",
+    "folderId": "phrases",
+    "ru": "По-моему",
+    "en": "In my opinion",
+    "transcription_eastern": "im koxmic",
+    "transcription_lori": "im koxmic"
+  },
+  {
+    "id": "phrases-0173",
+    "folderId": "phrases",
+    "ru": "Мне кажется",
+    "en": "It seems to me",
+    "transcription_eastern": "kazmum e",
+    "transcription_lori": "kazmum e"
+  },
+  {
+    "id": "phrases-0174",
+    "folderId": "phrases",
+    "ru": "На мой взгляд",
+    "en": "In my view",
+    "transcription_eastern": "im tesaketov",
+    "transcription_lori": "im tesaketov"
+  },
+  {
+    "id": "phrases-0175",
+    "folderId": "phrases",
+    "ru": "Скорее всего",
+    "en": "Most likely",
+    "transcription_eastern": "havanakan e",
+    "transcription_lori": "havanakan e"
+  },
+  {
+    "id": "phrases-0176",
+    "folderId": "phrases",
+    "ru": "Безусловно",
+    "en": "Unconditionally",
+    "transcription_eastern": "anhrazhakan",
+    "transcription_lori": "anhrazhakan"
+  },
+  {
+    "id": "phrases-0177",
+    "folderId": "phrases",
+    "ru": "Именно так",
+    "en": "Exactly so",
+    "transcription_eastern": "hushak ayspe",
+    "transcription_lori": "hushak ayspe"
+  },
+  {
+    "id": "phrases-0178",
+    "folderId": "phrases",
+    "ru": "Если честно",
+    "en": "To be honest",
+    "transcription_eastern": "anunakan",
+    "transcription_lori": "anunakan"
+  },
+  {
+    "id": "phrases-0179",
+    "folderId": "phrases",
+    "ru": "Между прочим",
+    "en": "By the way",
+    "transcription_eastern": "naxapes",
+    "transcription_lori": "naxapes"
+  },
+  {
+    "id": "phrases-0180",
+    "folderId": "phrases",
+    "ru": "То есть",
+    "en": "That is",
+    "transcription_eastern": "aysinqn",
+    "transcription_lori": "aysinqn"
+  },
+  {
+    "id": "phrases-0181",
+    "folderId": "phrases",
+    "ru": "Поэтому",
+    "en": "Therefore",
+    "transcription_eastern": "aysinqn",
+    "transcription_lori": "aysinqn"
+  },
+  {
+    "id": "phrases-0182",
+    "folderId": "phrases",
+    "ru": "Так что",
+    "en": "So",
+    "transcription_eastern": "aysinqn",
+    "transcription_lori": "aysinqn"
+  },
+  {
+    "id": "phrases-0183",
+    "folderId": "phrases",
+    "ru": "Значит",
+    "en": "So / means",
+    "transcription_eastern": "nshanakum e",
+    "transcription_lori": "nshanakum e"
+  },
+  {
+    "id": "phrases-0184",
+    "folderId": "phrases",
+    "ru": "В частности",
+    "en": "In particular",
+    "transcription_eastern": "hatukapes",
+    "transcription_lori": "hatukapes"
+  },
+  {
+    "id": "phrases-0185",
+    "folderId": "phrases",
+    "ru": "Особенно",
+    "en": "Especially",
+    "transcription_eastern": "hatukapes",
+    "transcription_lori": "hatukapes"
+  },
+  {
+    "id": "phrases-0186",
+    "folderId": "phrases",
+    "ru": "Вообще",
+    "en": "In general",
+    "transcription_eastern": "ynts'el",
+    "transcription_lori": "ynts'el"
+  },
+  {
+    "id": "phrases-0187",
+    "folderId": "phrases",
+    "ru": "В принципе",
+    "en": "In principle",
+    "transcription_eastern": "skzbunqov",
+    "transcription_lori": "skzbunqov"
+  },
+  {
+    "id": "phrases-0188",
+    "folderId": "phrases",
+    "ru": "С одной стороны",
+    "en": "On one hand",
+    "transcription_eastern": "mi koxmic",
+    "transcription_lori": "mi koxmic"
+  },
+  {
+    "id": "phrases-0189",
+    "folderId": "phrases",
+    "ru": "С другой стороны",
+    "en": "On the other hand",
+    "transcription_eastern": "myus koxmic",
+    "transcription_lori": "myus koxmic"
+  },
+  {
+    "id": "phrases-0190",
+    "folderId": "phrases",
+    "ru": "Сначала",
+    "en": "At first",
+    "transcription_eastern": "skzbic",
+    "transcription_lori": "skzbic"
+  },
+  {
+    "id": "phrases-0191",
+    "folderId": "phrases",
+    "ru": "Потом",
+    "en": "Then",
+    "transcription_eastern": "heto",
+    "transcription_lori": "heto"
+  },
+  {
+    "id": "phrases-0192",
+    "folderId": "phrases",
+    "ru": "В конце",
+    "en": "In the end",
+    "transcription_eastern": "verjacum",
+    "transcription_lori": "verjacum"
+  },
+  {
+    "id": "phrases-0193",
+    "folderId": "phrases",
+    "ru": "В итоге",
+    "en": "In the end",
+    "transcription_eastern": "verjacum",
+    "transcription_lori": "verjacum"
+  },
+  {
+    "id": "phrases-0194",
+    "folderId": "phrases",
+    "ru": "В начале",
+    "en": "At the beginning",
+    "transcription_eastern": "skzbic",
+    "transcription_lori": "skzbic"
+  },
+  {
+    "id": "phrases-0195",
+    "folderId": "phrases",
+    "ru": "В середине",
+    "en": "In the middle",
+    "transcription_eastern": "mijin",
+    "transcription_lori": "mijin"
+  },
+  {
+    "id": "phrases-0196",
+    "folderId": "phrases",
+    "ru": "В конце",
+    "en": "At the end",
+    "transcription_eastern": "verjacum",
+    "transcription_lori": "verjacum"
+  },
+  {
+    "id": "phrases-0197",
+    "folderId": "phrases",
+    "ru": "До",
+    "en": "Until",
+    "transcription_eastern": "minchev",
+    "transcription_lori": "minchev"
+  },
+  {
+    "id": "phrases-0198",
+    "folderId": "phrases",
+    "ru": "После",
+    "en": "After",
+    "transcription_eastern": "heto",
+    "transcription_lori": "heto"
+  },
+  {
+    "id": "phrases-0199",
+    "folderId": "phrases",
+    "ru": "Во время",
+    "en": "During",
+    "transcription_eastern": "trvum",
+    "transcription_lori": "trvum"
+  },
+  {
+    "id": "phrases-0200",
+    "folderId": "phrases",
+    "ru": "Перед",
+    "en": "Before",
+    "transcription_eastern": "naxk",
+    "transcription_lori": "naxk"
+  }
+]

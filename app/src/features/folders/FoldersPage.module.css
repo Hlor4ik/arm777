@@ -1,0 +1,56 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.folderCard {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.name {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.muted {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.passed {
+  font-size: 13px;
+  color: var(--accent-primary);
+}
+
+.examBtn {
+  font-size: 22px;
+  padding: 4px 8px;
+  background: var(--bg-hover);
+  border-radius: var(--radius-sm);
+}
+
+.progressWrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.progressWrap > div:first-child {
+  flex: 1;
+}
+
+.pct {
+  font-size: 13px;
+  color: var(--text-secondary);
+  min-width: 36px;
+}

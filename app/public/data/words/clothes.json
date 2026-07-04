@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "clothes-0001",
+    "folderId": "clothes",
+    "ru": "Рубашка",
+    "en": "Shirt",
+    "transcription_eastern": "shapik",
+    "transcription_lori": "shapik"
+  },
+  {
+    "id": "clothes-0002",
+    "folderId": "clothes",
+    "ru": "Блузка",
+    "en": "Blouse",
+    "transcription_eastern": "shapik",
+    "transcription_lori": "shapik"
+  },
+  {
+    "id": "clothes-0003",
+    "folderId": "clothes",
+    "ru": "Футболка",
+    "en": "T-shirt",
+    "transcription_eastern": "mayka",
+    "transcription_lori": "mayka"
+  },
+  {
+    "id": "clothes-0004",
+    "folderId": "clothes",
+    "ru": "Майка",
+    "en": "Tank top",
+    "transcription_eastern": "mayka",
+    "transcription_lori": "mayka"
+  },
+  {
+    "id": "clothes-0005",
+    "folderId": "clothes",
+    "ru": "Свитер",
+    "en": "Sweater",
+    "transcription_eastern": "shuba",
+    "transcription_lori": "shuba"
+  },
+  {
+    "id": "clothes-0006",
+    "folderId": "clothes",
+    "ru": "Кофта",
+    "en": "Cardigan",
+    "transcription_eastern": "shuba",
+    "transcription_lori": "shuba"
+  },
+  {
+    "id": "clothes-0007",
+    "folderId": "clothes",
+    "ru": "Пиджак",
+    "en": "Jacket",
+    "transcription_eastern": "jaket",
+    "transcription_lori": "jaket"
+  },
+  {
+    "id": "clothes-0008",
+    "folderId": "clothes",
+    "ru": "Пальто",
+    "en": "Coat",
+    "transcription_eastern": "palto",
+    "transcription_lori": "palto"
+  },
+  {
+    "id": "clothes-0009",
+    "folderId": "clothes",
+    "ru": "Куртка",
+    "en": "Coat",
+    "transcription_eastern": "kurtka",
+    "transcription_lori": "kurtka"
+  },
+  {
+    "id": "clothes-0010",
+    "folderId": "clothes",
+    "ru": "Плащ",
+    "en": "Raincoat",
+    "transcription_eastern": "palto",
+    "transcription_lori": "palto"
+  },
+  {
+    "id": "clothes-0011",
+    "folderId": "clothes",
+    "ru": "Шуба",
+    "en": "Fur coat",
+    "transcription_eastern": "shuba",
+    "transcription_lori": "shuba"
+  },
+  {
+    "id": "clothes-0012",
+    "folderId": "clothes",
+    "ru": "Жилет",
+    "en": "Vest",
+    "transcription_eastern": "jaket",
+    "transcription_lori": "jaket"
+  },
+  {
+    "id": "clothes-0013",
+    "folderId": "clothes",
+    "ru": "Платье",
+    "en": "Dress",
+    "transcription_eastern": "jurak",
+    "transcription_lori": "jurak"
+  },
+  {
+    "id": "clothes-0014",
+    "folderId": "clothes",
+    "ru": "Юбка",
+    "en": "Skirt",
+    "transcription_eastern": "jurak",
+    "transcription_lori": "jurak"
+  },
+  {
+    "id": "clothes-0015",
+    "folderId": "clothes",
+    "ru": "Брюки",
+    "en": "Pants",
+    "transcription_eastern": "qurtik",
+    "transcription_lori": "qurtik"
+  },
+  {
+    "id": "clothes-0016",
+    "folderId": "clothes",
+    "ru": "Джинсы",
+    "en": "Jeans",
+    "transcription_eastern": "qurtik",
+    "transcription_lori": "qurtik"
+  },
+  {
+    "id": "clothes-0017",
+    "folderId": "clothes",
+    "ru": "Шорты",
+    "en": "Shorts",
+    "transcription_eastern": "qurtik",
+    "transcription_lori": "qurtik"
+  },
+  {
+    "id": "clothes-0018",
+    "folderId": "clothes",
+    "ru": "Костюм",
+    "en": "Suit",
+    "transcription_eastern": "kostyum",
+    "transcription_lori": "kostyum"
+  },
+  {
+    "id": "clothes-0019",
+    "folderId": "clothes",
+    "ru": "Смокинг",
+    "en": "Tuxedo",
+    "transcription_eastern": "kostyum",
+    "transcription_lori": "kostyum"
+  },
+  {
+    "id": "clothes-0020",
+    "folderId": "clothes",
+    "ru": "Пижама",
+    "en": "Pajamas",
+    "transcription_eastern": "pijama",
+    "transcription_lori": "pijama"
+  },
+  {
+    "id": "clothes-0021",
+    "folderId": "clothes",
+    "ru": "Халат",
+    "en": "Robe",
+    "transcription_eastern": "xalat",
+    "transcription_lori": "xalat"
+  },
+  {
+    "id": "clothes-0022",
+    "folderId": "clothes",
+    "ru": "Нижнее бельё",
+    "en": "Underwear",
+    "transcription_eastern": "nker",
+    "transcription_lori": "nker"
+  },
+  {
+    "id": "clothes-0023",
+    "folderId": "clothes",
+    "ru": "Трусы",
+    "en": "Underpants",
+    "transcription_eastern": "nker",
+    "transcription_lori": "nker"
+  },
+  {
+    "id": "clothes-0024",
+    "folderId": "clothes",
+    "ru": "Бюстгальтер",
+    "en": "Bra",
+    "transcription_eastern": "nker",
+    "transcription_lori": "nker"
+  },
+  {
+    "id": "clothes-0025",
+    "folderId": "clothes",
+    "ru": "Колготки",
+    "en": "Tights",
+    "transcription_eastern": "koshik",
+    "transcription_lori": "koshik"
+  },
+  {
+    "id": "clothes-0026",
+    "folderId": "clothes",
+    "ru": "Чулки",
+    "en": "Stockings",
+    "transcription_eastern": "koshik",
+    "transcription_lori": "koshik"
+  },
+  {
+    "id": "clothes-0027",
+    "folderId": "clothes",
+    "ru": "Носки",
+    "en": "Socks",
+    "transcription_eastern": "koshik",
+    "transcription_lori": "koshik"
+  },
+  {
+    "id": "clothes-0028",
+    "folderId": "clothes",
+    "ru": "Обувь",
+    "en": "Footwear",
+    "transcription_eastern": "hatik",
+    "transcription_lori": "hatik"
+  },
+  {
+    "id": "clothes-0029",
+    "folderId": "clothes",
+    "ru": "Туфли",
+    "en": "Shoes",
+    "transcription_eastern": "hatik",
+    "transcription_lori": "hatik"
+  },
+  {
+    "id": "clothes-0030",
+    "folderId": "clothes",
+    "ru": "Ботинки",
+    "en": "Boots",
+    "transcription_eastern": "botas",
+    "transcription_lori": "botas"
+  },
+  {
+    "id": "clothes-0031",
+    "folderId": "clothes",
+    "ru": "Сапоги",
+    "en": "High boots",
+    "transcription_eastern": "botas",
+    "transcription_lori": "botas"
+  },
+  {
+    "id": "clothes-0032",
+    "folderId": "clothes",
+    "ru": "Кроссовки",
+    "en": "Sneakers",
+    "transcription_eastern": "hatik",
+    "transcription_lori": "hatik"
+  },
+  {
+    "id": "clothes-0033",
+    "folderId": "clothes",
+    "ru": "Сандалии",
+    "en": "Sandals",
+    "transcription_eastern": "hatik",
+    "transcription_lori": "hatik"
+  },
+  {
+    "id": "clothes-0034",
+    "folderId": "clothes",
+    "ru": "Тапочки",
+    "en": "Slippers",
+    "transcription_eastern": "hatik",
+    "transcription_lori": "hatik"
+  },
+  {
+    "id": "clothes-0035",
+    "folderId": "clothes",
+    "ru": "Шлёпанцы",
+    "en": "Flip-flops",
+    "transcription_eastern": "hatik",
+    "transcription_lori": "hatik"
+  },
+  {
+    "id": "clothes-0036",
+    "folderId": "clothes",
+    "ru": "Шляпа",
+    "en": "Hat",
+    "transcription_eastern": "shlyapa",
+    "transcription_lori": "shlyapa"
+  },
+  {
+    "id": "clothes-0037",
+    "folderId": "clothes",
+    "ru": "Кепка",
+    "en": "Cap",
+    "transcription_eastern": "kepka",
+    "transcription_lori": "kepka"
+  },
+  {
+    "id": "clothes-0038",
+    "folderId": "clothes",
+    "ru": "Берет",
+    "en": "Beret",
+    "transcription_eastern": "kepka",
+    "transcription_lori": "kepka"
+  },
+  {
+    "id": "clothes-0039",
+    "folderId": "clothes",
+    "ru": "Шарф",
+    "en": "Scarf",
+    "transcription_eastern": "sharf",
+    "transcription_lori": "sharf"
+  },
+  {
+    "id": "clothes-0040",
+    "folderId": "clothes",
+    "ru": "Платок",
+    "en": "Headscarf",
+    "transcription_eastern": "sharf",
+    "transcription_lori": "sharf"
+  },
+  {
+    "id": "clothes-0041",
+    "folderId": "clothes",
+    "ru": "Перчатки",
+    "en": "Gloves",
+    "transcription_eastern": "vardiger",
+    "transcription_lori": "vardiger"
+  },
+  {
+    "id": "clothes-0042",
+    "folderId": "clothes",
+    "ru": "Варежки",
+    "en": "Mittens",
+    "transcription_eastern": "vardiger",
+    "transcription_lori": "vardiger"
+  },
+  {
+    "id": "clothes-0043",
+    "folderId": "clothes",
+    "ru": "Ремень",
+    "en": "Belt",
+    "transcription_eastern": "poyas",
+    "transcription_lori": "poyas"
+  },
+  {
+    "id": "clothes-0044",
+    "folderId": "clothes",
+    "ru": "Галстук",
+    "en": "Tie",
+    "transcription_eastern": "galstuk",
+    "transcription_lori": "galstuk"
+  },
+  {
+    "id": "clothes-0045",
+    "folderId": "clothes",
+    "ru": "Бабочка",
+    "en": "Bow tie",
+    "transcription_eastern": "galstuk",
+    "transcription_lori": "galstuk"
+  },
+  {
+    "id": "clothes-0046",
+    "folderId": "clothes",
+    "ru": "Воротник",
+    "en": "Collar",
+    "transcription_eastern": "shapik",
+    "transcription_lori": "shapik"
+  },
+  {
+    "id": "clothes-0047",
+    "folderId": "clothes",
+    "ru": "Пуговица",
+    "en": "Button",
+    "transcription_eastern": "pugovitsa",
+    "transcription_lori": "pugovitsa"
+  },
+  {
+    "id": "clothes-0048",
+    "folderId": "clothes",
+    "ru": "Молния",
+    "en": "Zipper",
+    "transcription_eastern": "molnia",
+    "transcription_lori": "molnia"
+  },
+  {
+    "id": "clothes-0049",
+    "folderId": "clothes",
+    "ru": "Карман",
+    "en": "Pocket",
+    "transcription_eastern": "karmir",
+    "transcription_lori": "karmir"
+  },
+  {
+    "id": "clothes-0050",
+    "folderId": "clothes",
+    "ru": "Капюшон",
+    "en": "Hood",
+    "transcription_eastern": "kapushon",
+    "transcription_lori": "kapushon"
+  },
+  {
+    "id": "clothes-0051",
+    "folderId": "clothes",
+    "ru": "Мех",
+    "en": "Fur",
+    "transcription_eastern": "mekh",
+    "transcription_lori": "mekh"
+  },
+  {
+    "id": "clothes-0052",
+    "folderId": "clothes",
+    "ru": "Кожа",
+    "en": "Leather",
+    "transcription_eastern": "kozh",
+    "transcription_lori": "kozh"
+  },
+  {
+    "id": "clothes-0053",
+    "folderId": "clothes",
+    "ru": "Хлопок",
+    "en": "Cotton",
+    "transcription_eastern": "bambak",
+    "transcription_lori": "bambak"
+  },
+  {
+    "id": "clothes-0054",
+    "folderId": "clothes",
+    "ru": "Шёлк",
+    "en": "Silk",
+    "transcription_eastern": "shelk",
+    "transcription_lori": "shelk"
+  },
+  {
+    "id": "clothes-0055",
+    "folderId": "clothes",
+    "ru": "Шерсть",
+    "en": "Wool",
+    "transcription_eastern": "mekh",
+    "transcription_lori": "mekh"
+  },
+  {
+    "id": "clothes-0056",
+    "folderId": "clothes",
+    "ru": "Лён",
+    "en": "Linen",
+    "transcription_eastern": "bambak",
+    "transcription_lori": "bambak"
+  },
+  {
+    "id": "clothes-0057",
+    "folderId": "clothes",
+    "ru": "Вышивка",
+    "en": "Embroidery",
+    "transcription_eastern": "bambak",
+    "transcription_lori": "bambak"
+  },
+  {
+    "id": "clothes-0058",
+    "folderId": "clothes",
+    "ru": "Узор",
+    "en": "Pattern",
+    "transcription_eastern": "nshanagir",
+    "transcription_lori": "nshanagir"
+  },
+  {
+    "id": "clothes-0059",
+    "folderId": "clothes",
+    "ru": "Размер",
+    "en": "Size",
+    "transcription_eastern": "chap",
+    "transcription_lori": "chap"
+  },
+  {
+    "id": "clothes-0060",
+    "folderId": "clothes",
+    "ru": "Примерка",
+    "en": "Fitting",
+    "transcription_eastern": "pordz",
+    "transcription_lori": "pordz"
+  },
+  {
+    "id": "clothes-0061",
+    "folderId": "clothes",
+    "ru": "Шитьё",
+    "en": "Sewing",
+    "transcription_eastern": "shnel",
+    "transcription_lori": "shnel"
+  },
+  {
+    "id": "clothes-0062",
+    "folderId": "clothes",
+    "ru": "Портной",
+    "en": "Tailor",
+    "transcription_eastern": "portnoy",
+    "transcription_lori": "portnoy"
+  },
+  {
+    "id": "clothes-0063",
+    "folderId": "clothes",
+    "ru": "Ткань",
+    "en": "Fabric",
+    "transcription_eastern": "bambak",
+    "transcription_lori": "bambak"
+  },
+  {
+    "id": "clothes-0064",
+    "folderId": "clothes",
+    "ru": "Нитки",
+    "en": "Thread",
+    "transcription_eastern": "bambak",
+    "transcription_lori": "bambak"
+  },
+  {
+    "id": "clothes-0065",
+    "folderId": "clothes",
+    "ru": "Иголка",
+    "en": "Needle",
+    "transcription_eastern": "bambak",
+    "transcription_lori": "bambak"
+  },
+  {
+    "id": "clothes-0066",
+    "folderId": "clothes",
+    "ru": "Брошь",
+    "en": "Brooch",
+    "transcription_eastern": "bambak",
+    "transcription_lori": "bambak"
+  },
+  {
+    "id": "clothes-0067",
+    "folderId": "clothes",
+    "ru": "Кольцо",
+    "en": "Ring",
+    "transcription_eastern": "metsn",
+    "transcription_lori": "metsn"
+  },
+  {
+    "id": "clothes-0068",
+    "folderId": "clothes",
+    "ru": "Серьги",
+    "en": "Earrings",
+    "transcription_eastern": "achqanoc",
+    "transcription_lori": "achqanoc"
+  },
+  {
+    "id": "clothes-0069",
+    "folderId": "clothes",
+    "ru": "Ожерелье",
+    "en": "Necklace",
+    "transcription_eastern": "vozrik",
+    "transcription_lori": "vozrik"
+  },
+  {
+    "id": "clothes-0070",
+    "folderId": "clothes",
+    "ru": "Браслет",
+    "en": "Bracelet",
+    "transcription_eastern": "bragancak",
+    "transcription_lori": "bragancak"
+  },
+  {
+    "id": "clothes-0071",
+    "folderId": "clothes",
+    "ru": "Часы наручные",
+    "en": "Wristwatch",
+    "transcription_eastern": "zhamanak",
+    "transcription_lori": "zhamanak"
+  },
+  {
+    "id": "clothes-0072",
+    "folderId": "clothes",
+    "ru": "Очки",
+    "en": "Glasses",
+    "transcription_eastern": "achqneri stegpan",
+    "transcription_lori": "achqneri stegpan"
+  },
+  {
+    "id": "clothes-0073",
+    "folderId": "clothes",
+    "ru": "Солнечные очки",
+    "en": "Sunglasses",
+    "transcription_eastern": "achqneri stegpan",
+    "transcription_lori": "achqneri stegpan"
+  },
+  {
+    "id": "clothes-0074",
+    "folderId": "clothes",
+    "ru": "Зонт",
+    "en": "Umbrella",
+    "transcription_eastern": "patshgamb",
+    "transcription_lori": "patshgamb"
+  },
+  {
+    "id": "clothes-0075",
+    "folderId": "clothes",
+    "ru": "Сумка",
+    "en": "Bag",
+    "transcription_eastern": "gats",
+    "transcription_lori": "gats"
+  },
+  {
+    "id": "clothes-0076",
+    "folderId": "clothes",
+    "ru": "Рюкзак",
+    "en": "Backpack",
+    "transcription_eastern": "gats",
+    "transcription_lori": "gats"
+  },
+  {
+    "id": "clothes-0077",
+    "folderId": "clothes",
+    "ru": "Чемодан",
+    "en": "Suitcase",
+    "transcription_eastern": "gats",
+    "transcription_lori": "gats"
+  },
+  {
+    "id": "clothes-0078",
+    "folderId": "clothes",
+    "ru": "Спортивная форма",
+    "en": "Sports uniform",
+    "transcription_eastern": "sport",
+    "transcription_lori": "sport"
+  },
+  {
+    "id": "clothes-0079",
+    "folderId": "clothes",
+    "ru": "Купальник",
+    "en": "Swimsuit",
+    "transcription_eastern": "sport",
+    "transcription_lori": "sport"
+  },
+  {
+    "id": "clothes-0080",
+    "folderId": "clothes",
+    "ru": "Плавки",
+    "en": "Swim trunks",
+    "transcription_eastern": "sport",
+    "transcription_lori": "sport"
+  },
+  {
+    "id": "clothes-0081",
+    "folderId": "clothes",
+    "ru": "Фартук",
+    "en": "Apron",
+    "transcription_eastern": "ashkhatanqayin",
+    "transcription_lori": "ashkhatanqayin"
+  },
+  {
+    "id": "clothes-0082",
+    "folderId": "clothes",
+    "ru": "Военная форма",
+    "en": "Military uniform",
+    "transcription_eastern": "zinvorakan",
+    "transcription_lori": "zinvorakan"
+  },
+  {
+    "id": "clothes-0083",
+    "folderId": "clothes",
+    "ru": "Шинель",
+    "en": "Greatcoat",
+    "transcription_eastern": "palto",
+    "transcription_lori": "palto"
+  },
+  {
+    "id": "clothes-0084",
+    "folderId": "clothes",
+    "ru": "Дождевик",
+    "en": "Raincoat",
+    "transcription_eastern": "palto",
+    "transcription_lori": "palto"
+  },
+  {
+    "id": "clothes-0085",
+    "folderId": "clothes",
+    "ru": "Ветровка",
+    "en": "Windbreaker",
+    "transcription_eastern": "kurtka",
+    "transcription_lori": "kurtka"
+  },
+  {
+    "id": "clothes-0086",
+    "folderId": "clothes",
+    "ru": "Парка",
+    "en": "Parka",
+    "transcription_eastern": "kurtka",
+    "transcription_lori": "kurtka"
+  },
+  {
+    "id": "clothes-0087",
+    "folderId": "clothes",
+    "ru": "Дублёнка",
+    "en": "Sheepskin coat",
+    "transcription_eastern": "shuba",
+    "transcription_lori": "shuba"
+  },
+  {
+    "id": "clothes-0088",
+    "folderId": "clothes",
+    "ru": "Тренч",
+    "en": "Trench coat",
+    "transcription_eastern": "palto",
+    "transcription_lori": "palto"
+  },
+  {
+    "id": "clothes-0089",
+    "folderId": "clothes",
+    "ru": "Водолазка",
+    "en": "Turtleneck",
+    "transcription_eastern": "shuba",
+    "transcription_lori": "shuba"
+  },
+  {
+    "id": "clothes-0090",
+    "folderId": "clothes",
+    "ru": "Худи",
+    "en": "Hoodie",
+    "transcription_eastern": "shuba",
+    "transcription_lori": "shuba"
+  },
+  {
+    "id": "clothes-0091",
+    "folderId": "clothes",
+    "ru": "Свитшот",
+    "en": "Sweatshirt",
+    "transcription_eastern": "shuba",
+    "transcription_lori": "shuba"
+  },
+  {
+    "id": "clothes-0092",
+    "folderId": "clothes",
+    "ru": "Поло",
+    "en": "Polo shirt",
+    "transcription_eastern": "shapik",
+    "transcription_lori": "shapik"
+  },
+  {
+    "id": "clothes-0093",
+    "folderId": "clothes",
+    "ru": "Надеть",
+    "en": "To put on",
+    "transcription_eastern": "hanel",
+    "transcription_lori": "hanel"
+  },
+  {
+    "id": "clothes-0094",
+    "folderId": "clothes",
+    "ru": "Снять",
+    "en": "To take off",
+    "transcription_eastern": "helknel",
+    "transcription_lori": "helknel"
+  },
+  {
+    "id": "clothes-0095",
+    "folderId": "clothes",
+    "ru": "Переодеться",
+    "en": "To change clothes",
+    "transcription_eastern": "poxel",
+    "transcription_lori": "poxel"
+  },
+  {
+    "id": "clothes-0096",
+    "folderId": "clothes",
+    "ru": "Застегнуть",
+    "en": "To fasten",
+    "transcription_eastern": "pakel",
+    "transcription_lori": "pakel"
+  },
+  {
+    "id": "clothes-0097",
+    "folderId": "clothes",
+    "ru": "Расстегнуть",
+    "en": "To unfasten",
+    "transcription_eastern": "bacel",
+    "transcription_lori": "bacel"
+  },
+  {
+    "id": "clothes-0098",
+    "folderId": "clothes",
+    "ru": "Погладить",
+    "en": "To iron",
+    "transcription_eastern": "makrel",
+    "transcription_lori": "makrel"
+  },
+  {
+    "id": "clothes-0099",
+    "folderId": "clothes",
+    "ru": "Постирать",
+    "en": "To wash clothes",
+    "transcription_eastern": "makrel",
+    "transcription_lori": "makrel"
+  },
+  {
+    "id": "clothes-0100",
+    "folderId": "clothes",
+    "ru": "Шить",
+    "en": "To sew",
+    "transcription_eastern": "shnel",
+    "transcription_lori": "shnel"
+  },
+  {
+    "id": "clothes-0101",
+    "folderId": "clothes",
+    "ru": "Вязать",
+    "en": "To knit",
+    "transcription_eastern": "shnel",
+    "transcription_lori": "shnel"
+  },
+  {
+    "id": "clothes-0102",
+    "folderId": "clothes",
+    "ru": "Мерить",
+    "en": "To measure",
+    "transcription_eastern": "chapvel",
+    "transcription_lori": "chapvel"
+  },
+  {
+    "id": "clothes-0103",
+    "folderId": "clothes",
+    "ru": "Укоротить",
+    "en": "To shorten",
+    "transcription_eastern": "karchacnel",
+    "transcription_lori": "karchacnel"
+  },
+  {
+    "id": "clothes-0104",
+    "folderId": "clothes",
+    "ru": "Удлинить",
+    "en": "To lengthen",
+    "transcription_eastern": "erkaracnel",
+    "transcription_lori": "erkaracnel"
+  },
+  {
+    "id": "clothes-0105",
+    "folderId": "clothes",
+    "ru": "Химчистка",
+    "en": "Dry cleaning",
+    "transcription_eastern": "makrel",
+    "transcription_lori": "makrel"
+  },
+  {
+    "id": "clothes-0106",
+    "folderId": "clothes",
+    "ru": "Модный",
+    "en": "Fashionable",
+    "transcription_eastern": "moda",
+    "transcription_lori": "moda"
+  },
+  {
+    "id": "clothes-0107",
+    "folderId": "clothes",
+    "ru": "Стильный",
+    "en": "Stylish",
+    "transcription_eastern": "stil",
+    "transcription_lori": "stil"
+  },
+  {
+    "id": "clothes-0108",
+    "folderId": "clothes",
+    "ru": "Элегантный",
+    "en": "Elegant",
+    "transcription_eastern": "elegant",
+    "transcription_lori": "elegant"
+  },
+  {
+    "id": "clothes-0109",
+    "folderId": "clothes",
+    "ru": "Красивый",
+    "en": "Beautiful",
+    "transcription_eastern": "sirun",
+    "transcription_lori": "sirun"
+  },
+  {
+    "id": "clothes-0110",
+    "folderId": "clothes",
+    "ru": "Новый",
+    "en": "New",
+    "transcription_eastern": "nor",
+    "transcription_lori": "nor"
+  },
+  {
+    "id": "clothes-0111",
+    "folderId": "clothes",
+    "ru": "Старый",
+    "en": "Old",
+    "transcription_eastern": "hin",
+    "transcription_lori": "hin"
+  },
+  {
+    "id": "clothes-0112",
+    "folderId": "clothes",
+    "ru": "Чистый",
+    "en": "Clean",
+    "transcription_eastern": "makur",
+    "transcription_lori": "makur"
+  },
+  {
+    "id": "clothes-0113",
+    "folderId": "clothes",
+    "ru": "Грязный",
+    "en": "Dirty",
+    "transcription_eastern": "gavar",
+    "transcription_lori": "gavar"
+  },
+  {
+    "id": "clothes-0114",
+    "folderId": "clothes",
+    "ru": "Мокрый",
+    "en": "Wet",
+    "transcription_eastern": "ts'on",
+    "transcription_lori": "ts'on"
+  },
+  {
+    "id": "clothes-0115",
+    "folderId": "clothes",
+    "ru": "Сухой",
+    "en": "Dry",
+    "transcription_eastern": "ts'or",
+    "transcription_lori": "ts'or"
+  },
+  {
+    "id": "clothes-0116",
+    "folderId": "clothes",
+    "ru": "Тёплый",
+    "en": "Warm",
+    "transcription_eastern": "t'ep",
+    "transcription_lori": "t'ep"
+  },
+  {
+    "id": "clothes-0117",
+    "folderId": "clothes",
+    "ru": "Холодный",
+    "en": "Cold",
+    "transcription_eastern": "ts'urt",
+    "transcription_lori": "ts'urt"
+  },
+  {
+    "id": "clothes-0118",
+    "folderId": "clothes",
+    "ru": "Удобный",
+    "en": "Comfortable",
+    "transcription_eastern": "hangist",
+    "transcription_lori": "hangist"
+  },
+  {
+    "id": "clothes-0119",
+    "folderId": "clothes",
+    "ru": "Мягкий",
+    "en": "Soft",
+    "transcription_eastern": "naz",
+    "transcription_lori": "naz"
+  },
+  {
+    "id": "clothes-0120",
+    "folderId": "clothes",
+    "ru": "Длинный",
+    "en": "Long",
+    "transcription_eastern": "erkar",
+    "transcription_lori": "erkar"
+  },
+  {
+    "id": "clothes-0121",
+    "folderId": "clothes",
+    "ru": "Короткий",
+    "en": "Short",
+    "transcription_eastern": "karch",
+    "transcription_lori": "karch"
+  },
+  {
+    "id": "clothes-0122",
+    "folderId": "clothes",
+    "ru": "Широкий",
+    "en": "Wide",
+    "transcription_eastern": "lajn",
+    "transcription_lori": "lajn"
+  },
+  {
+    "id": "clothes-0123",
+    "folderId": "clothes",
+    "ru": "Узкий",
+    "en": "Narrow",
+    "transcription_eastern": "ts'ank",
+    "transcription_lori": "ts'ank"
+  },
+  {
+    "id": "clothes-0124",
+    "folderId": "clothes",
+    "ru": "Спортивный",
+    "en": "Sporty",
+    "transcription_eastern": "sport",
+    "transcription_lori": "sport"
+  },
+  {
+    "id": "clothes-0125",
+    "folderId": "clothes",
+    "ru": "Деловой",
+    "en": "Business",
+    "transcription_eastern": "delovoy",
+    "transcription_lori": "delovoy"
+  },
+  {
+    "id": "clothes-0126",
+    "folderId": "clothes",
+    "ru": "Повседневный",
+    "en": "Casual",
+    "transcription_eastern": "tsanr",
+    "transcription_lori": "tsanr"
+  },
+  {
+    "id": "clothes-0127",
+    "folderId": "clothes",
+    "ru": "Праздничный",
+    "en": "Festive",
+    "transcription_eastern": "tonakan",
+    "transcription_lori": "tonakan"
+  },
+  {
+    "id": "clothes-0128",
+    "folderId": "clothes",
+    "ru": "Вечерний",
+    "en": "Evening",
+    "transcription_eastern": "yerekonakan",
+    "transcription_lori": "yerekonakan"
+  },
+  {
+    "id": "clothes-0129",
+    "folderId": "clothes",
+    "ru": "Домашний",
+    "en": "Homewear",
+    "transcription_eastern": "tani",
+    "transcription_lori": "tani"
+  },
+  {
+    "id": "clothes-0130",
+    "folderId": "clothes",
+    "ru": "Летний",
+    "en": "Summer",
+    "transcription_eastern": "amranakan",
+    "transcription_lori": "amranakan"
+  },
+  {
+    "id": "clothes-0131",
+    "folderId": "clothes",
+    "ru": "Зимний",
+    "en": "Winter",
+    "transcription_eastern": "dzyunakan",
+    "transcription_lori": "dzyunakan"
+  },
+  {
+    "id": "clothes-0132",
+    "folderId": "clothes",
+    "ru": "Весенний",
+    "en": "Spring",
+    "transcription_eastern": "garunakan",
+    "transcription_lori": "garunakan"
+  },
+  {
+    "id": "clothes-0133",
+    "folderId": "clothes",
+    "ru": "Осенний",
+    "en": "Autumn",
+    "transcription_eastern": "ashunakan",
+    "transcription_lori": "ashunakan"
+  },
+  {
+    "id": "clothes-0134",
+    "folderId": "clothes",
+    "ru": "Мужской",
+    "en": "Men's",
+    "transcription_eastern": "mardi",
+    "transcription_lori": "mardi"
+  },
+  {
+    "id": "clothes-0135",
+    "folderId": "clothes",
+    "ru": "Женский",
+    "en": "Women's",
+    "transcription_eastern": "kini",
+    "transcription_lori": "kini"
+  },
+  {
+    "id": "clothes-0136",
+    "folderId": "clothes",
+    "ru": "Детский",
+    "en": "Children's",
+    "transcription_eastern": "yerekutyan",
+    "transcription_lori": "yerekutyan"
+  },
+  {
+    "id": "clothes-0137",
+    "folderId": "clothes",
+    "ru": "Классический",
+    "en": "Classic",
+    "transcription_eastern": "klassik",
+    "transcription_lori": "klassik"
+  },
+  {
+    "id": "clothes-0138",
+    "folderId": "clothes",
+    "ru": "Современный",
+    "en": "Modern",
+    "transcription_eastern": "sovremen",
+    "transcription_lori": "sovremen"
+  },
+  {
+    "id": "clothes-0139",
+    "folderId": "clothes",
+    "ru": "Яркий",
+    "en": "Bright",
+    "transcription_eastern": "lusavor",
+    "transcription_lori": "lusavor"
+  },
+  {
+    "id": "clothes-0140",
+    "folderId": "clothes",
+    "ru": "Блестящий",
+    "en": "Shiny",
+    "transcription_eastern": "lusavor",
+    "transcription_lori": "lusavor"
+  },
+  {
+    "id": "clothes-0141",
+    "folderId": "clothes",
+    "ru": "Прозрачный",
+    "en": "Transparent",
+    "transcription_eastern": "parz",
+    "transcription_lori": "parz"
+  },
+  {
+    "id": "clothes-0142",
+    "folderId": "clothes",
+    "ru": "Плотный",
+    "en": "Dense",
+    "transcription_eastern": "barek",
+    "transcription_lori": "barek"
+  },
+  {
+    "id": "clothes-0143",
+    "folderId": "clothes",
+    "ru": "Тонкий",
+    "en": "Thin",
+    "transcription_eastern": "ts'ank",
+    "transcription_lori": "ts'ank"
+  },
+  {
+    "id": "clothes-0144",
+    "folderId": "clothes",
+    "ru": "Водонепроницаемый",
+    "en": "Waterproof",
+    "transcription_eastern": "jermuk",
+    "transcription_lori": "jermuk"
+  },
+  {
+    "id": "clothes-0145",
+    "folderId": "clothes",
+    "ru": "Натуральный",
+    "en": "Natural",
+    "transcription_eastern": "bnutyanakan",
+    "transcription_lori": "bnutyanakan"
+  },
+  {
+    "id": "clothes-0146",
+    "folderId": "clothes",
+    "ru": "Синтетический",
+    "en": "Synthetic",
+    "transcription_eastern": "sintetik",
+    "transcription_lori": "sintetik"
+  },
+  {
+    "id": "clothes-0147",
+    "folderId": "clothes",
+    "ru": "Ручная работа",
+    "en": "Handmade",
+    "transcription_eastern": "dzern",
+    "transcription_lori": "dzern"
+  },
+  {
+    "id": "clothes-0148",
+    "folderId": "clothes",
+    "ru": "Скидка на одежду",
+    "en": "Clothing discount",
+    "transcription_eastern": "zexch",
+    "transcription_lori": "zexch"
+  },
+  {
+    "id": "clothes-0149",
+    "folderId": "clothes",
+    "ru": "Распродажа",
+    "en": "Sale",
+    "transcription_eastern": "vacharq",
+    "transcription_lori": "vacharq"
+  },
+  {
+    "id": "clothes-0150",
+    "folderId": "clothes",
+    "ru": "Магазин одежды",
+    "en": "Clothing store",
+    "transcription_eastern": "haveli dukkan",
+    "transcription_lori": "haveli dukkan"
+  }
+]

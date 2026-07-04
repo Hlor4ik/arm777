@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "work-0001",
+    "folderId": "work",
+    "ru": "Работа",
+    "en": "Work",
+    "transcription_eastern": "ashkhatanq",
+    "transcription_lori": "ashkhatanq"
+  },
+  {
+    "id": "work-0002",
+    "folderId": "work",
+    "ru": "Работать",
+    "en": "To work",
+    "transcription_eastern": "ashxatel",
+    "transcription_lori": "ashxatel"
+  },
+  {
+    "id": "work-0003",
+    "folderId": "work",
+    "ru": "Рабочий",
+    "en": "Worker",
+    "transcription_eastern": "ashkhatvats",
+    "transcription_lori": "ashkhatvats"
+  },
+  {
+    "id": "work-0004",
+    "folderId": "work",
+    "ru": "Работница",
+    "en": "Female worker",
+    "transcription_eastern": "ashkhatvats",
+    "transcription_lori": "ashkhatvats"
+  },
+  {
+    "id": "work-0005",
+    "folderId": "work",
+    "ru": "Работодатель",
+    "en": "Employer",
+    "transcription_eastern": "ashkhatox",
+    "transcription_lori": "ashkhatox"
+  },
+  {
+    "id": "work-0006",
+    "folderId": "work",
+    "ru": "Сотрудник",
+    "en": "Employee",
+    "transcription_eastern": "ashkhatvats",
+    "transcription_lori": "ashkhatvats"
+  },
+  {
+    "id": "work-0007",
+    "folderId": "work",
+    "ru": "Коллега",
+    "en": "Colleague",
+    "transcription_eastern": "ashkhatvats",
+    "transcription_lori": "ashkhatvats"
+  },
+  {
+    "id": "work-0008",
+    "folderId": "work",
+    "ru": "Начальник",
+    "en": "Boss",
+    "transcription_eastern": "karavarich",
+    "transcription_lori": "karavarich"
+  },
+  {
+    "id": "work-0009",
+    "folderId": "work",
+    "ru": "Директор",
+    "en": "Director",
+    "transcription_eastern": "karavarich",
+    "transcription_lori": "karavarich"
+  },
+  {
+    "id": "work-0010",
+    "folderId": "work",
+    "ru": "Менеджер",
+    "en": "Manager",
+    "transcription_eastern": "karavarich",
+    "transcription_lori": "karavarich"
+  },
+  {
+    "id": "work-0011",
+    "folderId": "work",
+    "ru": "Руководитель",
+    "en": "Leader",
+    "transcription_eastern": "karavarich",
+    "transcription_lori": "karavarich"
+  },
+  {
+    "id": "work-0012",
+    "folderId": "work",
+    "ru": "Подчинённый",
+    "en": "Subordinate",
+    "transcription_eastern": "ashkhatvats",
+    "transcription_lori": "ashkhatvats"
+  },
+  {
+    "id": "work-0013",
+    "folderId": "work",
+    "ru": "Офис",
+    "en": "Office",
+    "transcription_eastern": "ofis",
+    "transcription_lori": "ofis"
+  },
+  {
+    "id": "work-0014",
+    "folderId": "work",
+    "ru": "Фабрика",
+    "en": "Factory",
+    "transcription_eastern": "artadranots",
+    "transcription_lori": "artadranots"
+  },
+  {
+    "id": "work-0015",
+    "folderId": "work",
+    "ru": "Завод",
+    "en": "Plant",
+    "transcription_eastern": "artadranots",
+    "transcription_lori": "artadranots"
+  },
+  {
+    "id": "work-0016",
+    "folderId": "work",
+    "ru": "Компания",
+    "en": "Company",
+    "transcription_eastern": "kompania",
+    "transcription_lori": "kompania"
+  },
+  {
+    "id": "work-0017",
+    "folderId": "work",
+    "ru": "Корпорация",
+    "en": "Corporation",
+    "transcription_eastern": "korporatsia",
+    "transcription_lori": "korporatsia"
+  },
+  {
+    "id": "work-0018",
+    "folderId": "work",
+    "ru": "Фирма",
+    "en": "Firm",
+    "transcription_eastern": "kompania",
+    "transcription_lori": "kompania"
+  },
+  {
+    "id": "work-0019",
+    "folderId": "work",
+    "ru": "Предприятие",
+    "en": "Enterprise",
+    "transcription_eastern": "artadranots",
+    "transcription_lori": "artadranots"
+  },
+  {
+    "id": "work-0020",
+    "folderId": "work",
+    "ru": "Бизнес",
+    "en": "Business",
+    "transcription_eastern": "biznes",
+    "transcription_lori": "biznes"
+  },
+  {
+    "id": "work-0021",
+    "folderId": "work",
+    "ru": "Профессия",
+    "en": "Profession",
+    "transcription_eastern": "profesia",
+    "transcription_lori": "profesia"
+  },
+  {
+    "id": "work-0022",
+    "folderId": "work",
+    "ru": "Специальность",
+    "en": "Specialty",
+    "transcription_eastern": "profesia",
+    "transcription_lori": "profesia"
+  },
+  {
+    "id": "work-0023",
+    "folderId": "work",
+    "ru": "Должность",
+    "en": "Position",
+    "transcription_eastern": "tesak",
+    "transcription_lori": "tesak"
+  },
+  {
+    "id": "work-0024",
+    "folderId": "work",
+    "ru": "Карьера",
+    "en": "Career",
+    "transcription_eastern": "kariera",
+    "transcription_lori": "kariera"
+  },
+  {
+    "id": "work-0025",
+    "folderId": "work",
+    "ru": "Зарплата",
+    "en": "Salary",
+    "transcription_eastern": "ashkhatvajar",
+    "transcription_lori": "ashkhatvajar"
+  },
+  {
+    "id": "work-0026",
+    "folderId": "work",
+    "ru": "Оклад",
+    "en": "Wage",
+    "transcription_eastern": "ashkhatvajar",
+    "transcription_lori": "ashkhatvajar"
+  },
+  {
+    "id": "work-0027",
+    "folderId": "work",
+    "ru": "Премия",
+    "en": "Bonus",
+    "transcription_eastern": "premia",
+    "transcription_lori": "premia"
+  },
+  {
+    "id": "work-0028",
+    "folderId": "work",
+    "ru": "Надбавка",
+    "en": "Allowance",
+    "transcription_eastern": "premia",
+    "transcription_lori": "premia"
+  },
+  {
+    "id": "work-0029",
+    "folderId": "work",
+    "ru": "Штраф",
+    "en": "Fine",
+    "transcription_eastern": "tank",
+    "transcription_lori": "tank"
+  },
+  {
+    "id": "work-0030",
+    "folderId": "work",
+    "ru": "Налог",
+    "en": "Tax",
+    "transcription_eastern": "hashvark",
+    "transcription_lori": "hashvark"
+  },
+  {
+    "id": "work-0031",
+    "folderId": "work",
+    "ru": "Контракт",
+    "en": "Contract",
+    "transcription_eastern": "patt",
+    "transcription_lori": "patt"
+  },
+  {
+    "id": "work-0032",
+    "folderId": "work",
+    "ru": "Договор",
+    "en": "Agreement",
+    "transcription_eastern": "patt",
+    "transcription_lori": "patt"
+  },
+  {
+    "id": "work-0033",
+    "folderId": "work",
+    "ru": "Собеседование",
+    "en": "Interview",
+    "transcription_eastern": "khosq",
+    "transcription_lori": "khosq"
+  },
+  {
+    "id": "work-0034",
+    "folderId": "work",
+    "ru": "Резюме",
+    "en": "Resume",
+    "transcription_eastern": "t'ragir",
+    "transcription_lori": "t'ragir"
+  },
+  {
+    "id": "work-0035",
+    "folderId": "work",
+    "ru": "Рекомендация",
+    "en": "Recommendation",
+    "transcription_eastern": "t'ragir",
+    "transcription_lori": "t'ragir"
+  },
+  {
+    "id": "work-0036",
+    "folderId": "work",
+    "ru": "Опыт",
+    "en": "Experience",
+    "transcription_eastern": "opit",
+    "transcription_lori": "opit"
+  },
+  {
+    "id": "work-0037",
+    "folderId": "work",
+    "ru": "Стаж",
+    "en": "Seniority",
+    "transcription_eastern": "opit",
+    "transcription_lori": "opit"
+  },
+  {
+    "id": "work-0038",
+    "folderId": "work",
+    "ru": "Стажёр",
+    "en": "Intern",
+    "transcription_eastern": "stajor",
+    "transcription_lori": "stajor"
+  },
+  {
+    "id": "work-0039",
+    "folderId": "work",
+    "ru": "Стажировка",
+    "en": "Internship",
+    "transcription_eastern": "stajor",
+    "transcription_lori": "stajor"
+  },
+  {
+    "id": "work-0040",
+    "folderId": "work",
+    "ru": "Практика",
+    "en": "Practice",
+    "transcription_eastern": "stajor",
+    "transcription_lori": "stajor"
+  },
+  {
+    "id": "work-0041",
+    "folderId": "work",
+    "ru": "Обучение",
+    "en": "Training",
+    "transcription_eastern": "krtser",
+    "transcription_lori": "krtser"
+  },
+  {
+    "id": "work-0042",
+    "folderId": "work",
+    "ru": "Курсы",
+    "en": "Courses",
+    "transcription_eastern": "krtser",
+    "transcription_lori": "krtser"
+  },
+  {
+    "id": "work-0043",
+    "folderId": "work",
+    "ru": "Семинар",
+    "en": "Seminar",
+    "transcription_eastern": "krtser",
+    "transcription_lori": "krtser"
+  },
+  {
+    "id": "work-0044",
+    "folderId": "work",
+    "ru": "Конференция",
+    "en": "Conference",
+    "transcription_eastern": "havaq",
+    "transcription_lori": "havaq"
+  },
+  {
+    "id": "work-0045",
+    "folderId": "work",
+    "ru": "Совещание",
+    "en": "Meeting",
+    "transcription_eastern": "havaq",
+    "transcription_lori": "havaq"
+  },
+  {
+    "id": "work-0046",
+    "folderId": "work",
+    "ru": "Планёрка",
+    "en": "Briefing",
+    "transcription_eastern": "havaq",
+    "transcription_lori": "havaq"
+  },
+  {
+    "id": "work-0047",
+    "folderId": "work",
+    "ru": "Презентация",
+    "en": "Presentation",
+    "transcription_eastern": "nerkayacum",
+    "transcription_lori": "nerkayacum"
+  },
+  {
+    "id": "work-0048",
+    "folderId": "work",
+    "ru": "Отчёт",
+    "en": "Report",
+    "transcription_eastern": "t'ragir",
+    "transcription_lori": "t'ragir"
+  },
+  {
+    "id": "work-0049",
+    "folderId": "work",
+    "ru": "Документ",
+    "en": "Document",
+    "transcription_eastern": "t'ragir",
+    "transcription_lori": "t'ragir"
+  },
+  {
+    "id": "work-0050",
+    "folderId": "work",
+    "ru": "Проект",
+    "en": "Project",
+    "transcription_eastern": "nakhagits",
+    "transcription_lori": "nakhagits"
+  },
+  {
+    "id": "work-0051",
+    "folderId": "work",
+    "ru": "Задача",
+    "en": "Task",
+    "transcription_eastern": "gorc",
+    "transcription_lori": "gorc"
+  },
+  {
+    "id": "work-0052",
+    "folderId": "work",
+    "ru": "Цель",
+    "en": "Goal",
+    "transcription_eastern": "nshanak",
+    "transcription_lori": "nshanak"
+  },
+  {
+    "id": "work-0053",
+    "folderId": "work",
+    "ru": "План",
+    "en": "Plan",
+    "transcription_eastern": "nakhagits",
+    "transcription_lori": "nakhagits"
+  },
+  {
+    "id": "work-0054",
+    "folderId": "work",
+    "ru": "График",
+    "en": "Schedule",
+    "transcription_eastern": "granc",
+    "transcription_lori": "granc"
+  },
+  {
+    "id": "work-0055",
+    "folderId": "work",
+    "ru": "Дедлайн",
+    "en": "Deadline",
+    "transcription_eastern": "jamket",
+    "transcription_lori": "jamket"
+  },
+  {
+    "id": "work-0056",
+    "folderId": "work",
+    "ru": "Срок",
+    "en": "Deadline",
+    "transcription_eastern": "jamket",
+    "transcription_lori": "jamket"
+  },
+  {
+    "id": "work-0057",
+    "folderId": "work",
+    "ru": "Срочно",
+    "en": "Urgent",
+    "transcription_eastern": "arag",
+    "transcription_lori": "arag"
+  },
+  {
+    "id": "work-0058",
+    "folderId": "work",
+    "ru": "Важно",
+    "en": "Important",
+    "transcription_eastern": "karevor",
+    "transcription_lori": "karevor"
+  },
+  {
+    "id": "work-0059",
+    "folderId": "work",
+    "ru": "Срочная работа",
+    "en": "Urgent work",
+    "transcription_eastern": "arag ashkhatanq",
+    "transcription_lori": "arag ashkhatanq"
+  },
+  {
+    "id": "work-0060",
+    "folderId": "work",
+    "ru": "Сверхурочные",
+    "en": "Overtime",
+    "transcription_eastern": "ashkhatanq",
+    "transcription_lori": "ashkhatanq"
+  },
+  {
+    "id": "work-0061",
+    "folderId": "work",
+    "ru": "Выходной",
+    "en": "Day off",
+    "transcription_eastern": "shabat",
+    "transcription_lori": "shabat"
+  },
+  {
+    "id": "work-0062",
+    "folderId": "work",
+    "ru": "Отпуск",
+    "en": "Vacation",
+    "transcription_eastern": "aragh",
+    "transcription_lori": "aragh"
+  },
+  {
+    "id": "work-0063",
+    "folderId": "work",
+    "ru": "Больничный",
+    "en": "Sick leave",
+    "transcription_eastern": "hivandutyun",
+    "transcription_lori": "hivandutyun"
+  },
+  {
+    "id": "work-0064",
+    "folderId": "work",
+    "ru": "Декретный отпуск",
+    "en": "Maternity leave",
+    "transcription_eastern": "aragh",
+    "transcription_lori": "aragh"
+  },
+  {
+    "id": "work-0065",
+    "folderId": "work",
+    "ru": "Увольнение",
+    "en": "Dismissal",
+    "transcription_eastern": "helknel",
+    "transcription_lori": "helknel"
+  },
+  {
+    "id": "work-0066",
+    "folderId": "work",
+    "ru": "Уволить",
+    "en": "To fire",
+    "transcription_eastern": "helknel",
+    "transcription_lori": "helknel"
+  },
+  {
+    "id": "work-0067",
+    "folderId": "work",
+    "ru": "Уволиться",
+    "en": "To quit",
+    "transcription_eastern": "helknel",
+    "transcription_lori": "helknel"
+  },
+  {
+    "id": "work-0068",
+    "folderId": "work",
+    "ru": "Нанять",
+    "en": "To hire",
+    "transcription_eastern": "vercnel",
+    "transcription_lori": "vercnel"
+  },
+  {
+    "id": "work-0069",
+    "folderId": "work",
+    "ru": "Принять на работу",
+    "en": "To employ",
+    "transcription_eastern": "vercnel ashkhatanq",
+    "transcription_lori": "vercnel ashkhatanq"
+  },
+  {
+    "id": "work-0070",
+    "folderId": "work",
+    "ru": "Искать работу",
+    "en": "Look for job",
+    "transcription_eastern": "yntrel ashkhatanq",
+    "transcription_lori": "yntrel ashkhatanq"
+  },
+  {
+    "id": "work-0071",
+    "folderId": "work",
+    "ru": "Найти работу",
+    "en": "Find job",
+    "transcription_eastern": "gtnel ashkhatanq",
+    "transcription_lori": "gtnel ashkhatanq"
+  },
+  {
+    "id": "work-0072",
+    "folderId": "work",
+    "ru": "Потерять работу",
+    "en": "Lose job",
+    "transcription_eastern": "moranal ashkhatanq",
+    "transcription_lori": "moranal ashkhatanq"
+  },
+  {
+    "id": "work-0073",
+    "folderId": "work",
+    "ru": "Повышение",
+    "en": "Promotion",
+    "transcription_eastern": "veradardz",
+    "transcription_lori": "veradardz"
+  },
+  {
+    "id": "work-0074",
+    "folderId": "work",
+    "ru": "Понижение",
+    "en": "Demotion",
+    "transcription_eastern": "nerqev",
+    "transcription_lori": "nerqev"
+  },
+  {
+    "id": "work-0075",
+    "folderId": "work",
+    "ru": "Перевод",
+    "en": "Transfer",
+    "transcription_eastern": "poxel",
+    "transcription_lori": "poxel"
+  },
+  {
+    "id": "work-0076",
+    "folderId": "work",
+    "ru": "Командировка",
+    "en": "Business trip",
+    "transcription_eastern": "yntanq",
+    "transcription_lori": "yntanq"
+  },
+  {
+    "id": "work-0077",
+    "folderId": "work",
+    "ru": "Командировочные",
+    "en": "Per diem",
+    "transcription_eastern": "yntanq",
+    "transcription_lori": "yntanq"
+  },
+  {
+    "id": "work-0078",
+    "folderId": "work",
+    "ru": "Командировать",
+    "en": "Send on trip",
+    "transcription_eastern": "uxarkel",
+    "transcription_lori": "uxarkel"
+  },
+  {
+    "id": "work-0079",
+    "folderId": "work",
+    "ru": "Врач",
+    "en": "Doctor",
+    "transcription_eastern": "bzhshk",
+    "transcription_lori": "bzhshk"
+  },
+  {
+    "id": "work-0080",
+    "folderId": "work",
+    "ru": "Учитель",
+    "en": "Teacher",
+    "transcription_eastern": "ustich",
+    "transcription_lori": "ustich"
+  },
+  {
+    "id": "work-0081",
+    "folderId": "work",
+    "ru": "Профессор",
+    "en": "Professor",
+    "transcription_eastern": "profesor",
+    "transcription_lori": "profesor"
+  },
+  {
+    "id": "work-0082",
+    "folderId": "work",
+    "ru": "Инженер",
+    "en": "Engineer",
+    "transcription_eastern": "inchneer",
+    "transcription_lori": "inchneer"
+  },
+  {
+    "id": "work-0083",
+    "folderId": "work",
+    "ru": "Программист",
+    "en": "Programmer",
+    "transcription_eastern": "inchneer",
+    "transcription_lori": "inchneer"
+  },
+  {
+    "id": "work-0084",
+    "folderId": "work",
+    "ru": "Дизайнер",
+    "en": "Designer",
+    "transcription_eastern": "nkar",
+    "transcription_lori": "nkar"
+  },
+  {
+    "id": "work-0085",
+    "folderId": "work",
+    "ru": "Архитектор",
+    "en": "Architect",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "work-0086",
+    "folderId": "work",
+    "ru": "Строитель",
+    "en": "Builder",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "work-0087",
+    "folderId": "work",
+    "ru": "Электрик",
+    "en": "Electrician",
+    "transcription_eastern": "elktrakan",
+    "transcription_lori": "elktrakan"
+  },
+  {
+    "id": "work-0088",
+    "folderId": "work",
+    "ru": "Сантехник",
+    "en": "Plumber",
+    "transcription_eastern": "jermuk",
+    "transcription_lori": "jermuk"
+  },
+  {
+    "id": "work-0089",
+    "folderId": "work",
+    "ru": "Повар",
+    "en": "Cook",
+    "transcription_eastern": "nkaragir",
+    "transcription_lori": "nkaragir"
+  },
+  {
+    "id": "work-0090",
+    "folderId": "work",
+    "ru": "Официант",
+    "en": "Waiter",
+    "transcription_eastern": "nkaragir",
+    "transcription_lori": "nkaragir"
+  },
+  {
+    "id": "work-0091",
+    "folderId": "work",
+    "ru": "Бармен",
+    "en": "Bartender",
+    "transcription_eastern": "bar",
+    "transcription_lori": "bar"
+  },
+  {
+    "id": "work-0092",
+    "folderId": "work",
+    "ru": "Продавец",
+    "en": "Salesperson",
+    "transcription_eastern": "vacharq",
+    "transcription_lori": "vacharq"
+  },
+  {
+    "id": "work-0093",
+    "folderId": "work",
+    "ru": "Кассир",
+    "en": "Cashier",
+    "transcription_eastern": "hashvich",
+    "transcription_lori": "hashvich"
+  },
+  {
+    "id": "work-0094",
+    "folderId": "work",
+    "ru": "Бухгалтер",
+    "en": "Accountant",
+    "transcription_eastern": "hashvapah",
+    "transcription_lori": "hashvapah"
+  },
+  {
+    "id": "work-0095",
+    "folderId": "work",
+    "ru": "Юрист",
+    "en": "Lawyer",
+    "transcription_eastern": "inchneer",
+    "transcription_lori": "inchneer"
+  },
+  {
+    "id": "work-0096",
+    "folderId": "work",
+    "ru": "Нотариус",
+    "en": "Notary",
+    "transcription_eastern": "notarius",
+    "transcription_lori": "notarius"
+  },
+  {
+    "id": "work-0097",
+    "folderId": "work",
+    "ru": "Судья",
+    "en": "Judge",
+    "transcription_eastern": "dat",
+    "transcription_lori": "dat"
+  },
+  {
+    "id": "work-0098",
+    "folderId": "work",
+    "ru": "Адвокат",
+    "en": "Lawyer",
+    "transcription_eastern": "inchneer",
+    "transcription_lori": "inchneer"
+  },
+  {
+    "id": "work-0099",
+    "folderId": "work",
+    "ru": "Прокурор",
+    "en": "Prosecutor",
+    "transcription_eastern": "dat",
+    "transcription_lori": "dat"
+  },
+  {
+    "id": "work-0100",
+    "folderId": "work",
+    "ru": "Полицейский",
+    "en": "Police officer",
+    "transcription_eastern": "politsia",
+    "transcription_lori": "politsia"
+  },
+  {
+    "id": "work-0101",
+    "folderId": "work",
+    "ru": "Пожарный",
+    "en": "Firefighter",
+    "transcription_eastern": "krak",
+    "transcription_lori": "krak"
+  },
+  {
+    "id": "work-0102",
+    "folderId": "work",
+    "ru": "Военный",
+    "en": "Military",
+    "transcription_eastern": "zinvor",
+    "transcription_lori": "zinvor"
+  },
+  {
+    "id": "work-0103",
+    "folderId": "work",
+    "ru": "Солдат",
+    "en": "Soldier",
+    "transcription_eastern": "zinvor",
+    "transcription_lori": "zinvor"
+  },
+  {
+    "id": "work-0104",
+    "folderId": "work",
+    "ru": "Офицер",
+    "en": "Officer",
+    "transcription_eastern": "zinvor",
+    "transcription_lori": "zinvor"
+  },
+  {
+    "id": "work-0105",
+    "folderId": "work",
+    "ru": "Генерал",
+    "en": "General",
+    "transcription_eastern": "zinvor",
+    "transcription_lori": "zinvor"
+  },
+  {
+    "id": "work-0106",
+    "folderId": "work",
+    "ru": "Пилот",
+    "en": "Pilot",
+    "transcription_eastern": "t'rr",
+    "transcription_lori": "t'rr"
+  },
+  {
+    "id": "work-0107",
+    "folderId": "work",
+    "ru": "Стюардесса",
+    "en": "Flight attendant",
+    "transcription_eastern": "t'rr",
+    "transcription_lori": "t'rr"
+  },
+  {
+    "id": "work-0108",
+    "folderId": "work",
+    "ru": "Водитель",
+    "en": "Driver",
+    "transcription_eastern": "vairord",
+    "transcription_lori": "vairord"
+  },
+  {
+    "id": "work-0109",
+    "folderId": "work",
+    "ru": "Таксист",
+    "en": "Taxi driver",
+    "transcription_eastern": "taksi",
+    "transcription_lori": "taksi"
+  },
+  {
+    "id": "work-0110",
+    "folderId": "work",
+    "ru": "Курьер",
+    "en": "Courier",
+    "transcription_eastern": "aragh",
+    "transcription_lori": "aragh"
+  },
+  {
+    "id": "work-0111",
+    "folderId": "work",
+    "ru": "Почтальон",
+    "en": "Postman",
+    "transcription_eastern": "poghoc",
+    "transcription_lori": "poghoc"
+  },
+  {
+    "id": "work-0112",
+    "folderId": "work",
+    "ru": "Журналист",
+    "en": "Journalist",
+    "transcription_eastern": "t'ragir",
+    "transcription_lori": "t'ragir"
+  },
+  {
+    "id": "work-0113",
+    "folderId": "work",
+    "ru": "Редактор",
+    "en": "Editor",
+    "transcription_eastern": "t'ragir",
+    "transcription_lori": "t'ragir"
+  },
+  {
+    "id": "work-0114",
+    "folderId": "work",
+    "ru": "Писатель",
+    "en": "Writer",
+    "transcription_eastern": "gir",
+    "transcription_lori": "gir"
+  },
+  {
+    "id": "work-0115",
+    "folderId": "work",
+    "ru": "Поэт",
+    "en": "Poet",
+    "transcription_eastern": "gir",
+    "transcription_lori": "gir"
+  },
+  {
+    "id": "work-0116",
+    "folderId": "work",
+    "ru": "Художник",
+    "en": "Artist",
+    "transcription_eastern": "nkar",
+    "transcription_lori": "nkar"
+  },
+  {
+    "id": "work-0117",
+    "folderId": "work",
+    "ru": "Скульптор",
+    "en": "Sculptor",
+    "transcription_eastern": "nkar",
+    "transcription_lori": "nkar"
+  },
+  {
+    "id": "work-0118",
+    "folderId": "work",
+    "ru": "Музыкант",
+    "en": "Musician",
+    "transcription_eastern": "yerku",
+    "transcription_lori": "yerku"
+  },
+  {
+    "id": "work-0119",
+    "folderId": "work",
+    "ru": "Певец",
+    "en": "Singer",
+    "transcription_eastern": "yerku",
+    "transcription_lori": "yerku"
+  },
+  {
+    "id": "work-0120",
+    "folderId": "work",
+    "ru": "Актёр",
+    "en": "Actor",
+    "transcription_eastern": "teatr",
+    "transcription_lori": "teatr"
+  },
+  {
+    "id": "work-0121",
+    "folderId": "work",
+    "ru": "Режиссёр",
+    "en": "Director",
+    "transcription_eastern": "teatr",
+    "transcription_lori": "teatr"
+  },
+  {
+    "id": "work-0122",
+    "folderId": "work",
+    "ru": "Оператор",
+    "en": "Cameraman",
+    "transcription_eastern": "nkar",
+    "transcription_lori": "nkar"
+  },
+  {
+    "id": "work-0123",
+    "folderId": "work",
+    "ru": "Фотограф",
+    "en": "Photographer",
+    "transcription_eastern": "nkar",
+    "transcription_lori": "nkar"
+  },
+  {
+    "id": "work-0124",
+    "folderId": "work",
+    "ru": "Парикмахер",
+    "en": "Hairdresser",
+    "transcription_eastern": "mord",
+    "transcription_lori": "mord"
+  },
+  {
+    "id": "work-0125",
+    "folderId": "work",
+    "ru": "Визажист",
+    "en": "Makeup artist",
+    "transcription_eastern": "sirunutyun",
+    "transcription_lori": "sirunutyun"
+  },
+  {
+    "id": "work-0126",
+    "folderId": "work",
+    "ru": "Массажист",
+    "en": "Masseur",
+    "transcription_eastern": "makrel",
+    "transcription_lori": "makrel"
+  },
+  {
+    "id": "work-0127",
+    "folderId": "work",
+    "ru": "Тренер",
+    "en": "Coach",
+    "transcription_eastern": "sport",
+    "transcription_lori": "sport"
+  },
+  {
+    "id": "work-0128",
+    "folderId": "work",
+    "ru": "Спортсмен",
+    "en": "Athlete",
+    "transcription_eastern": "sport",
+    "transcription_lori": "sport"
+  },
+  {
+    "id": "work-0129",
+    "folderId": "work",
+    "ru": "Фермер",
+    "en": "Farmer",
+    "transcription_eastern": "gyugh",
+    "transcription_lori": "gyugh"
+  },
+  {
+    "id": "work-0130",
+    "folderId": "work",
+    "ru": "Садовник",
+    "en": "Gardener",
+    "transcription_eastern": "bagin",
+    "transcription_lori": "bagin"
+  },
+  {
+    "id": "work-0131",
+    "folderId": "work",
+    "ru": "Пастух",
+    "en": "Shepherd",
+    "transcription_eastern": "och",
+    "transcription_lori": "och"
+  },
+  {
+    "id": "work-0132",
+    "folderId": "work",
+    "ru": "Рыбак",
+    "en": "Fisherman",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "work-0133",
+    "folderId": "work",
+    "ru": "Охотник",
+    "en": "Hunter",
+    "transcription_eastern": "kendan",
+    "transcription_lori": "kendan"
+  },
+  {
+    "id": "work-0134",
+    "folderId": "work",
+    "ru": "Шахтёр",
+    "en": "Miner",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "work-0135",
+    "folderId": "work",
+    "ru": "Сварщик",
+    "en": "Welder",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "work-0136",
+    "folderId": "work",
+    "ru": "Токарь",
+    "en": "Turner",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "work-0137",
+    "folderId": "work",
+    "ru": "Слесарь",
+    "en": "Locksmith",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "work-0138",
+    "folderId": "work",
+    "ru": "Механик",
+    "en": "Mechanic",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "work-0139",
+    "folderId": "work",
+    "ru": "Ветеринар",
+    "en": "Veterinarian",
+    "transcription_eastern": "bzhshk",
+    "transcription_lori": "bzhshk"
+  },
+  {
+    "id": "work-0140",
+    "folderId": "work",
+    "ru": "Фармацевт",
+    "en": "Pharmacist",
+    "transcription_eastern": "apteka",
+    "transcription_lori": "apteka"
+  },
+  {
+    "id": "work-0141",
+    "folderId": "work",
+    "ru": "Медсестра",
+    "en": "Nurse",
+    "transcription_eastern": "bzhshk",
+    "transcription_lori": "bzhshk"
+  },
+  {
+    "id": "work-0142",
+    "folderId": "work",
+    "ru": "Санитар",
+    "en": "Orderly",
+    "transcription_eastern": "bzhshk",
+    "transcription_lori": "bzhshk"
+  },
+  {
+    "id": "work-0143",
+    "folderId": "work",
+    "ru": "Психолог",
+    "en": "Psychologist",
+    "transcription_eastern": "bzhshk",
+    "transcription_lori": "bzhshk"
+  },
+  {
+    "id": "work-0144",
+    "folderId": "work",
+    "ru": "Социальный работник",
+    "en": "Social worker",
+    "transcription_eastern": "apahov",
+    "transcription_lori": "apahov"
+  },
+  {
+    "id": "work-0145",
+    "folderId": "work",
+    "ru": "Библиотекарь",
+    "en": "Librarian",
+    "transcription_eastern": "girkhanots",
+    "transcription_lori": "girkhanots"
+  },
+  {
+    "id": "work-0146",
+    "folderId": "work",
+    "ru": "Архивариус",
+    "en": "Archivist",
+    "transcription_eastern": "girkhanots",
+    "transcription_lori": "girkhanots"
+  },
+  {
+    "id": "work-0147",
+    "folderId": "work",
+    "ru": "Музейный работник",
+    "en": "Museum worker",
+    "transcription_eastern": "muzej",
+    "transcription_lori": "muzej"
+  },
+  {
+    "id": "work-0148",
+    "folderId": "work",
+    "ru": "Гид",
+    "en": "Guide",
+    "transcription_eastern": "turist",
+    "transcription_lori": "turist"
+  },
+  {
+    "id": "work-0149",
+    "folderId": "work",
+    "ru": "Переводчик",
+    "en": "Translator",
+    "transcription_eastern": "targmanich",
+    "transcription_lori": "targmanich"
+  },
+  {
+    "id": "work-0150",
+    "folderId": "work",
+    "ru": "Устный переводчик",
+    "en": "Interpreter",
+    "transcription_eastern": "targmanich",
+    "transcription_lori": "targmanich"
+  },
+  {
+    "id": "work-0151",
+    "folderId": "work",
+    "ru": "Секретарь",
+    "en": "Secretary",
+    "transcription_eastern": "ofis",
+    "transcription_lori": "ofis"
+  },
+  {
+    "id": "work-0152",
+    "folderId": "work",
+    "ru": "Ассистент",
+    "en": "Assistant",
+    "transcription_eastern": "ognutyun",
+    "transcription_lori": "ognutyun"
+  },
+  {
+    "id": "work-0153",
+    "folderId": "work",
+    "ru": "Помощник",
+    "en": "Helper",
+    "transcription_eastern": "ognutyun",
+    "transcription_lori": "ognutyun"
+  },
+  {
+    "id": "work-0154",
+    "folderId": "work",
+    "ru": "Консультант",
+    "en": "Consultant",
+    "transcription_eastern": "inchneer",
+    "transcription_lori": "inchneer"
+  },
+  {
+    "id": "work-0155",
+    "folderId": "work",
+    "ru": "Аналитик",
+    "en": "Analyst",
+    "transcription_eastern": "stugich",
+    "transcription_lori": "stugich"
+  },
+  {
+    "id": "work-0156",
+    "folderId": "work",
+    "ru": "Экономист",
+    "en": "Economist",
+    "transcription_eastern": "hashvapah",
+    "transcription_lori": "hashvapah"
+  },
+  {
+    "id": "work-0157",
+    "folderId": "work",
+    "ru": "Маркетолог",
+    "en": "Marketer",
+    "transcription_eastern": "reklama",
+    "transcription_lori": "reklama"
+  },
+  {
+    "id": "work-0158",
+    "folderId": "work",
+    "ru": "Рекламщик",
+    "en": "Advertiser",
+    "transcription_eastern": "reklama",
+    "transcription_lori": "reklama"
+  },
+  {
+    "id": "work-0159",
+    "folderId": "work",
+    "ru": "PR-менеджер",
+    "en": "PR manager",
+    "transcription_eastern": "reklama",
+    "transcription_lori": "reklama"
+  },
+  {
+    "id": "work-0160",
+    "folderId": "work",
+    "ru": "HR-менеджер",
+    "en": "HR manager",
+    "transcription_eastern": "karavarich",
+    "transcription_lori": "karavarich"
+  },
+  {
+    "id": "work-0161",
+    "folderId": "work",
+    "ru": "Рекрутер",
+    "en": "Recruiter",
+    "transcription_eastern": "karavarich",
+    "transcription_lori": "karavarich"
+  },
+  {
+    "id": "work-0162",
+    "folderId": "work",
+    "ru": "Логист",
+    "en": "Logistician",
+    "transcription_eastern": "aragh",
+    "transcription_lori": "aragh"
+  },
+  {
+    "id": "work-0163",
+    "folderId": "work",
+    "ru": "Складской работник",
+    "en": "Warehouse worker",
+    "transcription_eastern": "sanduq",
+    "transcription_lori": "sanduq"
+  },
+  {
+    "id": "work-0164",
+    "folderId": "work",
+    "ru": "Грузчик",
+    "en": "Loader",
+    "transcription_eastern": "pner",
+    "transcription_lori": "pner"
+  },
+  {
+    "id": "work-0165",
+    "folderId": "work",
+    "ru": "Крановщик",
+    "en": "Crane operator",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "work-0166",
+    "folderId": "work",
+    "ru": "Охранник",
+    "en": "Security guard",
+    "transcription_eastern": "pahpan",
+    "transcription_lori": "pahpan"
+  },
+  {
+    "id": "work-0167",
+    "folderId": "work",
+    "ru": "Уборщик",
+    "en": "Cleaner",
+    "transcription_eastern": "makrel",
+    "transcription_lori": "makrel"
+  },
+  {
+    "id": "work-0168",
+    "folderId": "work",
+    "ru": "Дворник",
+    "en": "Janitor",
+    "transcription_eastern": "makrel",
+    "transcription_lori": "makrel"
+  },
+  {
+    "id": "work-0169",
+    "folderId": "work",
+    "ru": "Ландшафтный дизайнер",
+    "en": "Landscape designer",
+    "transcription_eastern": "paytakar",
+    "transcription_lori": "paytakar"
+  },
+  {
+    "id": "work-0170",
+    "folderId": "work",
+    "ru": "Няня",
+    "en": "Nanny",
+    "transcription_eastern": "manuk",
+    "transcription_lori": "manuk"
+  },
+  {
+    "id": "work-0171",
+    "folderId": "work",
+    "ru": "Воспитатель",
+    "en": "Educator",
+    "transcription_eastern": "manuk",
+    "transcription_lori": "manuk"
+  },
+  {
+    "id": "work-0172",
+    "folderId": "work",
+    "ru": "Социальный работник",
+    "en": "Social worker",
+    "transcription_eastern": "kensatirakan",
+    "transcription_lori": "kensatirakan"
+  },
+  {
+    "id": "work-0173",
+    "folderId": "work",
+    "ru": "Священник",
+    "en": "Priest",
+    "transcription_eastern": "yekeghets",
+    "transcription_lori": "yekeghets"
+  },
+  {
+    "id": "work-0174",
+    "folderId": "work",
+    "ru": "Монах",
+    "en": "Monk",
+    "transcription_eastern": "vank",
+    "transcription_lori": "vank"
+  },
+  {
+    "id": "work-0175",
+    "folderId": "work",
+    "ru": "Компьютер",
+    "en": "Computer",
+    "transcription_eastern": "herakhos",
+    "transcription_lori": "herakhos"
+  },
+  {
+    "id": "work-0176",
+    "folderId": "work",
+    "ru": "Ноутбук",
+    "en": "Laptop",
+    "transcription_eastern": "herakhos",
+    "transcription_lori": "herakhos"
+  },
+  {
+    "id": "work-0177",
+    "folderId": "work",
+    "ru": "Планшет",
+    "en": "Tablet",
+    "transcription_eastern": "herakhos",
+    "transcription_lori": "herakhos"
+  },
+  {
+    "id": "work-0178",
+    "folderId": "work",
+    "ru": "Принтер",
+    "en": "Printer",
+    "transcription_eastern": "t'ragir",
+    "transcription_lori": "t'ragir"
+  },
+  {
+    "id": "work-0179",
+    "folderId": "work",
+    "ru": "Сканер",
+    "en": "Scanner",
+    "transcription_eastern": "t'ragir",
+    "transcription_lori": "t'ragir"
+  },
+  {
+    "id": "work-0180",
+    "folderId": "work",
+    "ru": "Копир",
+    "en": "Copier",
+    "transcription_eastern": "t'ragir",
+    "transcription_lori": "t'ragir"
+  }
+]

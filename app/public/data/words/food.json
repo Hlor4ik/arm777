@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "food-0001",
+    "folderId": "food",
+    "ru": "Хлеб",
+    "en": "Bread",
+    "transcription_eastern": "hac",
+    "transcription_lori": "hac"
+  },
+  {
+    "id": "food-0002",
+    "folderId": "food",
+    "ru": "Лаваш",
+    "en": "Lavash",
+    "transcription_eastern": "lavash",
+    "transcription_lori": "lavash"
+  },
+  {
+    "id": "food-0003",
+    "folderId": "food",
+    "ru": "Матнакаш",
+    "en": "Matnakash",
+    "transcription_eastern": "matnakash",
+    "transcription_lori": "matnakash"
+  },
+  {
+    "id": "food-0004",
+    "folderId": "food",
+    "ru": "Чорек",
+    "en": "Sweet bread",
+    "transcription_eastern": "choereg",
+    "transcription_lori": "choereg"
+  },
+  {
+    "id": "food-0005",
+    "folderId": "food",
+    "ru": "Гата",
+    "en": "Gata",
+    "transcription_eastern": "gata",
+    "transcription_lori": "gata"
+  },
+  {
+    "id": "food-0006",
+    "folderId": "food",
+    "ru": "Пахлава",
+    "en": "Baklava",
+    "transcription_eastern": "pakhlava",
+    "transcription_lori": "pakhlava"
+  },
+  {
+    "id": "food-0007",
+    "folderId": "food",
+    "ru": "Сыр",
+    "en": "Cheese",
+    "transcription_eastern": "panir",
+    "transcription_lori": "panir"
+  },
+  {
+    "id": "food-0008",
+    "folderId": "food",
+    "ru": "Мацун",
+    "en": "Yogurt",
+    "transcription_eastern": "matsun",
+    "transcription_lori": "matsun"
+  },
+  {
+    "id": "food-0009",
+    "folderId": "food",
+    "ru": "Масло",
+    "en": "Butter",
+    "transcription_eastern": "ator",
+    "transcription_lori": "ator"
+  },
+  {
+    "id": "food-0010",
+    "folderId": "food",
+    "ru": "Творог",
+    "en": "Cottage cheese",
+    "transcription_eastern": "kat",
+    "transcription_lori": "kat"
+  },
+  {
+    "id": "food-0011",
+    "folderId": "food",
+    "ru": "Сметана",
+    "en": "Sour cream",
+    "transcription_eastern": "smetana",
+    "transcription_lori": "smetana"
+  },
+  {
+    "id": "food-0012",
+    "folderId": "food",
+    "ru": "Вода",
+    "en": "Water",
+    "transcription_eastern": "jermuk",
+    "transcription_lori": "jermuk"
+  },
+  {
+    "id": "food-0013",
+    "folderId": "food",
+    "ru": "Молоко",
+    "en": "Milk",
+    "transcription_eastern": "kanch",
+    "transcription_lori": "kanch"
+  },
+  {
+    "id": "food-0014",
+    "folderId": "food",
+    "ru": "Кефир",
+    "en": "Kefir",
+    "transcription_eastern": "kefir",
+    "transcription_lori": "kefir"
+  },
+  {
+    "id": "food-0015",
+    "folderId": "food",
+    "ru": "Сок",
+    "en": "Juice",
+    "transcription_eastern": "meghrav",
+    "transcription_lori": "meghrav"
+  },
+  {
+    "id": "food-0016",
+    "folderId": "food",
+    "ru": "Чай",
+    "en": "Tea",
+    "transcription_eastern": "ts'ay",
+    "transcription_lori": "ts'ay"
+  },
+  {
+    "id": "food-0017",
+    "folderId": "food",
+    "ru": "Кофе",
+    "en": "Coffee",
+    "transcription_eastern": "surch",
+    "transcription_lori": "surch"
+  },
+  {
+    "id": "food-0018",
+    "folderId": "food",
+    "ru": "Шербет",
+    "en": "Sherbet",
+    "transcription_eastern": "sharbat",
+    "transcription_lori": "sharbat"
+  },
+  {
+    "id": "food-0019",
+    "folderId": "food",
+    "ru": "Мясо",
+    "en": "Meat",
+    "transcription_eastern": "mas",
+    "transcription_lori": "mas"
+  },
+  {
+    "id": "food-0020",
+    "folderId": "food",
+    "ru": "Баранина",
+    "en": "Lamb",
+    "transcription_eastern": "ewi mas",
+    "transcription_lori": "ewi mas"
+  },
+  {
+    "id": "food-0021",
+    "folderId": "food",
+    "ru": "Говядина",
+    "en": "Beef",
+    "transcription_eastern": "kovi mas",
+    "transcription_lori": "kovi mas"
+  },
+  {
+    "id": "food-0022",
+    "folderId": "food",
+    "ru": "Свинина",
+    "en": "Pork",
+    "transcription_eastern": "khozi mas",
+    "transcription_lori": "khozi mas"
+  },
+  {
+    "id": "food-0023",
+    "folderId": "food",
+    "ru": "Курица",
+    "en": "Chicken",
+    "transcription_eastern": "havits",
+    "transcription_lori": "havits"
+  },
+  {
+    "id": "food-0024",
+    "folderId": "food",
+    "ru": "Рыба",
+    "en": "Fish",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "food-0025",
+    "folderId": "food",
+    "ru": "Форель",
+    "en": "Trout",
+    "transcription_eastern": "iskhan",
+    "transcription_lori": "iskhan"
+  },
+  {
+    "id": "food-0026",
+    "folderId": "food",
+    "ru": "Яйцо",
+    "en": "Egg",
+    "transcription_eastern": "dzu",
+    "transcription_lori": "dzu"
+  },
+  {
+    "id": "food-0027",
+    "folderId": "food",
+    "ru": "Колбаса",
+    "en": "Sausage",
+    "transcription_eastern": "sujukh",
+    "transcription_lori": "sujukh"
+  },
+  {
+    "id": "food-0028",
+    "folderId": "food",
+    "ru": "Бастурма",
+    "en": "Basturma",
+    "transcription_eastern": "basturma",
+    "transcription_lori": "basturma"
+  },
+  {
+    "id": "food-0029",
+    "folderId": "food",
+    "ru": "Суджук",
+    "en": "Sujukh",
+    "transcription_eastern": "sujukh",
+    "transcription_lori": "sujukh"
+  },
+  {
+    "id": "food-0030",
+    "folderId": "food",
+    "ru": "Хаш",
+    "en": "Khash",
+    "transcription_eastern": "khash",
+    "transcription_lori": "khash"
+  },
+  {
+    "id": "food-0031",
+    "folderId": "food",
+    "ru": "Хоровац",
+    "en": "Barbecue",
+    "transcription_eastern": "khorovats",
+    "transcription_lori": "khorovats"
+  },
+  {
+    "id": "food-0032",
+    "folderId": "food",
+    "ru": "Долма",
+    "en": "Dolma",
+    "transcription_eastern": "dolma",
+    "transcription_lori": "dolma"
+  },
+  {
+    "id": "food-0033",
+    "folderId": "food",
+    "ru": "Кюфта",
+    "en": "Kufta",
+    "transcription_eastern": "kyufta",
+    "transcription_lori": "kyufta"
+  },
+  {
+    "id": "food-0034",
+    "folderId": "food",
+    "ru": "Хариса",
+    "en": "Harisa",
+    "transcription_eastern": "harisa",
+    "transcription_lori": "harisa"
+  },
+  {
+    "id": "food-0035",
+    "folderId": "food",
+    "ru": "Гапама",
+    "en": "Ghapama",
+    "transcription_eastern": "ghapama",
+    "transcription_lori": "ghapama"
+  },
+  {
+    "id": "food-0036",
+    "folderId": "food",
+    "ru": "Бозбаш",
+    "en": "Bozbash",
+    "transcription_eastern": "bozbash",
+    "transcription_lori": "bozbash"
+  },
+  {
+    "id": "food-0037",
+    "folderId": "food",
+    "ru": "Спас",
+    "en": "Spas soup",
+    "transcription_eastern": "spas",
+    "transcription_lori": "spas"
+  },
+  {
+    "id": "food-0038",
+    "folderId": "food",
+    "ru": "Танапур",
+    "en": "Tanapur",
+    "transcription_eastern": "tanapur",
+    "transcription_lori": "tanapur"
+  },
+  {
+    "id": "food-0039",
+    "folderId": "food",
+    "ru": "Суп",
+    "en": "Soup",
+    "transcription_eastern": "apour",
+    "transcription_lori": "apour"
+  },
+  {
+    "id": "food-0040",
+    "folderId": "food",
+    "ru": "Салат",
+    "en": "Salad",
+    "transcription_eastern": "salat",
+    "transcription_lori": "salat"
+  },
+  {
+    "id": "food-0041",
+    "folderId": "food",
+    "ru": "Ачар",
+    "en": "Pickles",
+    "transcription_eastern": "achar",
+    "transcription_lori": "achar"
+  },
+  {
+    "id": "food-0042",
+    "folderId": "food",
+    "ru": "Рис",
+    "en": "Rice",
+    "transcription_eastern": "riz",
+    "transcription_lori": "riz"
+  },
+  {
+    "id": "food-0043",
+    "folderId": "food",
+    "ru": "Булгур",
+    "en": "Bulgur",
+    "transcription_eastern": "bulgur",
+    "transcription_lori": "bulgur"
+  },
+  {
+    "id": "food-0044",
+    "folderId": "food",
+    "ru": "Макароны",
+    "en": "Pasta",
+    "transcription_eastern": "makaron",
+    "transcription_lori": "makaron"
+  },
+  {
+    "id": "food-0045",
+    "folderId": "food",
+    "ru": "Чечевица",
+    "en": "Lentils",
+    "transcription_eastern": "dzavar",
+    "transcription_lori": "dzavar"
+  },
+  {
+    "id": "food-0046",
+    "folderId": "food",
+    "ru": "Фасоль",
+    "en": "Beans",
+    "transcription_eastern": "lobi",
+    "transcription_lori": "lobi"
+  },
+  {
+    "id": "food-0047",
+    "folderId": "food",
+    "ru": "Нут",
+    "en": "Chickpeas",
+    "transcription_eastern": "sich",
+    "transcription_lori": "sich"
+  },
+  {
+    "id": "food-0048",
+    "folderId": "food",
+    "ru": "Горох",
+    "en": "Peas",
+    "transcription_eastern": "sas",
+    "transcription_lori": "sas"
+  },
+  {
+    "id": "food-0049",
+    "folderId": "food",
+    "ru": "Орех",
+    "en": "Nut",
+    "transcription_eastern": "enkh",
+    "transcription_lori": "enkh"
+  },
+  {
+    "id": "food-0050",
+    "folderId": "food",
+    "ru": "Миндаль",
+    "en": "Almond",
+    "transcription_eastern": "nzhukh",
+    "transcription_lori": "nzhukh"
+  },
+  {
+    "id": "food-0051",
+    "folderId": "food",
+    "ru": "Грецкий орех",
+    "en": "Walnut",
+    "transcription_eastern": "enkh",
+    "transcription_lori": "enkh"
+  },
+  {
+    "id": "food-0052",
+    "folderId": "food",
+    "ru": "Мёд",
+    "en": "Honey",
+    "transcription_eastern": "meghr",
+    "transcription_lori": "meghr"
+  },
+  {
+    "id": "food-0053",
+    "folderId": "food",
+    "ru": "Сахар",
+    "en": "Sugar",
+    "transcription_eastern": "shakar",
+    "transcription_lori": "shakar"
+  },
+  {
+    "id": "food-0054",
+    "folderId": "food",
+    "ru": "Соль",
+    "en": "Salt",
+    "transcription_eastern": "agh",
+    "transcription_lori": "agh"
+  },
+  {
+    "id": "food-0055",
+    "folderId": "food",
+    "ru": "Перец",
+    "en": "Pepper",
+    "transcription_eastern": "heghum",
+    "transcription_lori": "heghum"
+  },
+  {
+    "id": "food-0056",
+    "folderId": "food",
+    "ru": "Корица",
+    "en": "Cinnamon",
+    "transcription_eastern": "daruts'err",
+    "transcription_lori": "daruts'err"
+  },
+  {
+    "id": "food-0057",
+    "folderId": "food",
+    "ru": "Яблоко",
+    "en": "Apple",
+    "transcription_eastern": "khndzor",
+    "transcription_lori": "khndzor"
+  },
+  {
+    "id": "food-0058",
+    "folderId": "food",
+    "ru": "Груша",
+    "en": "Pear",
+    "transcription_eastern": "aghurts",
+    "transcription_lori": "aghurts"
+  },
+  {
+    "id": "food-0059",
+    "folderId": "food",
+    "ru": "Абрикос",
+    "en": "Apricot",
+    "transcription_eastern": "dziran",
+    "transcription_lori": "dziran"
+  },
+  {
+    "id": "food-0060",
+    "folderId": "food",
+    "ru": "Персик",
+    "en": "Peach",
+    "transcription_eastern": "deghdz",
+    "transcription_lori": "deghdz"
+  },
+  {
+    "id": "food-0061",
+    "folderId": "food",
+    "ru": "Слива",
+    "en": "Plum",
+    "transcription_eastern": "salor",
+    "transcription_lori": "salor"
+  },
+  {
+    "id": "food-0062",
+    "folderId": "food",
+    "ru": "Виноград",
+    "en": "Grape",
+    "transcription_eastern": "khog",
+    "transcription_lori": "khog"
+  },
+  {
+    "id": "food-0063",
+    "folderId": "food",
+    "ru": "Гранат",
+    "en": "Pomegranate",
+    "transcription_eastern": "nariq",
+    "transcription_lori": "nariq"
+  },
+  {
+    "id": "food-0064",
+    "folderId": "food",
+    "ru": "Хурма",
+    "en": "Persimmon",
+    "transcription_eastern": "khurma",
+    "transcription_lori": "khurma"
+  },
+  {
+    "id": "food-0065",
+    "folderId": "food",
+    "ru": "Инжир",
+    "en": "Fig",
+    "transcription_eastern": "t'uz",
+    "transcription_lori": "t'uz"
+  },
+  {
+    "id": "food-0066",
+    "folderId": "food",
+    "ru": "Арбуз",
+    "en": "Watermelon",
+    "transcription_eastern": "dzaghik",
+    "transcription_lori": "dzaghik"
+  },
+  {
+    "id": "food-0067",
+    "folderId": "food",
+    "ru": "Дыня",
+    "en": "Melon",
+    "transcription_eastern": "melon",
+    "transcription_lori": "melon"
+  },
+  {
+    "id": "food-0068",
+    "folderId": "food",
+    "ru": "Апельсин",
+    "en": "Orange",
+    "transcription_eastern": "narinj",
+    "transcription_lori": "narinj"
+  },
+  {
+    "id": "food-0069",
+    "folderId": "food",
+    "ru": "Лимон",
+    "en": "Lemon",
+    "transcription_eastern": "kitron",
+    "transcription_lori": "kitron"
+  },
+  {
+    "id": "food-0070",
+    "folderId": "food",
+    "ru": "Помидор",
+    "en": "Tomato",
+    "transcription_eastern": "ltom",
+    "transcription_lori": "ltom"
+  },
+  {
+    "id": "food-0071",
+    "folderId": "food",
+    "ru": "Огурец",
+    "en": "Cucumber",
+    "transcription_eastern": "varung",
+    "transcription_lori": "varung"
+  },
+  {
+    "id": "food-0072",
+    "folderId": "food",
+    "ru": "Картофель",
+    "en": "Potato",
+    "transcription_eastern": "kartolik",
+    "transcription_lori": "kartolik"
+  },
+  {
+    "id": "food-0073",
+    "folderId": "food",
+    "ru": "Лук",
+    "en": "Onion",
+    "transcription_eastern": "sog",
+    "transcription_lori": "sog"
+  },
+  {
+    "id": "food-0074",
+    "folderId": "food",
+    "ru": "Чеснок",
+    "en": "Garlic",
+    "transcription_eastern": "skhtor",
+    "transcription_lori": "skhtor"
+  },
+  {
+    "id": "food-0075",
+    "folderId": "food",
+    "ru": "Морковь",
+    "en": "Carrot",
+    "transcription_eastern": "gajar",
+    "transcription_lori": "gajar"
+  },
+  {
+    "id": "food-0076",
+    "folderId": "food",
+    "ru": "Капуста",
+    "en": "Cabbage",
+    "transcription_eastern": "kapust",
+    "transcription_lori": "kapust"
+  },
+  {
+    "id": "food-0077",
+    "folderId": "food",
+    "ru": "Баклажан",
+    "en": "Eggplant",
+    "transcription_eastern": "smit",
+    "transcription_lori": "smit"
+  },
+  {
+    "id": "food-0078",
+    "folderId": "food",
+    "ru": "Зелень",
+    "en": "Greens",
+    "transcription_eastern": "kanach",
+    "transcription_lori": "kanach"
+  },
+  {
+    "id": "food-0079",
+    "folderId": "food",
+    "ru": "Укроп",
+    "en": "Dill",
+    "transcription_eastern": "amur",
+    "transcription_lori": "amur"
+  },
+  {
+    "id": "food-0080",
+    "folderId": "food",
+    "ru": "Петрушка",
+    "en": "Parsley",
+    "transcription_eastern": "maghatg",
+    "transcription_lori": "maghatg"
+  },
+  {
+    "id": "food-0081",
+    "folderId": "food",
+    "ru": "Шпинат",
+    "en": "Spinach",
+    "transcription_eastern": "spanakh",
+    "transcription_lori": "spanakh"
+  },
+  {
+    "id": "food-0082",
+    "folderId": "food",
+    "ru": "Грибы",
+    "en": "Mushrooms",
+    "transcription_eastern": "sop",
+    "transcription_lori": "sop"
+  },
+  {
+    "id": "food-0083",
+    "folderId": "food",
+    "ru": "Оливки",
+    "en": "Olives",
+    "transcription_eastern": "zeytun",
+    "transcription_lori": "zeytun"
+  },
+  {
+    "id": "food-0084",
+    "folderId": "food",
+    "ru": "Мука",
+    "en": "Flour",
+    "transcription_eastern": "hats",
+    "transcription_lori": "hats"
+  },
+  {
+    "id": "food-0085",
+    "folderId": "food",
+    "ru": "Шоколад",
+    "en": "Chocolate",
+    "transcription_eastern": "shokolad",
+    "transcription_lori": "shokolad"
+  },
+  {
+    "id": "food-0086",
+    "folderId": "food",
+    "ru": "Конфета",
+    "en": "Candy",
+    "transcription_eastern": "konfet",
+    "transcription_lori": "konfet"
+  },
+  {
+    "id": "food-0087",
+    "folderId": "food",
+    "ru": "Мороженое",
+    "en": "Ice cream",
+    "transcription_eastern": "paghpaghak",
+    "transcription_lori": "paghpaghak"
+  },
+  {
+    "id": "food-0088",
+    "folderId": "food",
+    "ru": "Торт",
+    "en": "Cake",
+    "transcription_eastern": "tort",
+    "transcription_lori": "tort"
+  },
+  {
+    "id": "food-0089",
+    "folderId": "food",
+    "ru": "Печенье",
+    "en": "Cookie",
+    "transcription_eastern": "kurabiye",
+    "transcription_lori": "kurabiye"
+  },
+  {
+    "id": "food-0090",
+    "folderId": "food",
+    "ru": "Вино",
+    "en": "Wine",
+    "transcription_eastern": "gini",
+    "transcription_lori": "gini"
+  },
+  {
+    "id": "food-0091",
+    "folderId": "food",
+    "ru": "Коньяк",
+    "en": "Cognac",
+    "transcription_eastern": "konyak",
+    "transcription_lori": "konyak"
+  },
+  {
+    "id": "food-0092",
+    "folderId": "food",
+    "ru": "Водка",
+    "en": "Vodka",
+    "transcription_eastern": "araq",
+    "transcription_lori": "araq"
+  },
+  {
+    "id": "food-0093",
+    "folderId": "food",
+    "ru": "Пиво",
+    "en": "Beer",
+    "transcription_eastern": "garejur",
+    "transcription_lori": "garejur"
+  },
+  {
+    "id": "food-0094",
+    "folderId": "food",
+    "ru": "Оги",
+    "en": "Oghi",
+    "transcription_eastern": "ogi",
+    "transcription_lori": "ogi"
+  },
+  {
+    "id": "food-0095",
+    "folderId": "food",
+    "ru": "Компот",
+    "en": "Compote",
+    "transcription_eastern": "kompot",
+    "transcription_lori": "kompot"
+  },
+  {
+    "id": "food-0096",
+    "folderId": "food",
+    "ru": "Каша",
+    "en": "Porridge",
+    "transcription_eastern": "hac",
+    "transcription_lori": "hac"
+  },
+  {
+    "id": "food-0097",
+    "folderId": "food",
+    "ru": "Омлет",
+    "en": "Omelet",
+    "transcription_eastern": "omlet",
+    "transcription_lori": "omlet"
+  },
+  {
+    "id": "food-0098",
+    "folderId": "food",
+    "ru": "Блин",
+    "en": "Pancake",
+    "transcription_eastern": "blin",
+    "transcription_lori": "blin"
+  },
+  {
+    "id": "food-0099",
+    "folderId": "food",
+    "ru": "Варенье",
+    "en": "Jam",
+    "transcription_eastern": "varung",
+    "transcription_lori": "varung"
+  },
+  {
+    "id": "food-0100",
+    "folderId": "food",
+    "ru": "Сухофрукты",
+    "en": "Dried fruit",
+    "transcription_eastern": "c'or hat",
+    "transcription_lori": "c'or hat"
+  },
+  {
+    "id": "food-0101",
+    "folderId": "food",
+    "ru": "Изюм",
+    "en": "Raisin",
+    "transcription_eastern": "khog",
+    "transcription_lori": "khog"
+  },
+  {
+    "id": "food-0102",
+    "folderId": "food",
+    "ru": "Курага",
+    "en": "Dried apricot",
+    "transcription_eastern": "c'or dziran",
+    "transcription_lori": "c'or dziran"
+  },
+  {
+    "id": "food-0103",
+    "folderId": "food",
+    "ru": "Обед",
+    "en": "Lunch",
+    "transcription_eastern": "jash",
+    "transcription_lori": "jash"
+  },
+  {
+    "id": "food-0104",
+    "folderId": "food",
+    "ru": "Завтрак",
+    "en": "Breakfast",
+    "transcription_eastern": "aravotjash",
+    "transcription_lori": "aravotjash"
+  },
+  {
+    "id": "food-0105",
+    "folderId": "food",
+    "ru": "Ужин",
+    "en": "Dinner",
+    "transcription_eastern": "yerekojash",
+    "transcription_lori": "yerekojash"
+  },
+  {
+    "id": "food-0106",
+    "folderId": "food",
+    "ru": "Перекус",
+    "en": "Snack",
+    "transcription_eastern": "naxarut",
+    "transcription_lori": "naxarut"
+  },
+  {
+    "id": "food-0107",
+    "folderId": "food",
+    "ru": "Десерт",
+    "en": "Dessert",
+    "transcription_eastern": "desert",
+    "transcription_lori": "desert"
+  },
+  {
+    "id": "food-0108",
+    "folderId": "food",
+    "ru": "Соус",
+    "en": "Sauce",
+    "transcription_eastern": "sos",
+    "transcription_lori": "sos"
+  },
+  {
+    "id": "food-0109",
+    "folderId": "food",
+    "ru": "Аджика",
+    "en": "Adjika",
+    "transcription_eastern": "adjika",
+    "transcription_lori": "adjika"
+  },
+  {
+    "id": "food-0110",
+    "folderId": "food",
+    "ru": "Ткемали",
+    "en": "Tkemali",
+    "transcription_eastern": "tkemali",
+    "transcription_lori": "tkemali"
+  },
+  {
+    "id": "food-0111",
+    "folderId": "food",
+    "ru": "Плов",
+    "en": "Pilaf",
+    "transcription_eastern": "plov",
+    "transcription_lori": "plov"
+  },
+  {
+    "id": "food-0112",
+    "folderId": "food",
+    "ru": "Шашлык",
+    "en": "Shish kebab",
+    "transcription_eastern": "khorovats",
+    "transcription_lori": "khorovats"
+  },
+  {
+    "id": "food-0113",
+    "folderId": "food",
+    "ru": "Люля-кебаб",
+    "en": "Lula kebab",
+    "transcription_eastern": "lula kebab",
+    "transcription_lori": "lula kebab"
+  },
+  {
+    "id": "food-0114",
+    "folderId": "food",
+    "ru": "Табуле",
+    "en": "Tabbouleh",
+    "transcription_eastern": "tabule",
+    "transcription_lori": "tabule"
+  },
+  {
+    "id": "food-0115",
+    "folderId": "food",
+    "ru": "Пицца",
+    "en": "Pizza",
+    "transcription_eastern": "pitsa",
+    "transcription_lori": "pitsa"
+  },
+  {
+    "id": "food-0116",
+    "folderId": "food",
+    "ru": "Сэндвич",
+    "en": "Sandwich",
+    "transcription_eastern": "sandwich",
+    "transcription_lori": "sandwich"
+  },
+  {
+    "id": "food-0117",
+    "folderId": "food",
+    "ru": "Гуляш",
+    "en": "Goulash",
+    "transcription_eastern": "gulyash",
+    "transcription_lori": "gulyash"
+  },
+  {
+    "id": "food-0118",
+    "folderId": "food",
+    "ru": "Рагу",
+    "en": "Stew",
+    "transcription_eastern": "ragu",
+    "transcription_lori": "ragu"
+  },
+  {
+    "id": "food-0119",
+    "folderId": "food",
+    "ru": "Котлета",
+    "en": "Cutlet",
+    "transcription_eastern": "kotleta",
+    "transcription_lori": "kotleta"
+  },
+  {
+    "id": "food-0120",
+    "folderId": "food",
+    "ru": "Пельмени",
+    "en": "Dumplings",
+    "transcription_eastern": "pelmeni",
+    "transcription_lori": "pelmeni"
+  },
+  {
+    "id": "food-0121",
+    "folderId": "food",
+    "ru": "Вареники",
+    "en": "Vareniki",
+    "transcription_eastern": "vareniki",
+    "transcription_lori": "vareniki"
+  },
+  {
+    "id": "food-0122",
+    "folderId": "food",
+    "ru": "Манты",
+    "en": "Manti",
+    "transcription_eastern": "manti",
+    "transcription_lori": "manti"
+  },
+  {
+    "id": "food-0123",
+    "folderId": "food",
+    "ru": "Лагман",
+    "en": "Lagman",
+    "transcription_eastern": "lagman",
+    "transcription_lori": "lagman"
+  },
+  {
+    "id": "food-0124",
+    "folderId": "food",
+    "ru": "Шурпа",
+    "en": "Shurpa",
+    "transcription_eastern": "shurpa",
+    "transcription_lori": "shurpa"
+  },
+  {
+    "id": "food-0125",
+    "folderId": "food",
+    "ru": "Окрошка",
+    "en": "Okroshka",
+    "transcription_eastern": "okroshka",
+    "transcription_lori": "okroshka"
+  },
+  {
+    "id": "food-0126",
+    "folderId": "food",
+    "ru": "Солянка",
+    "en": "Solyanka",
+    "transcription_eastern": "solyanka",
+    "transcription_lori": "solyanka"
+  },
+  {
+    "id": "food-0127",
+    "folderId": "food",
+    "ru": "Греческий салат",
+    "en": "Greek salad",
+    "transcription_eastern": "grekakan salat",
+    "transcription_lori": "grekakan salat"
+  },
+  {
+    "id": "food-0128",
+    "folderId": "food",
+    "ru": "Оливье",
+    "en": "Olivier",
+    "transcription_eastern": "olivye",
+    "transcription_lori": "olivye"
+  },
+  {
+    "id": "food-0129",
+    "folderId": "food",
+    "ru": "Винегрет",
+    "en": "Vinaigrette",
+    "transcription_eastern": "vinegret",
+    "transcription_lori": "vinegret"
+  },
+  {
+    "id": "food-0130",
+    "folderId": "food",
+    "ru": "Цезарь",
+    "en": "Caesar",
+    "transcription_eastern": "caesar",
+    "transcription_lori": "caesar"
+  },
+  {
+    "id": "food-0131",
+    "folderId": "food",
+    "ru": "Сырная тарелка",
+    "en": "Cheese plate",
+    "transcription_eastern": "panri apaki",
+    "transcription_lori": "panri apaki"
+  },
+  {
+    "id": "food-0132",
+    "folderId": "food",
+    "ru": "Мясная нарезка",
+    "en": "Meat platter",
+    "transcription_eastern": "masi tsrrum",
+    "transcription_lori": "masi tsrrum"
+  },
+  {
+    "id": "food-0133",
+    "folderId": "food",
+    "ru": "Фруктовая корзина",
+    "en": "Fruit basket",
+    "transcription_eastern": "hati korzina",
+    "transcription_lori": "hati korzina"
+  },
+  {
+    "id": "food-0134",
+    "folderId": "food",
+    "ru": "Овощной салат",
+    "en": "Vegetable salad",
+    "transcription_eastern": "banjari salat",
+    "transcription_lori": "banjari salat"
+  },
+  {
+    "id": "food-0135",
+    "folderId": "food",
+    "ru": "Копчёность",
+    "en": "Smoked food",
+    "transcription_eastern": "kopchutyun",
+    "transcription_lori": "kopchutyun"
+  },
+  {
+    "id": "food-0136",
+    "folderId": "food",
+    "ru": "Консервы",
+    "en": "Canned food",
+    "transcription_eastern": "konserv",
+    "transcription_lori": "konserv"
+  },
+  {
+    "id": "food-0137",
+    "folderId": "food",
+    "ru": "Соленья",
+    "en": "Pickles",
+    "transcription_eastern": "achar",
+    "transcription_lori": "achar"
+  },
+  {
+    "id": "food-0138",
+    "folderId": "food",
+    "ru": "Варенье из яблок",
+    "en": "Apple jam",
+    "transcription_eastern": "khndzori varung",
+    "transcription_lori": "khndzori varung"
+  },
+  {
+    "id": "food-0139",
+    "folderId": "food",
+    "ru": "Мёд с орехами",
+    "en": "Honey with nuts",
+    "transcription_eastern": "meghri enkh",
+    "transcription_lori": "meghri enkh"
+  },
+  {
+    "id": "food-0140",
+    "folderId": "food",
+    "ru": "Голодный",
+    "en": "Hungry",
+    "transcription_eastern": "kogn",
+    "transcription_lori": "kogn"
+  },
+  {
+    "id": "food-0141",
+    "folderId": "food",
+    "ru": "Сытый",
+    "en": "Full",
+    "transcription_eastern": "kogn",
+    "transcription_lori": "kogn"
+  },
+  {
+    "id": "food-0142",
+    "folderId": "food",
+    "ru": "Аппетит",
+    "en": "Appetite",
+    "transcription_eastern": "hac",
+    "transcription_lori": "hac"
+  },
+  {
+    "id": "food-0143",
+    "folderId": "food",
+    "ru": "Вкус",
+    "en": "Taste",
+    "transcription_eastern": "hac",
+    "transcription_lori": "hac"
+  },
+  {
+    "id": "food-0144",
+    "folderId": "food",
+    "ru": "Аромат",
+    "en": "Aroma",
+    "transcription_eastern": "khosq",
+    "transcription_lori": "khosq"
+  },
+  {
+    "id": "food-0145",
+    "folderId": "food",
+    "ru": "Приправа",
+    "en": "Seasoning",
+    "transcription_eastern": "heghum",
+    "transcription_lori": "heghum"
+  },
+  {
+    "id": "food-0146",
+    "folderId": "food",
+    "ru": "Специя",
+    "en": "Spice",
+    "transcription_eastern": "heghum",
+    "transcription_lori": "heghum"
+  },
+  {
+    "id": "food-0147",
+    "folderId": "food",
+    "ru": "Готовить",
+    "en": "To cook",
+    "transcription_eastern": "korel",
+    "transcription_lori": "korel"
+  },
+  {
+    "id": "food-0148",
+    "folderId": "food",
+    "ru": "Жарить",
+    "en": "To fry",
+    "transcription_eastern": "korel",
+    "transcription_lori": "korel"
+  },
+  {
+    "id": "food-0149",
+    "folderId": "food",
+    "ru": "Варить",
+    "en": "To boil",
+    "transcription_eastern": "korel",
+    "transcription_lori": "korel"
+  },
+  {
+    "id": "food-0150",
+    "folderId": "food",
+    "ru": "Печь",
+    "en": "To bake",
+    "transcription_eastern": "korel",
+    "transcription_lori": "korel"
+  },
+  {
+    "id": "food-0151",
+    "folderId": "food",
+    "ru": "Резать",
+    "en": "To cut",
+    "transcription_eastern": "tsrrnel",
+    "transcription_lori": "tsrrnel"
+  },
+  {
+    "id": "food-0152",
+    "folderId": "food",
+    "ru": "Есть",
+    "en": "To eat",
+    "transcription_eastern": "utel",
+    "transcription_lori": "utel"
+  },
+  {
+    "id": "food-0153",
+    "folderId": "food",
+    "ru": "Пить",
+    "en": "To drink",
+    "transcription_eastern": "xmEl",
+    "transcription_lori": "xmEl"
+  },
+  {
+    "id": "food-0154",
+    "folderId": "food",
+    "ru": "Заказывать",
+    "en": "To order",
+    "transcription_eastern": "patverel",
+    "transcription_lori": "patverel"
+  },
+  {
+    "id": "food-0155",
+    "folderId": "food",
+    "ru": "Покупать продукты",
+    "en": "Buy groceries",
+    "transcription_eastern": "apranq khnel",
+    "transcription_lori": "apranq khnel"
+  },
+  {
+    "id": "food-0156",
+    "folderId": "food",
+    "ru": "Свежий",
+    "en": "Fresh",
+    "transcription_eastern": "t'arm",
+    "transcription_lori": "t'arm"
+  },
+  {
+    "id": "food-0157",
+    "folderId": "food",
+    "ru": "Сочный",
+    "en": "Juicy",
+    "transcription_eastern": "meghrav",
+    "transcription_lori": "meghrav"
+  },
+  {
+    "id": "food-0158",
+    "folderId": "food",
+    "ru": "Горячая еда",
+    "en": "Hot food",
+    "transcription_eastern": "t'ep axorjak",
+    "transcription_lori": "t'ep axorjak"
+  },
+  {
+    "id": "food-0159",
+    "folderId": "food",
+    "ru": "Холодная еда",
+    "en": "Cold food",
+    "transcription_eastern": "ts'urt axorjak",
+    "transcription_lori": "ts'urt axorjak"
+  },
+  {
+    "id": "food-0160",
+    "folderId": "food",
+    "ru": "Домашняя еда",
+    "en": "Homemade food",
+    "transcription_eastern": "tani axorjak",
+    "transcription_lori": "tani axorjak"
+  },
+  {
+    "id": "food-0161",
+    "folderId": "food",
+    "ru": "Армянская кухня",
+    "en": "Armenian cuisine",
+    "transcription_eastern": "hay nkaragir",
+    "transcription_lori": "hay nkaragir"
+  },
+  {
+    "id": "food-0162",
+    "folderId": "food",
+    "ru": "Меню",
+    "en": "Menu",
+    "transcription_eastern": "menu",
+    "transcription_lori": "menu"
+  },
+  {
+    "id": "food-0163",
+    "folderId": "food",
+    "ru": "Рецепт",
+    "en": "Recipe",
+    "transcription_eastern": "artadranq",
+    "transcription_lori": "artadranq"
+  },
+  {
+    "id": "food-0164",
+    "folderId": "food",
+    "ru": "Порция",
+    "en": "Portion",
+    "transcription_eastern": "mas",
+    "transcription_lori": "mas"
+  },
+  {
+    "id": "food-0165",
+    "folderId": "food",
+    "ru": "Тарелка",
+    "en": "Plate",
+    "transcription_eastern": "apaki",
+    "transcription_lori": "apaki"
+  },
+  {
+    "id": "food-0166",
+    "folderId": "food",
+    "ru": "Чашка",
+    "en": "Cup",
+    "transcription_eastern": "apaki",
+    "transcription_lori": "apaki"
+  },
+  {
+    "id": "food-0167",
+    "folderId": "food",
+    "ru": "Ложка",
+    "en": "Spoon",
+    "transcription_eastern": "gats",
+    "transcription_lori": "gats"
+  },
+  {
+    "id": "food-0168",
+    "folderId": "food",
+    "ru": "Вилка",
+    "en": "Fork",
+    "transcription_eastern": "gats",
+    "transcription_lori": "gats"
+  },
+  {
+    "id": "food-0169",
+    "folderId": "food",
+    "ru": "Нож",
+    "en": "Knife",
+    "transcription_eastern": "dagh",
+    "transcription_lori": "dagh"
+  },
+  {
+    "id": "food-0170",
+    "folderId": "food",
+    "ru": "Чайник",
+    "en": "Teapot",
+    "transcription_eastern": "chaynik",
+    "transcription_lori": "chaynik"
+  },
+  {
+    "id": "food-0171",
+    "folderId": "food",
+    "ru": "Кастрюля",
+    "en": "Pot",
+    "transcription_eastern": "kastrulya",
+    "transcription_lori": "kastrulya"
+  },
+  {
+    "id": "food-0172",
+    "folderId": "food",
+    "ru": "Сковорода",
+    "en": "Pan",
+    "transcription_eastern": "skovoroda",
+    "transcription_lori": "skovoroda"
+  },
+  {
+    "id": "food-0173",
+    "folderId": "food",
+    "ru": "Холодильник",
+    "en": "Refrigerator",
+    "transcription_eastern": "sarnaran",
+    "transcription_lori": "sarnaran"
+  },
+  {
+    "id": "food-0174",
+    "folderId": "food",
+    "ru": "Плита",
+    "en": "Stove",
+    "transcription_eastern": "plita",
+    "transcription_lori": "plita"
+  },
+  {
+    "id": "food-0175",
+    "folderId": "food",
+    "ru": "Духовка",
+    "en": "Oven",
+    "transcription_eastern": "dukhovka",
+    "transcription_lori": "dukhovka"
+  },
+  {
+    "id": "food-0176",
+    "folderId": "food",
+    "ru": "Продукты",
+    "en": "Groceries",
+    "transcription_eastern": "apranq",
+    "transcription_lori": "apranq"
+  },
+  {
+    "id": "food-0177",
+    "folderId": "food",
+    "ru": "Рынок",
+    "en": "Market",
+    "transcription_eastern": "shuka",
+    "transcription_lori": "shuka"
+  },
+  {
+    "id": "food-0178",
+    "folderId": "food",
+    "ru": "Базар",
+    "en": "Bazaar",
+    "transcription_eastern": "baz",
+    "transcription_lori": "baz"
+  },
+  {
+    "id": "food-0179",
+    "folderId": "food",
+    "ru": "Супермаркет",
+    "en": "Supermarket",
+    "transcription_eastern": "supermarket",
+    "transcription_lori": "supermarket"
+  },
+  {
+    "id": "food-0180",
+    "folderId": "food",
+    "ru": "Заказ еды",
+    "en": "Food order",
+    "transcription_eastern": "axorjaki patver",
+    "transcription_lori": "axorjaki patver"
+  },
+  {
+    "id": "food-0181",
+    "folderId": "food",
+    "ru": "Доставка еды",
+    "en": "Food delivery",
+    "transcription_eastern": "axorjaki aragh",
+    "transcription_lori": "axorjaki aragh"
+  },
+  {
+    "id": "food-0182",
+    "folderId": "food",
+    "ru": "Кислый",
+    "en": "Sour",
+    "transcription_eastern": "ts'urt",
+    "transcription_lori": "ts'urt"
+  },
+  {
+    "id": "food-0183",
+    "folderId": "food",
+    "ru": "Солёный",
+    "en": "Salty",
+    "transcription_eastern": "aghavor",
+    "transcription_lori": "aghavor"
+  },
+  {
+    "id": "food-0184",
+    "folderId": "food",
+    "ru": "Сладкий",
+    "en": "Sweet",
+    "transcription_eastern": "katarel",
+    "transcription_lori": "katarel"
+  },
+  {
+    "id": "food-0185",
+    "folderId": "food",
+    "ru": "Горький",
+    "en": "Bitter",
+    "transcription_eastern": "dz'er",
+    "transcription_lori": "dz'er"
+  },
+  {
+    "id": "food-0186",
+    "folderId": "food",
+    "ru": "Пряный",
+    "en": "Spicy",
+    "transcription_eastern": "heghumavor",
+    "transcription_lori": "heghumavor"
+  },
+  {
+    "id": "food-0187",
+    "folderId": "food",
+    "ru": "Ароматный",
+    "en": "Aromatic",
+    "transcription_eastern": "khosqavor",
+    "transcription_lori": "khosqavor"
+  },
+  {
+    "id": "food-0188",
+    "folderId": "food",
+    "ru": "Хрустящий",
+    "en": "Crispy",
+    "transcription_eastern": "ts'rr",
+    "transcription_lori": "ts'rr"
+  },
+  {
+    "id": "food-0189",
+    "folderId": "food",
+    "ru": "Мягкий",
+    "en": "Soft",
+    "transcription_eastern": "naz",
+    "transcription_lori": "naz"
+  },
+  {
+    "id": "food-0190",
+    "folderId": "food",
+    "ru": "Твёрдый",
+    "en": "Hard",
+    "transcription_eastern": "kare",
+    "transcription_lori": "kare"
+  },
+  {
+    "id": "food-0191",
+    "folderId": "food",
+    "ru": "Национальная кухня",
+    "en": "National cuisine",
+    "transcription_eastern": "azgayin nkaragir",
+    "transcription_lori": "azgayin nkaragir"
+  },
+  {
+    "id": "food-0192",
+    "folderId": "food",
+    "ru": "Ресторанная еда",
+    "en": "Restaurant food",
+    "transcription_eastern": "restoran axorjak",
+    "transcription_lori": "restoran axorjak"
+  },
+  {
+    "id": "food-0193",
+    "folderId": "food",
+    "ru": "Уличная еда",
+    "en": "Street food",
+    "transcription_eastern": "poghota axorjak",
+    "transcription_lori": "poghota axorjak"
+  },
+  {
+    "id": "food-0194",
+    "folderId": "food",
+    "ru": "Вегетарианская еда",
+    "en": "Vegetarian food",
+    "transcription_eastern": "banjar axorjak",
+    "transcription_lori": "banjar axorjak"
+  },
+  {
+    "id": "food-0195",
+    "folderId": "food",
+    "ru": "Постная еда",
+    "en": "Lenten food",
+    "transcription_eastern": "pas axorjak",
+    "transcription_lori": "pas axorjak"
+  },
+  {
+    "id": "food-0196",
+    "folderId": "food",
+    "ru": "Праздничный стол",
+    "en": "Holiday table",
+    "transcription_eastern": "toni sex",
+    "transcription_lori": "toni sex"
+  },
+  {
+    "id": "food-0197",
+    "folderId": "food",
+    "ru": "Новогодний стол",
+    "en": "New Year table",
+    "transcription_eastern": "nor tari sex",
+    "transcription_lori": "nor tari sex"
+  },
+  {
+    "id": "food-0198",
+    "folderId": "food",
+    "ru": "Пасхальный стол",
+    "en": "Easter table",
+    "transcription_eastern": "zatik sex",
+    "transcription_lori": "zatik sex"
+  },
+  {
+    "id": "food-0199",
+    "folderId": "food",
+    "ru": "Свадебный стол",
+    "en": "Wedding table",
+    "transcription_eastern": "hunatari sex",
+    "transcription_lori": "hunatari sex"
+  },
+  {
+    "id": "food-0200",
+    "folderId": "food",
+    "ru": "Ингредиент",
+    "en": "Ingredient",
+    "transcription_eastern": "nerkayacutyun",
+    "transcription_lori": "nerkayacutyun"
+  }
+]

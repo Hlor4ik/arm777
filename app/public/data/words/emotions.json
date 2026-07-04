@@ -1,0 +1,1362 @@
+[
+  {
+    "id": "emotions-0001",
+    "folderId": "emotions",
+    "ru": "Радость",
+    "en": "Joy",
+    "transcription_eastern": "urakhutyun",
+    "transcription_lori": "urakhutyun"
+  },
+  {
+    "id": "emotions-0002",
+    "folderId": "emotions",
+    "ru": "Счастье",
+    "en": "Happiness",
+    "transcription_eastern": "urakhutyun",
+    "transcription_lori": "urakhutyun"
+  },
+  {
+    "id": "emotions-0003",
+    "folderId": "emotions",
+    "ru": "Восторг",
+    "en": "Delight",
+    "transcription_eastern": "urakhutyun",
+    "transcription_lori": "urakhutyun"
+  },
+  {
+    "id": "emotions-0004",
+    "folderId": "emotions",
+    "ru": "Ликование",
+    "en": "Jubilation",
+    "transcription_eastern": "urakhutyun",
+    "transcription_lori": "urakhutyun"
+  },
+  {
+    "id": "emotions-0005",
+    "folderId": "emotions",
+    "ru": "Веселье",
+    "en": "Merriment",
+    "transcription_eastern": "urakhutyun",
+    "transcription_lori": "urakhutyun"
+  },
+  {
+    "id": "emotions-0006",
+    "folderId": "emotions",
+    "ru": "Улыбка",
+    "en": "Smile",
+    "transcription_eastern": "urakhutyun",
+    "transcription_lori": "urakhutyun"
+  },
+  {
+    "id": "emotions-0007",
+    "folderId": "emotions",
+    "ru": "Смех",
+    "en": "Laughter",
+    "transcription_eastern": "urakhutyun",
+    "transcription_lori": "urakhutyun"
+  },
+  {
+    "id": "emotions-0008",
+    "folderId": "emotions",
+    "ru": "Печаль",
+    "en": "Sorrow",
+    "transcription_eastern": "tsaghkot",
+    "transcription_lori": "tsaghkot"
+  },
+  {
+    "id": "emotions-0009",
+    "folderId": "emotions",
+    "ru": "Грусть",
+    "en": "Sadness",
+    "transcription_eastern": "tsaghkot",
+    "transcription_lori": "tsaghkot"
+  },
+  {
+    "id": "emotions-0010",
+    "folderId": "emotions",
+    "ru": "Тоска",
+    "en": "Melancholy",
+    "transcription_eastern": "tsaghkot",
+    "transcription_lori": "tsaghkot"
+  },
+  {
+    "id": "emotions-0011",
+    "folderId": "emotions",
+    "ru": "Скорбь",
+    "en": "Grief",
+    "transcription_eastern": "tsaghkot",
+    "transcription_lori": "tsaghkot"
+  },
+  {
+    "id": "emotions-0012",
+    "folderId": "emotions",
+    "ru": "Горе",
+    "en": "Grief",
+    "transcription_eastern": "tsaghkot",
+    "transcription_lori": "tsaghkot"
+  },
+  {
+    "id": "emotions-0013",
+    "folderId": "emotions",
+    "ru": "Слёзы",
+    "en": "Tears",
+    "transcription_eastern": "aranner",
+    "transcription_lori": "aranner"
+  },
+  {
+    "id": "emotions-0014",
+    "folderId": "emotions",
+    "ru": "Плач",
+    "en": "Crying",
+    "transcription_eastern": "aranner",
+    "transcription_lori": "aranner"
+  },
+  {
+    "id": "emotions-0015",
+    "folderId": "emotions",
+    "ru": "Рыдание",
+    "en": "Sobbing",
+    "transcription_eastern": "aranner",
+    "transcription_lori": "aranner"
+  },
+  {
+    "id": "emotions-0016",
+    "folderId": "emotions",
+    "ru": "Гнев",
+    "en": "Anger",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "emotions-0017",
+    "folderId": "emotions",
+    "ru": "Ярость",
+    "en": "Rage",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "emotions-0018",
+    "folderId": "emotions",
+    "ru": "Злость",
+    "en": "Wrath",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "emotions-0019",
+    "folderId": "emotions",
+    "ru": "Раздражение",
+    "en": "Irritation",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "emotions-0020",
+    "folderId": "emotions",
+    "ru": "Негодование",
+    "en": "Indignation",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "emotions-0021",
+    "folderId": "emotions",
+    "ru": "Возмущение",
+    "en": "Outrage",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "emotions-0022",
+    "folderId": "emotions",
+    "ru": "Ненависть",
+    "en": "Hatred",
+    "transcription_eastern": "chtem",
+    "transcription_lori": "chtem"
+  },
+  {
+    "id": "emotions-0023",
+    "folderId": "emotions",
+    "ru": "Презрение",
+    "en": "Contempt",
+    "transcription_eastern": "chtem",
+    "transcription_lori": "chtem"
+  },
+  {
+    "id": "emotions-0024",
+    "folderId": "emotions",
+    "ru": "Отвращение",
+    "en": "Disgust",
+    "transcription_eastern": "chtem",
+    "transcription_lori": "chtem"
+  },
+  {
+    "id": "emotions-0025",
+    "folderId": "emotions",
+    "ru": "Страх",
+    "en": "Fear",
+    "transcription_eastern": "yerek",
+    "transcription_lori": "yerek"
+  },
+  {
+    "id": "emotions-0026",
+    "folderId": "emotions",
+    "ru": "Ужас",
+    "en": "Terror",
+    "transcription_eastern": "yerek",
+    "transcription_lori": "yerek"
+  },
+  {
+    "id": "emotions-0027",
+    "folderId": "emotions",
+    "ru": "Паника",
+    "en": "Panic",
+    "transcription_eastern": "yerek",
+    "transcription_lori": "yerek"
+  },
+  {
+    "id": "emotions-0028",
+    "folderId": "emotions",
+    "ru": "Тревога",
+    "en": "Anxiety",
+    "transcription_eastern": "xndir",
+    "transcription_lori": "xndir"
+  },
+  {
+    "id": "emotions-0029",
+    "folderId": "emotions",
+    "ru": "Беспокойство",
+    "en": "Worry",
+    "transcription_eastern": "xndir",
+    "transcription_lori": "xndir"
+  },
+  {
+    "id": "emotions-0030",
+    "folderId": "emotions",
+    "ru": "Волнение",
+    "en": "Agitation",
+    "transcription_eastern": "xndir",
+    "transcription_lori": "xndir"
+  },
+  {
+    "id": "emotions-0031",
+    "folderId": "emotions",
+    "ru": "Нервозность",
+    "en": "Nervousness",
+    "transcription_eastern": "nerver",
+    "transcription_lori": "nerver"
+  },
+  {
+    "id": "emotions-0032",
+    "folderId": "emotions",
+    "ru": "Стресс",
+    "en": "Stress",
+    "transcription_eastern": "xndir",
+    "transcription_lori": "xndir"
+  },
+  {
+    "id": "emotions-0033",
+    "folderId": "emotions",
+    "ru": "Шок",
+    "en": "Shock",
+    "transcription_eastern": "yerek",
+    "transcription_lori": "yerek"
+  },
+  {
+    "id": "emotions-0034",
+    "folderId": "emotions",
+    "ru": "Удивление",
+    "en": "Surprise",
+    "transcription_eastern": "heracum",
+    "transcription_lori": "heracum"
+  },
+  {
+    "id": "emotions-0035",
+    "folderId": "emotions",
+    "ru": "Изумление",
+    "en": "Amazement",
+    "transcription_eastern": "heracum",
+    "transcription_lori": "heracum"
+  },
+  {
+    "id": "emotions-0036",
+    "folderId": "emotions",
+    "ru": "Недоумение",
+    "en": "Bewilderment",
+    "transcription_eastern": "heracum",
+    "transcription_lori": "heracum"
+  },
+  {
+    "id": "emotions-0037",
+    "folderId": "emotions",
+    "ru": "Любовь",
+    "en": "Love",
+    "transcription_eastern": "ser",
+    "transcription_lori": "ser"
+  },
+  {
+    "id": "emotions-0038",
+    "folderId": "emotions",
+    "ru": "Влюблённость",
+    "en": "Falling in love",
+    "transcription_eastern": "ser",
+    "transcription_lori": "ser"
+  },
+  {
+    "id": "emotions-0039",
+    "folderId": "emotions",
+    "ru": "Страсть",
+    "en": "Passion",
+    "transcription_eastern": "ser",
+    "transcription_lori": "ser"
+  },
+  {
+    "id": "emotions-0040",
+    "folderId": "emotions",
+    "ru": "Нежность",
+    "en": "Tenderness",
+    "transcription_eastern": "naz",
+    "transcription_lori": "naz"
+  },
+  {
+    "id": "emotions-0041",
+    "folderId": "emotions",
+    "ru": "Ласка",
+    "en": "Affection",
+    "transcription_eastern": "naz",
+    "transcription_lori": "naz"
+  },
+  {
+    "id": "emotions-0042",
+    "folderId": "emotions",
+    "ru": "Привязанность",
+    "en": "Attachment",
+    "transcription_eastern": "ser",
+    "transcription_lori": "ser"
+  },
+  {
+    "id": "emotions-0043",
+    "folderId": "emotions",
+    "ru": "Симпатия",
+    "en": "Sympathy",
+    "transcription_eastern": "ser",
+    "transcription_lori": "ser"
+  },
+  {
+    "id": "emotions-0044",
+    "folderId": "emotions",
+    "ru": "Антипатия",
+    "en": "Antipathy",
+    "transcription_eastern": "chtem",
+    "transcription_lori": "chtem"
+  },
+  {
+    "id": "emotions-0045",
+    "folderId": "emotions",
+    "ru": "Ревность",
+    "en": "Jealousy",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "emotions-0046",
+    "folderId": "emotions",
+    "ru": "Зависть",
+    "en": "Envy",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "emotions-0047",
+    "folderId": "emotions",
+    "ru": "Обида",
+    "en": "Resentment",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "emotions-0048",
+    "folderId": "emotions",
+    "ru": "Оскорбление",
+    "en": "Offense",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "emotions-0049",
+    "folderId": "emotions",
+    "ru": "Стыд",
+    "en": "Shame",
+    "transcription_eastern": "amot",
+    "transcription_lori": "amot"
+  },
+  {
+    "id": "emotions-0050",
+    "folderId": "emotions",
+    "ru": "Смущение",
+    "en": "Embarrassment",
+    "transcription_eastern": "amot",
+    "transcription_lori": "amot"
+  },
+  {
+    "id": "emotions-0051",
+    "folderId": "emotions",
+    "ru": "Вина",
+    "en": "Guilt",
+    "transcription_eastern": "amot",
+    "transcription_lori": "amot"
+  },
+  {
+    "id": "emotions-0052",
+    "folderId": "emotions",
+    "ru": "Сожаление",
+    "en": "Regret",
+    "transcription_eastern": "amot",
+    "transcription_lori": "amot"
+  },
+  {
+    "id": "emotions-0053",
+    "folderId": "emotions",
+    "ru": "Раскаяние",
+    "en": "Remorse",
+    "transcription_eastern": "amot",
+    "transcription_lori": "amot"
+  },
+  {
+    "id": "emotions-0054",
+    "folderId": "emotions",
+    "ru": "Угрызение совести",
+    "en": "Remorse",
+    "transcription_eastern": "amot",
+    "transcription_lori": "amot"
+  },
+  {
+    "id": "emotions-0055",
+    "folderId": "emotions",
+    "ru": "Гордость",
+    "en": "Pride",
+    "transcription_eastern": "hovivutyun",
+    "transcription_lori": "hovivutyun"
+  },
+  {
+    "id": "emotions-0056",
+    "folderId": "emotions",
+    "ru": "Тщеславие",
+    "en": "Vanity",
+    "transcription_eastern": "hovivutyun",
+    "transcription_lori": "hovivutyun"
+  },
+  {
+    "id": "emotions-0057",
+    "folderId": "emotions",
+    "ru": "Самолюбие",
+    "en": "Self-esteem",
+    "transcription_eastern": "hovivutyun",
+    "transcription_lori": "hovivutyun"
+  },
+  {
+    "id": "emotions-0058",
+    "folderId": "emotions",
+    "ru": "Уверенность",
+    "en": "Confidence",
+    "transcription_eastern": "havatar",
+    "transcription_lori": "havatar"
+  },
+  {
+    "id": "emotions-0059",
+    "folderId": "emotions",
+    "ru": "Неуверенность",
+    "en": "Insecurity",
+    "transcription_eastern": "havatar chka",
+    "transcription_lori": "havatar chka"
+  },
+  {
+    "id": "emotions-0060",
+    "folderId": "emotions",
+    "ru": "Смелость",
+    "en": "Courage",
+    "transcription_eastern": "heros",
+    "transcription_lori": "heros"
+  },
+  {
+    "id": "emotions-0061",
+    "folderId": "emotions",
+    "ru": "Трусость",
+    "en": "Cowardice",
+    "transcription_eastern": "yerek",
+    "transcription_lori": "yerek"
+  },
+  {
+    "id": "emotions-0062",
+    "folderId": "emotions",
+    "ru": "Робость",
+    "en": "Timidity",
+    "transcription_eastern": "yerek",
+    "transcription_lori": "yerek"
+  },
+  {
+    "id": "emotions-0063",
+    "folderId": "emotions",
+    "ru": "Стеснительность",
+    "en": "Shyness",
+    "transcription_eastern": "amot",
+    "transcription_lori": "amot"
+  },
+  {
+    "id": "emotions-0064",
+    "folderId": "emotions",
+    "ru": "Скромность",
+    "en": "Modesty",
+    "transcription_eastern": "amot",
+    "transcription_lori": "amot"
+  },
+  {
+    "id": "emotions-0065",
+    "folderId": "emotions",
+    "ru": "Сдержанность",
+    "en": "Restraint",
+    "transcription_eastern": "hangist",
+    "transcription_lori": "hangist"
+  },
+  {
+    "id": "emotions-0066",
+    "folderId": "emotions",
+    "ru": "Терпение",
+    "en": "Patience",
+    "transcription_eastern": "dhegh",
+    "transcription_lori": "dhegh"
+  },
+  {
+    "id": "emotions-0067",
+    "folderId": "emotions",
+    "ru": "Нетерпение",
+    "en": "Impatience",
+    "transcription_eastern": "dhegh chka",
+    "transcription_lori": "dhegh chka"
+  },
+  {
+    "id": "emotions-0068",
+    "folderId": "emotions",
+    "ru": "Спокойствие",
+    "en": "Calm",
+    "transcription_eastern": "hangistutyun",
+    "transcription_lori": "hangistutyun"
+  },
+  {
+    "id": "emotions-0069",
+    "folderId": "emotions",
+    "ru": "Умиротворение",
+    "en": "Serenity",
+    "transcription_eastern": "hangistutyun",
+    "transcription_lori": "hangistutyun"
+  },
+  {
+    "id": "emotions-0070",
+    "folderId": "emotions",
+    "ru": "Расслабление",
+    "en": "Relaxation",
+    "transcription_eastern": "hangistutyun",
+    "transcription_lori": "hangistutyun"
+  },
+  {
+    "id": "emotions-0071",
+    "folderId": "emotions",
+    "ru": "Безмятежность",
+    "en": "Tranquility",
+    "transcription_eastern": "hangistutyun",
+    "transcription_lori": "hangistutyun"
+  },
+  {
+    "id": "emotions-0072",
+    "folderId": "emotions",
+    "ru": "Гармония",
+    "en": "Harmony",
+    "transcription_eastern": "hamoni",
+    "transcription_lori": "hamoni"
+  },
+  {
+    "id": "emotions-0073",
+    "folderId": "emotions",
+    "ru": "Мир",
+    "en": "Peace",
+    "transcription_eastern": "khaghaghutyun",
+    "transcription_lori": "khaghaghutyun"
+  },
+  {
+    "id": "emotions-0074",
+    "folderId": "emotions",
+    "ru": "Покой",
+    "en": "Peace",
+    "transcription_eastern": "khaghaghutyun",
+    "transcription_lori": "khaghaghutyun"
+  },
+  {
+    "id": "emotions-0075",
+    "folderId": "emotions",
+    "ru": "Тишина",
+    "en": "Silence",
+    "transcription_eastern": "hangistutyun",
+    "transcription_lori": "hangistutyun"
+  },
+  {
+    "id": "emotions-0076",
+    "folderId": "emotions",
+    "ru": "Одиночество",
+    "en": "Loneliness",
+    "transcription_eastern": "miayn",
+    "transcription_lori": "miayn"
+  },
+  {
+    "id": "emotions-0077",
+    "folderId": "emotions",
+    "ru": "Тоска по дому",
+    "en": "Homesickness",
+    "transcription_eastern": "tsaghkot",
+    "transcription_lori": "tsaghkot"
+  },
+  {
+    "id": "emotions-0078",
+    "folderId": "emotions",
+    "ru": "Ностальгия",
+    "en": "Nostalgia",
+    "transcription_eastern": "tsaghkot",
+    "transcription_lori": "tsaghkot"
+  },
+  {
+    "id": "emotions-0079",
+    "folderId": "emotions",
+    "ru": "Тоска по прошлому",
+    "en": "Longing for past",
+    "transcription_eastern": "tsaghkot",
+    "transcription_lori": "tsaghkot"
+  },
+  {
+    "id": "emotions-0080",
+    "folderId": "emotions",
+    "ru": "Надежда",
+    "en": "Hope",
+    "transcription_eastern": "hivand",
+    "transcription_lori": "hivand"
+  },
+  {
+    "id": "emotions-0081",
+    "folderId": "emotions",
+    "ru": "Вера",
+    "en": "Faith",
+    "transcription_eastern": "havatar",
+    "transcription_lori": "havatar"
+  },
+  {
+    "id": "emotions-0082",
+    "folderId": "emotions",
+    "ru": "Доверие",
+    "en": "Trust",
+    "transcription_eastern": "havatar",
+    "transcription_lori": "havatar"
+  },
+  {
+    "id": "emotions-0083",
+    "folderId": "emotions",
+    "ru": "Недоверие",
+    "en": "Distrust",
+    "transcription_eastern": "havatar chka",
+    "transcription_lori": "havatar chka"
+  },
+  {
+    "id": "emotions-0084",
+    "folderId": "emotions",
+    "ru": "Подозрение",
+    "en": "Suspicion",
+    "transcription_eastern": "xndir",
+    "transcription_lori": "xndir"
+  },
+  {
+    "id": "emotions-0085",
+    "folderId": "emotions",
+    "ru": "Сомнение",
+    "en": "Doubt",
+    "transcription_eastern": "kankh",
+    "transcription_lori": "kankh"
+  },
+  {
+    "id": "emotions-0086",
+    "folderId": "emotions",
+    "ru": "Уверенность в себе",
+    "en": "Self-confidence",
+    "transcription_eastern": "havatar",
+    "transcription_lori": "havatar"
+  },
+  {
+    "id": "emotions-0087",
+    "folderId": "emotions",
+    "ru": "Мотивация",
+    "en": "Motivation",
+    "transcription_eastern": "naxates",
+    "transcription_lori": "naxates"
+  },
+  {
+    "id": "emotions-0088",
+    "folderId": "emotions",
+    "ru": "Вдохновение",
+    "en": "Inspiration",
+    "transcription_eastern": "naxates",
+    "transcription_lori": "naxates"
+  },
+  {
+    "id": "emotions-0089",
+    "folderId": "emotions",
+    "ru": "Энтузиазм",
+    "en": "Enthusiasm",
+    "transcription_eastern": "naxates",
+    "transcription_lori": "naxates"
+  },
+  {
+    "id": "emotions-0090",
+    "folderId": "emotions",
+    "ru": "Апатия",
+    "en": "Apathy",
+    "transcription_eastern": "t'os",
+    "transcription_lori": "t'os"
+  },
+  {
+    "id": "emotions-0091",
+    "folderId": "emotions",
+    "ru": "Безразличие",
+    "en": "Indifference",
+    "transcription_eastern": "t'os",
+    "transcription_lori": "t'os"
+  },
+  {
+    "id": "emotions-0092",
+    "folderId": "emotions",
+    "ru": "Скука",
+    "en": "Boredom",
+    "transcription_eastern": "t'os",
+    "transcription_lori": "t'os"
+  },
+  {
+    "id": "emotions-0093",
+    "folderId": "emotions",
+    "ru": "Усталость",
+    "en": "Fatigue",
+    "transcription_eastern": "t'os",
+    "transcription_lori": "t'os"
+  },
+  {
+    "id": "emotions-0094",
+    "folderId": "emotions",
+    "ru": "Истощение",
+    "en": "Exhaustion",
+    "transcription_eastern": "t'os",
+    "transcription_lori": "t'os"
+  },
+  {
+    "id": "emotions-0095",
+    "folderId": "emotions",
+    "ru": "Выгорание",
+    "en": "Burnout",
+    "transcription_eastern": "t'os",
+    "transcription_lori": "t'os"
+  },
+  {
+    "id": "emotions-0096",
+    "folderId": "emotions",
+    "ru": "Депрессия",
+    "en": "Depression",
+    "transcription_eastern": "tsaghkot",
+    "transcription_lori": "tsaghkot"
+  },
+  {
+    "id": "emotions-0097",
+    "folderId": "emotions",
+    "ru": "Тревожность",
+    "en": "Anxiousness",
+    "transcription_eastern": "xndir",
+    "transcription_lori": "xndir"
+  },
+  {
+    "id": "emotions-0098",
+    "folderId": "emotions",
+    "ru": "Фобия",
+    "en": "Phobia",
+    "transcription_eastern": "yerek",
+    "transcription_lori": "yerek"
+  },
+  {
+    "id": "emotions-0099",
+    "folderId": "emotions",
+    "ru": "Паранойя",
+    "en": "Paranoia",
+    "transcription_eastern": "xndir",
+    "transcription_lori": "xndir"
+  },
+  {
+    "id": "emotions-0100",
+    "folderId": "emotions",
+    "ru": "Мания",
+    "en": "Mania",
+    "transcription_eastern": "urakhutyun",
+    "transcription_lori": "urakhutyun"
+  },
+  {
+    "id": "emotions-0101",
+    "folderId": "emotions",
+    "ru": "Эйфория",
+    "en": "Euphoria",
+    "transcription_eastern": "urakhutyun",
+    "transcription_lori": "urakhutyun"
+  },
+  {
+    "id": "emotions-0102",
+    "folderId": "emotions",
+    "ru": "Экстаз",
+    "en": "Ecstasy",
+    "transcription_eastern": "urakhutyun",
+    "transcription_lori": "urakhutyun"
+  },
+  {
+    "id": "emotions-0103",
+    "folderId": "emotions",
+    "ru": "Блаженство",
+    "en": "Bliss",
+    "transcription_eastern": "urakhutyun",
+    "transcription_lori": "urakhutyun"
+  },
+  {
+    "id": "emotions-0104",
+    "folderId": "emotions",
+    "ru": "Счастливый",
+    "en": "Happy",
+    "transcription_eastern": "urakh",
+    "transcription_lori": "urakh"
+  },
+  {
+    "id": "emotions-0105",
+    "folderId": "emotions",
+    "ru": "Грустный",
+    "en": "Sad",
+    "transcription_eastern": "tskhvi",
+    "transcription_lori": "tskhvi"
+  },
+  {
+    "id": "emotions-0106",
+    "folderId": "emotions",
+    "ru": "Злой",
+    "en": "Angry",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "emotions-0107",
+    "folderId": "emotions",
+    "ru": "Спокойный",
+    "en": "Calm",
+    "transcription_eastern": "hangist",
+    "transcription_lori": "hangist"
+  },
+  {
+    "id": "emotions-0108",
+    "folderId": "emotions",
+    "ru": "Взволнованный",
+    "en": "Agitated",
+    "transcription_eastern": "xndir",
+    "transcription_lori": "xndir"
+  },
+  {
+    "id": "emotions-0109",
+    "folderId": "emotions",
+    "ru": "Испуганный",
+    "en": "Scared",
+    "transcription_eastern": "yerek",
+    "transcription_lori": "yerek"
+  },
+  {
+    "id": "emotions-0110",
+    "folderId": "emotions",
+    "ru": "Удивлённый",
+    "en": "Surprised",
+    "transcription_eastern": "heracum",
+    "transcription_lori": "heracum"
+  },
+  {
+    "id": "emotions-0111",
+    "folderId": "emotions",
+    "ru": "Влюблённый",
+    "en": "In love",
+    "transcription_eastern": "ser",
+    "transcription_lori": "ser"
+  },
+  {
+    "id": "emotions-0112",
+    "folderId": "emotions",
+    "ru": "Ревнивый",
+    "en": "Jealous",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "emotions-0113",
+    "folderId": "emotions",
+    "ru": "Завистливый",
+    "en": "Envious",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "emotions-0114",
+    "folderId": "emotions",
+    "ru": "Гордый",
+    "en": "Proud",
+    "transcription_eastern": "hoviv",
+    "transcription_lori": "hoviv"
+  },
+  {
+    "id": "emotions-0115",
+    "folderId": "emotions",
+    "ru": "Скромный",
+    "en": "Modest",
+    "transcription_eastern": "amot",
+    "transcription_lori": "amot"
+  },
+  {
+    "id": "emotions-0116",
+    "folderId": "emotions",
+    "ru": "Смелый",
+    "en": "Brave",
+    "transcription_eastern": "heros",
+    "transcription_lori": "heros"
+  },
+  {
+    "id": "emotions-0117",
+    "folderId": "emotions",
+    "ru": "Трусливый",
+    "en": "Cowardly",
+    "transcription_eastern": "yerek",
+    "transcription_lori": "yerek"
+  },
+  {
+    "id": "emotions-0118",
+    "folderId": "emotions",
+    "ru": "Терпеливый",
+    "en": "Patient",
+    "transcription_eastern": "dhegh",
+    "transcription_lori": "dhegh"
+  },
+  {
+    "id": "emotions-0119",
+    "folderId": "emotions",
+    "ru": "Нетерпеливый",
+    "en": "Impatient",
+    "transcription_eastern": "dhegh chka",
+    "transcription_lori": "dhegh chka"
+  },
+  {
+    "id": "emotions-0120",
+    "folderId": "emotions",
+    "ru": "Одинокий",
+    "en": "Lonely",
+    "transcription_eastern": "miayn",
+    "transcription_lori": "miayn"
+  },
+  {
+    "id": "emotions-0121",
+    "folderId": "emotions",
+    "ru": "Счастлив",
+    "en": "I am happy",
+    "transcription_eastern": "urakh em",
+    "transcription_lori": "urakh em"
+  },
+  {
+    "id": "emotions-0122",
+    "folderId": "emotions",
+    "ru": "Грустен",
+    "en": "I am sad",
+    "transcription_eastern": "tskhvi em",
+    "transcription_lori": "tskhvi em"
+  },
+  {
+    "id": "emotions-0123",
+    "folderId": "emotions",
+    "ru": "Зол",
+    "en": "I am angry",
+    "transcription_eastern": "vayel em",
+    "transcription_lori": "vayel em"
+  },
+  {
+    "id": "emotions-0124",
+    "folderId": "emotions",
+    "ru": "Спокоен",
+    "en": "I am calm",
+    "transcription_eastern": "hangist em",
+    "transcription_lori": "hangist em"
+  },
+  {
+    "id": "emotions-0125",
+    "folderId": "emotions",
+    "ru": "Испуган",
+    "en": "I am scared",
+    "transcription_eastern": "yerek em",
+    "transcription_lori": "yerek em"
+  },
+  {
+    "id": "emotions-0126",
+    "folderId": "emotions",
+    "ru": "Удивлён",
+    "en": "I am surprised",
+    "transcription_eastern": "heracum em",
+    "transcription_lori": "heracum em"
+  },
+  {
+    "id": "emotions-0127",
+    "folderId": "emotions",
+    "ru": "Влюблён",
+    "en": "I am in love",
+    "transcription_eastern": "ser em",
+    "transcription_lori": "ser em"
+  },
+  {
+    "id": "emotions-0128",
+    "folderId": "emotions",
+    "ru": "Одинок",
+    "en": "I am lonely",
+    "transcription_eastern": "miayn em",
+    "transcription_lori": "miayn em"
+  },
+  {
+    "id": "emotions-0129",
+    "folderId": "emotions",
+    "ru": "Устал",
+    "en": "I am tired",
+    "transcription_eastern": "t'os em",
+    "transcription_lori": "t'os em"
+  },
+  {
+    "id": "emotions-0130",
+    "folderId": "emotions",
+    "ru": "Скучаю",
+    "en": "I miss",
+    "transcription_eastern": "tsaghkot em",
+    "transcription_lori": "tsaghkot em"
+  },
+  {
+    "id": "emotions-0131",
+    "folderId": "emotions",
+    "ru": "Волнуюсь",
+    "en": "I worry",
+    "transcription_eastern": "xndir em",
+    "transcription_lori": "xndir em"
+  },
+  {
+    "id": "emotions-0132",
+    "folderId": "emotions",
+    "ru": "Надеюсь",
+    "en": "I hope",
+    "transcription_eastern": "hivand em",
+    "transcription_lori": "hivand em"
+  },
+  {
+    "id": "emotions-0133",
+    "folderId": "emotions",
+    "ru": "Верю",
+    "en": "I believe",
+    "transcription_eastern": "havatar em",
+    "transcription_lori": "havatar em"
+  },
+  {
+    "id": "emotions-0134",
+    "folderId": "emotions",
+    "ru": "Сомневаюсь",
+    "en": "I doubt",
+    "transcription_eastern": "kankh em",
+    "transcription_lori": "kankh em"
+  },
+  {
+    "id": "emotions-0135",
+    "folderId": "emotions",
+    "ru": "Люблю",
+    "en": "I love",
+    "transcription_eastern": "ser em",
+    "transcription_lori": "ser em"
+  },
+  {
+    "id": "emotions-0136",
+    "folderId": "emotions",
+    "ru": "Ненавижу",
+    "en": "I hate",
+    "transcription_eastern": "chtem",
+    "transcription_lori": "chtem"
+  },
+  {
+    "id": "emotions-0137",
+    "folderId": "emotions",
+    "ru": "Боюсь",
+    "en": "I fear",
+    "transcription_eastern": "yerek em",
+    "transcription_lori": "yerek em"
+  },
+  {
+    "id": "emotions-0138",
+    "folderId": "emotions",
+    "ru": "Радуюсь",
+    "en": "I rejoice",
+    "transcription_eastern": "urakh em",
+    "transcription_lori": "urakh em"
+  },
+  {
+    "id": "emotions-0139",
+    "folderId": "emotions",
+    "ru": "Печалюсь",
+    "en": "I grieve",
+    "transcription_eastern": "tsaghkot em",
+    "transcription_lori": "tsaghkot em"
+  },
+  {
+    "id": "emotions-0140",
+    "folderId": "emotions",
+    "ru": "Злюсь",
+    "en": "I get angry",
+    "transcription_eastern": "vayel em",
+    "transcription_lori": "vayel em"
+  },
+  {
+    "id": "emotions-0141",
+    "folderId": "emotions",
+    "ru": "Смеюсь",
+    "en": "I laugh",
+    "transcription_eastern": "urakh em",
+    "transcription_lori": "urakh em"
+  },
+  {
+    "id": "emotions-0142",
+    "folderId": "emotions",
+    "ru": "Плачу",
+    "en": "I cry",
+    "transcription_eastern": "aranner",
+    "transcription_lori": "aranner"
+  },
+  {
+    "id": "emotions-0143",
+    "folderId": "emotions",
+    "ru": "Улыбаюсь",
+    "en": "I smile",
+    "transcription_eastern": "urakh em",
+    "transcription_lori": "urakh em"
+  },
+  {
+    "id": "emotions-0144",
+    "folderId": "emotions",
+    "ru": "Скучаю по тебе",
+    "en": "I miss you",
+    "transcription_eastern": "kspem qez",
+    "transcription_lori": "kspem qez"
+  },
+  {
+    "id": "emotions-0145",
+    "folderId": "emotions",
+    "ru": "Скучаю по дому",
+    "en": "I miss home",
+    "transcription_eastern": "kspem tun",
+    "transcription_lori": "kspem tun"
+  },
+  {
+    "id": "emotions-0146",
+    "folderId": "emotions",
+    "ru": "Скучаю по семье",
+    "en": "I miss family",
+    "transcription_eastern": "kspem tnjak",
+    "transcription_lori": "kspem tnjak"
+  },
+  {
+    "id": "emotions-0147",
+    "folderId": "emotions",
+    "ru": "Скучаю по друзьям",
+    "en": "I miss friends",
+    "transcription_eastern": "kspem barentsner",
+    "transcription_lori": "kspem barentsner"
+  },
+  {
+    "id": "emotions-0148",
+    "folderId": "emotions",
+    "ru": "Скучаю по родине",
+    "en": "I miss homeland",
+    "transcription_eastern": "kspem hayrenik",
+    "transcription_lori": "kspem hayrenik"
+  },
+  {
+    "id": "emotions-0149",
+    "folderId": "emotions",
+    "ru": "Рад видеть",
+    "en": "Glad to see",
+    "transcription_eastern": "urakh em tesnel",
+    "transcription_lori": "urakh em tesnel"
+  },
+  {
+    "id": "emotions-0150",
+    "folderId": "emotions",
+    "ru": "Рад слышать",
+    "en": "Glad to hear",
+    "transcription_eastern": "urakh em lsel",
+    "transcription_lori": "urakh em lsel"
+  },
+  {
+    "id": "emotions-0151",
+    "folderId": "emotions",
+    "ru": "Рад помочь",
+    "en": "Glad to help",
+    "transcription_eastern": "urakh em ognel",
+    "transcription_lori": "urakh em ognel"
+  },
+  {
+    "id": "emotions-0152",
+    "folderId": "emotions",
+    "ru": "Рад встрече",
+    "en": "Glad to meet",
+    "transcription_eastern": "urakh em tesnel",
+    "transcription_lori": "urakh em tesnel"
+  },
+  {
+    "id": "emotions-0153",
+    "folderId": "emotions",
+    "ru": "Рад знакомству",
+    "en": "Glad to know you",
+    "transcription_eastern": "urakh em tsanotanal",
+    "transcription_lori": "urakh em tsanotanal"
+  },
+  {
+    "id": "emotions-0154",
+    "folderId": "emotions",
+    "ru": "Огорчён",
+    "en": "Upset",
+    "transcription_eastern": "tsaghkot em",
+    "transcription_lori": "tsaghkot em"
+  },
+  {
+    "id": "emotions-0155",
+    "folderId": "emotions",
+    "ru": "Разочарован",
+    "en": "Disappointed",
+    "transcription_eastern": "tsaghkot em",
+    "transcription_lori": "tsaghkot em"
+  },
+  {
+    "id": "emotions-0156",
+    "folderId": "emotions",
+    "ru": "Обижен",
+    "en": "Offended",
+    "transcription_eastern": "vayel em",
+    "transcription_lori": "vayel em"
+  },
+  {
+    "id": "emotions-0157",
+    "folderId": "emotions",
+    "ru": "Оскорблён",
+    "en": "Insulted",
+    "transcription_eastern": "vayel em",
+    "transcription_lori": "vayel em"
+  },
+  {
+    "id": "emotions-0158",
+    "folderId": "emotions",
+    "ru": "Унижен",
+    "en": "Humiliated",
+    "transcription_eastern": "amot em",
+    "transcription_lori": "amot em"
+  },
+  {
+    "id": "emotions-0159",
+    "folderId": "emotions",
+    "ru": "Смущён",
+    "en": "Embarrassed",
+    "transcription_eastern": "amot em",
+    "transcription_lori": "amot em"
+  },
+  {
+    "id": "emotions-0160",
+    "folderId": "emotions",
+    "ru": "Сожалею",
+    "en": "I regret",
+    "transcription_eastern": "amot em",
+    "transcription_lori": "amot em"
+  },
+  {
+    "id": "emotions-0161",
+    "folderId": "emotions",
+    "ru": "Каюсь",
+    "en": "I repent",
+    "transcription_eastern": "amot em",
+    "transcription_lori": "amot em"
+  },
+  {
+    "id": "emotions-0162",
+    "folderId": "emotions",
+    "ru": "Прощаю",
+    "en": "I forgive",
+    "transcription_eastern": "nerogh em",
+    "transcription_lori": "nerogh em"
+  },
+  {
+    "id": "emotions-0163",
+    "folderId": "emotions",
+    "ru": "Прошу прощения",
+    "en": "I apologize",
+    "transcription_eastern": "nerogh em",
+    "transcription_lori": "nerogh em"
+  },
+  {
+    "id": "emotions-0164",
+    "folderId": "emotions",
+    "ru": "Извини",
+    "en": "Sorry",
+    "transcription_eastern": "nerogh em",
+    "transcription_lori": "nerogh em"
+  },
+  {
+    "id": "emotions-0165",
+    "folderId": "emotions",
+    "ru": "Прости",
+    "en": "Forgive me",
+    "transcription_eastern": "nerogh em",
+    "transcription_lori": "nerogh em"
+  },
+  {
+    "id": "emotions-0166",
+    "folderId": "emotions",
+    "ru": "Благодарю",
+    "en": "I thank",
+    "transcription_eastern": "shnorhakal em",
+    "transcription_lori": "shnorhakal em"
+  },
+  {
+    "id": "emotions-0167",
+    "folderId": "emotions",
+    "ru": "Признателен",
+    "en": "Grateful",
+    "transcription_eastern": "shnorhakal em",
+    "transcription_lori": "shnorhakal em"
+  },
+  {
+    "id": "emotions-0168",
+    "folderId": "emotions",
+    "ru": "Благодарен",
+    "en": "Thankful",
+    "transcription_eastern": "shnorhakal em",
+    "transcription_lori": "shnorhakal em"
+  },
+  {
+    "id": "emotions-0169",
+    "folderId": "emotions",
+    "ru": "Ценю",
+    "en": "I appreciate",
+    "transcription_eastern": "hargank em",
+    "transcription_lori": "hargank em"
+  },
+  {
+    "id": "emotions-0170",
+    "folderId": "emotions",
+    "ru": "Уважаю",
+    "en": "I respect",
+    "transcription_eastern": "hargank em",
+    "transcription_lori": "hargank em"
+  }
+]

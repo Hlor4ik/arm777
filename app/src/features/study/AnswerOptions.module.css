@@ -1,0 +1,30 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.option {
+  padding: 16px;
+  background: var(--bg-hover);
+  border: 2px solid transparent;
+  border-radius: var(--radius-md);
+  font-size: 16px;
+  text-align: center;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.option.selected {
+  border-color: var(--accent-blue);
+}
+
+.option.correct {
+  border-color: var(--accent-primary);
+  background: rgba(242, 168, 0, 0.15);
+}
+
+.option.wrong {
+  border-color: var(--accent-red);
+  background: var(--color-error-bg);
+}

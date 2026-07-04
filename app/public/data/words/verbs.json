@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "verbs-0001",
+    "folderId": "verbs",
+    "ru": "Идти",
+    "en": "To go",
+    "transcription_eastern": "gnal",
+    "transcription_lori": "gnal"
+  },
+  {
+    "id": "verbs-0002",
+    "folderId": "verbs",
+    "ru": "Ходить",
+    "en": "To walk",
+    "transcription_eastern": "gnal",
+    "transcription_lori": "gnal"
+  },
+  {
+    "id": "verbs-0003",
+    "folderId": "verbs",
+    "ru": "Бежать",
+    "en": "To run",
+    "transcription_eastern": "vazel",
+    "transcription_lori": "vazel"
+  },
+  {
+    "id": "verbs-0004",
+    "folderId": "verbs",
+    "ru": "Бежать быстро",
+    "en": "To sprint",
+    "transcription_eastern": "arag vazel",
+    "transcription_lori": "arag vazel"
+  },
+  {
+    "id": "verbs-0005",
+    "folderId": "verbs",
+    "ru": "Идти медленно",
+    "en": "To walk slowly",
+    "transcription_eastern": "dandagh gnal",
+    "transcription_lori": "dandagh gnal"
+  },
+  {
+    "id": "verbs-0006",
+    "folderId": "verbs",
+    "ru": "Приходить",
+    "en": "To come",
+    "transcription_eastern": "ekel",
+    "transcription_lori": "ekel"
+  },
+  {
+    "id": "verbs-0007",
+    "folderId": "verbs",
+    "ru": "Приезжать",
+    "en": "To arrive",
+    "transcription_eastern": "ekel",
+    "transcription_lori": "ekel"
+  },
+  {
+    "id": "verbs-0008",
+    "folderId": "verbs",
+    "ru": "Уходить",
+    "en": "To leave",
+    "transcription_eastern": "gnal",
+    "transcription_lori": "gnal"
+  },
+  {
+    "id": "verbs-0009",
+    "folderId": "verbs",
+    "ru": "Уезжать",
+    "en": "To depart",
+    "transcription_eastern": "gnal",
+    "transcription_lori": "gnal"
+  },
+  {
+    "id": "verbs-0010",
+    "folderId": "verbs",
+    "ru": "Возвращаться",
+    "en": "To return",
+    "transcription_eastern": "veradarnal",
+    "transcription_lori": "veradarnal"
+  },
+  {
+    "id": "verbs-0011",
+    "folderId": "verbs",
+    "ru": "Приходить домой",
+    "en": "To come home",
+    "transcription_eastern": "gal tun",
+    "transcription_lori": "gal tun"
+  },
+  {
+    "id": "verbs-0012",
+    "folderId": "verbs",
+    "ru": "Уходить из дома",
+    "en": "To leave home",
+    "transcription_eastern": "gnal tunic",
+    "transcription_lori": "gnal tunic"
+  },
+  {
+    "id": "verbs-0013",
+    "folderId": "verbs",
+    "ru": "Быть",
+    "en": "To be",
+    "transcription_eastern": "linel",
+    "transcription_lori": "linel"
+  },
+  {
+    "id": "verbs-0014",
+    "folderId": "verbs",
+    "ru": "Есть",
+    "en": "There is",
+    "transcription_eastern": "ka",
+    "transcription_lori": "ka"
+  },
+  {
+    "id": "verbs-0015",
+    "folderId": "verbs",
+    "ru": "Иметь",
+    "en": "To have",
+    "transcription_eastern": "unenal",
+    "transcription_lori": "unenal"
+  },
+  {
+    "id": "verbs-0016",
+    "folderId": "verbs",
+    "ru": "Делать",
+    "en": "To do",
+    "transcription_eastern": "anel",
+    "transcription_lori": "anel"
+  },
+  {
+    "id": "verbs-0017",
+    "folderId": "verbs",
+    "ru": "Работать",
+    "en": "To work",
+    "transcription_eastern": "ashxatel",
+    "transcription_lori": "ashxatel"
+  },
+  {
+    "id": "verbs-0018",
+    "folderId": "verbs",
+    "ru": "Учиться",
+    "en": "To study",
+    "transcription_eastern": "soorel",
+    "transcription_lori": "soorel"
+  },
+  {
+    "id": "verbs-0019",
+    "folderId": "verbs",
+    "ru": "Учить",
+    "en": "To teach",
+    "transcription_eastern": "dasnel",
+    "transcription_lori": "dasnel"
+  },
+  {
+    "id": "verbs-0020",
+    "folderId": "verbs",
+    "ru": "Знать",
+    "en": "To know",
+    "transcription_eastern": "gitem",
+    "transcription_lori": "gitem"
+  },
+  {
+    "id": "verbs-0021",
+    "folderId": "verbs",
+    "ru": "Не знать",
+    "en": "Not to know",
+    "transcription_eastern": "ch gitem",
+    "transcription_lori": "chi gitem"
+  },
+  {
+    "id": "verbs-0022",
+    "folderId": "verbs",
+    "ru": "Понимать",
+    "en": "To understand",
+    "transcription_eastern": "haskanal",
+    "transcription_lori": "haskanal"
+  },
+  {
+    "id": "verbs-0023",
+    "folderId": "verbs",
+    "ru": "Не понимать",
+    "en": "Not to understand",
+    "transcription_eastern": "ch haskanum",
+    "transcription_lori": "chi haskanum"
+  },
+  {
+    "id": "verbs-0024",
+    "folderId": "verbs",
+    "ru": "Помнить",
+    "en": "To remember",
+    "transcription_eastern": "hishvel",
+    "transcription_lori": "hishvel"
+  },
+  {
+    "id": "verbs-0025",
+    "folderId": "verbs",
+    "ru": "Забывать",
+    "en": "To forget",
+    "transcription_eastern": "moranal",
+    "transcription_lori": "moranal"
+  },
+  {
+    "id": "verbs-0026",
+    "folderId": "verbs",
+    "ru": "Думать",
+    "en": "To think",
+    "transcription_eastern": "metshel",
+    "transcription_lori": "metshel"
+  },
+  {
+    "id": "verbs-0027",
+    "folderId": "verbs",
+    "ru": "Мечтать",
+    "en": "To dream",
+    "transcription_eastern": "naxates",
+    "transcription_lori": "naxates"
+  },
+  {
+    "id": "verbs-0028",
+    "folderId": "verbs",
+    "ru": "Верить",
+    "en": "To believe",
+    "transcription_eastern": "havatel",
+    "transcription_lori": "havatel"
+  },
+  {
+    "id": "verbs-0029",
+    "folderId": "verbs",
+    "ru": "Сомневаться",
+    "en": "To doubt",
+    "transcription_eastern": "kankh",
+    "transcription_lori": "kankh"
+  },
+  {
+    "id": "verbs-0030",
+    "folderId": "verbs",
+    "ru": "Хотеть",
+    "en": "To want",
+    "transcription_eastern": "zgal",
+    "transcription_lori": "zgal"
+  },
+  {
+    "id": "verbs-0031",
+    "folderId": "verbs",
+    "ru": "Желать",
+    "en": "To wish",
+    "transcription_eastern": "cankanal",
+    "transcription_lori": "cankanal"
+  },
+  {
+    "id": "verbs-0032",
+    "folderId": "verbs",
+    "ru": "Нуждаться",
+    "en": "To need",
+    "transcription_eastern": "karox",
+    "transcription_lori": "karox"
+  },
+  {
+    "id": "verbs-0033",
+    "folderId": "verbs",
+    "ru": "Мочь",
+    "en": "Can",
+    "transcription_eastern": "karoxanal",
+    "transcription_lori": "karoxanal"
+  },
+  {
+    "id": "verbs-0034",
+    "folderId": "verbs",
+    "ru": "Уметь",
+    "en": "To be able",
+    "transcription_eastern": "karoxanal",
+    "transcription_lori": "karoxanal"
+  },
+  {
+    "id": "verbs-0035",
+    "folderId": "verbs",
+    "ru": "Не мочь",
+    "en": "Cannot",
+    "transcription_eastern": "ch karox",
+    "transcription_lori": "chi karox"
+  },
+  {
+    "id": "verbs-0036",
+    "folderId": "verbs",
+    "ru": "Начинать",
+    "en": "To start",
+    "transcription_eastern": "sksel",
+    "transcription_lori": "sksel"
+  },
+  {
+    "id": "verbs-0037",
+    "folderId": "verbs",
+    "ru": "Заканчивать",
+    "en": "To finish",
+    "transcription_eastern": "verjacnel",
+    "transcription_lori": "verjacnel"
+  },
+  {
+    "id": "verbs-0038",
+    "folderId": "verbs",
+    "ru": "Продолжать",
+    "en": "To continue",
+    "transcription_eastern": "sharunakel",
+    "transcription_lori": "sharunakel"
+  },
+  {
+    "id": "verbs-0039",
+    "folderId": "verbs",
+    "ru": "Останавливать",
+    "en": "To stop",
+    "transcription_eastern": "kangnel",
+    "transcription_lori": "kangnel"
+  },
+  {
+    "id": "verbs-0040",
+    "folderId": "verbs",
+    "ru": "Прекращать",
+    "en": "To cease",
+    "transcription_eastern": "verjacnel",
+    "transcription_lori": "verjacnel"
+  },
+  {
+    "id": "verbs-0041",
+    "folderId": "verbs",
+    "ru": "Повторять",
+    "en": "To repeat",
+    "transcription_eastern": "krknel",
+    "transcription_lori": "krknel"
+  },
+  {
+    "id": "verbs-0042",
+    "folderId": "verbs",
+    "ru": "Открывать",
+    "en": "To open",
+    "transcription_eastern": "bacel",
+    "transcription_lori": "bacel"
+  },
+  {
+    "id": "verbs-0043",
+    "folderId": "verbs",
+    "ru": "Закрывать",
+    "en": "To close",
+    "transcription_eastern": "pakel",
+    "transcription_lori": "pakel"
+  },
+  {
+    "id": "verbs-0044",
+    "folderId": "verbs",
+    "ru": "Входить",
+    "en": "To enter",
+    "transcription_eastern": "mtnel",
+    "transcription_lori": "mtnel"
+  },
+  {
+    "id": "verbs-0045",
+    "folderId": "verbs",
+    "ru": "Выходить",
+    "en": "To exit",
+    "transcription_eastern": "elqal",
+    "transcription_lori": "elqal"
+  },
+  {
+    "id": "verbs-0046",
+    "folderId": "verbs",
+    "ru": "Подниматься",
+    "en": "To rise",
+    "transcription_eastern": "barcranal",
+    "transcription_lori": "barcranal"
+  },
+  {
+    "id": "verbs-0047",
+    "folderId": "verbs",
+    "ru": "Опускаться",
+    "en": "To descend",
+    "transcription_eastern": "nerqev",
+    "transcription_lori": "nerqev"
+  },
+  {
+    "id": "verbs-0048",
+    "folderId": "verbs",
+    "ru": "Садиться",
+    "en": "To sit",
+    "transcription_eastern": "nergal",
+    "transcription_lori": "nergal"
+  },
+  {
+    "id": "verbs-0049",
+    "folderId": "verbs",
+    "ru": "Вставать",
+    "en": "To stand up",
+    "transcription_eastern": "kangnel",
+    "transcription_lori": "kangnel"
+  },
+  {
+    "id": "verbs-0050",
+    "folderId": "verbs",
+    "ru": "Ложиться",
+    "en": "To lie down",
+    "transcription_eastern": "kankhel",
+    "transcription_lori": "kankhel"
+  },
+  {
+    "id": "verbs-0051",
+    "folderId": "verbs",
+    "ru": "Спать",
+    "en": "To sleep",
+    "transcription_eastern": "qnel",
+    "transcription_lori": "qnel"
+  },
+  {
+    "id": "verbs-0052",
+    "folderId": "verbs",
+    "ru": "Просыпаться",
+    "en": "To wake up",
+    "transcription_eastern": "zartnal",
+    "transcription_lori": "zartnal"
+  },
+  {
+    "id": "verbs-0053",
+    "folderId": "verbs",
+    "ru": "Засыпать",
+    "en": "To fall asleep",
+    "transcription_eastern": "qnel",
+    "transcription_lori": "qnel"
+  },
+  {
+    "id": "verbs-0054",
+    "folderId": "verbs",
+    "ru": "Есть",
+    "en": "To eat",
+    "transcription_eastern": "utel",
+    "transcription_lori": "utel"
+  },
+  {
+    "id": "verbs-0055",
+    "folderId": "verbs",
+    "ru": "Пить",
+    "en": "To drink",
+    "transcription_eastern": "xmEl",
+    "transcription_lori": "xmEl"
+  },
+  {
+    "id": "verbs-0056",
+    "folderId": "verbs",
+    "ru": "Готовить",
+    "en": "To cook",
+    "transcription_eastern": "korel",
+    "transcription_lori": "korel"
+  },
+  {
+    "id": "verbs-0057",
+    "folderId": "verbs",
+    "ru": "Жарить",
+    "en": "To fry",
+    "transcription_eastern": "korel",
+    "transcription_lori": "korel"
+  },
+  {
+    "id": "verbs-0058",
+    "folderId": "verbs",
+    "ru": "Варить",
+    "en": "To boil",
+    "transcription_eastern": "korel",
+    "transcription_lori": "korel"
+  },
+  {
+    "id": "verbs-0059",
+    "folderId": "verbs",
+    "ru": "Печь",
+    "en": "To bake",
+    "transcription_eastern": "korel",
+    "transcription_lori": "korel"
+  },
+  {
+    "id": "verbs-0060",
+    "folderId": "verbs",
+    "ru": "Резать",
+    "en": "To cut",
+    "transcription_eastern": "tsrrnel",
+    "transcription_lori": "tsrrnel"
+  },
+  {
+    "id": "verbs-0061",
+    "folderId": "verbs",
+    "ru": "Мыть",
+    "en": "To wash",
+    "transcription_eastern": "lvanel",
+    "transcription_lori": "lvanel"
+  },
+  {
+    "id": "verbs-0062",
+    "folderId": "verbs",
+    "ru": "Чистить",
+    "en": "To clean",
+    "transcription_eastern": "makrel",
+    "transcription_lori": "makrel"
+  },
+  {
+    "id": "verbs-0063",
+    "folderId": "verbs",
+    "ru": "Убирать",
+    "en": "To tidy",
+    "transcription_eastern": "makrel",
+    "transcription_lori": "makrel"
+  },
+  {
+    "id": "verbs-0064",
+    "folderId": "verbs",
+    "ru": "Стирать",
+    "en": "To launder",
+    "transcription_eastern": "makrel",
+    "transcription_lori": "makrel"
+  },
+  {
+    "id": "verbs-0065",
+    "folderId": "verbs",
+    "ru": "Гладить",
+    "en": "To iron",
+    "transcription_eastern": "makrel",
+    "transcription_lori": "makrel"
+  },
+  {
+    "id": "verbs-0066",
+    "folderId": "verbs",
+    "ru": "Видеть",
+    "en": "To see",
+    "transcription_eastern": "tesnel",
+    "transcription_lori": "tesnel"
+  },
+  {
+    "id": "verbs-0067",
+    "folderId": "verbs",
+    "ru": "Смотреть",
+    "en": "To look",
+    "transcription_eastern": "nayel",
+    "transcription_lori": "nayel"
+  },
+  {
+    "id": "verbs-0068",
+    "folderId": "verbs",
+    "ru": "Слушать",
+    "en": "To listen",
+    "transcription_eastern": "lsel",
+    "transcription_lori": "lsel"
+  },
+  {
+    "id": "verbs-0069",
+    "folderId": "verbs",
+    "ru": "Слышать",
+    "en": "To hear",
+    "transcription_eastern": "lsel",
+    "transcription_lori": "lsel"
+  },
+  {
+    "id": "verbs-0070",
+    "folderId": "verbs",
+    "ru": "Говорить",
+    "en": "To speak",
+    "transcription_eastern": "khosil",
+    "transcription_lori": "khosil"
+  },
+  {
+    "id": "verbs-0071",
+    "folderId": "verbs",
+    "ru": "Сказать",
+    "en": "To say",
+    "transcription_eastern": "asel",
+    "transcription_lori": "asel"
+  },
+  {
+    "id": "verbs-0072",
+    "folderId": "verbs",
+    "ru": "Рассказывать",
+    "en": "To tell",
+    "transcription_eastern": "asel",
+    "transcription_lori": "asel"
+  },
+  {
+    "id": "verbs-0073",
+    "folderId": "verbs",
+    "ru": "Спрашивать",
+    "en": "To ask",
+    "transcription_eastern": "harcel",
+    "transcription_lori": "harcel"
+  },
+  {
+    "id": "verbs-0074",
+    "folderId": "verbs",
+    "ru": "Отвечать",
+    "en": "To answer",
+    "transcription_eastern": "patasxanel",
+    "transcription_lori": "patasxanel"
+  },
+  {
+    "id": "verbs-0075",
+    "folderId": "verbs",
+    "ru": "Кричать",
+    "en": "To shout",
+    "transcription_eastern": "khosq",
+    "transcription_lori": "khosq"
+  },
+  {
+    "id": "verbs-0076",
+    "folderId": "verbs",
+    "ru": "Шептать",
+    "en": "To whisper",
+    "transcription_eastern": "khosq",
+    "transcription_lori": "khosq"
+  },
+  {
+    "id": "verbs-0077",
+    "folderId": "verbs",
+    "ru": "Молчать",
+    "en": "To be silent",
+    "transcription_eastern": "lchutyun",
+    "transcription_lori": "lchutyun"
+  },
+  {
+    "id": "verbs-0078",
+    "folderId": "verbs",
+    "ru": "Писать",
+    "en": "To write",
+    "transcription_eastern": "grel",
+    "transcription_lori": "grel"
+  },
+  {
+    "id": "verbs-0079",
+    "folderId": "verbs",
+    "ru": "Читать",
+    "en": "To read",
+    "transcription_eastern": "kardal",
+    "transcription_lori": "kardal"
+  },
+  {
+    "id": "verbs-0080",
+    "folderId": "verbs",
+    "ru": "Рисовать",
+    "en": "To draw",
+    "transcription_eastern": "nkarel",
+    "transcription_lori": "nkarel"
+  },
+  {
+    "id": "verbs-0081",
+    "folderId": "verbs",
+    "ru": "Петь",
+    "en": "To sing",
+    "transcription_eastern": "yerku",
+    "transcription_lori": "yerku"
+  },
+  {
+    "id": "verbs-0082",
+    "folderId": "verbs",
+    "ru": "Танцевать",
+    "en": "To dance",
+    "transcription_eastern": "zvarel",
+    "transcription_lori": "zvarel"
+  },
+  {
+    "id": "verbs-0083",
+    "folderId": "verbs",
+    "ru": "Играть",
+    "en": "To play",
+    "transcription_eastern": "khel",
+    "transcription_lori": "khel"
+  },
+  {
+    "id": "verbs-0084",
+    "folderId": "verbs",
+    "ru": "Смеяться",
+    "en": "To laugh",
+    "transcription_eastern": "urakh",
+    "transcription_lori": "urakh"
+  },
+  {
+    "id": "verbs-0085",
+    "folderId": "verbs",
+    "ru": "Плакать",
+    "en": "To cry",
+    "transcription_eastern": "aranner",
+    "transcription_lori": "aranner"
+  },
+  {
+    "id": "verbs-0086",
+    "folderId": "verbs",
+    "ru": "Улыбаться",
+    "en": "To smile",
+    "transcription_eastern": "urakh",
+    "transcription_lori": "urakh"
+  },
+  {
+    "id": "verbs-0087",
+    "folderId": "verbs",
+    "ru": "Злиться",
+    "en": "To get angry",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "verbs-0088",
+    "folderId": "verbs",
+    "ru": "Радоваться",
+    "en": "To rejoice",
+    "transcription_eastern": "urakh",
+    "transcription_lori": "urakh"
+  },
+  {
+    "id": "verbs-0089",
+    "folderId": "verbs",
+    "ru": "Грустить",
+    "en": "To be sad",
+    "transcription_eastern": "tsaghkot",
+    "transcription_lori": "tsaghkot"
+  },
+  {
+    "id": "verbs-0090",
+    "folderId": "verbs",
+    "ru": "Любить",
+    "en": "To love",
+    "transcription_eastern": "siriel",
+    "transcription_lori": "siriel"
+  },
+  {
+    "id": "verbs-0091",
+    "folderId": "verbs",
+    "ru": "Ненавидеть",
+    "en": "To hate",
+    "transcription_eastern": "chtem",
+    "transcription_lori": "chtem"
+  },
+  {
+    "id": "verbs-0092",
+    "folderId": "verbs",
+    "ru": "Бояться",
+    "en": "To fear",
+    "transcription_eastern": "yerek",
+    "transcription_lori": "yerek"
+  },
+  {
+    "id": "verbs-0093",
+    "folderId": "verbs",
+    "ru": "Надеяться",
+    "en": "To hope",
+    "transcription_eastern": "hivand",
+    "transcription_lori": "hivand"
+  },
+  {
+    "id": "verbs-0094",
+    "folderId": "verbs",
+    "ru": "Ждать",
+    "en": "To wait",
+    "transcription_eastern": "spasel",
+    "transcription_lori": "spasel"
+  },
+  {
+    "id": "verbs-0095",
+    "folderId": "verbs",
+    "ru": "Торопиться",
+    "en": "To hurry",
+    "transcription_eastern": "arag",
+    "transcription_lori": "arag"
+  },
+  {
+    "id": "verbs-0096",
+    "folderId": "verbs",
+    "ru": "Медлить",
+    "en": "To delay",
+    "transcription_eastern": "dandagh",
+    "transcription_lori": "dandagh"
+  },
+  {
+    "id": "verbs-0097",
+    "folderId": "verbs",
+    "ru": "Опаздывать",
+    "en": "To be late",
+    "transcription_eastern": "us",
+    "transcription_lori": "us"
+  },
+  {
+    "id": "verbs-0098",
+    "folderId": "verbs",
+    "ru": "Приходить вовремя",
+    "en": "To arrive on time",
+    "transcription_eastern": "zhamanak",
+    "transcription_lori": "zhamanak"
+  },
+  {
+    "id": "verbs-0099",
+    "folderId": "verbs",
+    "ru": "Жить",
+    "en": "To live",
+    "transcription_eastern": "aprel",
+    "transcription_lori": "aprel"
+  },
+  {
+    "id": "verbs-0100",
+    "folderId": "verbs",
+    "ru": "Умирать",
+    "en": "To die",
+    "transcription_eastern": "mernel",
+    "transcription_lori": "mernel"
+  },
+  {
+    "id": "verbs-0101",
+    "folderId": "verbs",
+    "ru": "Рождаться",
+    "en": "To be born",
+    "transcription_eastern": "tsnvel",
+    "transcription_lori": "tsnvel"
+  },
+  {
+    "id": "verbs-0102",
+    "folderId": "verbs",
+    "ru": "Расти",
+    "en": "To grow",
+    "transcription_eastern": "zarganal",
+    "transcription_lori": "zarganal"
+  },
+  {
+    "id": "verbs-0103",
+    "folderId": "verbs",
+    "ru": "Стареть",
+    "en": "To age",
+    "transcription_eastern": "tarekan linel",
+    "transcription_lori": "tarekan linel"
+  },
+  {
+    "id": "verbs-0104",
+    "folderId": "verbs",
+    "ru": "Молодеть",
+    "en": "To rejuvenate",
+    "transcription_eastern": "serund linel",
+    "transcription_lori": "serund linel"
+  },
+  {
+    "id": "verbs-0105",
+    "folderId": "verbs",
+    "ru": "Болеть",
+    "en": "To be ill",
+    "transcription_eastern": "hivandal linel",
+    "transcription_lori": "hivandal linel"
+  },
+  {
+    "id": "verbs-0106",
+    "folderId": "verbs",
+    "ru": "Выздоравливать",
+    "en": "To recover",
+    "transcription_eastern": "arajacnel",
+    "transcription_lori": "arajacnel"
+  },
+  {
+    "id": "verbs-0107",
+    "folderId": "verbs",
+    "ru": "Лечить",
+    "en": "To treat",
+    "transcription_eastern": "bujnel",
+    "transcription_lori": "bujnel"
+  },
+  {
+    "id": "verbs-0108",
+    "folderId": "verbs",
+    "ru": "Помогать",
+    "en": "To help",
+    "transcription_eastern": "ognel",
+    "transcription_lori": "ognel"
+  },
+  {
+    "id": "verbs-0109",
+    "folderId": "verbs",
+    "ru": "Мешать",
+    "en": "To hinder",
+    "transcription_eastern": "xndir",
+    "transcription_lori": "xndir"
+  },
+  {
+    "id": "verbs-0110",
+    "folderId": "verbs",
+    "ru": "Защищать",
+    "en": "To protect",
+    "transcription_eastern": "pahpanel",
+    "transcription_lori": "pahpanel"
+  },
+  {
+    "id": "verbs-0111",
+    "folderId": "verbs",
+    "ru": "Нападать",
+    "en": "To attack",
+    "transcription_eastern": "krel",
+    "transcription_lori": "krel"
+  },
+  {
+    "id": "verbs-0112",
+    "folderId": "verbs",
+    "ru": "Защищаться",
+    "en": "To defend",
+    "transcription_eastern": "pahpanel",
+    "transcription_lori": "pahpanel"
+  },
+  {
+    "id": "verbs-0113",
+    "folderId": "verbs",
+    "ru": "Бороться",
+    "en": "To fight",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "verbs-0114",
+    "folderId": "verbs",
+    "ru": "Побеждать",
+    "en": "To win",
+    "transcription_eastern": "haghordel",
+    "transcription_lori": "haghordel"
+  },
+  {
+    "id": "verbs-0115",
+    "folderId": "verbs",
+    "ru": "Проигрывать",
+    "en": "To lose",
+    "transcription_eastern": "harutel",
+    "transcription_lori": "harutel"
+  },
+  {
+    "id": "verbs-0116",
+    "folderId": "verbs",
+    "ru": "Соревноваться",
+    "en": "To compete",
+    "transcription_eastern": "haghordel",
+    "transcription_lori": "haghordel"
+  },
+  {
+    "id": "verbs-0117",
+    "folderId": "verbs",
+    "ru": "Играть в футбол",
+    "en": "Play football",
+    "transcription_eastern": "khel",
+    "transcription_lori": "khel"
+  },
+  {
+    "id": "verbs-0118",
+    "folderId": "verbs",
+    "ru": "Играть в шахматы",
+    "en": "Play chess",
+    "transcription_eastern": "khel",
+    "transcription_lori": "khel"
+  },
+  {
+    "id": "verbs-0119",
+    "folderId": "verbs",
+    "ru": "Плавать",
+    "en": "To swim",
+    "transcription_eastern": "lvanel",
+    "transcription_lori": "lvanel"
+  },
+  {
+    "id": "verbs-0120",
+    "folderId": "verbs",
+    "ru": "Нырять",
+    "en": "To dive",
+    "transcription_eastern": "lvanel",
+    "transcription_lori": "lvanel"
+  },
+  {
+    "id": "verbs-0121",
+    "folderId": "verbs",
+    "ru": "Прыгать",
+    "en": "To jump",
+    "transcription_eastern": "barcranal",
+    "transcription_lori": "barcranal"
+  },
+  {
+    "id": "verbs-0122",
+    "folderId": "verbs",
+    "ru": "Летать",
+    "en": "To fly",
+    "transcription_eastern": "t'agel",
+    "transcription_lori": "t'agel"
+  },
+  {
+    "id": "verbs-0123",
+    "folderId": "verbs",
+    "ru": "Ехать",
+    "en": "To ride",
+    "transcription_eastern": "gnal",
+    "transcription_lori": "gnal"
+  },
+  {
+    "id": "verbs-0124",
+    "folderId": "verbs",
+    "ru": "Водить",
+    "en": "To drive",
+    "transcription_eastern": "vairord",
+    "transcription_lori": "vairord"
+  },
+  {
+    "id": "verbs-0125",
+    "folderId": "verbs",
+    "ru": "Останавливаться",
+    "en": "To stop",
+    "transcription_eastern": "kangnel",
+    "transcription_lori": "kangnel"
+  },
+  {
+    "id": "verbs-0126",
+    "folderId": "verbs",
+    "ru": "Парковаться",
+    "en": "To park",
+    "transcription_eastern": "kayaran",
+    "transcription_lori": "kayaran"
+  },
+  {
+    "id": "verbs-0127",
+    "folderId": "verbs",
+    "ru": "Пересекать",
+    "en": "To cross",
+    "transcription_eastern": "mtnel",
+    "transcription_lori": "mtnel"
+  },
+  {
+    "id": "verbs-0128",
+    "folderId": "verbs",
+    "ru": "Поворачивать",
+    "en": "To turn",
+    "transcription_eastern": "dardzel",
+    "transcription_lori": "dardzel"
+  },
+  {
+    "id": "verbs-0129",
+    "folderId": "verbs",
+    "ru": "Обгонять",
+    "en": "To overtake",
+    "transcription_eastern": "arag",
+    "transcription_lori": "arag"
+  },
+  {
+    "id": "verbs-0130",
+    "folderId": "verbs",
+    "ru": "Тормозить",
+    "en": "To brake",
+    "transcription_eastern": "kangnel",
+    "transcription_lori": "kangnel"
+  },
+  {
+    "id": "verbs-0131",
+    "folderId": "verbs",
+    "ru": "Ускоряться",
+    "en": "To accelerate",
+    "transcription_eastern": "arag",
+    "transcription_lori": "arag"
+  },
+  {
+    "id": "verbs-0132",
+    "folderId": "verbs",
+    "ru": "Покупать",
+    "en": "To buy",
+    "transcription_eastern": "khnel",
+    "transcription_lori": "khnel"
+  },
+  {
+    "id": "verbs-0133",
+    "folderId": "verbs",
+    "ru": "Продавать",
+    "en": "To sell",
+    "transcription_eastern": "vacharel",
+    "transcription_lori": "vacharel"
+  },
+  {
+    "id": "verbs-0134",
+    "folderId": "verbs",
+    "ru": "Платить",
+    "en": "To pay",
+    "transcription_eastern": "vcharvel",
+    "transcription_lori": "vcharvel"
+  },
+  {
+    "id": "verbs-0135",
+    "folderId": "verbs",
+    "ru": "Получать",
+    "en": "To receive",
+    "transcription_eastern": "stanal",
+    "transcription_lori": "stanal"
+  },
+  {
+    "id": "verbs-0136",
+    "folderId": "verbs",
+    "ru": "Давать",
+    "en": "To give",
+    "transcription_eastern": "tal",
+    "transcription_lori": "tal"
+  },
+  {
+    "id": "verbs-0137",
+    "folderId": "verbs",
+    "ru": "Брать",
+    "en": "To take",
+    "transcription_eastern": "vercnel",
+    "transcription_lori": "vercnel"
+  },
+  {
+    "id": "verbs-0138",
+    "folderId": "verbs",
+    "ru": "Нести",
+    "en": "To carry",
+    "transcription_eastern": "pner",
+    "transcription_lori": "pner"
+  },
+  {
+    "id": "verbs-0139",
+    "folderId": "verbs",
+    "ru": "Класть",
+    "en": "To put",
+    "transcription_eastern": "dnel",
+    "transcription_lori": "dnel"
+  },
+  {
+    "id": "verbs-0140",
+    "folderId": "verbs",
+    "ru": "Класть",
+    "en": "To place",
+    "transcription_eastern": "dnel",
+    "transcription_lori": "dnel"
+  },
+  {
+    "id": "verbs-0141",
+    "folderId": "verbs",
+    "ru": "Поднимать",
+    "en": "To lift",
+    "transcription_eastern": "vercnel",
+    "transcription_lori": "vercnel"
+  },
+  {
+    "id": "verbs-0142",
+    "folderId": "verbs",
+    "ru": "Опускать",
+    "en": "To lower",
+    "transcription_eastern": "nerqev",
+    "transcription_lori": "nerqev"
+  },
+  {
+    "id": "verbs-0143",
+    "folderId": "verbs",
+    "ru": "Бросать",
+    "en": "To throw",
+    "transcription_eastern": "helknel",
+    "transcription_lori": "helknel"
+  },
+  {
+    "id": "verbs-0144",
+    "folderId": "verbs",
+    "ru": "Ловить",
+    "en": "To catch",
+    "transcription_eastern": "vercnel",
+    "transcription_lori": "vercnel"
+  },
+  {
+    "id": "verbs-0145",
+    "folderId": "verbs",
+    "ru": "Отпускать",
+    "en": "To release",
+    "transcription_eastern": "helknel",
+    "transcription_lori": "helknel"
+  },
+  {
+    "id": "verbs-0146",
+    "folderId": "verbs",
+    "ru": "Держать",
+    "en": "To hold",
+    "transcription_eastern": "pner",
+    "transcription_lori": "pner"
+  },
+  {
+    "id": "verbs-0147",
+    "folderId": "verbs",
+    "ru": "Отпускать",
+    "en": "To let go",
+    "transcription_eastern": "helknel",
+    "transcription_lori": "helknel"
+  },
+  {
+    "id": "verbs-0148",
+    "folderId": "verbs",
+    "ru": "Сжимать",
+    "en": "To squeeze",
+    "transcription_eastern": "pner",
+    "transcription_lori": "pner"
+  },
+  {
+    "id": "verbs-0149",
+    "folderId": "verbs",
+    "ru": "Разжимать",
+    "en": "To release",
+    "transcription_eastern": "helknel",
+    "transcription_lori": "helknel"
+  },
+  {
+    "id": "verbs-0150",
+    "folderId": "verbs",
+    "ru": "Связывать",
+    "en": "To tie",
+    "transcription_eastern": "kayl",
+    "transcription_lori": "kayl"
+  },
+  {
+    "id": "verbs-0151",
+    "folderId": "verbs",
+    "ru": "Развязывать",
+    "en": "To untie",
+    "transcription_eastern": "bacel",
+    "transcription_lori": "bacel"
+  },
+  {
+    "id": "verbs-0152",
+    "folderId": "verbs",
+    "ru": "Завязывать",
+    "en": "To tie up",
+    "transcription_eastern": "kayl",
+    "transcription_lori": "kayl"
+  },
+  {
+    "id": "verbs-0153",
+    "folderId": "verbs",
+    "ru": "Шить",
+    "en": "To sew",
+    "transcription_eastern": "shnel",
+    "transcription_lori": "shnel"
+  },
+  {
+    "id": "verbs-0154",
+    "folderId": "verbs",
+    "ru": "Вязать",
+    "en": "To knit",
+    "transcription_eastern": "shnel",
+    "transcription_lori": "shnel"
+  },
+  {
+    "id": "verbs-0155",
+    "folderId": "verbs",
+    "ru": "Рвать",
+    "en": "To tear",
+    "transcription_eastern": "tsrrnel",
+    "transcription_lori": "tsrrnel"
+  },
+  {
+    "id": "verbs-0156",
+    "folderId": "verbs",
+    "ru": "Ломать",
+    "en": "To break",
+    "transcription_eastern": "krel",
+    "transcription_lori": "krel"
+  },
+  {
+    "id": "verbs-0157",
+    "folderId": "verbs",
+    "ru": "Чинить",
+    "en": "To repair",
+    "transcription_eastern": "norenvel",
+    "transcription_lori": "norenvel"
+  },
+  {
+    "id": "verbs-0158",
+    "folderId": "verbs",
+    "ru": "Строить",
+    "en": "To build",
+    "transcription_eastern": "kargnel",
+    "transcription_lori": "kargnel"
+  },
+  {
+    "id": "verbs-0159",
+    "folderId": "verbs",
+    "ru": "Разрушать",
+    "en": "To destroy",
+    "transcription_eastern": "krel",
+    "transcription_lori": "krel"
+  },
+  {
+    "id": "verbs-0160",
+    "folderId": "verbs",
+    "ru": "Создавать",
+    "en": "To create",
+    "transcription_eastern": "artadrel",
+    "transcription_lori": "artadrel"
+  },
+  {
+    "id": "verbs-0161",
+    "folderId": "verbs",
+    "ru": "Уничтожать",
+    "en": "To destroy",
+    "transcription_eastern": "krel",
+    "transcription_lori": "krel"
+  },
+  {
+    "id": "verbs-0162",
+    "folderId": "verbs",
+    "ru": "Находить",
+    "en": "To find",
+    "transcription_eastern": "gtnel",
+    "transcription_lori": "gtnel"
+  },
+  {
+    "id": "verbs-0163",
+    "folderId": "verbs",
+    "ru": "Терять",
+    "en": "To lose",
+    "transcription_eastern": "moranal",
+    "transcription_lori": "moranal"
+  },
+  {
+    "id": "verbs-0164",
+    "folderId": "verbs",
+    "ru": "Искать",
+    "en": "To search",
+    "transcription_eastern": "yntrel",
+    "transcription_lori": "yntrel"
+  },
+  {
+    "id": "verbs-0165",
+    "folderId": "verbs",
+    "ru": "Скрывать",
+    "en": "To hide",
+    "transcription_eastern": "goyn",
+    "transcription_lori": "goyn"
+  },
+  {
+    "id": "verbs-0166",
+    "folderId": "verbs",
+    "ru": "Показывать",
+    "en": "To show",
+    "transcription_eastern": "tesnel",
+    "transcription_lori": "tesnel"
+  },
+  {
+    "id": "verbs-0167",
+    "folderId": "verbs",
+    "ru": "Прятать",
+    "en": "To hide",
+    "transcription_eastern": "goyn",
+    "transcription_lori": "goyn"
+  },
+  {
+    "id": "verbs-0168",
+    "folderId": "verbs",
+    "ru": "Открывать",
+    "en": "To reveal",
+    "transcription_eastern": "bacel",
+    "transcription_lori": "bacel"
+  },
+  {
+    "id": "verbs-0169",
+    "folderId": "verbs",
+    "ru": "Закрывать",
+    "en": "To conceal",
+    "transcription_eastern": "pakel",
+    "transcription_lori": "pakel"
+  },
+  {
+    "id": "verbs-0170",
+    "folderId": "verbs",
+    "ru": "Называть",
+    "en": "To name",
+    "transcription_eastern": "anvel",
+    "transcription_lori": "anvel"
+  },
+  {
+    "id": "verbs-0171",
+    "folderId": "verbs",
+    "ru": "Звать",
+    "en": "To call",
+    "transcription_eastern": "zangaharel",
+    "transcription_lori": "zangaharel"
+  },
+  {
+    "id": "verbs-0172",
+    "folderId": "verbs",
+    "ru": "Звонить",
+    "en": "To call (phone)",
+    "transcription_eastern": "zangaharel",
+    "transcription_lori": "zangaharel"
+  },
+  {
+    "id": "verbs-0173",
+    "folderId": "verbs",
+    "ru": "Отвечать на звонок",
+    "en": "Answer call",
+    "transcription_eastern": "patasxanel",
+    "transcription_lori": "patasxanel"
+  },
+  {
+    "id": "verbs-0174",
+    "folderId": "verbs",
+    "ru": "Отправлять",
+    "en": "To send",
+    "transcription_eastern": "uxarkel",
+    "transcription_lori": "uxarkel"
+  },
+  {
+    "id": "verbs-0175",
+    "folderId": "verbs",
+    "ru": "Принимать посылку",
+    "en": "To receive a parcel",
+    "transcription_eastern": "parcel stanal",
+    "transcription_lori": "parcel stanal"
+  },
+  {
+    "id": "verbs-0176",
+    "folderId": "verbs",
+    "ru": "Доставлять",
+    "en": "To deliver",
+    "transcription_eastern": "aragh",
+    "transcription_lori": "aragh"
+  },
+  {
+    "id": "verbs-0177",
+    "folderId": "verbs",
+    "ru": "Заказывать",
+    "en": "To order",
+    "transcription_eastern": "patverel",
+    "transcription_lori": "patverel"
+  },
+  {
+    "id": "verbs-0178",
+    "folderId": "verbs",
+    "ru": "Бронировать",
+    "en": "To book",
+    "transcription_eastern": "patverel",
+    "transcription_lori": "patverel"
+  },
+  {
+    "id": "verbs-0179",
+    "folderId": "verbs",
+    "ru": "Отменять",
+    "en": "To cancel",
+    "transcription_eastern": "helknel",
+    "transcription_lori": "helknel"
+  },
+  {
+    "id": "verbs-0180",
+    "folderId": "verbs",
+    "ru": "Планировать",
+    "en": "To plan",
+    "transcription_eastern": "nakhagits",
+    "transcription_lori": "nakhagits"
+  },
+  {
+    "id": "verbs-0181",
+    "folderId": "verbs",
+    "ru": "Организовывать",
+    "en": "To organize",
+    "transcription_eastern": "kargel",
+    "transcription_lori": "kargel"
+  },
+  {
+    "id": "verbs-0182",
+    "folderId": "verbs",
+    "ru": "Управлять",
+    "en": "To manage",
+    "transcription_eastern": "karavarel",
+    "transcription_lori": "karavarel"
+  },
+  {
+    "id": "verbs-0183",
+    "folderId": "verbs",
+    "ru": "Руководить",
+    "en": "To lead",
+    "transcription_eastern": "karavarel",
+    "transcription_lori": "karavarel"
+  },
+  {
+    "id": "verbs-0184",
+    "folderId": "verbs",
+    "ru": "Подчиняться",
+    "en": "To obey",
+    "transcription_eastern": "hargank",
+    "transcription_lori": "hargank"
+  },
+  {
+    "id": "verbs-0185",
+    "folderId": "verbs",
+    "ru": "Приказывать",
+    "en": "To command",
+    "transcription_eastern": "hargank",
+    "transcription_lori": "hargank"
+  },
+  {
+    "id": "verbs-0186",
+    "folderId": "verbs",
+    "ru": "Слушаться",
+    "en": "To obey",
+    "transcription_eastern": "hargank",
+    "transcription_lori": "hargank"
+  },
+  {
+    "id": "verbs-0187",
+    "folderId": "verbs",
+    "ru": "Нарушать",
+    "en": "To violate",
+    "transcription_eastern": "vatacnel",
+    "transcription_lori": "vatacnel"
+  },
+  {
+    "id": "verbs-0188",
+    "folderId": "verbs",
+    "ru": "Соблюдать",
+    "en": "To observe",
+    "transcription_eastern": "pahpanel",
+    "transcription_lori": "pahpanel"
+  },
+  {
+    "id": "verbs-0189",
+    "folderId": "verbs",
+    "ru": "Выполнять",
+    "en": "To fulfill",
+    "transcription_eastern": "verjacnel",
+    "transcription_lori": "verjacnel"
+  },
+  {
+    "id": "verbs-0190",
+    "folderId": "verbs",
+    "ru": "Обещать",
+    "en": "To promise",
+    "transcription_eastern": "havatar",
+    "transcription_lori": "havatar"
+  },
+  {
+    "id": "verbs-0191",
+    "folderId": "verbs",
+    "ru": "Клясться",
+    "en": "To swear",
+    "transcription_eastern": "havatar",
+    "transcription_lori": "havatar"
+  },
+  {
+    "id": "verbs-0192",
+    "folderId": "verbs",
+    "ru": "Врать",
+    "en": "To lie",
+    "transcription_eastern": "kochak",
+    "transcription_lori": "kochak"
+  },
+  {
+    "id": "verbs-0193",
+    "folderId": "verbs",
+    "ru": "Говорить правду",
+    "en": "Tell truth",
+    "transcription_eastern": "irutyun",
+    "transcription_lori": "irutyun"
+  },
+  {
+    "id": "verbs-0194",
+    "folderId": "verbs",
+    "ru": "Признаваться",
+    "en": "To confess",
+    "transcription_eastern": "haskanal",
+    "transcription_lori": "haskanal"
+  },
+  {
+    "id": "verbs-0195",
+    "folderId": "verbs",
+    "ru": "Отрицать",
+    "en": "To deny",
+    "transcription_eastern": "voch",
+    "transcription_lori": "voch"
+  },
+  {
+    "id": "verbs-0196",
+    "folderId": "verbs",
+    "ru": "Соглашаться",
+    "en": "To agree",
+    "transcription_eastern": "hamemat",
+    "transcription_lori": "hamemat"
+  },
+  {
+    "id": "verbs-0197",
+    "folderId": "verbs",
+    "ru": "Не соглашаться",
+    "en": "To disagree",
+    "transcription_eastern": "ch hamemat",
+    "transcription_lori": "chi hamemat"
+  },
+  {
+    "id": "verbs-0198",
+    "folderId": "verbs",
+    "ru": "Спорить",
+    "en": "To argue",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "verbs-0199",
+    "folderId": "verbs",
+    "ru": "Мириться",
+    "en": "To reconcile",
+    "transcription_eastern": "hamashkharh",
+    "transcription_lori": "hamashkharh"
+  },
+  {
+    "id": "verbs-0200",
+    "folderId": "verbs",
+    "ru": "Прощать",
+    "en": "To forgive",
+    "transcription_eastern": "nerogh",
+    "transcription_lori": "nerogh"
+  },
+  {
+    "id": "verbs-0201",
+    "folderId": "verbs",
+    "ru": "Обвинять",
+    "en": "To accuse",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "verbs-0202",
+    "folderId": "verbs",
+    "ru": "Оправдывать",
+    "en": "To justify",
+    "transcription_eastern": "haskanal",
+    "transcription_lori": "haskanal"
+  },
+  {
+    "id": "verbs-0203",
+    "folderId": "verbs",
+    "ru": "Хвалить",
+    "en": "To praise",
+    "transcription_eastern": "hargank",
+    "transcription_lori": "hargank"
+  },
+  {
+    "id": "verbs-0204",
+    "folderId": "verbs",
+    "ru": "Ругать",
+    "en": "To scold",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "verbs-0205",
+    "folderId": "verbs",
+    "ru": "Критиковать",
+    "en": "To criticize",
+    "transcription_eastern": "gnahatel",
+    "transcription_lori": "gnahatel"
+  },
+  {
+    "id": "verbs-0206",
+    "folderId": "verbs",
+    "ru": "Советовать",
+    "en": "To advise",
+    "transcription_eastern": "xorhurd",
+    "transcription_lori": "xorhurd"
+  },
+  {
+    "id": "verbs-0207",
+    "folderId": "verbs",
+    "ru": "Рекомендовать",
+    "en": "To recommend",
+    "transcription_eastern": "xorhurd",
+    "transcription_lori": "xorhurd"
+  },
+  {
+    "id": "verbs-0208",
+    "folderId": "verbs",
+    "ru": "Предлагать",
+    "en": "To suggest",
+    "transcription_eastern": "nerkayacnel",
+    "transcription_lori": "nerkayacnel"
+  },
+  {
+    "id": "verbs-0209",
+    "folderId": "verbs",
+    "ru": "Отказывать",
+    "en": "To refuse",
+    "transcription_eastern": "voch",
+    "transcription_lori": "voch"
+  },
+  {
+    "id": "verbs-0210",
+    "folderId": "verbs",
+    "ru": "Принимать",
+    "en": "To accept",
+    "transcription_eastern": "stanal",
+    "transcription_lori": "stanal"
+  },
+  {
+    "id": "verbs-0211",
+    "folderId": "verbs",
+    "ru": "Отвергать",
+    "en": "To reject",
+    "transcription_eastern": "helknel",
+    "transcription_lori": "helknel"
+  },
+  {
+    "id": "verbs-0212",
+    "folderId": "verbs",
+    "ru": "Выбирать",
+    "en": "To choose",
+    "transcription_eastern": "vercnel",
+    "transcription_lori": "vercnel"
+  },
+  {
+    "id": "verbs-0213",
+    "folderId": "verbs",
+    "ru": "Решать",
+    "en": "To decide",
+    "transcription_eastern": "xorhurd",
+    "transcription_lori": "xorhurd"
+  },
+  {
+    "id": "verbs-0214",
+    "folderId": "verbs",
+    "ru": "Сомневаться",
+    "en": "To hesitate",
+    "transcription_eastern": "kankh",
+    "transcription_lori": "kankh"
+  },
+  {
+    "id": "verbs-0215",
+    "folderId": "verbs",
+    "ru": "Колебаться",
+    "en": "To waver",
+    "transcription_eastern": "kankh",
+    "transcription_lori": "kankh"
+  },
+  {
+    "id": "verbs-0216",
+    "folderId": "verbs",
+    "ru": "Пробовать",
+    "en": "To try",
+    "transcription_eastern": "pordzel",
+    "transcription_lori": "pordzel"
+  },
+  {
+    "id": "verbs-0217",
+    "folderId": "verbs",
+    "ru": "Успевать",
+    "en": "To manage",
+    "transcription_eastern": "haskan",
+    "transcription_lori": "haskan"
+  },
+  {
+    "id": "verbs-0218",
+    "folderId": "verbs",
+    "ru": "Не успевать",
+    "en": "Not to manage",
+    "transcription_eastern": "ch haskan",
+    "transcription_lori": "chi haskan"
+  },
+  {
+    "id": "verbs-0219",
+    "folderId": "verbs",
+    "ru": "Справляться",
+    "en": "To cope",
+    "transcription_eastern": "haskan",
+    "transcription_lori": "haskan"
+  },
+  {
+    "id": "verbs-0220",
+    "folderId": "verbs",
+    "ru": "Сдаваться",
+    "en": "To give up",
+    "transcription_eastern": "helknel",
+    "transcription_lori": "helknel"
+  },
+  {
+    "id": "verbs-0221",
+    "folderId": "verbs",
+    "ru": "Бороться",
+    "en": "To struggle",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "verbs-0222",
+    "folderId": "verbs",
+    "ru": "Стараться",
+    "en": "To try hard",
+    "transcription_eastern": "pordzel",
+    "transcription_lori": "pordzel"
+  },
+  {
+    "id": "verbs-0223",
+    "folderId": "verbs",
+    "ru": "Сдаваться",
+    "en": "To surrender",
+    "transcription_eastern": "helknel",
+    "transcription_lori": "helknel"
+  },
+  {
+    "id": "verbs-0224",
+    "folderId": "verbs",
+    "ru": "Достигать",
+    "en": "To achieve",
+    "transcription_eastern": "haskan",
+    "transcription_lori": "haskan"
+  },
+  {
+    "id": "verbs-0225",
+    "folderId": "verbs",
+    "ru": "Добиваться",
+    "en": "To achieve",
+    "transcription_eastern": "haskan",
+    "transcription_lori": "haskan"
+  },
+  {
+    "id": "verbs-0226",
+    "folderId": "verbs",
+    "ru": "Терпеть неудачу",
+    "en": "To fail",
+    "transcription_eastern": "harutel",
+    "transcription_lori": "harutel"
+  },
+  {
+    "id": "verbs-0227",
+    "folderId": "verbs",
+    "ru": "Падать",
+    "en": "To fall",
+    "transcription_eastern": "krel",
+    "transcription_lori": "krel"
+  },
+  {
+    "id": "verbs-0228",
+    "folderId": "verbs",
+    "ru": "Вставать рано",
+    "en": "To get up early",
+    "transcription_eastern": "shur zartnal",
+    "transcription_lori": "shur zartnal"
+  },
+  {
+    "id": "verbs-0229",
+    "folderId": "verbs",
+    "ru": "Взлетать",
+    "en": "To take off",
+    "transcription_eastern": "t'agel",
+    "transcription_lori": "t'agel"
+  },
+  {
+    "id": "verbs-0230",
+    "folderId": "verbs",
+    "ru": "Приземляться",
+    "en": "To land",
+    "transcription_eastern": "t'agel",
+    "transcription_lori": "t'agel"
+  },
+  {
+    "id": "verbs-0231",
+    "folderId": "verbs",
+    "ru": "Плавать",
+    "en": "To float",
+    "transcription_eastern": "lvanel",
+    "transcription_lori": "lvanel"
+  },
+  {
+    "id": "verbs-0232",
+    "folderId": "verbs",
+    "ru": "Тонуть",
+    "en": "To sink",
+    "transcription_eastern": "lvanel",
+    "transcription_lori": "lvanel"
+  },
+  {
+    "id": "verbs-0233",
+    "folderId": "verbs",
+    "ru": "Всплывать",
+    "en": "To surface",
+    "transcription_eastern": "lvanel",
+    "transcription_lori": "lvanel"
+  },
+  {
+    "id": "verbs-0234",
+    "folderId": "verbs",
+    "ru": "Гореть",
+    "en": "To burn",
+    "transcription_eastern": "shut",
+    "transcription_lori": "shut"
+  },
+  {
+    "id": "verbs-0235",
+    "folderId": "verbs",
+    "ru": "Таять",
+    "en": "To melt",
+    "transcription_eastern": "t'ep",
+    "transcription_lori": "t'ep"
+  },
+  {
+    "id": "verbs-0236",
+    "folderId": "verbs",
+    "ru": "Замерзать",
+    "en": "To freeze",
+    "transcription_eastern": "ts'urt",
+    "transcription_lori": "ts'urt"
+  },
+  {
+    "id": "verbs-0237",
+    "folderId": "verbs",
+    "ru": "Кипеть",
+    "en": "To boil",
+    "transcription_eastern": "korel",
+    "transcription_lori": "korel"
+  },
+  {
+    "id": "verbs-0238",
+    "folderId": "verbs",
+    "ru": "Испаряться",
+    "en": "To evaporate",
+    "transcription_eastern": "t'ep",
+    "transcription_lori": "t'ep"
+  },
+  {
+    "id": "verbs-0239",
+    "folderId": "verbs",
+    "ru": "Конденсироваться",
+    "en": "To condense",
+    "transcription_eastern": "ts'on",
+    "transcription_lori": "ts'on"
+  },
+  {
+    "id": "verbs-0240",
+    "folderId": "verbs",
+    "ru": "Светить",
+    "en": "To shine",
+    "transcription_eastern": "lus",
+    "transcription_lori": "lus"
+  },
+  {
+    "id": "verbs-0241",
+    "folderId": "verbs",
+    "ru": "Мерцать",
+    "en": "To twinkle",
+    "transcription_eastern": "lus",
+    "transcription_lori": "lus"
+  },
+  {
+    "id": "verbs-0242",
+    "folderId": "verbs",
+    "ru": "Освещать",
+    "en": "To illuminate",
+    "transcription_eastern": "lus",
+    "transcription_lori": "lus"
+  },
+  {
+    "id": "verbs-0243",
+    "folderId": "verbs",
+    "ru": "Затемнять",
+    "en": "To darken",
+    "transcription_eastern": "mut",
+    "transcription_lori": "mut"
+  },
+  {
+    "id": "verbs-0244",
+    "folderId": "verbs",
+    "ru": "Светать",
+    "en": "To dawn",
+    "transcription_eastern": "arevot",
+    "transcription_lori": "arevot"
+  },
+  {
+    "id": "verbs-0245",
+    "folderId": "verbs",
+    "ru": "Смеркаться",
+    "en": "To dusk",
+    "transcription_eastern": "arevmut",
+    "transcription_lori": "arevmut"
+  },
+  {
+    "id": "verbs-0246",
+    "folderId": "verbs",
+    "ru": "Дождиться",
+    "en": "To wait for",
+    "transcription_eastern": "spasel",
+    "transcription_lori": "spasel"
+  },
+  {
+    "id": "verbs-0247",
+    "folderId": "verbs",
+    "ru": "Встретить",
+    "en": "To meet",
+    "transcription_eastern": "tesnel",
+    "transcription_lori": "tesnel"
+  },
+  {
+    "id": "verbs-0248",
+    "folderId": "verbs",
+    "ru": "Познакомиться",
+    "en": "To get acquainted",
+    "transcription_eastern": "tsanotanal",
+    "transcription_lori": "tsanotanal"
+  },
+  {
+    "id": "verbs-0249",
+    "folderId": "verbs",
+    "ru": "Представить",
+    "en": "To introduce",
+    "transcription_eastern": "tsanotacnel",
+    "transcription_lori": "tsanotacnel"
+  },
+  {
+    "id": "verbs-0250",
+    "folderId": "verbs",
+    "ru": "Прощаться",
+    "en": "To say goodbye",
+    "transcription_eastern": "tesutyun",
+    "transcription_lori": "tesutyun"
+  }
+]

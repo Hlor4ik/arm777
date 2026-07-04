@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "adjectives-0001",
+    "folderId": "adjectives",
+    "ru": "Хороший",
+    "en": "Good",
+    "transcription_eastern": "lav",
+    "transcription_lori": "lav"
+  },
+  {
+    "id": "adjectives-0002",
+    "folderId": "adjectives",
+    "ru": "Плохой",
+    "en": "Bad",
+    "transcription_eastern": "vats",
+    "transcription_lori": "vats"
+  },
+  {
+    "id": "adjectives-0003",
+    "folderId": "adjectives",
+    "ru": "Большой",
+    "en": "Big",
+    "transcription_eastern": "mec",
+    "transcription_lori": "mec"
+  },
+  {
+    "id": "adjectives-0004",
+    "folderId": "adjectives",
+    "ru": "Маленький",
+    "en": "Small",
+    "transcription_eastern": "poqr",
+    "transcription_lori": "poqr"
+  },
+  {
+    "id": "adjectives-0005",
+    "folderId": "adjectives",
+    "ru": "Длинный",
+    "en": "Long",
+    "transcription_eastern": "erkar",
+    "transcription_lori": "erkar"
+  },
+  {
+    "id": "adjectives-0006",
+    "folderId": "adjectives",
+    "ru": "Короткий",
+    "en": "Short",
+    "transcription_eastern": "karch",
+    "transcription_lori": "karch"
+  },
+  {
+    "id": "adjectives-0007",
+    "folderId": "adjectives",
+    "ru": "Высокий",
+    "en": "Tall",
+    "transcription_eastern": "barzr",
+    "transcription_lori": "barzr"
+  },
+  {
+    "id": "adjectives-0008",
+    "folderId": "adjectives",
+    "ru": "Низкий",
+    "en": "Short",
+    "transcription_eastern": "qayl",
+    "transcription_lori": "qayl"
+  },
+  {
+    "id": "adjectives-0009",
+    "folderId": "adjectives",
+    "ru": "Широкий",
+    "en": "Wide",
+    "transcription_eastern": "lajn",
+    "transcription_lori": "lajn"
+  },
+  {
+    "id": "adjectives-0010",
+    "folderId": "adjectives",
+    "ru": "Узкий",
+    "en": "Narrow",
+    "transcription_eastern": "ts'ank",
+    "transcription_lori": "ts'ank"
+  },
+  {
+    "id": "adjectives-0011",
+    "folderId": "adjectives",
+    "ru": "Толстый",
+    "en": "Thick",
+    "transcription_eastern": "barek",
+    "transcription_lori": "barek"
+  },
+  {
+    "id": "adjectives-0012",
+    "folderId": "adjectives",
+    "ru": "Тонкий",
+    "en": "Thin",
+    "transcription_eastern": "ts'ank",
+    "transcription_lori": "ts'ank"
+  },
+  {
+    "id": "adjectives-0013",
+    "folderId": "adjectives",
+    "ru": "Тяжёлый",
+    "en": "Heavy",
+    "transcription_eastern": "barek",
+    "transcription_lori": "barek"
+  },
+  {
+    "id": "adjectives-0014",
+    "folderId": "adjectives",
+    "ru": "Лёгкий",
+    "en": "Light",
+    "transcription_eastern": "texu",
+    "transcription_lori": "texu"
+  },
+  {
+    "id": "adjectives-0015",
+    "folderId": "adjectives",
+    "ru": "Быстрый",
+    "en": "Fast",
+    "transcription_eastern": "arag",
+    "transcription_lori": "arag"
+  },
+  {
+    "id": "adjectives-0016",
+    "folderId": "adjectives",
+    "ru": "Медленный",
+    "en": "Slow",
+    "transcription_eastern": "dandagh",
+    "transcription_lori": "dandagh"
+  },
+  {
+    "id": "adjectives-0017",
+    "folderId": "adjectives",
+    "ru": "Горячий",
+    "en": "Hot",
+    "transcription_eastern": "t'ep",
+    "transcription_lori": "t'ep"
+  },
+  {
+    "id": "adjectives-0018",
+    "folderId": "adjectives",
+    "ru": "Холодный",
+    "en": "Cold",
+    "transcription_eastern": "ts'urt",
+    "transcription_lori": "ts'urt"
+  },
+  {
+    "id": "adjectives-0019",
+    "folderId": "adjectives",
+    "ru": "Тёплый",
+    "en": "Warm",
+    "transcription_eastern": "t'ep",
+    "transcription_lori": "t'ep"
+  },
+  {
+    "id": "adjectives-0020",
+    "folderId": "adjectives",
+    "ru": "Прохладный",
+    "en": "Cool",
+    "transcription_eastern": "ts'urt",
+    "transcription_lori": "ts'urt"
+  },
+  {
+    "id": "adjectives-0021",
+    "folderId": "adjectives",
+    "ru": "Сухой",
+    "en": "Dry",
+    "transcription_eastern": "ts'or",
+    "transcription_lori": "ts'or"
+  },
+  {
+    "id": "adjectives-0022",
+    "folderId": "adjectives",
+    "ru": "Мокрый",
+    "en": "Wet",
+    "transcription_eastern": "ts'on",
+    "transcription_lori": "ts'on"
+  },
+  {
+    "id": "adjectives-0023",
+    "folderId": "adjectives",
+    "ru": "Чистый",
+    "en": "Clean",
+    "transcription_eastern": "makur",
+    "transcription_lori": "makur"
+  },
+  {
+    "id": "adjectives-0024",
+    "folderId": "adjectives",
+    "ru": "Грязный",
+    "en": "Dirty",
+    "transcription_eastern": "gavar",
+    "transcription_lori": "gavar"
+  },
+  {
+    "id": "adjectives-0025",
+    "folderId": "adjectives",
+    "ru": "Новый",
+    "en": "New",
+    "transcription_eastern": "nor",
+    "transcription_lori": "nor"
+  },
+  {
+    "id": "adjectives-0026",
+    "folderId": "adjectives",
+    "ru": "Старый",
+    "en": "Old",
+    "transcription_eastern": "hin",
+    "transcription_lori": "hin"
+  },
+  {
+    "id": "adjectives-0027",
+    "folderId": "adjectives",
+    "ru": "Молодой",
+    "en": "Young",
+    "transcription_eastern": "serund",
+    "transcription_lori": "serund"
+  },
+  {
+    "id": "adjectives-0028",
+    "folderId": "adjectives",
+    "ru": "Старый",
+    "en": "Aged",
+    "transcription_eastern": "tarekan",
+    "transcription_lori": "tarekan"
+  },
+  {
+    "id": "adjectives-0029",
+    "folderId": "adjectives",
+    "ru": "Красивый",
+    "en": "Beautiful",
+    "transcription_eastern": "sirun",
+    "transcription_lori": "sirun"
+  },
+  {
+    "id": "adjectives-0030",
+    "folderId": "adjectives",
+    "ru": "Уродливый",
+    "en": "Ugly",
+    "transcription_eastern": "atamun",
+    "transcription_lori": "atamun"
+  },
+  {
+    "id": "adjectives-0031",
+    "folderId": "adjectives",
+    "ru": "Красный",
+    "en": "Red",
+    "transcription_eastern": "k'armir",
+    "transcription_lori": "k'armir"
+  },
+  {
+    "id": "adjectives-0032",
+    "folderId": "adjectives",
+    "ru": "Синий",
+    "en": "Blue",
+    "transcription_eastern": "kapuyt",
+    "transcription_lori": "kapuyt"
+  },
+  {
+    "id": "adjectives-0033",
+    "folderId": "adjectives",
+    "ru": "Зелёный",
+    "en": "Green",
+    "transcription_eastern": "kanach",
+    "transcription_lori": "kanach"
+  },
+  {
+    "id": "adjectives-0034",
+    "folderId": "adjectives",
+    "ru": "Жёлтый",
+    "en": "Yellow",
+    "transcription_eastern": "deghin",
+    "transcription_lori": "deghin"
+  },
+  {
+    "id": "adjectives-0035",
+    "folderId": "adjectives",
+    "ru": "Белый",
+    "en": "White",
+    "transcription_eastern": "spitak",
+    "transcription_lori": "spitak"
+  },
+  {
+    "id": "adjectives-0036",
+    "folderId": "adjectives",
+    "ru": "Чёрный",
+    "en": "Black",
+    "transcription_eastern": "sev",
+    "transcription_lori": "sev"
+  },
+  {
+    "id": "adjectives-0037",
+    "folderId": "adjectives",
+    "ru": "Оранжевый",
+    "en": "Orange",
+    "transcription_eastern": "narinj",
+    "transcription_lori": "narinj"
+  },
+  {
+    "id": "adjectives-0038",
+    "folderId": "adjectives",
+    "ru": "Розовый",
+    "en": "Pink",
+    "transcription_eastern": "vardaguyn",
+    "transcription_lori": "vardaguyn"
+  },
+  {
+    "id": "adjectives-0039",
+    "folderId": "adjectives",
+    "ru": "Фиолетовый",
+    "en": "Purple",
+    "transcription_eastern": "kapuyt",
+    "transcription_lori": "kapuyt"
+  },
+  {
+    "id": "adjectives-0040",
+    "folderId": "adjectives",
+    "ru": "Серый",
+    "en": "Gray",
+    "transcription_eastern": "mokhraguyn",
+    "transcription_lori": "mokhraguyn"
+  },
+  {
+    "id": "adjectives-0041",
+    "folderId": "adjectives",
+    "ru": "Коричневый",
+    "en": "Brown",
+    "transcription_eastern": "kahaguyn",
+    "transcription_lori": "kahaguyn"
+  },
+  {
+    "id": "adjectives-0042",
+    "folderId": "adjectives",
+    "ru": "Бежевый",
+    "en": "Beige",
+    "transcription_eastern": "deghin",
+    "transcription_lori": "deghin"
+  },
+  {
+    "id": "adjectives-0043",
+    "folderId": "adjectives",
+    "ru": "Светлый",
+    "en": "Light (color)",
+    "transcription_eastern": "lusavor",
+    "transcription_lori": "lusavor"
+  },
+  {
+    "id": "adjectives-0044",
+    "folderId": "adjectives",
+    "ru": "Тёмный",
+    "en": "Dark",
+    "transcription_eastern": "mut",
+    "transcription_lori": "mut"
+  },
+  {
+    "id": "adjectives-0045",
+    "folderId": "adjectives",
+    "ru": "Яркий",
+    "en": "Bright",
+    "transcription_eastern": "lusavor",
+    "transcription_lori": "lusavor"
+  },
+  {
+    "id": "adjectives-0046",
+    "folderId": "adjectives",
+    "ru": "Тусклый",
+    "en": "Dull",
+    "transcription_eastern": "mut",
+    "transcription_lori": "mut"
+  },
+  {
+    "id": "adjectives-0047",
+    "folderId": "adjectives",
+    "ru": "Блестящий",
+    "en": "Shiny",
+    "transcription_eastern": "lusavor",
+    "transcription_lori": "lusavor"
+  },
+  {
+    "id": "adjectives-0048",
+    "folderId": "adjectives",
+    "ru": "Матовый",
+    "en": "Matte",
+    "transcription_eastern": "mut",
+    "transcription_lori": "mut"
+  },
+  {
+    "id": "adjectives-0049",
+    "folderId": "adjectives",
+    "ru": "Прозрачный",
+    "en": "Transparent",
+    "transcription_eastern": "parz",
+    "transcription_lori": "parz"
+  },
+  {
+    "id": "adjectives-0050",
+    "folderId": "adjectives",
+    "ru": "Непрозрачный",
+    "en": "Opaque",
+    "transcription_eastern": "parz che",
+    "transcription_lori": "parz che"
+  },
+  {
+    "id": "adjectives-0051",
+    "folderId": "adjectives",
+    "ru": "Гладкий",
+    "en": "Smooth",
+    "transcription_eastern": "makur",
+    "transcription_lori": "makur"
+  },
+  {
+    "id": "adjectives-0052",
+    "folderId": "adjectives",
+    "ru": "Шершавый",
+    "en": "Rough",
+    "transcription_eastern": "gavar",
+    "transcription_lori": "gavar"
+  },
+  {
+    "id": "adjectives-0053",
+    "folderId": "adjectives",
+    "ru": "Мягкий",
+    "en": "Soft",
+    "transcription_eastern": "naz",
+    "transcription_lori": "naz"
+  },
+  {
+    "id": "adjectives-0054",
+    "folderId": "adjectives",
+    "ru": "Твёрдый",
+    "en": "Hard",
+    "transcription_eastern": "kare",
+    "transcription_lori": "kare"
+  },
+  {
+    "id": "adjectives-0055",
+    "folderId": "adjectives",
+    "ru": "Острый",
+    "en": "Sharp",
+    "transcription_eastern": "ts'rr",
+    "transcription_lori": "ts'rr"
+  },
+  {
+    "id": "adjectives-0056",
+    "folderId": "adjectives",
+    "ru": "Тупой",
+    "en": "Blunt",
+    "transcription_eastern": "ts'rr che",
+    "transcription_lori": "ts'rr che"
+  },
+  {
+    "id": "adjectives-0057",
+    "folderId": "adjectives",
+    "ru": "Сладкий",
+    "en": "Sweet",
+    "transcription_eastern": "katarel",
+    "transcription_lori": "katarel"
+  },
+  {
+    "id": "adjectives-0058",
+    "folderId": "adjectives",
+    "ru": "Кислый",
+    "en": "Sour",
+    "transcription_eastern": "ts'urt",
+    "transcription_lori": "ts'urt"
+  },
+  {
+    "id": "adjectives-0059",
+    "folderId": "adjectives",
+    "ru": "Горький",
+    "en": "Bitter",
+    "transcription_eastern": "dz'er",
+    "transcription_lori": "dz'er"
+  },
+  {
+    "id": "adjectives-0060",
+    "folderId": "adjectives",
+    "ru": "Солёный",
+    "en": "Salty",
+    "transcription_eastern": "aghavor",
+    "transcription_lori": "aghavor"
+  },
+  {
+    "id": "adjectives-0061",
+    "folderId": "adjectives",
+    "ru": "Острый (вкус)",
+    "en": "Spicy",
+    "transcription_eastern": "heghumavor",
+    "transcription_lori": "heghumavor"
+  },
+  {
+    "id": "adjectives-0062",
+    "folderId": "adjectives",
+    "ru": "Пряный",
+    "en": "Spicy",
+    "transcription_eastern": "heghumavor",
+    "transcription_lori": "heghumavor"
+  },
+  {
+    "id": "adjectives-0063",
+    "folderId": "adjectives",
+    "ru": "Ароматный",
+    "en": "Aromatic",
+    "transcription_eastern": "khosqavor",
+    "transcription_lori": "khosqavor"
+  },
+  {
+    "id": "adjectives-0064",
+    "folderId": "adjectives",
+    "ru": "Вкусный",
+    "en": "Tasty",
+    "transcription_eastern": "hac",
+    "transcription_lori": "hac"
+  },
+  {
+    "id": "adjectives-0065",
+    "folderId": "adjectives",
+    "ru": "Невкусный",
+    "en": "Tasteless",
+    "transcription_eastern": "hac che",
+    "transcription_lori": "hac che"
+  },
+  {
+    "id": "adjectives-0066",
+    "folderId": "adjectives",
+    "ru": "Свежий",
+    "en": "Fresh",
+    "transcription_eastern": "t'arm",
+    "transcription_lori": "t'arm"
+  },
+  {
+    "id": "adjectives-0067",
+    "folderId": "adjectives",
+    "ru": "Сочный",
+    "en": "Juicy",
+    "transcription_eastern": "meghrav",
+    "transcription_lori": "meghrav"
+  },
+  {
+    "id": "adjectives-0068",
+    "folderId": "adjectives",
+    "ru": "Сухой (еда)",
+    "en": "Dry (food)",
+    "transcription_eastern": "ts'or",
+    "transcription_lori": "ts'or"
+  },
+  {
+    "id": "adjectives-0069",
+    "folderId": "adjectives",
+    "ru": "Хрустящий",
+    "en": "Crispy",
+    "transcription_eastern": "ts'rr",
+    "transcription_lori": "ts'rr"
+  },
+  {
+    "id": "adjectives-0070",
+    "folderId": "adjectives",
+    "ru": "Нежный",
+    "en": "Tender",
+    "transcription_eastern": "naz",
+    "transcription_lori": "naz"
+  },
+  {
+    "id": "adjectives-0071",
+    "folderId": "adjectives",
+    "ru": "Жёсткий",
+    "en": "Tough",
+    "transcription_eastern": "kare",
+    "transcription_lori": "kare"
+  },
+  {
+    "id": "adjectives-0072",
+    "folderId": "adjectives",
+    "ru": "Сырой",
+    "en": "Raw",
+    "transcription_eastern": "ts'or",
+    "transcription_lori": "ts'or"
+  },
+  {
+    "id": "adjectives-0073",
+    "folderId": "adjectives",
+    "ru": "Варёный",
+    "en": "Boiled",
+    "transcription_eastern": "korel",
+    "transcription_lori": "korel"
+  },
+  {
+    "id": "adjectives-0074",
+    "folderId": "adjectives",
+    "ru": "Жареный",
+    "en": "Fried",
+    "transcription_eastern": "korel",
+    "transcription_lori": "korel"
+  },
+  {
+    "id": "adjectives-0075",
+    "folderId": "adjectives",
+    "ru": "Запечённый",
+    "en": "Baked",
+    "transcription_eastern": "korel",
+    "transcription_lori": "korel"
+  },
+  {
+    "id": "adjectives-0076",
+    "folderId": "adjectives",
+    "ru": "Копчёный",
+    "en": "Smoked",
+    "transcription_eastern": "kopch",
+    "transcription_lori": "kopch"
+  },
+  {
+    "id": "adjectives-0077",
+    "folderId": "adjectives",
+    "ru": "Маринованный",
+    "en": "Pickled",
+    "transcription_eastern": "achar",
+    "transcription_lori": "achar"
+  },
+  {
+    "id": "adjectives-0078",
+    "folderId": "adjectives",
+    "ru": "Сушёный",
+    "en": "Dried",
+    "transcription_eastern": "c'or",
+    "transcription_lori": "c'or"
+  },
+  {
+    "id": "adjectives-0079",
+    "folderId": "adjectives",
+    "ru": "Счастливый",
+    "en": "Happy",
+    "transcription_eastern": "urakh",
+    "transcription_lori": "urakh"
+  },
+  {
+    "id": "adjectives-0080",
+    "folderId": "adjectives",
+    "ru": "Грустный",
+    "en": "Sad",
+    "transcription_eastern": "tskhvi",
+    "transcription_lori": "tskhvi"
+  },
+  {
+    "id": "adjectives-0081",
+    "folderId": "adjectives",
+    "ru": "Весёлый",
+    "en": "Cheerful",
+    "transcription_eastern": "urakh",
+    "transcription_lori": "urakh"
+  },
+  {
+    "id": "adjectives-0082",
+    "folderId": "adjectives",
+    "ru": "Печальный",
+    "en": "Sorrowful",
+    "transcription_eastern": "tskhvi",
+    "transcription_lori": "tskhvi"
+  },
+  {
+    "id": "adjectives-0083",
+    "folderId": "adjectives",
+    "ru": "Радостный",
+    "en": "Joyful",
+    "transcription_eastern": "urakh",
+    "transcription_lori": "urakh"
+  },
+  {
+    "id": "adjectives-0084",
+    "folderId": "adjectives",
+    "ru": "Злой",
+    "en": "Angry",
+    "transcription_eastern": "vayel",
+    "transcription_lori": "vayel"
+  },
+  {
+    "id": "adjectives-0085",
+    "folderId": "adjectives",
+    "ru": "Спокойный",
+    "en": "Calm",
+    "transcription_eastern": "hangist",
+    "transcription_lori": "hangist"
+  },
+  {
+    "id": "adjectives-0086",
+    "folderId": "adjectives",
+    "ru": "Взволнованный",
+    "en": "Agitated",
+    "transcription_eastern": "xndir",
+    "transcription_lori": "xndir"
+  },
+  {
+    "id": "adjectives-0087",
+    "folderId": "adjectives",
+    "ru": "Испуганный",
+    "en": "Scared",
+    "transcription_eastern": "yerek",
+    "transcription_lori": "yerek"
+  },
+  {
+    "id": "adjectives-0088",
+    "folderId": "adjectives",
+    "ru": "Смелый",
+    "en": "Brave",
+    "transcription_eastern": "heros",
+    "transcription_lori": "heros"
+  },
+  {
+    "id": "adjectives-0089",
+    "folderId": "adjectives",
+    "ru": "Трусливый",
+    "en": "Cowardly",
+    "transcription_eastern": "yerek",
+    "transcription_lori": "yerek"
+  },
+  {
+    "id": "adjectives-0090",
+    "folderId": "adjectives",
+    "ru": "Уверенный",
+    "en": "Confident",
+    "transcription_eastern": "havatar",
+    "transcription_lori": "havatar"
+  },
+  {
+    "id": "adjectives-0091",
+    "folderId": "adjectives",
+    "ru": "Робкий",
+    "en": "Timid",
+    "transcription_eastern": "yerek",
+    "transcription_lori": "yerek"
+  },
+  {
+    "id": "adjectives-0092",
+    "folderId": "adjectives",
+    "ru": "Дружелюбный",
+    "en": "Friendly",
+    "transcription_eastern": "baren",
+    "transcription_lori": "baren"
+  },
+  {
+    "id": "adjectives-0093",
+    "folderId": "adjectives",
+    "ru": "Враждебный",
+    "en": "Hostile",
+    "transcription_eastern": "echchar",
+    "transcription_lori": "echchar"
+  },
+  {
+    "id": "adjectives-0094",
+    "folderId": "adjectives",
+    "ru": "Добрый",
+    "en": "Kind",
+    "transcription_eastern": "bari",
+    "transcription_lori": "bari"
+  },
+  {
+    "id": "adjectives-0095",
+    "folderId": "adjectives",
+    "ru": "Злой",
+    "en": "Evil",
+    "transcription_eastern": "vats",
+    "transcription_lori": "vats"
+  },
+  {
+    "id": "adjectives-0096",
+    "folderId": "adjectives",
+    "ru": "Жестокий",
+    "en": "Cruel",
+    "transcription_eastern": "vats",
+    "transcription_lori": "vats"
+  },
+  {
+    "id": "adjectives-0097",
+    "folderId": "adjectives",
+    "ru": "Нежный",
+    "en": "Gentle",
+    "transcription_eastern": "naz",
+    "transcription_lori": "naz"
+  },
+  {
+    "id": "adjectives-0098",
+    "folderId": "adjectives",
+    "ru": "Грубый",
+    "en": "Rough",
+    "transcription_eastern": "vats",
+    "transcription_lori": "vats"
+  },
+  {
+    "id": "adjectives-0099",
+    "folderId": "adjectives",
+    "ru": "Ласковый",
+    "en": "Affectionate",
+    "transcription_eastern": "naz",
+    "transcription_lori": "naz"
+  },
+  {
+    "id": "adjectives-0100",
+    "folderId": "adjectives",
+    "ru": "Холодный (человек)",
+    "en": "Cold (person)",
+    "transcription_eastern": "ts'urt",
+    "transcription_lori": "ts'urt"
+  },
+  {
+    "id": "adjectives-0101",
+    "folderId": "adjectives",
+    "ru": "Тёплый (человек)",
+    "en": "Warm (person)",
+    "transcription_eastern": "t'ep",
+    "transcription_lori": "t'ep"
+  },
+  {
+    "id": "adjectives-0102",
+    "folderId": "adjectives",
+    "ru": "Открытый",
+    "en": "Open",
+    "transcription_eastern": "bats",
+    "transcription_lori": "bats"
+  },
+  {
+    "id": "adjectives-0103",
+    "folderId": "adjectives",
+    "ru": "Закрытый",
+    "en": "Closed",
+    "transcription_eastern": "pakel",
+    "transcription_lori": "pakel"
+  },
+  {
+    "id": "adjectives-0104",
+    "folderId": "adjectives",
+    "ru": "Честный",
+    "en": "Honest",
+    "transcription_eastern": "anunakan",
+    "transcription_lori": "anunakan"
+  },
+  {
+    "id": "adjectives-0105",
+    "folderId": "adjectives",
+    "ru": "Лживый",
+    "en": "Lying",
+    "transcription_eastern": "kochak",
+    "transcription_lori": "kochak"
+  },
+  {
+    "id": "adjectives-0106",
+    "folderId": "adjectives",
+    "ru": "Искренний",
+    "en": "Sincere",
+    "transcription_eastern": "anunakan",
+    "transcription_lori": "anunakan"
+  },
+  {
+    "id": "adjectives-0107",
+    "folderId": "adjectives",
+    "ru": "Фальшивый",
+    "en": "Fake",
+    "transcription_eastern": "kochak",
+    "transcription_lori": "kochak"
+  },
+  {
+    "id": "adjectives-0108",
+    "folderId": "adjectives",
+    "ru": "Настоящий",
+    "en": "Real",
+    "transcription_eastern": "irakan",
+    "transcription_lori": "irakan"
+  },
+  {
+    "id": "adjectives-0109",
+    "folderId": "adjectives",
+    "ru": "Поддельный",
+    "en": "Fake",
+    "transcription_eastern": "kochak",
+    "transcription_lori": "kochak"
+  },
+  {
+    "id": "adjectives-0110",
+    "folderId": "adjectives",
+    "ru": "Настоящий",
+    "en": "Genuine",
+    "transcription_eastern": "irakan",
+    "transcription_lori": "irakan"
+  },
+  {
+    "id": "adjectives-0111",
+    "folderId": "adjectives",
+    "ru": "Важный",
+    "en": "Important",
+    "transcription_eastern": "karevor",
+    "transcription_lori": "karevor"
+  },
+  {
+    "id": "adjectives-0112",
+    "folderId": "adjectives",
+    "ru": "Неважный",
+    "en": "Unimportant",
+    "transcription_eastern": "ch karevor",
+    "transcription_lori": "chi karevor"
+  },
+  {
+    "id": "adjectives-0113",
+    "folderId": "adjectives",
+    "ru": "Главный",
+    "en": "Main",
+    "transcription_eastern": "hings",
+    "transcription_lori": "hings"
+  },
+  {
+    "id": "adjectives-0114",
+    "folderId": "adjectives",
+    "ru": "Второстепенный",
+    "en": "Secondary",
+    "transcription_eastern": "erkrord",
+    "transcription_lori": "erkrord"
+  },
+  {
+    "id": "adjectives-0115",
+    "folderId": "adjectives",
+    "ru": "Первый",
+    "en": "First",
+    "transcription_eastern": "arajn",
+    "transcription_lori": "arajn"
+  },
+  {
+    "id": "adjectives-0116",
+    "folderId": "adjectives",
+    "ru": "Последний",
+    "en": "Last",
+    "transcription_eastern": "verjin",
+    "transcription_lori": "verjin"
+  },
+  {
+    "id": "adjectives-0117",
+    "folderId": "adjectives",
+    "ru": "Следующий",
+    "en": "Next",
+    "transcription_eastern": "hajord",
+    "transcription_lori": "hajord"
+  },
+  {
+    "id": "adjectives-0118",
+    "folderId": "adjectives",
+    "ru": "Предыдущий",
+    "en": "Previous",
+    "transcription_eastern": "naxord",
+    "transcription_lori": "naxord"
+  },
+  {
+    "id": "adjectives-0119",
+    "folderId": "adjectives",
+    "ru": "Ближайший",
+    "en": "Nearest",
+    "transcription_eastern": "mot",
+    "transcription_lori": "mot"
+  },
+  {
+    "id": "adjectives-0120",
+    "folderId": "adjectives",
+    "ru": "Дальний",
+    "en": "Far",
+    "transcription_eastern": "heru",
+    "transcription_lori": "heru"
+  },
+  {
+    "id": "adjectives-0121",
+    "folderId": "adjectives",
+    "ru": "Близкий",
+    "en": "Close",
+    "transcription_eastern": "mot",
+    "transcription_lori": "mot"
+  },
+  {
+    "id": "adjectives-0122",
+    "folderId": "adjectives",
+    "ru": "Далёкий",
+    "en": "Distant",
+    "transcription_eastern": "heru",
+    "transcription_lori": "heru"
+  },
+  {
+    "id": "adjectives-0123",
+    "folderId": "adjectives",
+    "ru": "Ранний",
+    "en": "Early",
+    "transcription_eastern": "shur",
+    "transcription_lori": "shur"
+  },
+  {
+    "id": "adjectives-0124",
+    "folderId": "adjectives",
+    "ru": "Поздний",
+    "en": "Late",
+    "transcription_eastern": "us",
+    "transcription_lori": "us"
+  },
+  {
+    "id": "adjectives-0125",
+    "folderId": "adjectives",
+    "ru": "Своевременный",
+    "en": "Timely",
+    "transcription_eastern": "zhamanak",
+    "transcription_lori": "zhamanak"
+  },
+  {
+    "id": "adjectives-0126",
+    "folderId": "adjectives",
+    "ru": "Опоздавший",
+    "en": "Late",
+    "transcription_eastern": "us",
+    "transcription_lori": "us"
+  },
+  {
+    "id": "adjectives-0127",
+    "folderId": "adjectives",
+    "ru": "Полный",
+    "en": "Full",
+    "transcription_eastern": "amboxj",
+    "transcription_lori": "amboxj"
+  },
+  {
+    "id": "adjectives-0128",
+    "folderId": "adjectives",
+    "ru": "Пустой",
+    "en": "Empty",
+    "transcription_eastern": "dat",
+    "transcription_lori": "dat"
+  },
+  {
+    "id": "adjectives-0129",
+    "folderId": "adjectives",
+    "ru": "Целый",
+    "en": "Whole",
+    "transcription_eastern": "amboxj",
+    "transcription_lori": "amboxj"
+  },
+  {
+    "id": "adjectives-0130",
+    "folderId": "adjectives",
+    "ru": "Разбитый",
+    "en": "Broken",
+    "transcription_eastern": "krel",
+    "transcription_lori": "krel"
+  },
+  {
+    "id": "adjectives-0131",
+    "folderId": "adjectives",
+    "ru": "Целый",
+    "en": "Intact",
+    "transcription_eastern": "lav",
+    "transcription_lori": "lav"
+  },
+  {
+    "id": "adjectives-0132",
+    "folderId": "adjectives",
+    "ru": "Повреждённый",
+    "en": "Damaged",
+    "transcription_eastern": "krel",
+    "transcription_lori": "krel"
+  },
+  {
+    "id": "adjectives-0133",
+    "folderId": "adjectives",
+    "ru": "Новый",
+    "en": "Brand new",
+    "transcription_eastern": "nor",
+    "transcription_lori": "nor"
+  },
+  {
+    "id": "adjectives-0134",
+    "folderId": "adjectives",
+    "ru": "Подержанный",
+    "en": "Used",
+    "transcription_eastern": "hin",
+    "transcription_lori": "hin"
+  },
+  {
+    "id": "adjectives-0135",
+    "folderId": "adjectives",
+    "ru": "Ветхий",
+    "en": "Worn out",
+    "transcription_eastern": "kazm",
+    "transcription_lori": "kazm"
+  },
+  {
+    "id": "adjectives-0136",
+    "folderId": "adjectives",
+    "ru": "Древний",
+    "en": "Ancient",
+    "transcription_eastern": "hin",
+    "transcription_lori": "hin"
+  },
+  {
+    "id": "adjectives-0137",
+    "folderId": "adjectives",
+    "ru": "Современный",
+    "en": "Modern",
+    "transcription_eastern": "nor",
+    "transcription_lori": "nor"
+  },
+  {
+    "id": "adjectives-0138",
+    "folderId": "adjectives",
+    "ru": "Устаревший",
+    "en": "Outdated",
+    "transcription_eastern": "hin",
+    "transcription_lori": "hin"
+  },
+  {
+    "id": "adjectives-0139",
+    "folderId": "adjectives",
+    "ru": "Модный",
+    "en": "Fashionable",
+    "transcription_eastern": "moda",
+    "transcription_lori": "moda"
+  },
+  {
+    "id": "adjectives-0140",
+    "folderId": "adjectives",
+    "ru": "Немодный",
+    "en": "Unfashionable",
+    "transcription_eastern": "moda che",
+    "transcription_lori": "moda che"
+  },
+  {
+    "id": "adjectives-0141",
+    "folderId": "adjectives",
+    "ru": "Стильный",
+    "en": "Stylish",
+    "transcription_eastern": "stil",
+    "transcription_lori": "stil"
+  },
+  {
+    "id": "adjectives-0142",
+    "folderId": "adjectives",
+    "ru": "Элегантный",
+    "en": "Elegant",
+    "transcription_eastern": "elegant",
+    "transcription_lori": "elegant"
+  },
+  {
+    "id": "adjectives-0143",
+    "folderId": "adjectives",
+    "ru": "Красивый",
+    "en": "Pretty",
+    "transcription_eastern": "sirun",
+    "transcription_lori": "sirun"
+  },
+  {
+    "id": "adjectives-0144",
+    "folderId": "adjectives",
+    "ru": "Симпатичный",
+    "en": "Nice",
+    "transcription_eastern": "sirun",
+    "transcription_lori": "sirun"
+  },
+  {
+    "id": "adjectives-0145",
+    "folderId": "adjectives",
+    "ru": "Привлекательный",
+    "en": "Attractive",
+    "transcription_eastern": "sirun",
+    "transcription_lori": "sirun"
+  },
+  {
+    "id": "adjectives-0146",
+    "folderId": "adjectives",
+    "ru": "Обаятельный",
+    "en": "Charming",
+    "transcription_eastern": "sirun",
+    "transcription_lori": "sirun"
+  },
+  {
+    "id": "adjectives-0147",
+    "folderId": "adjectives",
+    "ru": "Очаровательный",
+    "en": "Enchanting",
+    "transcription_eastern": "sirun",
+    "transcription_lori": "sirun"
+  },
+  {
+    "id": "adjectives-0148",
+    "folderId": "adjectives",
+    "ru": "Милый",
+    "en": "Cute",
+    "transcription_eastern": "naz",
+    "transcription_lori": "naz"
+  },
+  {
+    "id": "adjectives-0149",
+    "folderId": "adjectives",
+    "ru": "Милый",
+    "en": "Dear",
+    "transcription_eastern": "ser",
+    "transcription_lori": "ser"
+  },
+  {
+    "id": "adjectives-0150",
+    "folderId": "adjectives",
+    "ru": "Дорогой",
+    "en": "Dear",
+    "transcription_eastern": "ser",
+    "transcription_lori": "ser"
+  },
+  {
+    "id": "adjectives-0151",
+    "folderId": "adjectives",
+    "ru": "Любимый",
+    "en": "Beloved",
+    "transcription_eastern": "ser",
+    "transcription_lori": "ser"
+  },
+  {
+    "id": "adjectives-0152",
+    "folderId": "adjectives",
+    "ru": "Нелюбимый",
+    "en": "Unloved",
+    "transcription_eastern": "chtem",
+    "transcription_lori": "chtem"
+  },
+  {
+    "id": "adjectives-0153",
+    "folderId": "adjectives",
+    "ru": "Родной",
+    "en": "Native",
+    "transcription_eastern": "tsnndyan",
+    "transcription_lori": "tsnndyan"
+  },
+  {
+    "id": "adjectives-0154",
+    "folderId": "adjectives",
+    "ru": "Чужой",
+    "en": "Foreign",
+    "transcription_eastern": "otar",
+    "transcription_lori": "otar"
+  },
+  {
+    "id": "adjectives-0155",
+    "folderId": "adjectives",
+    "ru": "Свой",
+    "en": "Own",
+    "transcription_eastern": "ir",
+    "transcription_lori": "ir"
+  },
+  {
+    "id": "adjectives-0156",
+    "folderId": "adjectives",
+    "ru": "Чужой",
+    "en": "Alien",
+    "transcription_eastern": "otar",
+    "transcription_lori": "otar"
+  },
+  {
+    "id": "adjectives-0157",
+    "folderId": "adjectives",
+    "ru": "Близкий",
+    "en": "Close (relation)",
+    "transcription_eastern": "miyats",
+    "transcription_lori": "miyats"
+  },
+  {
+    "id": "adjectives-0158",
+    "folderId": "adjectives",
+    "ru": "Дальний",
+    "en": "Distant (relation)",
+    "transcription_eastern": "heru",
+    "transcription_lori": "heru"
+  },
+  {
+    "id": "adjectives-0159",
+    "folderId": "adjectives",
+    "ru": "Знакомый",
+    "en": "Familiar",
+    "transcription_eastern": "tsanot",
+    "transcription_lori": "tsanot"
+  },
+  {
+    "id": "adjectives-0160",
+    "folderId": "adjectives",
+    "ru": "Незнакомый",
+    "en": "Unfamiliar",
+    "transcription_eastern": "tsanot che",
+    "transcription_lori": "tsanot che"
+  },
+  {
+    "id": "adjectives-0161",
+    "folderId": "adjectives",
+    "ru": "Известный",
+    "en": "Famous",
+    "transcription_eastern": "kanach",
+    "transcription_lori": "kanach"
+  },
+  {
+    "id": "adjectives-0162",
+    "folderId": "adjectives",
+    "ru": "Неизвестный",
+    "en": "Unknown",
+    "transcription_eastern": "tsanot che",
+    "transcription_lori": "tsanot che"
+  },
+  {
+    "id": "adjectives-0163",
+    "folderId": "adjectives",
+    "ru": "Популярный",
+    "en": "Popular",
+    "transcription_eastern": "kanach",
+    "transcription_lori": "kanach"
+  },
+  {
+    "id": "adjectives-0164",
+    "folderId": "adjectives",
+    "ru": "Непопулярный",
+    "en": "Unpopular",
+    "transcription_eastern": "kanach che",
+    "transcription_lori": "kanach che"
+  },
+  {
+    "id": "adjectives-0165",
+    "folderId": "adjectives",
+    "ru": "Знаменитый",
+    "en": "Celebrity",
+    "transcription_eastern": "kanach",
+    "transcription_lori": "kanach"
+  },
+  {
+    "id": "adjectives-0166",
+    "folderId": "adjectives",
+    "ru": "Обычный",
+    "en": "Ordinary",
+    "transcription_eastern": "nakhates",
+    "transcription_lori": "nakhates"
+  },
+  {
+    "id": "adjectives-0167",
+    "folderId": "adjectives",
+    "ru": "Особенный",
+    "en": "Special",
+    "transcription_eastern": "hatuk",
+    "transcription_lori": "hatuk"
+  },
+  {
+    "id": "adjectives-0168",
+    "folderId": "adjectives",
+    "ru": "Уникальный",
+    "en": "Unique",
+    "transcription_eastern": "miayn",
+    "transcription_lori": "miayn"
+  },
+  {
+    "id": "adjectives-0169",
+    "folderId": "adjectives",
+    "ru": "Редкий",
+    "en": "Rare",
+    "transcription_eastern": "qich",
+    "transcription_lori": "qich"
+  },
+  {
+    "id": "adjectives-0170",
+    "folderId": "adjectives",
+    "ru": "Частый",
+    "en": "Frequent",
+    "transcription_eastern": "hachax",
+    "transcription_lori": "hachax"
+  },
+  {
+    "id": "adjectives-0171",
+    "folderId": "adjectives",
+    "ru": "Обычный",
+    "en": "Common",
+    "transcription_eastern": "nakhates",
+    "transcription_lori": "nakhates"
+  },
+  {
+    "id": "adjectives-0172",
+    "folderId": "adjectives",
+    "ru": "Странный",
+    "en": "Strange",
+    "transcription_eastern": "hatuk",
+    "transcription_lori": "hatuk"
+  },
+  {
+    "id": "adjectives-0173",
+    "folderId": "adjectives",
+    "ru": "Необычный",
+    "en": "Unusual",
+    "transcription_eastern": "hatuk",
+    "transcription_lori": "hatuk"
+  },
+  {
+    "id": "adjectives-0174",
+    "folderId": "adjectives",
+    "ru": "Нормальный",
+    "en": "Normal",
+    "transcription_eastern": "normal",
+    "transcription_lori": "normal"
+  },
+  {
+    "id": "adjectives-0175",
+    "folderId": "adjectives",
+    "ru": "Аномальный",
+    "en": "Abnormal",
+    "transcription_eastern": "normal che",
+    "transcription_lori": "normal che"
+  },
+  {
+    "id": "adjectives-0176",
+    "folderId": "adjectives",
+    "ru": "Правильный",
+    "en": "Correct",
+    "transcription_eastern": "lav",
+    "transcription_lori": "lav"
+  },
+  {
+    "id": "adjectives-0177",
+    "folderId": "adjectives",
+    "ru": "Неправильный",
+    "en": "Incorrect",
+    "transcription_eastern": "vats",
+    "transcription_lori": "vats"
+  },
+  {
+    "id": "adjectives-0178",
+    "folderId": "adjectives",
+    "ru": "Точный",
+    "en": "Accurate",
+    "transcription_eastern": "hushak",
+    "transcription_lori": "hushak"
+  },
+  {
+    "id": "adjectives-0179",
+    "folderId": "adjectives",
+    "ru": "Неточный",
+    "en": "Inaccurate",
+    "transcription_eastern": "hushak che",
+    "transcription_lori": "hushak che"
+  },
+  {
+    "id": "adjectives-0180",
+    "folderId": "adjectives",
+    "ru": "Примерный",
+    "en": "Approximate",
+    "transcription_eastern": "mekin",
+    "transcription_lori": "mekin"
+  },
+  {
+    "id": "adjectives-0181",
+    "folderId": "adjectives",
+    "ru": "Точный",
+    "en": "Exact",
+    "transcription_eastern": "hushak",
+    "transcription_lori": "hushak"
+  },
+  {
+    "id": "adjectives-0182",
+    "folderId": "adjectives",
+    "ru": "Примерный",
+    "en": "Rough",
+    "transcription_eastern": "mekin",
+    "transcription_lori": "mekin"
+  },
+  {
+    "id": "adjectives-0183",
+    "folderId": "adjectives",
+    "ru": "Полный",
+    "en": "Complete",
+    "transcription_eastern": "amboxj",
+    "transcription_lori": "amboxj"
+  },
+  {
+    "id": "adjectives-0184",
+    "folderId": "adjectives",
+    "ru": "Неполный",
+    "en": "Incomplete",
+    "transcription_eastern": "amboxj che",
+    "transcription_lori": "amboxj che"
+  },
+  {
+    "id": "adjectives-0185",
+    "folderId": "adjectives",
+    "ru": "Достаточный",
+    "en": "Sufficient",
+    "transcription_eastern": "bavarar",
+    "transcription_lori": "bavarar"
+  },
+  {
+    "id": "adjectives-0186",
+    "folderId": "adjectives",
+    "ru": "Недостаточный",
+    "en": "Insufficient",
+    "transcription_eastern": "bavarar che",
+    "transcription_lori": "bavarar che"
+  },
+  {
+    "id": "adjectives-0187",
+    "folderId": "adjectives",
+    "ru": "Много",
+    "en": "Many",
+    "transcription_eastern": "shat",
+    "transcription_lori": "shat"
+  },
+  {
+    "id": "adjectives-0188",
+    "folderId": "adjectives",
+    "ru": "Мало",
+    "en": "Few",
+    "transcription_eastern": "qich",
+    "transcription_lori": "qich"
+  },
+  {
+    "id": "adjectives-0189",
+    "folderId": "adjectives",
+    "ru": "Достаточно",
+    "en": "Enough",
+    "transcription_eastern": "bavarar",
+    "transcription_lori": "bavarar"
+  },
+  {
+    "id": "adjectives-0190",
+    "folderId": "adjectives",
+    "ru": "Слишком много",
+    "en": "Too much",
+    "transcription_eastern": "shat shat",
+    "transcription_lori": "shat shat"
+  },
+  {
+    "id": "adjectives-0191",
+    "folderId": "adjectives",
+    "ru": "Слишком мало",
+    "en": "Too little",
+    "transcription_eastern": "shat qich",
+    "transcription_lori": "shat qich"
+  },
+  {
+    "id": "adjectives-0192",
+    "folderId": "adjectives",
+    "ru": "Немного",
+    "en": "A little",
+    "transcription_eastern": "miqich",
+    "transcription_lori": "miqich"
+  },
+  {
+    "id": "adjectives-0193",
+    "folderId": "adjectives",
+    "ru": "Чуть-чуть",
+    "en": "A tiny bit",
+    "transcription_eastern": "miqich",
+    "transcription_lori": "miqich"
+  },
+  {
+    "id": "adjectives-0194",
+    "folderId": "adjectives",
+    "ru": "Почти",
+    "en": "Almost",
+    "transcription_eastern": "garegin",
+    "transcription_lori": "garegin"
+  },
+  {
+    "id": "adjectives-0195",
+    "folderId": "adjectives",
+    "ru": "Совсем",
+    "en": "Completely",
+    "transcription_eastern": "amboxj",
+    "transcription_lori": "amboxj"
+  },
+  {
+    "id": "adjectives-0196",
+    "folderId": "adjectives",
+    "ru": "Частично",
+    "en": "Partially",
+    "transcription_eastern": "kes",
+    "transcription_lori": "kes"
+  },
+  {
+    "id": "adjectives-0197",
+    "folderId": "adjectives",
+    "ru": "Полностью",
+    "en": "Fully",
+    "transcription_eastern": "amboxj",
+    "transcription_lori": "amboxj"
+  },
+  {
+    "id": "adjectives-0198",
+    "folderId": "adjectives",
+    "ru": "Наполовину",
+    "en": "Half",
+    "transcription_eastern": "k'es",
+    "transcription_lori": "k'es"
+  },
+  {
+    "id": "adjectives-0199",
+    "folderId": "adjectives",
+    "ru": "Двойной",
+    "en": "Double",
+    "transcription_eastern": "erku",
+    "transcription_lori": "erku"
+  },
+  {
+    "id": "adjectives-0200",
+    "folderId": "adjectives",
+    "ru": "Тройной",
+    "en": "Triple",
+    "transcription_eastern": "yerek",
+    "transcription_lori": "yerek"
+  }
+]

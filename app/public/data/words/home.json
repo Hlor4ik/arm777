@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "home-0001",
+    "folderId": "home",
+    "ru": "Дом",
+    "en": "House",
+    "transcription_eastern": "tun",
+    "transcription_lori": "tun"
+  },
+  {
+    "id": "home-0002",
+    "folderId": "home",
+    "ru": "Квартира",
+    "en": "Apartment",
+    "transcription_eastern": "bnakaran",
+    "transcription_lori": "bnakaran"
+  },
+  {
+    "id": "home-0003",
+    "folderId": "home",
+    "ru": "Комната",
+    "en": "Room",
+    "transcription_eastern": "senyak",
+    "transcription_lori": "senyak"
+  },
+  {
+    "id": "home-0004",
+    "folderId": "home",
+    "ru": "Кухня",
+    "en": "Kitchen",
+    "transcription_eastern": "nkaragir",
+    "transcription_lori": "nkaragir"
+  },
+  {
+    "id": "home-0005",
+    "folderId": "home",
+    "ru": "Ванная",
+    "en": "Bathroom",
+    "transcription_eastern": "loyaran",
+    "transcription_lori": "loyaran"
+  },
+  {
+    "id": "home-0006",
+    "folderId": "home",
+    "ru": "Спальня",
+    "en": "Bedroom",
+    "transcription_eastern": "nkaragir",
+    "transcription_lori": "nkaragir"
+  },
+  {
+    "id": "home-0007",
+    "folderId": "home",
+    "ru": "Гостиная",
+    "en": "Living room",
+    "transcription_eastern": "senyak",
+    "transcription_lori": "senyak"
+  },
+  {
+    "id": "home-0008",
+    "folderId": "home",
+    "ru": "Коридор",
+    "en": "Hallway",
+    "transcription_eastern": "koridor",
+    "transcription_lori": "koridor"
+  },
+  {
+    "id": "home-0009",
+    "folderId": "home",
+    "ru": "Балкон",
+    "en": "Balcony",
+    "transcription_eastern": "balkon",
+    "transcription_lori": "balkon"
+  },
+  {
+    "id": "home-0010",
+    "folderId": "home",
+    "ru": "Стена",
+    "en": "Wall",
+    "transcription_eastern": "pat",
+    "transcription_lori": "pat"
+  },
+  {
+    "id": "home-0011",
+    "folderId": "home",
+    "ru": "Дверь",
+    "en": "Door",
+    "transcription_eastern": "der",
+    "transcription_lori": "der"
+  },
+  {
+    "id": "home-0012",
+    "folderId": "home",
+    "ru": "Окно",
+    "en": "Window",
+    "transcription_eastern": "patuhar",
+    "transcription_lori": "patuhar"
+  },
+  {
+    "id": "home-0013",
+    "folderId": "home",
+    "ru": "Потолок",
+    "en": "Ceiling",
+    "transcription_eastern": "chanagh",
+    "transcription_lori": "chanagh"
+  },
+  {
+    "id": "home-0014",
+    "folderId": "home",
+    "ru": "Пол",
+    "en": "Floor",
+    "transcription_eastern": "pakag",
+    "transcription_lori": "pakag"
+  },
+  {
+    "id": "home-0015",
+    "folderId": "home",
+    "ru": "Крыша",
+    "en": "Roof",
+    "transcription_eastern": "chanagh",
+    "transcription_lori": "chanagh"
+  },
+  {
+    "id": "home-0016",
+    "folderId": "home",
+    "ru": "Двор",
+    "en": "Yard",
+    "transcription_eastern": "hayat",
+    "transcription_lori": "hayat"
+  },
+  {
+    "id": "home-0017",
+    "folderId": "home",
+    "ru": "Сад",
+    "en": "Garden",
+    "transcription_eastern": "bagin",
+    "transcription_lori": "bagin"
+  },
+  {
+    "id": "home-0018",
+    "folderId": "home",
+    "ru": "Забор",
+    "en": "Fence",
+    "transcription_eastern": "sahman",
+    "transcription_lori": "sahman"
+  },
+  {
+    "id": "home-0019",
+    "folderId": "home",
+    "ru": "Ворота",
+    "en": "Gate",
+    "transcription_eastern": "der",
+    "transcription_lori": "der"
+  },
+  {
+    "id": "home-0020",
+    "folderId": "home",
+    "ru": "Лестница",
+    "en": "Stairs",
+    "transcription_eastern": "erbequr",
+    "transcription_lori": "erbequr"
+  },
+  {
+    "id": "home-0021",
+    "folderId": "home",
+    "ru": "Лифт",
+    "en": "Elevator",
+    "transcription_eastern": "lift",
+    "transcription_lori": "lift"
+  },
+  {
+    "id": "home-0022",
+    "folderId": "home",
+    "ru": "Подъезд",
+    "en": "Entrance",
+    "transcription_eastern": "mtnaran",
+    "transcription_lori": "mtnaran"
+  },
+  {
+    "id": "home-0023",
+    "folderId": "home",
+    "ru": "Этаж",
+    "en": "Floor level",
+    "transcription_eastern": "harc",
+    "transcription_lori": "harc"
+  },
+  {
+    "id": "home-0024",
+    "folderId": "home",
+    "ru": "Стол",
+    "en": "Table",
+    "transcription_eastern": "sex",
+    "transcription_lori": "sex"
+  },
+  {
+    "id": "home-0025",
+    "folderId": "home",
+    "ru": "Стул",
+    "en": "Chair",
+    "transcription_eastern": "nskhan",
+    "transcription_lori": "nskhan"
+  },
+  {
+    "id": "home-0026",
+    "folderId": "home",
+    "ru": "Кресло",
+    "en": "Armchair",
+    "transcription_eastern": "nskhan",
+    "transcription_lori": "nskhan"
+  },
+  {
+    "id": "home-0027",
+    "folderId": "home",
+    "ru": "Диван",
+    "en": "Sofa",
+    "transcription_eastern": "divan",
+    "transcription_lori": "divan"
+  },
+  {
+    "id": "home-0028",
+    "folderId": "home",
+    "ru": "Кровать",
+    "en": "Bed",
+    "transcription_eastern": "bardan",
+    "transcription_lori": "bardan"
+  },
+  {
+    "id": "home-0029",
+    "folderId": "home",
+    "ru": "Шкаф",
+    "en": "Wardrobe",
+    "transcription_eastern": "shkaf",
+    "transcription_lori": "shkaf"
+  },
+  {
+    "id": "home-0030",
+    "folderId": "home",
+    "ru": "Полка",
+    "en": "Shelf",
+    "transcription_eastern": "polka",
+    "transcription_lori": "polka"
+  },
+  {
+    "id": "home-0031",
+    "folderId": "home",
+    "ru": "Зеркало",
+    "en": "Mirror",
+    "transcription_eastern": "hayal",
+    "transcription_lori": "hayal"
+  },
+  {
+    "id": "home-0032",
+    "folderId": "home",
+    "ru": "Ковёр",
+    "en": "Carpet",
+    "transcription_eastern": "gorg",
+    "transcription_lori": "gorg"
+  },
+  {
+    "id": "home-0033",
+    "folderId": "home",
+    "ru": "Штора",
+    "en": "Curtain",
+    "transcription_eastern": "patuhari gorg",
+    "transcription_lori": "patuhari gorg"
+  },
+  {
+    "id": "home-0034",
+    "folderId": "home",
+    "ru": "Подушка",
+    "en": "Pillow",
+    "transcription_eastern": "bardan",
+    "transcription_lori": "bardan"
+  },
+  {
+    "id": "home-0035",
+    "folderId": "home",
+    "ru": "Одеяло",
+    "en": "Blanket",
+    "transcription_eastern": "bardan",
+    "transcription_lori": "bardan"
+  },
+  {
+    "id": "home-0036",
+    "folderId": "home",
+    "ru": "Простыня",
+    "en": "Sheet",
+    "transcription_eastern": "bardan",
+    "transcription_lori": "bardan"
+  },
+  {
+    "id": "home-0037",
+    "folderId": "home",
+    "ru": "Матрас",
+    "en": "Mattress",
+    "transcription_eastern": "bardan",
+    "transcription_lori": "bardan"
+  },
+  {
+    "id": "home-0038",
+    "folderId": "home",
+    "ru": "Лампа",
+    "en": "Lamp",
+    "transcription_eastern": "eralank",
+    "transcription_lori": "eralank"
+  },
+  {
+    "id": "home-0039",
+    "folderId": "home",
+    "ru": "Люстра",
+    "en": "Chandelier",
+    "transcription_eastern": "eralank",
+    "transcription_lori": "eralank"
+  },
+  {
+    "id": "home-0040",
+    "folderId": "home",
+    "ru": "Розетка",
+    "en": "Socket",
+    "transcription_eastern": "rozeta",
+    "transcription_lori": "rozeta"
+  },
+  {
+    "id": "home-0041",
+    "folderId": "home",
+    "ru": "Выключатель",
+    "en": "Switch",
+    "transcription_eastern": "mijak",
+    "transcription_lori": "mijak"
+  },
+  {
+    "id": "home-0042",
+    "folderId": "home",
+    "ru": "Холодильник",
+    "en": "Refrigerator",
+    "transcription_eastern": "sarnaran",
+    "transcription_lori": "sarnaran"
+  },
+  {
+    "id": "home-0043",
+    "folderId": "home",
+    "ru": "Плита",
+    "en": "Stove",
+    "transcription_eastern": "plita",
+    "transcription_lori": "plita"
+  },
+  {
+    "id": "home-0044",
+    "folderId": "home",
+    "ru": "Духовка",
+    "en": "Oven",
+    "transcription_eastern": "dukhovka",
+    "transcription_lori": "dukhovka"
+  },
+  {
+    "id": "home-0045",
+    "folderId": "home",
+    "ru": "Микроволновка",
+    "en": "Microwave",
+    "transcription_eastern": "mikrovolnovka",
+    "transcription_lori": "mikrovolnovka"
+  },
+  {
+    "id": "home-0046",
+    "folderId": "home",
+    "ru": "Чайник",
+    "en": "Kettle",
+    "transcription_eastern": "chaynik",
+    "transcription_lori": "chaynik"
+  },
+  {
+    "id": "home-0047",
+    "folderId": "home",
+    "ru": "Кастрюля",
+    "en": "Pot",
+    "transcription_eastern": "kastrulya",
+    "transcription_lori": "kastrulya"
+  },
+  {
+    "id": "home-0048",
+    "folderId": "home",
+    "ru": "Сковорода",
+    "en": "Pan",
+    "transcription_eastern": "skovoroda",
+    "transcription_lori": "skovoroda"
+  },
+  {
+    "id": "home-0049",
+    "folderId": "home",
+    "ru": "Раковина",
+    "en": "Sink",
+    "transcription_eastern": "lvatsq",
+    "transcription_lori": "lvatsq"
+  },
+  {
+    "id": "home-0050",
+    "folderId": "home",
+    "ru": "Кран",
+    "en": "Faucet",
+    "transcription_eastern": "kran",
+    "transcription_lori": "kran"
+  },
+  {
+    "id": "home-0051",
+    "folderId": "home",
+    "ru": "Ванна",
+    "en": "Bathtub",
+    "transcription_eastern": "lvatsq",
+    "transcription_lori": "lvatsq"
+  },
+  {
+    "id": "home-0052",
+    "folderId": "home",
+    "ru": "Душ",
+    "en": "Shower",
+    "transcription_eastern": "lvatsq",
+    "transcription_lori": "lvatsq"
+  },
+  {
+    "id": "home-0053",
+    "folderId": "home",
+    "ru": "Унитаз",
+    "en": "Toilet",
+    "transcription_eastern": "hagort",
+    "transcription_lori": "hagort"
+  },
+  {
+    "id": "home-0054",
+    "folderId": "home",
+    "ru": "Полотенце",
+    "en": "Towel",
+    "transcription_eastern": "bardan",
+    "transcription_lori": "bardan"
+  },
+  {
+    "id": "home-0055",
+    "folderId": "home",
+    "ru": "Мыло",
+    "en": "Soap",
+    "transcription_eastern": "sapun",
+    "transcription_lori": "sapun"
+  },
+  {
+    "id": "home-0056",
+    "folderId": "home",
+    "ru": "Шампунь",
+    "en": "Shampoo",
+    "transcription_eastern": "shampun",
+    "transcription_lori": "shampun"
+  },
+  {
+    "id": "home-0057",
+    "folderId": "home",
+    "ru": "Расчёска",
+    "en": "Comb",
+    "transcription_eastern": "makur",
+    "transcription_lori": "makur"
+  },
+  {
+    "id": "home-0058",
+    "folderId": "home",
+    "ru": "Пылесос",
+    "en": "Vacuum",
+    "transcription_eastern": "makur",
+    "transcription_lori": "makur"
+  },
+  {
+    "id": "home-0059",
+    "folderId": "home",
+    "ru": "Швабра",
+    "en": "Mop",
+    "transcription_eastern": "makur",
+    "transcription_lori": "makur"
+  },
+  {
+    "id": "home-0060",
+    "folderId": "home",
+    "ru": "Ведро",
+    "en": "Bucket",
+    "transcription_eastern": "makur",
+    "transcription_lori": "makur"
+  },
+  {
+    "id": "home-0061",
+    "folderId": "home",
+    "ru": "Мусор",
+    "en": "Trash",
+    "transcription_eastern": "axord",
+    "transcription_lori": "axord"
+  },
+  {
+    "id": "home-0062",
+    "folderId": "home",
+    "ru": "Ключ",
+    "en": "Key",
+    "transcription_eastern": "quling",
+    "transcription_lori": "quling"
+  },
+  {
+    "id": "home-0063",
+    "folderId": "home",
+    "ru": "Замок",
+    "en": "Lock",
+    "transcription_eastern": "quling",
+    "transcription_lori": "quling"
+  },
+  {
+    "id": "home-0064",
+    "folderId": "home",
+    "ru": "Домофон",
+    "en": "Intercom",
+    "transcription_eastern": "zangoghi",
+    "transcription_lori": "zangoghi"
+  },
+  {
+    "id": "home-0065",
+    "folderId": "home",
+    "ru": "Звонок",
+    "en": "Doorbell",
+    "transcription_eastern": "zangoghi",
+    "transcription_lori": "zangoghi"
+  },
+  {
+    "id": "home-0066",
+    "folderId": "home",
+    "ru": "Почтовый ящик",
+    "en": "Mailbox",
+    "transcription_eastern": "pghoc",
+    "transcription_lori": "pghoc"
+  },
+  {
+    "id": "home-0067",
+    "folderId": "home",
+    "ru": "Вешалка",
+    "en": "Hanger",
+    "transcription_eastern": "kayl",
+    "transcription_lori": "kayl"
+  },
+  {
+    "id": "home-0068",
+    "folderId": "home",
+    "ru": "Корзина",
+    "en": "Basket",
+    "transcription_eastern": "korzina",
+    "transcription_lori": "korzina"
+  },
+  {
+    "id": "home-0069",
+    "folderId": "home",
+    "ru": "Ящик",
+    "en": "Drawer",
+    "transcription_eastern": "sanduq",
+    "transcription_lori": "sanduq"
+  },
+  {
+    "id": "home-0070",
+    "folderId": "home",
+    "ru": "Комод",
+    "en": "Dresser",
+    "transcription_eastern": "shkaf",
+    "transcription_lori": "shkaf"
+  },
+  {
+    "id": "home-0071",
+    "folderId": "home",
+    "ru": "Тумбочка",
+    "en": "Nightstand",
+    "transcription_eastern": "sex",
+    "transcription_lori": "sex"
+  },
+  {
+    "id": "home-0072",
+    "folderId": "home",
+    "ru": "Письменный стол",
+    "en": "Desk",
+    "transcription_eastern": "sex",
+    "transcription_lori": "sex"
+  },
+  {
+    "id": "home-0073",
+    "folderId": "home",
+    "ru": "Книжная полка",
+    "en": "Bookshelf",
+    "transcription_eastern": "polka",
+    "transcription_lori": "polka"
+  },
+  {
+    "id": "home-0074",
+    "folderId": "home",
+    "ru": "Картина",
+    "en": "Picture",
+    "transcription_eastern": "nkar",
+    "transcription_lori": "nkar"
+  },
+  {
+    "id": "home-0075",
+    "folderId": "home",
+    "ru": "Часы",
+    "en": "Clock",
+    "transcription_eastern": "zhamanak",
+    "transcription_lori": "zhamanak"
+  },
+  {
+    "id": "home-0076",
+    "folderId": "home",
+    "ru": "Будильник",
+    "en": "Alarm clock",
+    "transcription_eastern": "zhamanak",
+    "transcription_lori": "zhamanak"
+  },
+  {
+    "id": "home-0077",
+    "folderId": "home",
+    "ru": "Календарь",
+    "en": "Calendar",
+    "transcription_eastern": "amis",
+    "transcription_lori": "amis"
+  },
+  {
+    "id": "home-0078",
+    "folderId": "home",
+    "ru": "Кондиционер",
+    "en": "Air conditioner",
+    "transcription_eastern": "konditsioner",
+    "transcription_lori": "konditsioner"
+  },
+  {
+    "id": "home-0079",
+    "folderId": "home",
+    "ru": "Обогреватель",
+    "en": "Heater",
+    "transcription_eastern": "jermuk",
+    "transcription_lori": "jermuk"
+  },
+  {
+    "id": "home-0080",
+    "folderId": "home",
+    "ru": "Камин",
+    "en": "Fireplace",
+    "transcription_eastern": "kamin",
+    "transcription_lori": "kamin"
+  },
+  {
+    "id": "home-0081",
+    "folderId": "home",
+    "ru": "Свеча",
+    "en": "Candle",
+    "transcription_eastern": "mum",
+    "transcription_lori": "mum"
+  },
+  {
+    "id": "home-0082",
+    "folderId": "home",
+    "ru": "Молоток",
+    "en": "Hammer",
+    "transcription_eastern": "gats",
+    "transcription_lori": "gats"
+  },
+  {
+    "id": "home-0083",
+    "folderId": "home",
+    "ru": "Отвёртка",
+    "en": "Screwdriver",
+    "transcription_eastern": "gats",
+    "transcription_lori": "gats"
+  },
+  {
+    "id": "home-0084",
+    "folderId": "home",
+    "ru": "Дрель",
+    "en": "Drill",
+    "transcription_eastern": "gats",
+    "transcription_lori": "gats"
+  },
+  {
+    "id": "home-0085",
+    "folderId": "home",
+    "ru": "Краска",
+    "en": "Paint",
+    "transcription_eastern": "nkar",
+    "transcription_lori": "nkar"
+  },
+  {
+    "id": "home-0086",
+    "folderId": "home",
+    "ru": "Обои",
+    "en": "Wallpaper",
+    "transcription_eastern": "pat",
+    "transcription_lori": "pat"
+  },
+  {
+    "id": "home-0087",
+    "folderId": "home",
+    "ru": "Плитка",
+    "en": "Tile",
+    "transcription_eastern": "pakag",
+    "transcription_lori": "pakag"
+  },
+  {
+    "id": "home-0088",
+    "folderId": "home",
+    "ru": "Кирпич",
+    "en": "Brick",
+    "transcription_eastern": "kirpich",
+    "transcription_lori": "kirpich"
+  },
+  {
+    "id": "home-0089",
+    "folderId": "home",
+    "ru": "Фундамент",
+    "en": "Foundation",
+    "transcription_eastern": "hundament",
+    "transcription_lori": "hundament"
+  },
+  {
+    "id": "home-0090",
+    "folderId": "home",
+    "ru": "Веранда",
+    "en": "Veranda",
+    "transcription_eastern": "veranda",
+    "transcription_lori": "veranda"
+  },
+  {
+    "id": "home-0091",
+    "folderId": "home",
+    "ru": "Гараж",
+    "en": "Garage",
+    "transcription_eastern": "garaj",
+    "transcription_lori": "garaj"
+  },
+  {
+    "id": "home-0092",
+    "folderId": "home",
+    "ru": "Подвал",
+    "en": "Basement",
+    "transcription_eastern": "hundament",
+    "transcription_lori": "hundament"
+  },
+  {
+    "id": "home-0093",
+    "folderId": "home",
+    "ru": "Чердак",
+    "en": "Attic",
+    "transcription_eastern": "chanagh",
+    "transcription_lori": "chanagh"
+  },
+  {
+    "id": "home-0094",
+    "folderId": "home",
+    "ru": "Кладовка",
+    "en": "Pantry",
+    "transcription_eastern": "sanduq",
+    "transcription_lori": "sanduq"
+  },
+  {
+    "id": "home-0095",
+    "folderId": "home",
+    "ru": "Горячая вода",
+    "en": "Hot water",
+    "transcription_eastern": "t'ep jermuk",
+    "transcription_lori": "t'ep jermuk"
+  },
+  {
+    "id": "home-0096",
+    "folderId": "home",
+    "ru": "Холодная вода",
+    "en": "Cold water",
+    "transcription_eastern": "ts'urt jermuk",
+    "transcription_lori": "ts'urt jermuk"
+  },
+  {
+    "id": "home-0097",
+    "folderId": "home",
+    "ru": "Отопление",
+    "en": "Heating",
+    "transcription_eastern": "jermuk",
+    "transcription_lori": "jermuk"
+  },
+  {
+    "id": "home-0098",
+    "folderId": "home",
+    "ru": "Электричество",
+    "en": "Electricity",
+    "transcription_eastern": "elktrakan",
+    "transcription_lori": "elktrakan"
+  },
+  {
+    "id": "home-0099",
+    "folderId": "home",
+    "ru": "Газ",
+    "en": "Gas",
+    "transcription_eastern": "gaz",
+    "transcription_lori": "gaz"
+  },
+  {
+    "id": "home-0100",
+    "folderId": "home",
+    "ru": "Счётчик",
+    "en": "Meter",
+    "transcription_eastern": "hashvich",
+    "transcription_lori": "hashvich"
+  },
+  {
+    "id": "home-0101",
+    "folderId": "home",
+    "ru": "Аренда",
+    "en": "Rent",
+    "transcription_eastern": "vardz",
+    "transcription_lori": "vardz"
+  },
+  {
+    "id": "home-0102",
+    "folderId": "home",
+    "ru": "Ремонт",
+    "en": "Renovation",
+    "transcription_eastern": "norenman",
+    "transcription_lori": "norenman"
+  },
+  {
+    "id": "home-0103",
+    "folderId": "home",
+    "ru": "Уборка",
+    "en": "Cleaning",
+    "transcription_eastern": "makrel",
+    "transcription_lori": "makrel"
+  },
+  {
+    "id": "home-0104",
+    "folderId": "home",
+    "ru": "Стирка",
+    "en": "Laundry",
+    "transcription_eastern": "makrel",
+    "transcription_lori": "makrel"
+  },
+  {
+    "id": "home-0105",
+    "folderId": "home",
+    "ru": "Стиральная машина",
+    "en": "Washing machine",
+    "transcription_eastern": "makrel",
+    "transcription_lori": "makrel"
+  },
+  {
+    "id": "home-0106",
+    "folderId": "home",
+    "ru": "Посудомойка",
+    "en": "Dishwasher",
+    "transcription_eastern": "makrel",
+    "transcription_lori": "makrel"
+  },
+  {
+    "id": "home-0107",
+    "folderId": "home",
+    "ru": "Домашний уют",
+    "en": "Home coziness",
+    "transcription_eastern": "tani hangistutyun",
+    "transcription_lori": "tani hangistutyun"
+  },
+  {
+    "id": "home-0108",
+    "folderId": "home",
+    "ru": "Домашняя работа",
+    "en": "Housework",
+    "transcription_eastern": "tani ashkhatanq",
+    "transcription_lori": "tani ashkhatanq"
+  },
+  {
+    "id": "home-0109",
+    "folderId": "home",
+    "ru": "Домашний офис",
+    "en": "Home office",
+    "transcription_eastern": "tani ofis",
+    "transcription_lori": "tani ofis"
+  },
+  {
+    "id": "home-0110",
+    "folderId": "home",
+    "ru": "Домашний сад",
+    "en": "Home garden",
+    "transcription_eastern": "tani bagin",
+    "transcription_lori": "tani bagin"
+  },
+  {
+    "id": "home-0111",
+    "folderId": "home",
+    "ru": "Домашний двор",
+    "en": "Home yard",
+    "transcription_eastern": "tani hayat",
+    "transcription_lori": "tani hayat"
+  },
+  {
+    "id": "home-0112",
+    "folderId": "home",
+    "ru": "Домашний очаг",
+    "en": "Home hearth",
+    "transcription_eastern": "tani khorhur",
+    "transcription_lori": "tani khorhur"
+  },
+  {
+    "id": "home-0113",
+    "folderId": "home",
+    "ru": "Домашний комфорт",
+    "en": "Home comfort",
+    "transcription_eastern": "tani hangist",
+    "transcription_lori": "tani hangist"
+  },
+  {
+    "id": "home-0114",
+    "folderId": "home",
+    "ru": "Домашняя мебель",
+    "en": "Home furniture",
+    "transcription_eastern": "tani mebel",
+    "transcription_lori": "tani mebel"
+  },
+  {
+    "id": "home-0115",
+    "folderId": "home",
+    "ru": "Домашняя техника",
+    "en": "Home appliances",
+    "transcription_eastern": "tani tekhnika",
+    "transcription_lori": "tani tekhnika"
+  },
+  {
+    "id": "home-0116",
+    "folderId": "home",
+    "ru": "Домашние растения",
+    "en": "Houseplants",
+    "transcription_eastern": "tani tsar",
+    "transcription_lori": "tani tsar"
+  },
+  {
+    "id": "home-0117",
+    "folderId": "home",
+    "ru": "Домашний питомец",
+    "en": "Home pet",
+    "transcription_eastern": "tani kendan",
+    "transcription_lori": "tani kendan"
+  },
+  {
+    "id": "home-0118",
+    "folderId": "home",
+    "ru": "Открыть дверь",
+    "en": "Open door",
+    "transcription_eastern": "bacel der",
+    "transcription_lori": "bacel der"
+  },
+  {
+    "id": "home-0119",
+    "folderId": "home",
+    "ru": "Закрыть окно",
+    "en": "Close window",
+    "transcription_eastern": "pakel patuhar",
+    "transcription_lori": "pakel patuhar"
+  },
+  {
+    "id": "home-0120",
+    "folderId": "home",
+    "ru": "Включить свет",
+    "en": "Turn on light",
+    "transcription_eastern": "mijak batsel",
+    "transcription_lori": "mijak batsel"
+  },
+  {
+    "id": "home-0121",
+    "folderId": "home",
+    "ru": "Выключить свет",
+    "en": "Turn off light",
+    "transcription_eastern": "mijak pakel",
+    "transcription_lori": "mijak pakel"
+  },
+  {
+    "id": "home-0122",
+    "folderId": "home",
+    "ru": "Полить цветы",
+    "en": "Water flowers",
+    "transcription_eastern": "lval tsaghikner",
+    "transcription_lori": "lval tsaghikner"
+  },
+  {
+    "id": "home-0123",
+    "folderId": "home",
+    "ru": "Пропылесосить",
+    "en": "Vacuum",
+    "transcription_eastern": "makrel",
+    "transcription_lori": "makrel"
+  },
+  {
+    "id": "home-0124",
+    "folderId": "home",
+    "ru": "Помыть пол",
+    "en": "Wash floor",
+    "transcription_eastern": "lvanel pakag",
+    "transcription_lori": "lvanel pakag"
+  },
+  {
+    "id": "home-0125",
+    "folderId": "home",
+    "ru": "Прибраться",
+    "en": "Tidy up",
+    "transcription_eastern": "makrel",
+    "transcription_lori": "makrel"
+  },
+  {
+    "id": "home-0126",
+    "folderId": "home",
+    "ru": "Навести порядок",
+    "en": "Put in order",
+    "transcription_eastern": "kargel",
+    "transcription_lori": "kargel"
+  },
+  {
+    "id": "home-0127",
+    "folderId": "home",
+    "ru": "Переехать",
+    "en": "Move house",
+    "transcription_eastern": "poxel tun",
+    "transcription_lori": "poxel tun"
+  },
+  {
+    "id": "home-0128",
+    "folderId": "home",
+    "ru": "Поселиться",
+    "en": "Settle in",
+    "transcription_eastern": "bnakel",
+    "transcription_lori": "bnakel"
+  },
+  {
+    "id": "home-0129",
+    "folderId": "home",
+    "ru": "Снять квартиру",
+    "en": "Rent apartment",
+    "transcription_eastern": "vardzel bnakaran",
+    "transcription_lori": "vardzel bnakaran"
+  },
+  {
+    "id": "home-0130",
+    "folderId": "home",
+    "ru": "Купить дом",
+    "en": "Buy house",
+    "transcription_eastern": "khnel tun",
+    "transcription_lori": "khnel tun"
+  },
+  {
+    "id": "home-0131",
+    "folderId": "home",
+    "ru": "Продать дом",
+    "en": "Sell house",
+    "transcription_eastern": "vacharel tun",
+    "transcription_lori": "vacharel tun"
+  },
+  {
+    "id": "home-0132",
+    "folderId": "home",
+    "ru": "Построить дом",
+    "en": "Build house",
+    "transcription_eastern": "kargnel tun",
+    "transcription_lori": "kargnel tun"
+  },
+  {
+    "id": "home-0133",
+    "folderId": "home",
+    "ru": "Ремонтировать",
+    "en": "Renovate",
+    "transcription_eastern": "norenvel",
+    "transcription_lori": "norenvel"
+  },
+  {
+    "id": "home-0134",
+    "folderId": "home",
+    "ru": "Красить стены",
+    "en": "Paint walls",
+    "transcription_eastern": "nkar pat",
+    "transcription_lori": "nkar pat"
+  },
+  {
+    "id": "home-0135",
+    "folderId": "home",
+    "ru": "Застелить постель",
+    "en": "Make bed",
+    "transcription_eastern": "dnel bardan",
+    "transcription_lori": "dnel bardan"
+  },
+  {
+    "id": "home-0136",
+    "folderId": "home",
+    "ru": "Накрыть на стол",
+    "en": "Set table",
+    "transcription_eastern": "dnel sex",
+    "transcription_lori": "dnel sex"
+  },
+  {
+    "id": "home-0137",
+    "folderId": "home",
+    "ru": "Быть дома",
+    "en": "Be at home",
+    "transcription_eastern": "linel tunum",
+    "transcription_lori": "linel tunum"
+  },
+  {
+    "id": "home-0138",
+    "folderId": "home",
+    "ru": "Прийти домой",
+    "en": "Come home",
+    "transcription_eastern": "gal tun",
+    "transcription_lori": "gal tun"
+  },
+  {
+    "id": "home-0139",
+    "folderId": "home",
+    "ru": "Уйти из дома",
+    "en": "Leave home",
+    "transcription_eastern": "gnal tunic",
+    "transcription_lori": "gnal tunic"
+  },
+  {
+    "id": "home-0140",
+    "folderId": "home",
+    "ru": "Вернуться домой",
+    "en": "Return home",
+    "transcription_eastern": "veradarnal tun",
+    "transcription_lori": "veradarnal tun"
+  },
+  {
+    "id": "home-0141",
+    "folderId": "home",
+    "ru": "Ночевать дома",
+    "en": "Sleep at home",
+    "transcription_eastern": "qnel tunum",
+    "transcription_lori": "qnel tunum"
+  },
+  {
+    "id": "home-0142",
+    "folderId": "home",
+    "ru": "Жить в доме",
+    "en": "Live in house",
+    "transcription_eastern": "aprel tunum",
+    "transcription_lori": "aprel tunum"
+  },
+  {
+    "id": "home-0143",
+    "folderId": "home",
+    "ru": "Сосед сверху",
+    "en": "Upstairs neighbor",
+    "transcription_eastern": "verevi koghnod",
+    "transcription_lori": "verevi koghnod"
+  },
+  {
+    "id": "home-0144",
+    "folderId": "home",
+    "ru": "Сосед снизу",
+    "en": "Downstairs neighbor",
+    "transcription_eastern": "nerqevi koghnod",
+    "transcription_lori": "nerqevi koghnod"
+  },
+  {
+    "id": "home-0145",
+    "folderId": "home",
+    "ru": "Управляющий",
+    "en": "Building manager",
+    "transcription_eastern": "karavarich",
+    "transcription_lori": "karavarich"
+  },
+  {
+    "id": "home-0146",
+    "folderId": "home",
+    "ru": "Консьерж",
+    "en": "Concierge",
+    "transcription_eastern": "pahpan",
+    "transcription_lori": "pahpan"
+  },
+  {
+    "id": "home-0147",
+    "folderId": "home",
+    "ru": "Тапочки",
+    "en": "Slippers",
+    "transcription_eastern": "hatik",
+    "transcription_lori": "hatik"
+  },
+  {
+    "id": "home-0148",
+    "folderId": "home",
+    "ru": "Прихожая",
+    "en": "Hallway",
+    "transcription_eastern": "koridor",
+    "transcription_lori": "koridor"
+  },
+  {
+    "id": "home-0149",
+    "folderId": "home",
+    "ru": "Гостевая комната",
+    "en": "Guest room",
+    "transcription_eastern": "haghord senyak",
+    "transcription_lori": "haghord senyak"
+  },
+  {
+    "id": "home-0150",
+    "folderId": "home",
+    "ru": "Кабинет",
+    "en": "Study",
+    "transcription_eastern": "senyak",
+    "transcription_lori": "senyak"
+  },
+  {
+    "id": "home-0151",
+    "folderId": "home",
+    "ru": "Детская",
+    "en": "Children room",
+    "transcription_eastern": "yerekutyan senyak",
+    "transcription_lori": "yerekutyan senyak"
+  },
+  {
+    "id": "home-0152",
+    "folderId": "home",
+    "ru": "Столовая",
+    "en": "Dining room",
+    "transcription_eastern": "jashi senyak",
+    "transcription_lori": "jashi senyak"
+  },
+  {
+    "id": "home-0153",
+    "folderId": "home",
+    "ru": "Прачечная",
+    "en": "Laundry room",
+    "transcription_eastern": "makrel senyak",
+    "transcription_lori": "makrel senyak"
+  },
+  {
+    "id": "home-0154",
+    "folderId": "home",
+    "ru": "Утюг",
+    "en": "Iron",
+    "transcription_eastern": "makur",
+    "transcription_lori": "makur"
+  },
+  {
+    "id": "home-0155",
+    "folderId": "home",
+    "ru": "Гладильная доска",
+    "en": "Ironing board",
+    "transcription_eastern": "makrel",
+    "transcription_lori": "makrel"
+  },
+  {
+    "id": "home-0156",
+    "folderId": "home",
+    "ru": "Салфетка",
+    "en": "Napkin",
+    "transcription_eastern": "salpetka",
+    "transcription_lori": "salpetka"
+  },
+  {
+    "id": "home-0157",
+    "folderId": "home",
+    "ru": "Скатерть",
+    "en": "Tablecloth",
+    "transcription_eastern": "seksali",
+    "transcription_lori": "seksali"
+  },
+  {
+    "id": "home-0158",
+    "folderId": "home",
+    "ru": "Поднос",
+    "en": "Tray",
+    "transcription_eastern": "tray",
+    "transcription_lori": "tray"
+  },
+  {
+    "id": "home-0159",
+    "folderId": "home",
+    "ru": "Телевизор",
+    "en": "TV",
+    "transcription_eastern": "herustatsutsich",
+    "transcription_lori": "herustatsutsich"
+  },
+  {
+    "id": "home-0160",
+    "folderId": "home",
+    "ru": "Пульт",
+    "en": "Remote",
+    "transcription_eastern": "mijak",
+    "transcription_lori": "mijak"
+  },
+  {
+    "id": "home-0161",
+    "folderId": "home",
+    "ru": "Радио",
+    "en": "Radio",
+    "transcription_eastern": "radio",
+    "transcription_lori": "radio"
+  },
+  {
+    "id": "home-0162",
+    "folderId": "home",
+    "ru": "Книга",
+    "en": "Book",
+    "transcription_eastern": "girk",
+    "transcription_lori": "girk"
+  },
+  {
+    "id": "home-0163",
+    "folderId": "home",
+    "ru": "Газета",
+    "en": "Newspaper",
+    "transcription_eastern": "t'ragir",
+    "transcription_lori": "t'ragir"
+  },
+  {
+    "id": "home-0164",
+    "folderId": "home",
+    "ru": "Письмо",
+    "en": "Letter",
+    "transcription_eastern": "namak",
+    "transcription_lori": "namak"
+  },
+  {
+    "id": "home-0165",
+    "folderId": "home",
+    "ru": "Ручка",
+    "en": "Pen",
+    "transcription_eastern": "gats",
+    "transcription_lori": "gats"
+  },
+  {
+    "id": "home-0166",
+    "folderId": "home",
+    "ru": "Карандаш",
+    "en": "Pencil",
+    "transcription_eastern": "gats",
+    "transcription_lori": "gats"
+  },
+  {
+    "id": "home-0167",
+    "folderId": "home",
+    "ru": "Ножницы",
+    "en": "Scissors",
+    "transcription_eastern": "gats",
+    "transcription_lori": "gats"
+  },
+  {
+    "id": "home-0168",
+    "folderId": "home",
+    "ru": "Сейф",
+    "en": "Safe",
+    "transcription_eastern": "sanduq",
+    "transcription_lori": "sanduq"
+  },
+  {
+    "id": "home-0169",
+    "folderId": "home",
+    "ru": "Паспорт",
+    "en": "Passport",
+    "transcription_eastern": "t'ragir",
+    "transcription_lori": "t'ragir"
+  },
+  {
+    "id": "home-0170",
+    "folderId": "home",
+    "ru": "Договор",
+    "en": "Contract",
+    "transcription_eastern": "patt",
+    "transcription_lori": "patt"
+  },
+  {
+    "id": "home-0171",
+    "folderId": "home",
+    "ru": "Счёт",
+    "en": "Bill",
+    "transcription_eastern": "hashvark",
+    "transcription_lori": "hashvark"
+  },
+  {
+    "id": "home-0172",
+    "folderId": "home",
+    "ru": "Квартплата",
+    "en": "Rent payment",
+    "transcription_eastern": "vardz",
+    "transcription_lori": "vardz"
+  },
+  {
+    "id": "home-0173",
+    "folderId": "home",
+    "ru": "Интернет",
+    "en": "Internet",
+    "transcription_eastern": "internet",
+    "transcription_lori": "internet"
+  },
+  {
+    "id": "home-0174",
+    "folderId": "home",
+    "ru": "Телефон",
+    "en": "Telephone",
+    "transcription_eastern": "herakhos",
+    "transcription_lori": "herakhos"
+  },
+  {
+    "id": "home-0175",
+    "folderId": "home",
+    "ru": "Зарядка",
+    "en": "Charger",
+    "transcription_eastern": "mijak",
+    "transcription_lori": "mijak"
+  },
+  {
+    "id": "home-0176",
+    "folderId": "home",
+    "ru": "Ночник",
+    "en": "Night light",
+    "transcription_eastern": "eralank",
+    "transcription_lori": "eralank"
+  },
+  {
+    "id": "home-0177",
+    "folderId": "home",
+    "ru": "Лейка",
+    "en": "Watering can",
+    "transcription_eastern": "lval",
+    "transcription_lori": "lval"
+  },
+  {
+    "id": "home-0178",
+    "folderId": "home",
+    "ru": "Грабли",
+    "en": "Rake",
+    "transcription_eastern": "gats",
+    "transcription_lori": "gats"
+  },
+  {
+    "id": "home-0179",
+    "folderId": "home",
+    "ru": "Лопата",
+    "en": "Shovel",
+    "transcription_eastern": "gats",
+    "transcription_lori": "gats"
+  },
+  {
+    "id": "home-0180",
+    "folderId": "home",
+    "ru": "Секатор",
+    "en": "Pruner",
+    "transcription_eastern": "gats",
+    "transcription_lori": "gats"
+  }
+]

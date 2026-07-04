@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "body-0001",
+    "folderId": "body",
+    "ru": "Голова",
+    "en": "Head",
+    "transcription_eastern": "glukh",
+    "transcription_lori": "glukh"
+  },
+  {
+    "id": "body-0002",
+    "folderId": "body",
+    "ru": "Глаз",
+    "en": "Eye",
+    "transcription_eastern": "achq",
+    "transcription_lori": "achq"
+  },
+  {
+    "id": "body-0003",
+    "folderId": "body",
+    "ru": "Глаза",
+    "en": "Eyes",
+    "transcription_eastern": "achqner",
+    "transcription_lori": "achqner"
+  },
+  {
+    "id": "body-0004",
+    "folderId": "body",
+    "ru": "Ухо",
+    "en": "Ear",
+    "transcription_eastern": "akanch",
+    "transcription_lori": "akanch"
+  },
+  {
+    "id": "body-0005",
+    "folderId": "body",
+    "ru": "Уши",
+    "en": "Ears",
+    "transcription_eastern": "akanchner",
+    "transcription_lori": "akanchner"
+  },
+  {
+    "id": "body-0006",
+    "folderId": "body",
+    "ru": "Нос",
+    "en": "Nose",
+    "transcription_eastern": "kit",
+    "transcription_lori": "kit"
+  },
+  {
+    "id": "body-0007",
+    "folderId": "body",
+    "ru": "Рот",
+    "en": "Mouth",
+    "transcription_eastern": "peran",
+    "transcription_lori": "peran"
+  },
+  {
+    "id": "body-0008",
+    "folderId": "body",
+    "ru": "Губы",
+    "en": "Lips",
+    "transcription_eastern": "heghnik",
+    "transcription_lori": "heghnik"
+  },
+  {
+    "id": "body-0009",
+    "folderId": "body",
+    "ru": "Зуб",
+    "en": "Tooth",
+    "transcription_eastern": "atamn",
+    "transcription_lori": "atamn"
+  },
+  {
+    "id": "body-0010",
+    "folderId": "body",
+    "ru": "Зубы",
+    "en": "Teeth",
+    "transcription_eastern": "atamner",
+    "transcription_lori": "atamner"
+  },
+  {
+    "id": "body-0011",
+    "folderId": "body",
+    "ru": "Язык",
+    "en": "Tongue",
+    "transcription_eastern": "lezu",
+    "transcription_lori": "lezu"
+  },
+  {
+    "id": "body-0012",
+    "folderId": "body",
+    "ru": "Подбородок",
+    "en": "Chin",
+    "transcription_eastern": "glan",
+    "transcription_lori": "glan"
+  },
+  {
+    "id": "body-0013",
+    "folderId": "body",
+    "ru": "Щека",
+    "en": "Cheek",
+    "transcription_eastern": "krunk",
+    "transcription_lori": "krunk"
+  },
+  {
+    "id": "body-0014",
+    "folderId": "body",
+    "ru": "Лоб",
+    "en": "Forehead",
+    "transcription_eastern": "ankam",
+    "transcription_lori": "ankam"
+  },
+  {
+    "id": "body-0015",
+    "folderId": "body",
+    "ru": "Бровь",
+    "en": "Eyebrow",
+    "transcription_eastern": "migu",
+    "transcription_lori": "migu"
+  },
+  {
+    "id": "body-0016",
+    "folderId": "body",
+    "ru": "Ресница",
+    "en": "Eyelash",
+    "transcription_eastern": "achqan mord",
+    "transcription_lori": "achqan mord"
+  },
+  {
+    "id": "body-0017",
+    "folderId": "body",
+    "ru": "Шея",
+    "en": "Neck",
+    "transcription_eastern": "boyn",
+    "transcription_lori": "boyn"
+  },
+  {
+    "id": "body-0018",
+    "folderId": "body",
+    "ru": "Горло",
+    "en": "Throat",
+    "transcription_eastern": "qurn",
+    "transcription_lori": "qurn"
+  },
+  {
+    "id": "body-0019",
+    "folderId": "body",
+    "ru": "Плечо",
+    "en": "Shoulder",
+    "transcription_eastern": "uc",
+    "transcription_lori": "uc"
+  },
+  {
+    "id": "body-0020",
+    "folderId": "body",
+    "ru": "Рука",
+    "en": "Arm",
+    "transcription_eastern": "dzern",
+    "transcription_lori": "dzern"
+  },
+  {
+    "id": "body-0021",
+    "folderId": "body",
+    "ru": "Локоть",
+    "en": "Elbow",
+    "transcription_eastern": "lyanq",
+    "transcription_lori": "lyanq"
+  },
+  {
+    "id": "body-0022",
+    "folderId": "body",
+    "ru": "Запястье",
+    "en": "Wrist",
+    "transcription_eastern": "dzernankam",
+    "transcription_lori": "dzernankam"
+  },
+  {
+    "id": "body-0023",
+    "folderId": "body",
+    "ru": "Ладонь",
+    "en": "Palm",
+    "transcription_eastern": "dzernankam",
+    "transcription_lori": "dzernankam"
+  },
+  {
+    "id": "body-0024",
+    "folderId": "body",
+    "ru": "Палец",
+    "en": "Finger",
+    "transcription_eastern": "mordam-sirt",
+    "transcription_lori": "mordam-sirt"
+  },
+  {
+    "id": "body-0025",
+    "folderId": "body",
+    "ru": "Большой палец",
+    "en": "Thumb",
+    "transcription_eastern": "bazmakat",
+    "transcription_lori": "bazmakat"
+  },
+  {
+    "id": "body-0026",
+    "folderId": "body",
+    "ru": "Ноготь",
+    "en": "Nail",
+    "transcription_eastern": "edher",
+    "transcription_lori": "edher"
+  },
+  {
+    "id": "body-0027",
+    "folderId": "body",
+    "ru": "Грудь",
+    "en": "Chest",
+    "transcription_eastern": "krak",
+    "transcription_lori": "krak"
+  },
+  {
+    "id": "body-0028",
+    "folderId": "body",
+    "ru": "Спина",
+    "en": "Back",
+    "transcription_eastern": "arc",
+    "transcription_lori": "arc"
+  },
+  {
+    "id": "body-0029",
+    "folderId": "body",
+    "ru": "Живот",
+    "en": "Stomach",
+    "transcription_eastern": "kendan",
+    "transcription_lori": "kendan"
+  },
+  {
+    "id": "body-0030",
+    "folderId": "body",
+    "ru": "Бок",
+    "en": "Side",
+    "transcription_eastern": "koghmi",
+    "transcription_lori": "koghmi"
+  },
+  {
+    "id": "body-0031",
+    "folderId": "body",
+    "ru": "Рёбра",
+    "en": "Ribs",
+    "transcription_eastern": "avandner",
+    "transcription_lori": "avandner"
+  },
+  {
+    "id": "body-0032",
+    "folderId": "body",
+    "ru": "Сердце",
+    "en": "Heart",
+    "transcription_eastern": "sirt",
+    "transcription_lori": "sirt"
+  },
+  {
+    "id": "body-0033",
+    "folderId": "body",
+    "ru": "Лёгкие",
+    "en": "Lungs",
+    "transcription_eastern": "phew",
+    "transcription_lori": "phew"
+  },
+  {
+    "id": "body-0034",
+    "folderId": "body",
+    "ru": "Печень",
+    "en": "Liver",
+    "transcription_eastern": "hepar",
+    "transcription_lori": "hepar"
+  },
+  {
+    "id": "body-0035",
+    "folderId": "body",
+    "ru": "Почки",
+    "en": "Kidneys",
+    "transcription_eastern": "yerkabutyun",
+    "transcription_lori": "yerkabutyun"
+  },
+  {
+    "id": "body-0036",
+    "folderId": "body",
+    "ru": "Мозг",
+    "en": "Brain",
+    "transcription_eastern": "oghi",
+    "transcription_lori": "oghi"
+  },
+  {
+    "id": "body-0037",
+    "folderId": "body",
+    "ru": "Кровь",
+    "en": "Blood",
+    "transcription_eastern": "aryun",
+    "transcription_lori": "aryun"
+  },
+  {
+    "id": "body-0038",
+    "folderId": "body",
+    "ru": "Кость",
+    "en": "Bone",
+    "transcription_eastern": "oskor",
+    "transcription_lori": "oskor"
+  },
+  {
+    "id": "body-0039",
+    "folderId": "body",
+    "ru": "Мышца",
+    "en": "Muscle",
+    "transcription_eastern": "maser",
+    "transcription_lori": "maser"
+  },
+  {
+    "id": "body-0040",
+    "folderId": "body",
+    "ru": "Кожа",
+    "en": "Skin",
+    "transcription_eastern": "maqur",
+    "transcription_lori": "maqur"
+  },
+  {
+    "id": "body-0041",
+    "folderId": "body",
+    "ru": "Волосы",
+    "en": "Hair",
+    "transcription_eastern": "mord",
+    "transcription_lori": "mord"
+  },
+  {
+    "id": "body-0042",
+    "folderId": "body",
+    "ru": "Борода",
+    "en": "Beard",
+    "transcription_eastern": "mord",
+    "transcription_lori": "mord"
+  },
+  {
+    "id": "body-0043",
+    "folderId": "body",
+    "ru": "Усы",
+    "en": "Mustache",
+    "transcription_eastern": "mord",
+    "transcription_lori": "mord"
+  },
+  {
+    "id": "body-0044",
+    "folderId": "body",
+    "ru": "Нога",
+    "en": "Leg",
+    "transcription_eastern": "otq",
+    "transcription_lori": "otq"
+  },
+  {
+    "id": "body-0045",
+    "folderId": "body",
+    "ru": "Бедро",
+    "en": "Thigh",
+    "transcription_eastern": "otqi verev",
+    "transcription_lori": "otqi verev"
+  },
+  {
+    "id": "body-0046",
+    "folderId": "body",
+    "ru": "Колено",
+    "en": "Knee",
+    "transcription_eastern": "dzkn",
+    "transcription_lori": "dzkn"
+  },
+  {
+    "id": "body-0047",
+    "folderId": "body",
+    "ru": "Голень",
+    "en": "Shin",
+    "transcription_eastern": "otqi myusin",
+    "transcription_lori": "otqi myusin"
+  },
+  {
+    "id": "body-0048",
+    "folderId": "body",
+    "ru": "Лодыжка",
+    "en": "Ankle",
+    "transcription_eastern": "otqankam",
+    "transcription_lori": "otqankam"
+  },
+  {
+    "id": "body-0049",
+    "folderId": "body",
+    "ru": "Пятка",
+    "en": "Heel",
+    "transcription_eastern": "eriq",
+    "transcription_lori": "eriq"
+  },
+  {
+    "id": "body-0050",
+    "folderId": "body",
+    "ru": "Ступня",
+    "en": "Foot",
+    "transcription_eastern": "otq",
+    "transcription_lori": "otq"
+  },
+  {
+    "id": "body-0051",
+    "folderId": "body",
+    "ru": "Пальцы ног",
+    "en": "Toes",
+    "transcription_eastern": "otqntsi mordam-sirter",
+    "transcription_lori": "otqntsi mordam-sirter"
+  },
+  {
+    "id": "body-0052",
+    "folderId": "body",
+    "ru": "Таз",
+    "en": "Hip",
+    "transcription_eastern": "taz",
+    "transcription_lori": "taz"
+  },
+  {
+    "id": "body-0053",
+    "folderId": "body",
+    "ru": "Талия",
+    "en": "Waist",
+    "transcription_eastern": "vraq",
+    "transcription_lori": "vraq"
+  },
+  {
+    "id": "body-0054",
+    "folderId": "body",
+    "ru": "Тело",
+    "en": "Body",
+    "transcription_eastern": "marmin",
+    "transcription_lori": "marmin"
+  },
+  {
+    "id": "body-0055",
+    "folderId": "body",
+    "ru": "Лицо",
+    "en": "Face",
+    "transcription_eastern": "demuq",
+    "transcription_lori": "demuq"
+  },
+  {
+    "id": "body-0056",
+    "folderId": "body",
+    "ru": "Череп",
+    "en": "Skull",
+    "transcription_eastern": "glukh",
+    "transcription_lori": "glukh"
+  },
+  {
+    "id": "body-0057",
+    "folderId": "body",
+    "ru": "Висок",
+    "en": "Temple",
+    "transcription_eastern": "glukhi koghm",
+    "transcription_lori": "glukhi koghm"
+  },
+  {
+    "id": "body-0058",
+    "folderId": "body",
+    "ru": "Затылок",
+    "en": "Back of head",
+    "transcription_eastern": "glukhi hetev",
+    "transcription_lori": "glukhi hetev"
+  },
+  {
+    "id": "body-0059",
+    "folderId": "body",
+    "ru": "Мочка уха",
+    "en": "Earlobe",
+    "transcription_eastern": "akanchi verev",
+    "transcription_lori": "akanchi verev"
+  },
+  {
+    "id": "body-0060",
+    "folderId": "body",
+    "ru": "Ноздря",
+    "en": "Nostril",
+    "transcription_eastern": "kiti mej",
+    "transcription_lori": "kiti mej"
+  },
+  {
+    "id": "body-0061",
+    "folderId": "body",
+    "ru": "Десна",
+    "en": "Gum",
+    "transcription_eastern": "atamni amanat",
+    "transcription_lori": "atamni amanat"
+  },
+  {
+    "id": "body-0062",
+    "folderId": "body",
+    "ru": "Нёбо",
+    "en": "Palate",
+    "transcription_eastern": "perani verev",
+    "transcription_lori": "perani verev"
+  },
+  {
+    "id": "body-0063",
+    "folderId": "body",
+    "ru": "Челюсть",
+    "en": "Jaw",
+    "transcription_eastern": "glan",
+    "transcription_lori": "glan"
+  },
+  {
+    "id": "body-0064",
+    "folderId": "body",
+    "ru": "Кадык",
+    "en": "Adam's apple",
+    "transcription_eastern": "boyn",
+    "transcription_lori": "boyn"
+  },
+  {
+    "id": "body-0065",
+    "folderId": "body",
+    "ru": "Ключица",
+    "en": "Collarbone",
+    "transcription_eastern": "uc",
+    "transcription_lori": "uc"
+  },
+  {
+    "id": "body-0066",
+    "folderId": "body",
+    "ru": "Лопатка",
+    "en": "Shoulder blade",
+    "transcription_eastern": "arc",
+    "transcription_lori": "arc"
+  },
+  {
+    "id": "body-0067",
+    "folderId": "body",
+    "ru": "Предплечье",
+    "en": "Forearm",
+    "transcription_eastern": "dzerni myusin",
+    "transcription_lori": "dzerni myusin"
+  },
+  {
+    "id": "body-0068",
+    "folderId": "body",
+    "ru": "Сустав",
+    "en": "Joint",
+    "transcription_eastern": "maser",
+    "transcription_lori": "maser"
+  },
+  {
+    "id": "body-0069",
+    "folderId": "body",
+    "ru": "Позвоночник",
+    "en": "Spine",
+    "transcription_eastern": "arc",
+    "transcription_lori": "arc"
+  },
+  {
+    "id": "body-0070",
+    "folderId": "body",
+    "ru": "Пупок",
+    "en": "Navel",
+    "transcription_eastern": "kendan",
+    "transcription_lori": "kendan"
+  },
+  {
+    "id": "body-0071",
+    "folderId": "body",
+    "ru": "Ягодица",
+    "en": "Buttock",
+    "transcription_eastern": "hetev",
+    "transcription_lori": "hetev"
+  },
+  {
+    "id": "body-0072",
+    "folderId": "body",
+    "ru": "Икра",
+    "en": "Calf",
+    "transcription_eastern": "otqi myusin",
+    "transcription_lori": "otqi myusin"
+  },
+  {
+    "id": "body-0073",
+    "folderId": "body",
+    "ru": "Подошва",
+    "en": "Sole",
+    "transcription_eastern": "otqi hetev",
+    "transcription_lori": "otqi hetev"
+  },
+  {
+    "id": "body-0074",
+    "folderId": "body",
+    "ru": "Мозоль",
+    "en": "Callus",
+    "transcription_eastern": "maqur",
+    "transcription_lori": "maqur"
+  },
+  {
+    "id": "body-0075",
+    "folderId": "body",
+    "ru": "Веснушка",
+    "en": "Freckle",
+    "transcription_eastern": "karmirk koch",
+    "transcription_lori": "karmirk koch"
+  },
+  {
+    "id": "body-0076",
+    "folderId": "body",
+    "ru": "Родинка",
+    "en": "Mole",
+    "transcription_eastern": "koch",
+    "transcription_lori": "koch"
+  },
+  {
+    "id": "body-0077",
+    "folderId": "body",
+    "ru": "Шрам",
+    "en": "Scar",
+    "transcription_eastern": "shnax",
+    "transcription_lori": "shnax"
+  },
+  {
+    "id": "body-0078",
+    "folderId": "body",
+    "ru": "Рана",
+    "en": "Wound",
+    "transcription_eastern": "verj",
+    "transcription_lori": "verj"
+  },
+  {
+    "id": "body-0079",
+    "folderId": "body",
+    "ru": "Ссадина",
+    "en": "Scratch",
+    "transcription_eastern": "verj",
+    "transcription_lori": "verj"
+  },
+  {
+    "id": "body-0080",
+    "folderId": "body",
+    "ru": "Синяк",
+    "en": "Bruise",
+    "transcription_eastern": "karmir koch",
+    "transcription_lori": "karmir koch"
+  },
+  {
+    "id": "body-0081",
+    "folderId": "body",
+    "ru": "Ожог",
+    "en": "Burn",
+    "transcription_eastern": "shut",
+    "transcription_lori": "shut"
+  },
+  {
+    "id": "body-0082",
+    "folderId": "body",
+    "ru": "Морщина",
+    "en": "Wrinkle",
+    "transcription_eastern": "shnax",
+    "transcription_lori": "shnax"
+  },
+  {
+    "id": "body-0083",
+    "folderId": "body",
+    "ru": "Прыщ",
+    "en": "Pimple",
+    "transcription_eastern": "koch",
+    "transcription_lori": "koch"
+  },
+  {
+    "id": "body-0084",
+    "folderId": "body",
+    "ru": "Пот",
+    "en": "Sweat",
+    "transcription_eastern": "ts'ot",
+    "transcription_lori": "ts'ot"
+  },
+  {
+    "id": "body-0085",
+    "folderId": "body",
+    "ru": "Слеза",
+    "en": "Tear",
+    "transcription_eastern": "arans",
+    "transcription_lori": "arans"
+  },
+  {
+    "id": "body-0086",
+    "folderId": "body",
+    "ru": "Слёзы",
+    "en": "Tears",
+    "transcription_eastern": "aranner",
+    "transcription_lori": "aranner"
+  },
+  {
+    "id": "body-0087",
+    "folderId": "body",
+    "ru": "Дыхание",
+    "en": "Breath",
+    "transcription_eastern": "shunch",
+    "transcription_lori": "shunch"
+  },
+  {
+    "id": "body-0088",
+    "folderId": "body",
+    "ru": "Пульс",
+    "en": "Pulse",
+    "transcription_eastern": "ts'rag",
+    "transcription_lori": "ts'rag"
+  },
+  {
+    "id": "body-0089",
+    "folderId": "body",
+    "ru": "Голос",
+    "en": "Voice",
+    "transcription_eastern": "khosq",
+    "transcription_lori": "khosq"
+  },
+  {
+    "id": "body-0090",
+    "folderId": "body",
+    "ru": "Боль",
+    "en": "Pain",
+    "transcription_eastern": "ts'vogh",
+    "transcription_lori": "ts'vogh"
+  },
+  {
+    "id": "body-0091",
+    "folderId": "body",
+    "ru": "Здоровье",
+    "en": "Health",
+    "transcription_eastern": "aroghjutyun",
+    "transcription_lori": "aroghjutyun"
+  },
+  {
+    "id": "body-0092",
+    "folderId": "body",
+    "ru": "Болезнь",
+    "en": "Illness",
+    "transcription_eastern": "hivandutyun",
+    "transcription_lori": "hivandutyun"
+  },
+  {
+    "id": "body-0093",
+    "folderId": "body",
+    "ru": "Температура",
+    "en": "Fever",
+    "transcription_eastern": "t'emperatura",
+    "transcription_lori": "t'emperatura"
+  },
+  {
+    "id": "body-0094",
+    "folderId": "body",
+    "ru": "Кашель",
+    "en": "Cough",
+    "transcription_eastern": "khosq",
+    "transcription_lori": "khosq"
+  },
+  {
+    "id": "body-0095",
+    "folderId": "body",
+    "ru": "Насморк",
+    "en": "Runny nose",
+    "transcription_eastern": "kit",
+    "transcription_lori": "kit"
+  },
+  {
+    "id": "body-0096",
+    "folderId": "body",
+    "ru": "Головная боль",
+    "en": "Headache",
+    "transcription_eastern": "glukhi ts'vogh",
+    "transcription_lori": "glukhi ts'vogh"
+  },
+  {
+    "id": "body-0097",
+    "folderId": "body",
+    "ru": "Зубная боль",
+    "en": "Toothache",
+    "transcription_eastern": "atamni ts'vogh",
+    "transcription_lori": "atamni ts'vogh"
+  },
+  {
+    "id": "body-0098",
+    "folderId": "body",
+    "ru": "Боль в животе",
+    "en": "Stomach ache",
+    "transcription_eastern": "kendani ts'vogh",
+    "transcription_lori": "kendani ts'vogh"
+  },
+  {
+    "id": "body-0099",
+    "folderId": "body",
+    "ru": "Простуда",
+    "en": "Cold",
+    "transcription_eastern": "ts'urt",
+    "transcription_lori": "ts'urt"
+  },
+  {
+    "id": "body-0100",
+    "folderId": "body",
+    "ru": "Грипп",
+    "en": "Flu",
+    "transcription_eastern": "hivandutyun",
+    "transcription_lori": "hivandutyun"
+  },
+  {
+    "id": "body-0101",
+    "folderId": "body",
+    "ru": "Аллергия",
+    "en": "Allergy",
+    "transcription_eastern": "allergia",
+    "transcription_lori": "allergia"
+  },
+  {
+    "id": "body-0102",
+    "folderId": "body",
+    "ru": "Астма",
+    "en": "Asthma",
+    "transcription_eastern": "astma",
+    "transcription_lori": "astma"
+  },
+  {
+    "id": "body-0103",
+    "folderId": "body",
+    "ru": "Диабет",
+    "en": "Diabetes",
+    "transcription_eastern": "diabet",
+    "transcription_lori": "diabet"
+  },
+  {
+    "id": "body-0104",
+    "folderId": "body",
+    "ru": "Давление",
+    "en": "Blood pressure",
+    "transcription_eastern": "spas",
+    "transcription_lori": "spas"
+  },
+  {
+    "id": "body-0105",
+    "folderId": "body",
+    "ru": "Анемия",
+    "en": "Anemia",
+    "transcription_eastern": "aryun",
+    "transcription_lori": "aryun"
+  },
+  {
+    "id": "body-0106",
+    "folderId": "body",
+    "ru": "Опухоль",
+    "en": "Tumor",
+    "transcription_eastern": "koch",
+    "transcription_lori": "koch"
+  },
+  {
+    "id": "body-0107",
+    "folderId": "body",
+    "ru": "Рак",
+    "en": "Cancer",
+    "transcription_eastern": "koch",
+    "transcription_lori": "koch"
+  },
+  {
+    "id": "body-0108",
+    "folderId": "body",
+    "ru": "Инфекция",
+    "en": "Infection",
+    "transcription_eastern": "hivandutyun",
+    "transcription_lori": "hivandutyun"
+  },
+  {
+    "id": "body-0109",
+    "folderId": "body",
+    "ru": "Вирус",
+    "en": "Virus",
+    "transcription_eastern": "hivandutyun",
+    "transcription_lori": "hivandutyun"
+  },
+  {
+    "id": "body-0110",
+    "folderId": "body",
+    "ru": "Бактерия",
+    "en": "Bacteria",
+    "transcription_eastern": "hivandutyun",
+    "transcription_lori": "hivandutyun"
+  },
+  {
+    "id": "body-0111",
+    "folderId": "body",
+    "ru": "Грибок",
+    "en": "Fungus",
+    "transcription_eastern": "hivandutyun",
+    "transcription_lori": "hivandutyun"
+  },
+  {
+    "id": "body-0112",
+    "folderId": "body",
+    "ru": "Паразит",
+    "en": "Parasite",
+    "transcription_eastern": "hivandutyun",
+    "transcription_lori": "hivandutyun"
+  },
+  {
+    "id": "body-0113",
+    "folderId": "body",
+    "ru": "Иммунитет",
+    "en": "Immunity",
+    "transcription_eastern": "apahov",
+    "transcription_lori": "apahov"
+  },
+  {
+    "id": "body-0114",
+    "folderId": "body",
+    "ru": "Вакцина",
+    "en": "Vaccine",
+    "transcription_eastern": "darman",
+    "transcription_lori": "darman"
+  },
+  {
+    "id": "body-0115",
+    "folderId": "body",
+    "ru": "Прививка",
+    "en": "Vaccination",
+    "transcription_eastern": "darman",
+    "transcription_lori": "darman"
+  },
+  {
+    "id": "body-0116",
+    "folderId": "body",
+    "ru": "Лекарство",
+    "en": "Medicine",
+    "transcription_eastern": "darman",
+    "transcription_lori": "darman"
+  },
+  {
+    "id": "body-0117",
+    "folderId": "body",
+    "ru": "Таблетка",
+    "en": "Pill",
+    "transcription_eastern": "darman",
+    "transcription_lori": "darman"
+  },
+  {
+    "id": "body-0118",
+    "folderId": "body",
+    "ru": "Мазь",
+    "en": "Ointment",
+    "transcription_eastern": "darman",
+    "transcription_lori": "darman"
+  },
+  {
+    "id": "body-0119",
+    "folderId": "body",
+    "ru": "Капли",
+    "en": "Drops",
+    "transcription_eastern": "darman",
+    "transcription_lori": "darman"
+  },
+  {
+    "id": "body-0120",
+    "folderId": "body",
+    "ru": "Укол",
+    "en": "Injection",
+    "transcription_eastern": "darman",
+    "transcription_lori": "darman"
+  },
+  {
+    "id": "body-0121",
+    "folderId": "body",
+    "ru": "Бинт",
+    "en": "Bandage",
+    "transcription_eastern": "darman",
+    "transcription_lori": "darman"
+  },
+  {
+    "id": "body-0122",
+    "folderId": "body",
+    "ru": "Пластырь",
+    "en": "Band-aid",
+    "transcription_eastern": "darman",
+    "transcription_lori": "darman"
+  },
+  {
+    "id": "body-0123",
+    "folderId": "body",
+    "ru": "Вата",
+    "en": "Cotton",
+    "transcription_eastern": "darman",
+    "transcription_lori": "darman"
+  },
+  {
+    "id": "body-0124",
+    "folderId": "body",
+    "ru": "Шприц",
+    "en": "Syringe",
+    "transcription_eastern": "darman",
+    "transcription_lori": "darman"
+  },
+  {
+    "id": "body-0125",
+    "folderId": "body",
+    "ru": "Термометр",
+    "en": "Thermometer",
+    "transcription_eastern": "t'emperatura",
+    "transcription_lori": "t'emperatura"
+  },
+  {
+    "id": "body-0126",
+    "folderId": "body",
+    "ru": "Аптечка",
+    "en": "First aid kit",
+    "transcription_eastern": "apteka",
+    "transcription_lori": "apteka"
+  },
+  {
+    "id": "body-0127",
+    "folderId": "body",
+    "ru": "Врач",
+    "en": "Doctor",
+    "transcription_eastern": "bzhshk",
+    "transcription_lori": "bzhshk"
+  },
+  {
+    "id": "body-0128",
+    "folderId": "body",
+    "ru": "Медсестра",
+    "en": "Nurse",
+    "transcription_eastern": "bzhshk",
+    "transcription_lori": "bzhshk"
+  },
+  {
+    "id": "body-0129",
+    "folderId": "body",
+    "ru": "Хирург",
+    "en": "Surgeon",
+    "transcription_eastern": "bzhshk",
+    "transcription_lori": "bzhshk"
+  },
+  {
+    "id": "body-0130",
+    "folderId": "body",
+    "ru": "Стоматолог",
+    "en": "Dentist",
+    "transcription_eastern": "atamni bzhshk",
+    "transcription_lori": "atamni bzhshk"
+  },
+  {
+    "id": "body-0131",
+    "folderId": "body",
+    "ru": "Окулист",
+    "en": "Ophthalmologist",
+    "transcription_eastern": "achqi bzhshk",
+    "transcription_lori": "achqi bzhshk"
+  },
+  {
+    "id": "body-0132",
+    "folderId": "body",
+    "ru": "Педиатр",
+    "en": "Pediatrician",
+    "transcription_eastern": "yerekutyan bzhshk",
+    "transcription_lori": "yerekutyan bzhshk"
+  },
+  {
+    "id": "body-0133",
+    "folderId": "body",
+    "ru": "Терапевт",
+    "en": "Therapist",
+    "transcription_eastern": "bzhshk",
+    "transcription_lori": "bzhshk"
+  },
+  {
+    "id": "body-0134",
+    "folderId": "body",
+    "ru": "Психиатр",
+    "en": "Psychiatrist",
+    "transcription_eastern": "bzhshk",
+    "transcription_lori": "bzhshk"
+  },
+  {
+    "id": "body-0135",
+    "folderId": "body",
+    "ru": "Психолог",
+    "en": "Psychologist",
+    "transcription_eastern": "bzhshk",
+    "transcription_lori": "bzhshk"
+  },
+  {
+    "id": "body-0136",
+    "folderId": "body",
+    "ru": "Больница",
+    "en": "Hospital",
+    "transcription_eastern": "hivandanots",
+    "transcription_lori": "hivandanots"
+  },
+  {
+    "id": "body-0137",
+    "folderId": "body",
+    "ru": "Поликлиника",
+    "en": "Clinic",
+    "transcription_eastern": "hivandanots",
+    "transcription_lori": "hivandanots"
+  },
+  {
+    "id": "body-0138",
+    "folderId": "body",
+    "ru": "Аптека",
+    "en": "Pharmacy",
+    "transcription_eastern": "apteka",
+    "transcription_lori": "apteka"
+  },
+  {
+    "id": "body-0139",
+    "folderId": "body",
+    "ru": "Рентген",
+    "en": "X-ray",
+    "transcription_eastern": "nkar",
+    "transcription_lori": "nkar"
+  },
+  {
+    "id": "body-0140",
+    "folderId": "body",
+    "ru": "Анализ крови",
+    "en": "Blood test",
+    "transcription_eastern": "aryun stugum",
+    "transcription_lori": "aryun stugum"
+  },
+  {
+    "id": "body-0141",
+    "folderId": "body",
+    "ru": "Анализ мочи",
+    "en": "Urine test",
+    "transcription_eastern": "stugum",
+    "transcription_lori": "stugum"
+  },
+  {
+    "id": "body-0142",
+    "folderId": "body",
+    "ru": "Операция",
+    "en": "Surgery",
+    "transcription_eastern": "bujum",
+    "transcription_lori": "bujum"
+  },
+  {
+    "id": "body-0143",
+    "folderId": "body",
+    "ru": "Лечение",
+    "en": "Treatment",
+    "transcription_eastern": "bujum",
+    "transcription_lori": "bujum"
+  },
+  {
+    "id": "body-0144",
+    "folderId": "body",
+    "ru": "Терапия",
+    "en": "Therapy",
+    "transcription_eastern": "bujum",
+    "transcription_lori": "bujum"
+  },
+  {
+    "id": "body-0145",
+    "folderId": "body",
+    "ru": "Реабилитация",
+    "en": "Rehabilitation",
+    "transcription_eastern": "arajacum",
+    "transcription_lori": "arajacum"
+  },
+  {
+    "id": "body-0146",
+    "folderId": "body",
+    "ru": "Выздоровление",
+    "en": "Recovery",
+    "transcription_eastern": "arajacum",
+    "transcription_lori": "arajacum"
+  },
+  {
+    "id": "body-0147",
+    "folderId": "body",
+    "ru": "Симптом",
+    "en": "Symptom",
+    "transcription_eastern": "nshan",
+    "transcription_lori": "nshan"
+  },
+  {
+    "id": "body-0148",
+    "folderId": "body",
+    "ru": "Диагноз",
+    "en": "Diagnosis",
+    "transcription_eastern": "stugum",
+    "transcription_lori": "stugum"
+  },
+  {
+    "id": "body-0149",
+    "folderId": "body",
+    "ru": "Прогноз",
+    "en": "Prognosis",
+    "transcription_eastern": "stugum",
+    "transcription_lori": "stugum"
+  },
+  {
+    "id": "body-0150",
+    "folderId": "body",
+    "ru": "Хронический",
+    "en": "Chronic",
+    "transcription_eastern": "hivandutyun",
+    "transcription_lori": "hivandutyun"
+  },
+  {
+    "id": "body-0151",
+    "folderId": "body",
+    "ru": "Острый",
+    "en": "Acute",
+    "transcription_eastern": "hivandutyun",
+    "transcription_lori": "hivandutyun"
+  },
+  {
+    "id": "body-0152",
+    "folderId": "body",
+    "ru": "Заразный",
+    "en": "Contagious",
+    "transcription_eastern": "hivandutyun",
+    "transcription_lori": "hivandutyun"
+  },
+  {
+    "id": "body-0153",
+    "folderId": "body",
+    "ru": "Зуд",
+    "en": "Itch",
+    "transcription_eastern": "ts'vogh",
+    "transcription_lori": "ts'vogh"
+  },
+  {
+    "id": "body-0154",
+    "folderId": "body",
+    "ru": "Онемение",
+    "en": "Numbness",
+    "transcription_eastern": "chi ts'vogh",
+    "transcription_lori": "chi ts'vogh"
+  },
+  {
+    "id": "body-0155",
+    "folderId": "body",
+    "ru": "Покалывание",
+    "en": "Tingling",
+    "transcription_eastern": "ts'vogh",
+    "transcription_lori": "ts'vogh"
+  },
+  {
+    "id": "body-0156",
+    "folderId": "body",
+    "ru": "Судорога",
+    "en": "Cramp",
+    "transcription_eastern": "ts'vogh",
+    "transcription_lori": "ts'vogh"
+  },
+  {
+    "id": "body-0157",
+    "folderId": "body",
+    "ru": "Спазм",
+    "en": "Spasm",
+    "transcription_eastern": "ts'vogh",
+    "transcription_lori": "ts'vogh"
+  },
+  {
+    "id": "body-0158",
+    "folderId": "body",
+    "ru": "Судороги",
+    "en": "Convulsions",
+    "transcription_eastern": "ts'vogh",
+    "transcription_lori": "ts'vogh"
+  },
+  {
+    "id": "body-0159",
+    "folderId": "body",
+    "ru": "Обморок",
+    "en": "Faint",
+    "transcription_eastern": "ts'vogh",
+    "transcription_lori": "ts'vogh"
+  },
+  {
+    "id": "body-0160",
+    "folderId": "body",
+    "ru": "Головокружение",
+    "en": "Dizziness",
+    "transcription_eastern": "glukh",
+    "transcription_lori": "glukh"
+  },
+  {
+    "id": "body-0161",
+    "folderId": "body",
+    "ru": "Тошнота",
+    "en": "Nausea",
+    "transcription_eastern": "kendan",
+    "transcription_lori": "kendan"
+  },
+  {
+    "id": "body-0162",
+    "folderId": "body",
+    "ru": "Рвота",
+    "en": "Vomiting",
+    "transcription_eastern": "kendan",
+    "transcription_lori": "kendan"
+  },
+  {
+    "id": "body-0163",
+    "folderId": "body",
+    "ru": "Диарея",
+    "en": "Diarrhea",
+    "transcription_eastern": "kendan",
+    "transcription_lori": "kendan"
+  },
+  {
+    "id": "body-0164",
+    "folderId": "body",
+    "ru": "Запор",
+    "en": "Constipation",
+    "transcription_eastern": "kendan",
+    "transcription_lori": "kendan"
+  },
+  {
+    "id": "body-0165",
+    "folderId": "body",
+    "ru": "Изжога",
+    "en": "Heartburn",
+    "transcription_eastern": "sirt",
+    "transcription_lori": "sirt"
+  },
+  {
+    "id": "body-0166",
+    "folderId": "body",
+    "ru": "Икота",
+    "en": "Hiccup",
+    "transcription_eastern": "khosq",
+    "transcription_lori": "khosq"
+  },
+  {
+    "id": "body-0167",
+    "folderId": "body",
+    "ru": "Чихание",
+    "en": "Sneeze",
+    "transcription_eastern": "khosq",
+    "transcription_lori": "khosq"
+  },
+  {
+    "id": "body-0168",
+    "folderId": "body",
+    "ru": "Зевота",
+    "en": "Yawn",
+    "transcription_eastern": "peran",
+    "transcription_lori": "peran"
+  },
+  {
+    "id": "body-0169",
+    "folderId": "body",
+    "ru": "Храп",
+    "en": "Snoring",
+    "transcription_eastern": "khosq",
+    "transcription_lori": "khosq"
+  },
+  {
+    "id": "body-0170",
+    "folderId": "body",
+    "ru": "Бессонница",
+    "en": "Insomnia",
+    "transcription_eastern": "chi qnum",
+    "transcription_lori": "chi qnum"
+  },
+  {
+    "id": "body-0171",
+    "folderId": "body",
+    "ru": "Сон",
+    "en": "Sleep",
+    "transcription_eastern": "qnel",
+    "transcription_lori": "qnel"
+  },
+  {
+    "id": "body-0172",
+    "folderId": "body",
+    "ru": "Сновидение",
+    "en": "Dream",
+    "transcription_eastern": "gisher",
+    "transcription_lori": "gisher"
+  },
+  {
+    "id": "body-0173",
+    "folderId": "body",
+    "ru": "Кошмар",
+    "en": "Nightmare",
+    "transcription_eastern": "gisher",
+    "transcription_lori": "gisher"
+  },
+  {
+    "id": "body-0174",
+    "folderId": "body",
+    "ru": "Усталость",
+    "en": "Fatigue",
+    "transcription_eastern": "t'os",
+    "transcription_lori": "t'os"
+  },
+  {
+    "id": "body-0175",
+    "folderId": "body",
+    "ru": "Слабость",
+    "en": "Weakness",
+    "transcription_eastern": "t'os",
+    "transcription_lori": "t'os"
+  },
+  {
+    "id": "body-0176",
+    "folderId": "body",
+    "ru": "Сила",
+    "en": "Strength",
+    "transcription_eastern": "uzh",
+    "transcription_lori": "uzh"
+  },
+  {
+    "id": "body-0177",
+    "folderId": "body",
+    "ru": "Выносливость",
+    "en": "Endurance",
+    "transcription_eastern": "uzh",
+    "transcription_lori": "uzh"
+  },
+  {
+    "id": "body-0178",
+    "folderId": "body",
+    "ru": "Гибкость",
+    "en": "Flexibility",
+    "transcription_eastern": "maser",
+    "transcription_lori": "maser"
+  },
+  {
+    "id": "body-0179",
+    "folderId": "body",
+    "ru": "Ловкость",
+    "en": "Agility",
+    "transcription_eastern": "maser",
+    "transcription_lori": "maser"
+  },
+  {
+    "id": "body-0180",
+    "folderId": "body",
+    "ru": "Координация",
+    "en": "Coordination",
+    "transcription_eastern": "maser",
+    "transcription_lori": "maser"
+  }
+]

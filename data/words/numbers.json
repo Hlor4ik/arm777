@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "numbers-0001",
+    "folderId": "numbers",
+    "ru": "Ноль",
+    "en": "Zero",
+    "transcription_eastern": "zero",
+    "transcription_lori": "zero"
+  },
+  {
+    "id": "numbers-0002",
+    "folderId": "numbers",
+    "ru": "Один",
+    "en": "One",
+    "transcription_eastern": "mek",
+    "transcription_lori": "mek"
+  },
+  {
+    "id": "numbers-0003",
+    "folderId": "numbers",
+    "ru": "Два",
+    "en": "Two",
+    "transcription_eastern": "erku",
+    "transcription_lori": "erku"
+  },
+  {
+    "id": "numbers-0004",
+    "folderId": "numbers",
+    "ru": "Три",
+    "en": "Three",
+    "transcription_eastern": "yerek",
+    "transcription_lori": "yerek"
+  },
+  {
+    "id": "numbers-0005",
+    "folderId": "numbers",
+    "ru": "Четыре",
+    "en": "Four",
+    "transcription_eastern": "chors",
+    "transcription_lori": "chors"
+  },
+  {
+    "id": "numbers-0006",
+    "folderId": "numbers",
+    "ru": "Пять",
+    "en": "Five",
+    "transcription_eastern": "hing",
+    "transcription_lori": "hing"
+  },
+  {
+    "id": "numbers-0007",
+    "folderId": "numbers",
+    "ru": "Шесть",
+    "en": "Six",
+    "transcription_eastern": "vec",
+    "transcription_lori": "vec"
+  },
+  {
+    "id": "numbers-0008",
+    "folderId": "numbers",
+    "ru": "Семь",
+    "en": "Seven",
+    "transcription_eastern": "yot",
+    "transcription_lori": "yot"
+  },
+  {
+    "id": "numbers-0009",
+    "folderId": "numbers",
+    "ru": "Восемь",
+    "en": "Eight",
+    "transcription_eastern": "ut",
+    "transcription_lori": "ut"
+  },
+  {
+    "id": "numbers-0010",
+    "folderId": "numbers",
+    "ru": "Девять",
+    "en": "Nine",
+    "transcription_eastern": "inn",
+    "transcription_lori": "inn"
+  },
+  {
+    "id": "numbers-0011",
+    "folderId": "numbers",
+    "ru": "Десять",
+    "en": "Ten",
+    "transcription_eastern": "tas",
+    "transcription_lori": "tas"
+  },
+  {
+    "id": "numbers-0012",
+    "folderId": "numbers",
+    "ru": "Одиннадцать",
+    "en": "Eleven",
+    "transcription_eastern": "tas-mek",
+    "transcription_lori": "tas-mek"
+  },
+  {
+    "id": "numbers-0013",
+    "folderId": "numbers",
+    "ru": "Двенадцать",
+    "en": "Twelve",
+    "transcription_eastern": "tas-erku",
+    "transcription_lori": "tas-erku"
+  },
+  {
+    "id": "numbers-0014",
+    "folderId": "numbers",
+    "ru": "Тринадцать",
+    "en": "Thirteen",
+    "transcription_eastern": "tas-yerek",
+    "transcription_lori": "tas-yerek"
+  },
+  {
+    "id": "numbers-0015",
+    "folderId": "numbers",
+    "ru": "Четырнадцать",
+    "en": "Fourteen",
+    "transcription_eastern": "tas-chors",
+    "transcription_lori": "tas-chors"
+  },
+  {
+    "id": "numbers-0016",
+    "folderId": "numbers",
+    "ru": "Пятнадцать",
+    "en": "Fifteen",
+    "transcription_eastern": "tas-hing",
+    "transcription_lori": "tas-hing"
+  },
+  {
+    "id": "numbers-0017",
+    "folderId": "numbers",
+    "ru": "Шестнадцать",
+    "en": "Sixteen",
+    "transcription_eastern": "tas-vec",
+    "transcription_lori": "tas-vec"
+  },
+  {
+    "id": "numbers-0018",
+    "folderId": "numbers",
+    "ru": "Семнадцать",
+    "en": "Seventeen",
+    "transcription_eastern": "tas-yot",
+    "transcription_lori": "tas-yot"
+  },
+  {
+    "id": "numbers-0019",
+    "folderId": "numbers",
+    "ru": "Восемнадцать",
+    "en": "Eighteen",
+    "transcription_eastern": "tas-ut",
+    "transcription_lori": "tas-ut"
+  },
+  {
+    "id": "numbers-0020",
+    "folderId": "numbers",
+    "ru": "Девятнадцать",
+    "en": "Nineteen",
+    "transcription_eastern": "tas-inn",
+    "transcription_lori": "tas-inn"
+  },
+  {
+    "id": "numbers-0021",
+    "folderId": "numbers",
+    "ru": "Двадцать",
+    "en": "Twenty",
+    "transcription_eastern": "qsan",
+    "transcription_lori": "qsan"
+  },
+  {
+    "id": "numbers-0022",
+    "folderId": "numbers",
+    "ru": "Двадцать один",
+    "en": "Twenty-one",
+    "transcription_eastern": "qsan-mek",
+    "transcription_lori": "qsan-mek"
+  },
+  {
+    "id": "numbers-0023",
+    "folderId": "numbers",
+    "ru": "Двадцать два",
+    "en": "Twenty-two",
+    "transcription_eastern": "qsan-erku",
+    "transcription_lori": "qsan-erku"
+  },
+  {
+    "id": "numbers-0024",
+    "folderId": "numbers",
+    "ru": "Двадцать три",
+    "en": "Twenty-three",
+    "transcription_eastern": "qsan-yerek",
+    "transcription_lori": "qsan-yerek"
+  },
+  {
+    "id": "numbers-0025",
+    "folderId": "numbers",
+    "ru": "Двадцать четыре",
+    "en": "Twenty-four",
+    "transcription_eastern": "qsan-chors",
+    "transcription_lori": "qsan-chors"
+  },
+  {
+    "id": "numbers-0026",
+    "folderId": "numbers",
+    "ru": "Двадцать пять",
+    "en": "Twenty-five",
+    "transcription_eastern": "qsan-hing",
+    "transcription_lori": "qsan-hing"
+  },
+  {
+    "id": "numbers-0027",
+    "folderId": "numbers",
+    "ru": "Двадцать шесть",
+    "en": "Twenty-six",
+    "transcription_eastern": "qsan-vec",
+    "transcription_lori": "qsan-vec"
+  },
+  {
+    "id": "numbers-0028",
+    "folderId": "numbers",
+    "ru": "Двадцать семь",
+    "en": "Twenty-seven",
+    "transcription_eastern": "qsan-yot",
+    "transcription_lori": "qsan-yot"
+  },
+  {
+    "id": "numbers-0029",
+    "folderId": "numbers",
+    "ru": "Двадцать восемь",
+    "en": "Twenty-eight",
+    "transcription_eastern": "qsan-ut",
+    "transcription_lori": "qsan-ut"
+  },
+  {
+    "id": "numbers-0030",
+    "folderId": "numbers",
+    "ru": "Двадцать девять",
+    "en": "Twenty-nine",
+    "transcription_eastern": "qsan-inn",
+    "transcription_lori": "qsan-inn"
+  },
+  {
+    "id": "numbers-0031",
+    "folderId": "numbers",
+    "ru": "Тридцать",
+    "en": "Thirty",
+    "transcription_eastern": "yereqsan",
+    "transcription_lori": "yereqsan"
+  },
+  {
+    "id": "numbers-0032",
+    "folderId": "numbers",
+    "ru": "Тридцать один",
+    "en": "Thirty-one",
+    "transcription_eastern": "yereqsan-mek",
+    "transcription_lori": "yereqsan-mek"
+  },
+  {
+    "id": "numbers-0033",
+    "folderId": "numbers",
+    "ru": "Тридцать два",
+    "en": "Thirty-two",
+    "transcription_eastern": "yereqsan-erku",
+    "transcription_lori": "yereqsan-erku"
+  },
+  {
+    "id": "numbers-0034",
+    "folderId": "numbers",
+    "ru": "Тридцать три",
+    "en": "Thirty-three",
+    "transcription_eastern": "yereqsan-yerek",
+    "transcription_lori": "yereqsan-yerek"
+  },
+  {
+    "id": "numbers-0035",
+    "folderId": "numbers",
+    "ru": "Тридцать четыре",
+    "en": "Thirty-four",
+    "transcription_eastern": "yereqsan-chors",
+    "transcription_lori": "yereqsan-chors"
+  },
+  {
+    "id": "numbers-0036",
+    "folderId": "numbers",
+    "ru": "Тридцать пять",
+    "en": "Thirty-five",
+    "transcription_eastern": "yereqsan-hing",
+    "transcription_lori": "yereqsan-hing"
+  },
+  {
+    "id": "numbers-0037",
+    "folderId": "numbers",
+    "ru": "Тридцать шесть",
+    "en": "Thirty-six",
+    "transcription_eastern": "yereqsan-vec",
+    "transcription_lori": "yereqsan-vec"
+  },
+  {
+    "id": "numbers-0038",
+    "folderId": "numbers",
+    "ru": "Тридцать семь",
+    "en": "Thirty-seven",
+    "transcription_eastern": "yereqsan-yot",
+    "transcription_lori": "yereqsan-yot"
+  },
+  {
+    "id": "numbers-0039",
+    "folderId": "numbers",
+    "ru": "Тридцать восемь",
+    "en": "Thirty-eight",
+    "transcription_eastern": "yereqsan-ut",
+    "transcription_lori": "yereqsan-ut"
+  },
+  {
+    "id": "numbers-0040",
+    "folderId": "numbers",
+    "ru": "Тридцать девять",
+    "en": "Thirty-nine",
+    "transcription_eastern": "yereqsan-inn",
+    "transcription_lori": "yereqsan-inn"
+  },
+  {
+    "id": "numbers-0041",
+    "folderId": "numbers",
+    "ru": "Сорок",
+    "en": "Forty",
+    "transcription_eastern": "qarasun",
+    "transcription_lori": "qarasun"
+  },
+  {
+    "id": "numbers-0042",
+    "folderId": "numbers",
+    "ru": "Сорок один",
+    "en": "Forty-one",
+    "transcription_eastern": "qarasun-mek",
+    "transcription_lori": "qarasun-mek"
+  },
+  {
+    "id": "numbers-0043",
+    "folderId": "numbers",
+    "ru": "Сорок два",
+    "en": "Forty-two",
+    "transcription_eastern": "qarasun-erku",
+    "transcription_lori": "qarasun-erku"
+  },
+  {
+    "id": "numbers-0044",
+    "folderId": "numbers",
+    "ru": "Сорок три",
+    "en": "Forty-three",
+    "transcription_eastern": "qarasun-yerek",
+    "transcription_lori": "qarasun-yerek"
+  },
+  {
+    "id": "numbers-0045",
+    "folderId": "numbers",
+    "ru": "Сорок четыре",
+    "en": "Forty-four",
+    "transcription_eastern": "qarasun-chors",
+    "transcription_lori": "qarasun-chors"
+  },
+  {
+    "id": "numbers-0046",
+    "folderId": "numbers",
+    "ru": "Сорок пять",
+    "en": "Forty-five",
+    "transcription_eastern": "qarasun-hing",
+    "transcription_lori": "qarasun-hing"
+  },
+  {
+    "id": "numbers-0047",
+    "folderId": "numbers",
+    "ru": "Сорок шесть",
+    "en": "Forty-six",
+    "transcription_eastern": "qarasun-vec",
+    "transcription_lori": "qarasun-vec"
+  },
+  {
+    "id": "numbers-0048",
+    "folderId": "numbers",
+    "ru": "Сорок семь",
+    "en": "Forty-seven",
+    "transcription_eastern": "qarasun-yot",
+    "transcription_lori": "qarasun-yot"
+  },
+  {
+    "id": "numbers-0049",
+    "folderId": "numbers",
+    "ru": "Сорок восемь",
+    "en": "Forty-eight",
+    "transcription_eastern": "qarasun-ut",
+    "transcription_lori": "qarasun-ut"
+  },
+  {
+    "id": "numbers-0050",
+    "folderId": "numbers",
+    "ru": "Сорок девять",
+    "en": "Forty-nine",
+    "transcription_eastern": "qarasun-inn",
+    "transcription_lori": "qarasun-inn"
+  },
+  {
+    "id": "numbers-0051",
+    "folderId": "numbers",
+    "ru": "Пятьдесят",
+    "en": "Fifty",
+    "transcription_eastern": "hisun",
+    "transcription_lori": "hisun"
+  },
+  {
+    "id": "numbers-0052",
+    "folderId": "numbers",
+    "ru": "Пятьдесят один",
+    "en": "Fifty-one",
+    "transcription_eastern": "hisun-mek",
+    "transcription_lori": "hisun-mek"
+  },
+  {
+    "id": "numbers-0053",
+    "folderId": "numbers",
+    "ru": "Пятьдесят два",
+    "en": "Fifty-two",
+    "transcription_eastern": "hisun-erku",
+    "transcription_lori": "hisun-erku"
+  },
+  {
+    "id": "numbers-0054",
+    "folderId": "numbers",
+    "ru": "Пятьдесят три",
+    "en": "Fifty-three",
+    "transcription_eastern": "hisun-yerek",
+    "transcription_lori": "hisun-yerek"
+  },
+  {
+    "id": "numbers-0055",
+    "folderId": "numbers",
+    "ru": "Пятьдесят четыре",
+    "en": "Fifty-four",
+    "transcription_eastern": "hisun-chors",
+    "transcription_lori": "hisun-chors"
+  },
+  {
+    "id": "numbers-0056",
+    "folderId": "numbers",
+    "ru": "Пятьдесят пять",
+    "en": "Fifty-five",
+    "transcription_eastern": "hisun-hing",
+    "transcription_lori": "hisun-hing"
+  },
+  {
+    "id": "numbers-0057",
+    "folderId": "numbers",
+    "ru": "Пятьдесят шесть",
+    "en": "Fifty-six",
+    "transcription_eastern": "hisun-vec",
+    "transcription_lori": "hisun-vec"
+  },
+  {
+    "id": "numbers-0058",
+    "folderId": "numbers",
+    "ru": "Пятьдесят семь",
+    "en": "Fifty-seven",
+    "transcription_eastern": "hisun-yot",
+    "transcription_lori": "hisun-yot"
+  },
+  {
+    "id": "numbers-0059",
+    "folderId": "numbers",
+    "ru": "Пятьдесят восемь",
+    "en": "Fifty-eight",
+    "transcription_eastern": "hisun-ut",
+    "transcription_lori": "hisun-ut"
+  },
+  {
+    "id": "numbers-0060",
+    "folderId": "numbers",
+    "ru": "Пятьдесят девять",
+    "en": "Fifty-nine",
+    "transcription_eastern": "hisun-inn",
+    "transcription_lori": "hisun-inn"
+  },
+  {
+    "id": "numbers-0061",
+    "folderId": "numbers",
+    "ru": "Шестьдесят",
+    "en": "Sixty",
+    "transcription_eastern": "varsun",
+    "transcription_lori": "varsun"
+  },
+  {
+    "id": "numbers-0062",
+    "folderId": "numbers",
+    "ru": "Шестьдесят один",
+    "en": "Sixty-one",
+    "transcription_eastern": "varsun-mek",
+    "transcription_lori": "varsun-mek"
+  },
+  {
+    "id": "numbers-0063",
+    "folderId": "numbers",
+    "ru": "Шестьдесят два",
+    "en": "Sixty-two",
+    "transcription_eastern": "varsun-erku",
+    "transcription_lori": "varsun-erku"
+  },
+  {
+    "id": "numbers-0064",
+    "folderId": "numbers",
+    "ru": "Шестьдесят три",
+    "en": "Sixty-three",
+    "transcription_eastern": "varsun-yerek",
+    "transcription_lori": "varsun-yerek"
+  },
+  {
+    "id": "numbers-0065",
+    "folderId": "numbers",
+    "ru": "Шестьдесят четыре",
+    "en": "Sixty-four",
+    "transcription_eastern": "varsun-chors",
+    "transcription_lori": "varsun-chors"
+  },
+  {
+    "id": "numbers-0066",
+    "folderId": "numbers",
+    "ru": "Шестьдесят пять",
+    "en": "Sixty-five",
+    "transcription_eastern": "varsun-hing",
+    "transcription_lori": "varsun-hing"
+  },
+  {
+    "id": "numbers-0067",
+    "folderId": "numbers",
+    "ru": "Шестьдесят шесть",
+    "en": "Sixty-six",
+    "transcription_eastern": "varsun-vec",
+    "transcription_lori": "varsun-vec"
+  },
+  {
+    "id": "numbers-0068",
+    "folderId": "numbers",
+    "ru": "Шестьдесят семь",
+    "en": "Sixty-seven",
+    "transcription_eastern": "varsun-yot",
+    "transcription_lori": "varsun-yot"
+  },
+  {
+    "id": "numbers-0069",
+    "folderId": "numbers",
+    "ru": "Шестьдесят восемь",
+    "en": "Sixty-eight",
+    "transcription_eastern": "varsun-ut",
+    "transcription_lori": "varsun-ut"
+  },
+  {
+    "id": "numbers-0070",
+    "folderId": "numbers",
+    "ru": "Шестьдесят девять",
+    "en": "Sixty-nine",
+    "transcription_eastern": "varsun-inn",
+    "transcription_lori": "varsun-inn"
+  },
+  {
+    "id": "numbers-0071",
+    "folderId": "numbers",
+    "ru": "Семьдесят",
+    "en": "Seventy",
+    "transcription_eastern": "yotnusun",
+    "transcription_lori": "yotnusun"
+  },
+  {
+    "id": "numbers-0072",
+    "folderId": "numbers",
+    "ru": "Семьдесят один",
+    "en": "Seventy-one",
+    "transcription_eastern": "yotnusun-mek",
+    "transcription_lori": "yotnusun-mek"
+  },
+  {
+    "id": "numbers-0073",
+    "folderId": "numbers",
+    "ru": "Семьдесят два",
+    "en": "Seventy-two",
+    "transcription_eastern": "yotnusun-erku",
+    "transcription_lori": "yotnusun-erku"
+  },
+  {
+    "id": "numbers-0074",
+    "folderId": "numbers",
+    "ru": "Семьдесят три",
+    "en": "Seventy-three",
+    "transcription_eastern": "yotnusun-yerek",
+    "transcription_lori": "yotnusun-yerek"
+  },
+  {
+    "id": "numbers-0075",
+    "folderId": "numbers",
+    "ru": "Семьдесят четыре",
+    "en": "Seventy-four",
+    "transcription_eastern": "yotnusun-chors",
+    "transcription_lori": "yotnusun-chors"
+  },
+  {
+    "id": "numbers-0076",
+    "folderId": "numbers",
+    "ru": "Семьдесят пять",
+    "en": "Seventy-five",
+    "transcription_eastern": "yotnusun-hing",
+    "transcription_lori": "yotnusun-hing"
+  },
+  {
+    "id": "numbers-0077",
+    "folderId": "numbers",
+    "ru": "Семьдесят шесть",
+    "en": "Seventy-six",
+    "transcription_eastern": "yotnusun-vec",
+    "transcription_lori": "yotnusun-vec"
+  },
+  {
+    "id": "numbers-0078",
+    "folderId": "numbers",
+    "ru": "Семьдесят семь",
+    "en": "Seventy-seven",
+    "transcription_eastern": "yotnusun-yot",
+    "transcription_lori": "yotnusun-yot"
+  },
+  {
+    "id": "numbers-0079",
+    "folderId": "numbers",
+    "ru": "Семьдесят восемь",
+    "en": "Seventy-eight",
+    "transcription_eastern": "yotnusun-ut",
+    "transcription_lori": "yotnusun-ut"
+  },
+  {
+    "id": "numbers-0080",
+    "folderId": "numbers",
+    "ru": "Семьдесят девять",
+    "en": "Seventy-nine",
+    "transcription_eastern": "yotnusun-inn",
+    "transcription_lori": "yotnusun-inn"
+  },
+  {
+    "id": "numbers-0081",
+    "folderId": "numbers",
+    "ru": "Восемьдесят",
+    "en": "Eighty",
+    "transcription_eastern": "utsun",
+    "transcription_lori": "utsun"
+  },
+  {
+    "id": "numbers-0082",
+    "folderId": "numbers",
+    "ru": "Восемьдесят один",
+    "en": "Eighty-one",
+    "transcription_eastern": "utsun-mek",
+    "transcription_lori": "utsun-mek"
+  },
+  {
+    "id": "numbers-0083",
+    "folderId": "numbers",
+    "ru": "Восемьдесят два",
+    "en": "Eighty-two",
+    "transcription_eastern": "utsun-erku",
+    "transcription_lori": "utsun-erku"
+  },
+  {
+    "id": "numbers-0084",
+    "folderId": "numbers",
+    "ru": "Восемьдесят три",
+    "en": "Eighty-three",
+    "transcription_eastern": "utsun-yerek",
+    "transcription_lori": "utsun-yerek"
+  },
+  {
+    "id": "numbers-0085",
+    "folderId": "numbers",
+    "ru": "Восемьдесят четыре",
+    "en": "Eighty-four",
+    "transcription_eastern": "utsun-chors",
+    "transcription_lori": "utsun-chors"
+  },
+  {
+    "id": "numbers-0086",
+    "folderId": "numbers",
+    "ru": "Восемьдесят пять",
+    "en": "Eighty-five",
+    "transcription_eastern": "utsun-hing",
+    "transcription_lori": "utsun-hing"
+  },
+  {
+    "id": "numbers-0087",
+    "folderId": "numbers",
+    "ru": "Восемьдесят шесть",
+    "en": "Eighty-six",
+    "transcription_eastern": "utsun-vec",
+    "transcription_lori": "utsun-vec"
+  },
+  {
+    "id": "numbers-0088",
+    "folderId": "numbers",
+    "ru": "Восемьдесят семь",
+    "en": "Eighty-seven",
+    "transcription_eastern": "utsun-yot",
+    "transcription_lori": "utsun-yot"
+  },
+  {
+    "id": "numbers-0089",
+    "folderId": "numbers",
+    "ru": "Восемьдесят восемь",
+    "en": "Eighty-eight",
+    "transcription_eastern": "utsun-ut",
+    "transcription_lori": "utsun-ut"
+  },
+  {
+    "id": "numbers-0090",
+    "folderId": "numbers",
+    "ru": "Восемьдесят девять",
+    "en": "Eighty-nine",
+    "transcription_eastern": "utsun-inn",
+    "transcription_lori": "utsun-inn"
+  },
+  {
+    "id": "numbers-0091",
+    "folderId": "numbers",
+    "ru": "Девяносто",
+    "en": "Ninety",
+    "transcription_eastern": "innusun",
+    "transcription_lori": "innusun"
+  },
+  {
+    "id": "numbers-0092",
+    "folderId": "numbers",
+    "ru": "Девяносто один",
+    "en": "Ninety-one",
+    "transcription_eastern": "innusun-mek",
+    "transcription_lori": "innusun-mek"
+  },
+  {
+    "id": "numbers-0093",
+    "folderId": "numbers",
+    "ru": "Девяносто два",
+    "en": "Ninety-two",
+    "transcription_eastern": "innusun-erku",
+    "transcription_lori": "innusun-erku"
+  },
+  {
+    "id": "numbers-0094",
+    "folderId": "numbers",
+    "ru": "Девяносто три",
+    "en": "Ninety-three",
+    "transcription_eastern": "innusun-yerek",
+    "transcription_lori": "innusun-yerek"
+  },
+  {
+    "id": "numbers-0095",
+    "folderId": "numbers",
+    "ru": "Девяносто четыре",
+    "en": "Ninety-four",
+    "transcription_eastern": "innusun-chors",
+    "transcription_lori": "innusun-chors"
+  },
+  {
+    "id": "numbers-0096",
+    "folderId": "numbers",
+    "ru": "Девяносто пять",
+    "en": "Ninety-five",
+    "transcription_eastern": "innusun-hing",
+    "transcription_lori": "innusun-hing"
+  },
+  {
+    "id": "numbers-0097",
+    "folderId": "numbers",
+    "ru": "Девяносто шесть",
+    "en": "Ninety-six",
+    "transcription_eastern": "innusun-vec",
+    "transcription_lori": "innusun-vec"
+  },
+  {
+    "id": "numbers-0098",
+    "folderId": "numbers",
+    "ru": "Девяносто семь",
+    "en": "Ninety-seven",
+    "transcription_eastern": "innusun-yot",
+    "transcription_lori": "innusun-yot"
+  },
+  {
+    "id": "numbers-0099",
+    "folderId": "numbers",
+    "ru": "Девяносто восемь",
+    "en": "Ninety-eight",
+    "transcription_eastern": "innusun-ut",
+    "transcription_lori": "innusun-ut"
+  },
+  {
+    "id": "numbers-0100",
+    "folderId": "numbers",
+    "ru": "Девяносто девять",
+    "en": "Ninety-nine",
+    "transcription_eastern": "innusun-inn",
+    "transcription_lori": "innusun-inn"
+  },
+  {
+    "id": "numbers-0101",
+    "folderId": "numbers",
+    "ru": "Сто",
+    "en": "One hundred",
+    "transcription_eastern": "haryur",
+    "transcription_lori": "haryur"
+  },
+  {
+    "id": "numbers-0102",
+    "folderId": "numbers",
+    "ru": "Двести",
+    "en": "Two hundred",
+    "transcription_eastern": "erku-haryur",
+    "transcription_lori": "erku-haryur"
+  },
+  {
+    "id": "numbers-0103",
+    "folderId": "numbers",
+    "ru": "Триста",
+    "en": "Three hundred",
+    "transcription_eastern": "yerek-haryur",
+    "transcription_lori": "yerek-haryur"
+  },
+  {
+    "id": "numbers-0104",
+    "folderId": "numbers",
+    "ru": "Тысяча",
+    "en": "One thousand",
+    "transcription_eastern": "hazar",
+    "transcription_lori": "hazar"
+  },
+  {
+    "id": "numbers-0105",
+    "folderId": "numbers",
+    "ru": "Две тысячи",
+    "en": "Two thousand",
+    "transcription_eastern": "erku hazar",
+    "transcription_lori": "erku hazar"
+  },
+  {
+    "id": "numbers-0106",
+    "folderId": "numbers",
+    "ru": "Миллион",
+    "en": "Million",
+    "transcription_eastern": "milion",
+    "transcription_lori": "milion"
+  },
+  {
+    "id": "numbers-0107",
+    "folderId": "numbers",
+    "ru": "Первый",
+    "en": "First",
+    "transcription_eastern": "arajn",
+    "transcription_lori": "arajn"
+  },
+  {
+    "id": "numbers-0108",
+    "folderId": "numbers",
+    "ru": "Второй",
+    "en": "Second",
+    "transcription_eastern": "erkrord",
+    "transcription_lori": "erkrord"
+  },
+  {
+    "id": "numbers-0109",
+    "folderId": "numbers",
+    "ru": "Третий",
+    "en": "Third",
+    "transcription_eastern": "yerrord",
+    "transcription_lori": "yerrord"
+  },
+  {
+    "id": "numbers-0110",
+    "folderId": "numbers",
+    "ru": "Четвёртый",
+    "en": "Fourth",
+    "transcription_eastern": "chorsord",
+    "transcription_lori": "chorsord"
+  },
+  {
+    "id": "numbers-0111",
+    "folderId": "numbers",
+    "ru": "Пятый",
+    "en": "Fifth",
+    "transcription_eastern": "hingord",
+    "transcription_lori": "hingord"
+  },
+  {
+    "id": "numbers-0112",
+    "folderId": "numbers",
+    "ru": "Шестой",
+    "en": "Sixth",
+    "transcription_eastern": "vecord",
+    "transcription_lori": "vecord"
+  },
+  {
+    "id": "numbers-0113",
+    "folderId": "numbers",
+    "ru": "Седьмой",
+    "en": "Seventh",
+    "transcription_eastern": "yotord",
+    "transcription_lori": "yotord"
+  },
+  {
+    "id": "numbers-0114",
+    "folderId": "numbers",
+    "ru": "Восьмой",
+    "en": "Eighth",
+    "transcription_eastern": "utord",
+    "transcription_lori": "utord"
+  },
+  {
+    "id": "numbers-0115",
+    "folderId": "numbers",
+    "ru": "Девятый",
+    "en": "Ninth",
+    "transcription_eastern": "innord",
+    "transcription_lori": "innord"
+  },
+  {
+    "id": "numbers-0116",
+    "folderId": "numbers",
+    "ru": "Десятый",
+    "en": "Tenth",
+    "transcription_eastern": "tasord",
+    "transcription_lori": "tasord"
+  },
+  {
+    "id": "numbers-0117",
+    "folderId": "numbers",
+    "ru": "Час",
+    "en": "Hour",
+    "transcription_eastern": "jam",
+    "transcription_lori": "jam"
+  },
+  {
+    "id": "numbers-0118",
+    "folderId": "numbers",
+    "ru": "Минута",
+    "en": "Minute",
+    "transcription_eastern": "rope",
+    "transcription_lori": "rope"
+  },
+  {
+    "id": "numbers-0119",
+    "folderId": "numbers",
+    "ru": "Секунда",
+    "en": "Second",
+    "transcription_eastern": "vayrkyan",
+    "transcription_lori": "vayrkyan"
+  },
+  {
+    "id": "numbers-0120",
+    "folderId": "numbers",
+    "ru": "День",
+    "en": "Day",
+    "transcription_eastern": "or",
+    "transcription_lori": "or"
+  },
+  {
+    "id": "numbers-0121",
+    "folderId": "numbers",
+    "ru": "Неделя",
+    "en": "Week",
+    "transcription_eastern": "shabat",
+    "transcription_lori": "shabat"
+  },
+  {
+    "id": "numbers-0122",
+    "folderId": "numbers",
+    "ru": "Месяц",
+    "en": "Month",
+    "transcription_eastern": "amis",
+    "transcription_lori": "amis"
+  },
+  {
+    "id": "numbers-0123",
+    "folderId": "numbers",
+    "ru": "Год",
+    "en": "Year",
+    "transcription_eastern": "tari",
+    "transcription_lori": "tari"
+  },
+  {
+    "id": "numbers-0124",
+    "folderId": "numbers",
+    "ru": "Утро",
+    "en": "Morning",
+    "transcription_eastern": "luis",
+    "transcription_lori": "luis"
+  },
+  {
+    "id": "numbers-0125",
+    "folderId": "numbers",
+    "ru": "Вечер",
+    "en": "Evening",
+    "transcription_eastern": "yerekon",
+    "transcription_lori": "yerekon"
+  },
+  {
+    "id": "numbers-0126",
+    "folderId": "numbers",
+    "ru": "Ночь",
+    "en": "Night",
+    "transcription_eastern": "gisher",
+    "transcription_lori": "gisher"
+  },
+  {
+    "id": "numbers-0127",
+    "folderId": "numbers",
+    "ru": "Сегодня",
+    "en": "Today",
+    "transcription_eastern": "aysor",
+    "transcription_lori": "aysor"
+  },
+  {
+    "id": "numbers-0128",
+    "folderId": "numbers",
+    "ru": "Завтра",
+    "en": "Tomorrow",
+    "transcription_eastern": "vagh",
+    "transcription_lori": "vagh"
+  },
+  {
+    "id": "numbers-0129",
+    "folderId": "numbers",
+    "ru": "Вчера",
+    "en": "Yesterday",
+    "transcription_eastern": "yerek",
+    "transcription_lori": "yerek"
+  },
+  {
+    "id": "numbers-0130",
+    "folderId": "numbers",
+    "ru": "Понедельник",
+    "en": "Monday",
+    "transcription_eastern": "yerkushapti",
+    "transcription_lori": "yerkushapti"
+  },
+  {
+    "id": "numbers-0131",
+    "folderId": "numbers",
+    "ru": "Вторник",
+    "en": "Tuesday",
+    "transcription_eastern": "yerekshapti",
+    "transcription_lori": "yerekshapti"
+  },
+  {
+    "id": "numbers-0132",
+    "folderId": "numbers",
+    "ru": "Среда",
+    "en": "Wednesday",
+    "transcription_eastern": "choreqshapti",
+    "transcription_lori": "choreqshapti"
+  },
+  {
+    "id": "numbers-0133",
+    "folderId": "numbers",
+    "ru": "Четверг",
+    "en": "Thursday",
+    "transcription_eastern": "hingshapti",
+    "transcription_lori": "hingshapti"
+  },
+  {
+    "id": "numbers-0134",
+    "folderId": "numbers",
+    "ru": "Пятница",
+    "en": "Friday",
+    "transcription_eastern": "urbat",
+    "transcription_lori": "urbat"
+  },
+  {
+    "id": "numbers-0135",
+    "folderId": "numbers",
+    "ru": "Суббота",
+    "en": "Saturday",
+    "transcription_eastern": "shabat",
+    "transcription_lori": "shabat"
+  },
+  {
+    "id": "numbers-0136",
+    "folderId": "numbers",
+    "ru": "Воскресенье",
+    "en": "Sunday",
+    "transcription_eastern": "kiraki",
+    "transcription_lori": "kiraki"
+  },
+  {
+    "id": "numbers-0137",
+    "folderId": "numbers",
+    "ru": "Время",
+    "en": "Time",
+    "transcription_eastern": "zhamanak",
+    "transcription_lori": "zhamanak"
+  },
+  {
+    "id": "numbers-0138",
+    "folderId": "numbers",
+    "ru": "Сколько?",
+    "en": "How much?",
+    "transcription_eastern": "qani?",
+    "transcription_lori": "qani?"
+  },
+  {
+    "id": "numbers-0139",
+    "folderId": "numbers",
+    "ru": "Сколько стоит?",
+    "en": "How much does it cost?",
+    "transcription_eastern": "qani e arzhe?",
+    "transcription_lori": "qani e arzhe?"
+  },
+  {
+    "id": "numbers-0140",
+    "folderId": "numbers",
+    "ru": "Сколько времени?",
+    "en": "What time is it?",
+    "transcription_eastern": "qani e zhamanaky?",
+    "transcription_lori": "qani e zhamanaky?"
+  },
+  {
+    "id": "numbers-0141",
+    "folderId": "numbers",
+    "ru": "Сколько тебе лет?",
+    "en": "How old are you?",
+    "transcription_eastern": "qani tarekan es?",
+    "transcription_lori": "qani tarekan es?"
+  },
+  {
+    "id": "numbers-0142",
+    "folderId": "numbers",
+    "ru": "Половина",
+    "en": "Half",
+    "transcription_eastern": "kes",
+    "transcription_lori": "kes"
+  },
+  {
+    "id": "numbers-0143",
+    "folderId": "numbers",
+    "ru": "Четверть",
+    "en": "Quarter",
+    "transcription_eastern": "chork",
+    "transcription_lori": "chork"
+  },
+  {
+    "id": "numbers-0144",
+    "folderId": "numbers",
+    "ru": "Всегда",
+    "en": "Always",
+    "transcription_eastern": "misht",
+    "transcription_lori": "misht"
+  },
+  {
+    "id": "numbers-0145",
+    "folderId": "numbers",
+    "ru": "Никогда",
+    "en": "Never",
+    "transcription_eastern": "yerbeq",
+    "transcription_lori": "yerbeq"
+  },
+  {
+    "id": "numbers-0146",
+    "folderId": "numbers",
+    "ru": "Иногда",
+    "en": "Sometimes",
+    "transcription_eastern": "yerbemer",
+    "transcription_lori": "yerbemer"
+  },
+  {
+    "id": "numbers-0147",
+    "folderId": "numbers",
+    "ru": "Часто",
+    "en": "Often",
+    "transcription_eastern": "hachax",
+    "transcription_lori": "hachax"
+  },
+  {
+    "id": "numbers-0148",
+    "folderId": "numbers",
+    "ru": "Редко",
+    "en": "Rarely",
+    "transcription_eastern": "qich",
+    "transcription_lori": "qich"
+  },
+  {
+    "id": "numbers-0149",
+    "folderId": "numbers",
+    "ru": "Рано",
+    "en": "Early",
+    "transcription_eastern": "shur",
+    "transcription_lori": "shur"
+  },
+  {
+    "id": "numbers-0150",
+    "folderId": "numbers",
+    "ru": "Поздно",
+    "en": "Late",
+    "transcription_eastern": "us",
+    "transcription_lori": "us"
+  }
+]

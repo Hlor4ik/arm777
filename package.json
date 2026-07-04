@@ -1,0 +1,11 @@
+{
+  "name": "armenian-learn",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix app",
+    "build": "node scripts/build-data.mjs && npm run build --prefix app",
+    "validate": "node scripts/validate-data.mjs",
+    "generate": "node scripts/generate-vocabulary.mjs",
+    "preview": "npm run preview --prefix app"
+  }
+}

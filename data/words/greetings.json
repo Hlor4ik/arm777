@@ -1,0 +1,962 @@
+[
+  {
+    "id": "greetings-0001",
+    "folderId": "greetings",
+    "ru": "Привет",
+    "en": "Hello",
+    "transcription_eastern": "barev",
+    "transcription_lori": "barev"
+  },
+  {
+    "id": "greetings-0002",
+    "folderId": "greetings",
+    "ru": "Здравствуйте",
+    "en": "Hello (formal)",
+    "transcription_eastern": "barev dzez",
+    "transcription_lori": "barev dzez"
+  },
+  {
+    "id": "greetings-0003",
+    "folderId": "greetings",
+    "ru": "Доброе утро",
+    "en": "Good morning",
+    "transcription_eastern": "bari luis",
+    "transcription_lori": "bari luis"
+  },
+  {
+    "id": "greetings-0004",
+    "folderId": "greetings",
+    "ru": "Добрый день",
+    "en": "Good afternoon",
+    "transcription_eastern": "bari or",
+    "transcription_lori": "bari or"
+  },
+  {
+    "id": "greetings-0005",
+    "folderId": "greetings",
+    "ru": "Добрый вечер",
+    "en": "Good evening",
+    "transcription_eastern": "bari yerekon",
+    "transcription_lori": "bari yerekon"
+  },
+  {
+    "id": "greetings-0006",
+    "folderId": "greetings",
+    "ru": "Доброй ночи",
+    "en": "Good night",
+    "transcription_eastern": "bari gisher",
+    "transcription_lori": "bari gisher"
+  },
+  {
+    "id": "greetings-0007",
+    "folderId": "greetings",
+    "ru": "Как дела?",
+    "en": "How are you?",
+    "transcription_eastern": "inchpes es?",
+    "transcription_lori": "inchepes es?"
+  },
+  {
+    "id": "greetings-0008",
+    "folderId": "greetings",
+    "ru": "Спасибо",
+    "en": "Thank you",
+    "transcription_eastern": "shnorhakalutyun",
+    "transcription_lori": "shnorhakalutyun"
+  },
+  {
+    "id": "greetings-0009",
+    "folderId": "greetings",
+    "ru": "Спасибо большое",
+    "en": "Thank you very much",
+    "transcription_eastern": "shat shnorhakal em",
+    "transcription_lori": "shat shnorhakal em"
+  },
+  {
+    "id": "greetings-0010",
+    "folderId": "greetings",
+    "ru": "Пожалуйста",
+    "en": "Please",
+    "transcription_eastern": "khndrum em",
+    "transcription_lori": "khndrum em"
+  },
+  {
+    "id": "greetings-0011",
+    "folderId": "greetings",
+    "ru": "Не за что",
+    "en": "You are welcome",
+    "transcription_eastern": "voch inch",
+    "transcription_lori": "voch inch"
+  },
+  {
+    "id": "greetings-0012",
+    "folderId": "greetings",
+    "ru": "Извините",
+    "en": "Excuse me",
+    "transcription_eastern": "neroghutyun",
+    "transcription_lori": "neroghutyun"
+  },
+  {
+    "id": "greetings-0013",
+    "folderId": "greetings",
+    "ru": "Простите",
+    "en": "Sorry",
+    "transcription_eastern": "nerogh em",
+    "transcription_lori": "nerogh em"
+  },
+  {
+    "id": "greetings-0014",
+    "folderId": "greetings",
+    "ru": "До свидания",
+    "en": "Goodbye",
+    "transcription_eastern": "ts'tesutyun",
+    "transcription_lori": "ts'tesutyun"
+  },
+  {
+    "id": "greetings-0015",
+    "folderId": "greetings",
+    "ru": "Пока",
+    "en": "Bye",
+    "transcription_eastern": "het",
+    "transcription_lori": "het"
+  },
+  {
+    "id": "greetings-0016",
+    "folderId": "greetings",
+    "ru": "Увидимся",
+    "en": "See you",
+    "transcription_eastern": "kp tesnenq",
+    "transcription_lori": "kp tesnenq"
+  },
+  {
+    "id": "greetings-0017",
+    "folderId": "greetings",
+    "ru": "До завтра",
+    "en": "See you tomorrow",
+    "transcription_eastern": "vaghva tesutyun",
+    "transcription_lori": "vaghva tesutyun"
+  },
+  {
+    "id": "greetings-0018",
+    "folderId": "greetings",
+    "ru": "До скорого",
+    "en": "See you soon",
+    "transcription_eastern": "shur tesutyun",
+    "transcription_lori": "shur tesutyun"
+  },
+  {
+    "id": "greetings-0019",
+    "folderId": "greetings",
+    "ru": "Да",
+    "en": "Yes",
+    "transcription_eastern": "ayo",
+    "transcription_lori": "ayo"
+  },
+  {
+    "id": "greetings-0020",
+    "folderId": "greetings",
+    "ru": "Нет",
+    "en": "No",
+    "transcription_eastern": "voch",
+    "transcription_lori": "voch"
+  },
+  {
+    "id": "greetings-0021",
+    "folderId": "greetings",
+    "ru": "Как тебя зовут?",
+    "en": "What is your name?",
+    "transcription_eastern": "inch e qo anuny?",
+    "transcription_lori": "inche qo anuny?"
+  },
+  {
+    "id": "greetings-0022",
+    "folderId": "greetings",
+    "ru": "Меня зовут...",
+    "en": "My name is...",
+    "transcription_eastern": "im anuny ... e",
+    "transcription_lori": "im anuny ... e"
+  },
+  {
+    "id": "greetings-0023",
+    "folderId": "greetings",
+    "ru": "Приятно познакомиться",
+    "en": "Nice to meet you",
+    "transcription_eastern": "urakh em tsanotanal",
+    "transcription_lori": "urakh em tsanotanal"
+  },
+  {
+    "id": "greetings-0024",
+    "folderId": "greetings",
+    "ru": "Добро пожаловать",
+    "en": "Welcome",
+    "transcription_eastern": "bun pari galust",
+    "transcription_lori": "bun pari galust"
+  },
+  {
+    "id": "greetings-0025",
+    "folderId": "greetings",
+    "ru": "С возвращением",
+    "en": "Welcome back",
+    "transcription_eastern": "bun pari veradardz",
+    "transcription_lori": "bun pari veradardz"
+  },
+  {
+    "id": "greetings-0026",
+    "folderId": "greetings",
+    "ru": "Удачи",
+    "en": "Good luck",
+    "transcription_eastern": "hajoxutyun",
+    "transcription_lori": "hajoxutyun"
+  },
+  {
+    "id": "greetings-0027",
+    "folderId": "greetings",
+    "ru": "С днём рождения",
+    "en": "Happy birthday",
+    "transcription_eastern": "dzen taredatsutyan",
+    "transcription_lori": "dzen taredatsutyan"
+  },
+  {
+    "id": "greetings-0028",
+    "folderId": "greetings",
+    "ru": "С новым годом",
+    "en": "Happy New Year",
+    "transcription_eastern": "nor tari",
+    "transcription_lori": "nor tari"
+  },
+  {
+    "id": "greetings-0029",
+    "folderId": "greetings",
+    "ru": "Поздравляю",
+    "en": "Congratulations",
+    "transcription_eastern": "norhavorum em",
+    "transcription_lori": "norhavorum em"
+  },
+  {
+    "id": "greetings-0030",
+    "folderId": "greetings",
+    "ru": "Хорошо",
+    "en": "Good / fine",
+    "transcription_eastern": "lav",
+    "transcription_lori": "lav"
+  },
+  {
+    "id": "greetings-0031",
+    "folderId": "greetings",
+    "ru": "Плохо",
+    "en": "Bad",
+    "transcription_eastern": "vats",
+    "transcription_lori": "vats"
+  },
+  {
+    "id": "greetings-0032",
+    "folderId": "greetings",
+    "ru": "Конечно",
+    "en": "Of course",
+    "transcription_eastern": "albatt",
+    "transcription_lori": "albatt"
+  },
+  {
+    "id": "greetings-0033",
+    "folderId": "greetings",
+    "ru": "Понятно",
+    "en": "I understand",
+    "transcription_eastern": "haskanum em",
+    "transcription_lori": "haskanum em"
+  },
+  {
+    "id": "greetings-0034",
+    "folderId": "greetings",
+    "ru": "Не понимаю",
+    "en": "I don't understand",
+    "transcription_eastern": "ch haskanum",
+    "transcription_lori": "chi haskanum"
+  },
+  {
+    "id": "greetings-0035",
+    "folderId": "greetings",
+    "ru": "Повторите",
+    "en": "Repeat please",
+    "transcription_eastern": "krkneq",
+    "transcription_lori": "krkneq"
+  },
+  {
+    "id": "greetings-0036",
+    "folderId": "greetings",
+    "ru": "Я не знаю",
+    "en": "I don't know",
+    "transcription_eastern": "ch gitem",
+    "transcription_lori": "chi gitem"
+  },
+  {
+    "id": "greetings-0037",
+    "folderId": "greetings",
+    "ru": "Помогите",
+    "en": "Help me",
+    "transcription_eastern": "ognecq",
+    "transcription_lori": "ognecq"
+  },
+  {
+    "id": "greetings-0038",
+    "folderId": "greetings",
+    "ru": "Подождите",
+    "en": "Wait",
+    "transcription_eastern": "spaseq",
+    "transcription_lori": "spaseq"
+  },
+  {
+    "id": "greetings-0039",
+    "folderId": "greetings",
+    "ru": "Сейчас",
+    "en": "Now",
+    "transcription_eastern": "hima",
+    "transcription_lori": "hima"
+  },
+  {
+    "id": "greetings-0040",
+    "folderId": "greetings",
+    "ru": "Потом",
+    "en": "Later",
+    "transcription_eastern": "heto",
+    "transcription_lori": "heto"
+  },
+  {
+    "id": "greetings-0041",
+    "folderId": "greetings",
+    "ru": "Здесь",
+    "en": "Here",
+    "transcription_eastern": "aystegh",
+    "transcription_lori": "aystegh"
+  },
+  {
+    "id": "greetings-0042",
+    "folderId": "greetings",
+    "ru": "Там",
+    "en": "There",
+    "transcription_eastern": "aynstegh",
+    "transcription_lori": "aynstegh"
+  },
+  {
+    "id": "greetings-0043",
+    "folderId": "greetings",
+    "ru": "Кто?",
+    "en": "Who?",
+    "transcription_eastern": "ov?",
+    "transcription_lori": "ov?"
+  },
+  {
+    "id": "greetings-0044",
+    "folderId": "greetings",
+    "ru": "Что?",
+    "en": "What?",
+    "transcription_eastern": "inch?",
+    "transcription_lori": "inch?"
+  },
+  {
+    "id": "greetings-0045",
+    "folderId": "greetings",
+    "ru": "Где?",
+    "en": "Where?",
+    "transcription_eastern": "vortegh?",
+    "transcription_lori": "vortegh?"
+  },
+  {
+    "id": "greetings-0046",
+    "folderId": "greetings",
+    "ru": "Когда?",
+    "en": "When?",
+    "transcription_eastern": "erb?",
+    "transcription_lori": "erb?"
+  },
+  {
+    "id": "greetings-0047",
+    "folderId": "greetings",
+    "ru": "Почему?",
+    "en": "Why?",
+    "transcription_eastern": "inchu?",
+    "transcription_lori": "inchu?"
+  },
+  {
+    "id": "greetings-0048",
+    "folderId": "greetings",
+    "ru": "Как?",
+    "en": "How?",
+    "transcription_eastern": "inchpes?",
+    "transcription_lori": "inchepes?"
+  },
+  {
+    "id": "greetings-0049",
+    "folderId": "greetings",
+    "ru": "Сколько?",
+    "en": "How much?",
+    "transcription_eastern": "qani?",
+    "transcription_lori": "qani?"
+  },
+  {
+    "id": "greetings-0050",
+    "folderId": "greetings",
+    "ru": "Приятного аппетита",
+    "en": "Enjoy your meal",
+    "transcription_eastern": "bun pari hac",
+    "transcription_lori": "bun pari hac"
+  },
+  {
+    "id": "greetings-0051",
+    "folderId": "greetings",
+    "ru": "Будь здоров",
+    "en": "Stay healthy",
+    "transcription_eastern": "aroghj lini",
+    "transcription_lori": "aroghj lini"
+  },
+  {
+    "id": "greetings-0052",
+    "folderId": "greetings",
+    "ru": "Всё хорошо",
+    "en": "Everything is fine",
+    "transcription_eastern": "amen inch lav e",
+    "transcription_lori": "amen inch lav e"
+  },
+  {
+    "id": "greetings-0053",
+    "folderId": "greetings",
+    "ru": "Давай",
+    "en": "Let's go",
+    "transcription_eastern": "ari",
+    "transcription_lori": "gha"
+  },
+  {
+    "id": "greetings-0054",
+    "folderId": "greetings",
+    "ru": "Пошли",
+    "en": "Let's go",
+    "transcription_eastern": "gnanq",
+    "transcription_lori": "gnanq"
+  },
+  {
+    "id": "greetings-0055",
+    "folderId": "greetings",
+    "ru": "Стой",
+    "en": "Stop",
+    "transcription_eastern": "kangni",
+    "transcription_lori": "kangni"
+  },
+  {
+    "id": "greetings-0056",
+    "folderId": "greetings",
+    "ru": "Как поживаете?",
+    "en": "How are you? (formal)",
+    "transcription_eastern": "inchpes eq?",
+    "transcription_lori": "inchepes eq?"
+  },
+  {
+    "id": "greetings-0057",
+    "folderId": "greetings",
+    "ru": "Рад тебя видеть",
+    "en": "Glad to see you",
+    "transcription_eastern": "urakh em tesnel",
+    "transcription_lori": "urakh em tesnel"
+  },
+  {
+    "id": "greetings-0058",
+    "folderId": "greetings",
+    "ru": "Счастливого пути",
+    "en": "Have a good trip",
+    "transcription_eastern": "bun pari yntanq",
+    "transcription_lori": "bun pari yntanq"
+  },
+  {
+    "id": "greetings-0059",
+    "folderId": "greetings",
+    "ru": "Береги себя",
+    "en": "Take care",
+    "transcription_eastern": "pahpanir",
+    "transcription_lori": "pahpanir"
+  },
+  {
+    "id": "greetings-0060",
+    "folderId": "greetings",
+    "ru": "Ничего страшного",
+    "en": "No problem",
+    "transcription_eastern": "voch inch",
+    "transcription_lori": "voch inch"
+  },
+  {
+    "id": "greetings-0061",
+    "folderId": "greetings",
+    "ru": "Хорошего дня",
+    "en": "Have a nice day",
+    "transcription_eastern": "bari or",
+    "transcription_lori": "bari or"
+  },
+  {
+    "id": "greetings-0062",
+    "folderId": "greetings",
+    "ru": "Отлично",
+    "en": "Excellent",
+    "transcription_eastern": "shat lav",
+    "transcription_lori": "shat lav"
+  },
+  {
+    "id": "greetings-0063",
+    "folderId": "greetings",
+    "ru": "Нормально",
+    "en": "Normal / fine",
+    "transcription_eastern": "normal",
+    "transcription_lori": "normal"
+  },
+  {
+    "id": "greetings-0064",
+    "folderId": "greetings",
+    "ru": "Так себе",
+    "en": "So-so",
+    "transcription_eastern": "miqich",
+    "transcription_lori": "miqich"
+  },
+  {
+    "id": "greetings-0065",
+    "folderId": "greetings",
+    "ru": "Ладно",
+    "en": "Okay",
+    "transcription_eastern": "lav",
+    "transcription_lori": "lav"
+  },
+  {
+    "id": "greetings-0066",
+    "folderId": "greetings",
+    "ru": "Алло",
+    "en": "Hello (phone)",
+    "transcription_eastern": "alo",
+    "transcription_lori": "alo"
+  },
+  {
+    "id": "greetings-0067",
+    "folderId": "greetings",
+    "ru": "Согласен",
+    "en": "I agree",
+    "transcription_eastern": "hamemat em",
+    "transcription_lori": "hamemat em"
+  },
+  {
+    "id": "greetings-0068",
+    "folderId": "greetings",
+    "ru": "Не согласен",
+    "en": "I disagree",
+    "transcription_eastern": "ch hamemat em",
+    "transcription_lori": "chi hamemat em"
+  },
+  {
+    "id": "greetings-0069",
+    "folderId": "greetings",
+    "ru": "Возможно",
+    "en": "Maybe",
+    "transcription_eastern": "karox e",
+    "transcription_lori": "karox e"
+  },
+  {
+    "id": "greetings-0070",
+    "folderId": "greetings",
+    "ru": "Правда?",
+    "en": "Really?",
+    "transcription_eastern": "irakan?",
+    "transcription_lori": "irakan?"
+  },
+  {
+    "id": "greetings-0071",
+    "folderId": "greetings",
+    "ru": "Передай привет",
+    "en": "Say hello",
+    "transcription_eastern": "barev hasir",
+    "transcription_lori": "barev hasir"
+  },
+  {
+    "id": "greetings-0072",
+    "folderId": "greetings",
+    "ru": "Давно не виделись",
+    "en": "Long time no see",
+    "transcription_eastern": "shat er tesel",
+    "transcription_lori": "shat er tesel"
+  },
+  {
+    "id": "greetings-0073",
+    "folderId": "greetings",
+    "ru": "Доброй дороги",
+    "en": "Have a safe journey",
+    "transcription_eastern": "bari yntanq",
+    "transcription_lori": "bari yntanq"
+  },
+  {
+    "id": "greetings-0074",
+    "folderId": "greetings",
+    "ru": "На здоровье",
+    "en": "Cheers / bless you",
+    "transcription_eastern": "aroghjutyan",
+    "transcription_lori": "aroghjutyan"
+  },
+  {
+    "id": "greetings-0075",
+    "folderId": "greetings",
+    "ru": "Всего доброго",
+    "en": "All the best",
+    "transcription_eastern": "amen bari",
+    "transcription_lori": "amen bari"
+  },
+  {
+    "id": "greetings-0076",
+    "folderId": "greetings",
+    "ru": "Счастливо оставаться",
+    "en": "Stay well",
+    "transcription_eastern": "lav mnac",
+    "transcription_lori": "lav mnac"
+  },
+  {
+    "id": "greetings-0077",
+    "folderId": "greetings",
+    "ru": "Привет всем",
+    "en": "Hello everyone",
+    "transcription_eastern": "barev bolorin",
+    "transcription_lori": "barev bolorin"
+  },
+  {
+    "id": "greetings-0078",
+    "folderId": "greetings",
+    "ru": "Откуда вы?",
+    "en": "Where are you from?",
+    "transcription_eastern": "vorteghic eq?",
+    "transcription_lori": "vorteghic eq?"
+  },
+  {
+    "id": "greetings-0079",
+    "folderId": "greetings",
+    "ru": "Я из Еревана",
+    "en": "I am from Yerevan",
+    "transcription_eastern": "Yerevanic em",
+    "transcription_lori": "Yerevanic em"
+  },
+  {
+    "id": "greetings-0080",
+    "folderId": "greetings",
+    "ru": "До встречи",
+    "en": "Until we meet",
+    "transcription_eastern": "tesman minchev",
+    "transcription_lori": "tesman minchev"
+  },
+  {
+    "id": "greetings-0081",
+    "folderId": "greetings",
+    "ru": "Желаю успехов",
+    "en": "I wish you success",
+    "transcription_eastern": "hajoxutyun em cankanum",
+    "transcription_lori": "hajoxutyun em cankanum"
+  },
+  {
+    "id": "greetings-0082",
+    "folderId": "greetings",
+    "ru": "С праздником",
+    "en": "Happy holiday",
+    "transcription_eastern": "ton pari",
+    "transcription_lori": "ton pari"
+  },
+  {
+    "id": "greetings-0083",
+    "folderId": "greetings",
+    "ru": "С Рождеством",
+    "en": "Merry Christmas",
+    "transcription_eastern": "surb tsnund",
+    "transcription_lori": "surb tsnund"
+  },
+  {
+    "id": "greetings-0084",
+    "folderId": "greetings",
+    "ru": "С Пасхой",
+    "en": "Happy Easter",
+    "transcription_eastern": "zatik pari",
+    "transcription_lori": "zatik pari"
+  },
+  {
+    "id": "greetings-0085",
+    "folderId": "greetings",
+    "ru": "Как настроение?",
+    "en": "How is your mood?",
+    "transcription_eastern": "inchpes e qo kendanaky?",
+    "transcription_lori": "inchepes e qo kendanaky?"
+  },
+  {
+    "id": "greetings-0086",
+    "folderId": "greetings",
+    "ru": "Всё в порядке",
+    "en": "Everything is okay",
+    "transcription_eastern": "amen inch lav e",
+    "transcription_lori": "amen inch lav e"
+  },
+  {
+    "id": "greetings-0087",
+    "folderId": "greetings",
+    "ru": "Как семья?",
+    "en": "How is the family?",
+    "transcription_eastern": "inchpes e qo tnjaky?",
+    "transcription_lori": "inchepes e qo tnjaky?"
+  },
+  {
+    "id": "greetings-0088",
+    "folderId": "greetings",
+    "ru": "Подожди минуту",
+    "en": "Wait a minute",
+    "transcription_eastern": "spasir mi rope",
+    "transcription_lori": "spasir mi rope"
+  },
+  {
+    "id": "greetings-0089",
+    "folderId": "greetings",
+    "ru": "Секундочку",
+    "en": "Just a second",
+    "transcription_eastern": "mi vayrkyan",
+    "transcription_lori": "mi vayrkyan"
+  },
+  {
+    "id": "greetings-0090",
+    "folderId": "greetings",
+    "ru": "Громче",
+    "en": "Louder",
+    "transcription_eastern": "bats",
+    "transcription_lori": "bats"
+  },
+  {
+    "id": "greetings-0091",
+    "folderId": "greetings",
+    "ru": "Тише",
+    "en": "Quieter",
+    "transcription_eastern": "ts'ats'",
+    "transcription_lori": "ts'ats'"
+  },
+  {
+    "id": "greetings-0092",
+    "folderId": "greetings",
+    "ru": "Ещё раз",
+    "en": "Once more",
+    "transcription_eastern": "el mi angam",
+    "transcription_lori": "el mi angam"
+  },
+  {
+    "id": "greetings-0093",
+    "folderId": "greetings",
+    "ru": "Хватит",
+    "en": "Enough",
+    "transcription_eastern": "bavarar e",
+    "transcription_lori": "bavarar e"
+  },
+  {
+    "id": "greetings-0094",
+    "folderId": "greetings",
+    "ru": "Кстати",
+    "en": "By the way",
+    "transcription_eastern": "naxapes",
+    "transcription_lori": "naxapes"
+  },
+  {
+    "id": "greetings-0095",
+    "folderId": "greetings",
+    "ru": "На самом деле",
+    "en": "Actually",
+    "transcription_eastern": "irakanum",
+    "transcription_lori": "irakanum"
+  },
+  {
+    "id": "greetings-0096",
+    "folderId": "greetings",
+    "ru": "Готов?",
+    "en": "Ready?",
+    "transcription_eastern": "patrast es?",
+    "transcription_lori": "patrast es?"
+  },
+  {
+    "id": "greetings-0097",
+    "folderId": "greetings",
+    "ru": "Идём?",
+    "en": "Shall we go?",
+    "transcription_eastern": "gnanq?",
+    "transcription_lori": "gnanq?"
+  },
+  {
+    "id": "greetings-0098",
+    "folderId": "greetings",
+    "ru": "Понял?",
+    "en": "Understood?",
+    "transcription_eastern": "haskanacel es?",
+    "transcription_lori": "haskanacel es?"
+  },
+  {
+    "id": "greetings-0099",
+    "folderId": "greetings",
+    "ru": "С удовольствием",
+    "en": "With pleasure",
+    "transcription_eastern": "urakhutyamb",
+    "transcription_lori": "urakhutyamb"
+  },
+  {
+    "id": "greetings-0100",
+    "folderId": "greetings",
+    "ru": "Не беспокойтесь",
+    "en": "Don't worry",
+    "transcription_eastern": "ch martvatsveq",
+    "transcription_lori": "chi martvatsveq"
+  },
+  {
+    "id": "greetings-0101",
+    "folderId": "greetings",
+    "ru": "Будьте осторожны",
+    "en": "Be careful",
+    "transcription_eastern": "zugart lin",
+    "transcription_lori": "zugart lin"
+  },
+  {
+    "id": "greetings-0102",
+    "folderId": "greetings",
+    "ru": "Скорейшего выздоровления",
+    "en": "Get well soon",
+    "transcription_eastern": "shur arajacum",
+    "transcription_lori": "shur arajacum"
+  },
+  {
+    "id": "greetings-0103",
+    "folderId": "greetings",
+    "ru": "Добро пожаловать домой",
+    "en": "Welcome home",
+    "transcription_eastern": "bun pari tun",
+    "transcription_lori": "bun pari tun"
+  },
+  {
+    "id": "greetings-0104",
+    "folderId": "greetings",
+    "ru": "Добро пожаловать в Армению",
+    "en": "Welcome to Armenia",
+    "transcription_eastern": "bun pari galust Hayastan",
+    "transcription_lori": "bun pari galust Hayastan"
+  },
+  {
+    "id": "greetings-0105",
+    "folderId": "greetings",
+    "ru": "Спасибо за помощь",
+    "en": "Thanks for help",
+    "transcription_eastern": "shnorhakal em ognutyan hamar",
+    "transcription_lori": "shnorhakal em ognutyan hamar"
+  },
+  {
+    "id": "greetings-0106",
+    "folderId": "greetings",
+    "ru": "Очень приятно",
+    "en": "Very nice",
+    "transcription_eastern": "shat urakh",
+    "transcription_lori": "shat urakh"
+  },
+  {
+    "id": "greetings-0107",
+    "folderId": "greetings",
+    "ru": "Увидимся вечером",
+    "en": "See you in the evening",
+    "transcription_eastern": "yerekon kp tesnenq",
+    "transcription_lori": "yerekon kp tesnenq"
+  },
+  {
+    "id": "greetings-0108",
+    "folderId": "greetings",
+    "ru": "До понедельника",
+    "en": "See you Monday",
+    "transcription_eastern": "yerkushapti tesutyun",
+    "transcription_lori": "yerkushapti tesutyun"
+  },
+  {
+    "id": "greetings-0109",
+    "folderId": "greetings",
+    "ru": "Хороших выходных",
+    "en": "Have a good weekend",
+    "transcription_eastern": "bari shabat",
+    "transcription_lori": "bari shabat"
+  },
+  {
+    "id": "greetings-0110",
+    "folderId": "greetings",
+    "ru": "Удачного дня",
+    "en": "Have a successful day",
+    "transcription_eastern": "hajox or",
+    "transcription_lori": "hajox or"
+  },
+  {
+    "id": "greetings-0111",
+    "folderId": "greetings",
+    "ru": "Приятного вечера",
+    "en": "Have a nice evening",
+    "transcription_eastern": "bari yerekon",
+    "transcription_lori": "bari yerekon"
+  },
+  {
+    "id": "greetings-0112",
+    "folderId": "greetings",
+    "ru": "Мир тебе",
+    "en": "Peace be with you",
+    "transcription_eastern": "khaghaghutyun",
+    "transcription_lori": "khaghaghutyun"
+  },
+  {
+    "id": "greetings-0113",
+    "folderId": "greetings",
+    "ru": "Доброго здоровья",
+    "en": "Good health",
+    "transcription_eastern": "bari aroghjutyun",
+    "transcription_lori": "bari aroghjutyun"
+  },
+  {
+    "id": "greetings-0114",
+    "folderId": "greetings",
+    "ru": "Без проблем",
+    "en": "No problem",
+    "transcription_eastern": "xndir chka",
+    "transcription_lori": "xndir chka"
+  },
+  {
+    "id": "greetings-0115",
+    "folderId": "greetings",
+    "ru": "Разрешите",
+    "en": "Allow me",
+    "transcription_eastern": "tughtek",
+    "transcription_lori": "tughtek"
+  },
+  {
+    "id": "greetings-0116",
+    "folderId": "greetings",
+    "ru": "Можно?",
+    "en": "May I?",
+    "transcription_eastern": "karox em?",
+    "transcription_lori": "karox em?"
+  },
+  {
+    "id": "greetings-0117",
+    "folderId": "greetings",
+    "ru": "Нельзя",
+    "en": "Not allowed",
+    "transcription_eastern": "chi kareli",
+    "transcription_lori": "chi kareli"
+  },
+  {
+    "id": "greetings-0118",
+    "folderId": "greetings",
+    "ru": "Точно",
+    "en": "Exactly",
+    "transcription_eastern": "hushak",
+    "transcription_lori": "hushak"
+  },
+  {
+    "id": "greetings-0119",
+    "folderId": "greetings",
+    "ru": "Наверное",
+    "en": "Probably",
+    "transcription_eastern": "havanakan",
+    "transcription_lori": "havanakan"
+  },
+  {
+    "id": "greetings-0120",
+    "folderId": "greetings",
+    "ru": "Слушаю",
+    "en": "I am listening",
+    "transcription_eastern": "lsum em",
+    "transcription_lori": "lsum em"
+  }
+]

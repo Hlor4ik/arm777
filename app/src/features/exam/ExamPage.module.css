@@ -1,0 +1,83 @@
+.exam {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.red {
+  color: var(--accent-red);
+  font-weight: 600;
+}
+
+.prompt {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin: 40px 0 24px;
+}
+
+.input {
+  width: 100%;
+  padding: 14px;
+  background: var(--bg-hover);
+  border-radius: var(--radius-md);
+  border: 2px solid var(--border-subtle);
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  min-height: 70vh;
+  text-align: center;
+}
+
+.score {
+  font-size: 22px;
+  color: var(--accent-primary);
+}
+
+.matching {
+  margin-top: 24px;
+}
+
+.hint {
+  text-align: center;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+.matchCols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.matchItem {
+  width: 100%;
+  padding: 12px 8px;
+  background: var(--bg-hover);
+  border-radius: var(--radius-sm);
+  margin-bottom: 8px;
+  font-size: 14px;
+  border: 2px solid transparent;
+}
+
+.matchItem.sel {
+  border-color: var(--accent-blue);
+}
+
+.matchItem.done {
+  opacity: 0.45;
+}

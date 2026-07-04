@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "family-0001",
+    "folderId": "family",
+    "ru": "Мать",
+    "en": "Mother",
+    "transcription_eastern": "mayr",
+    "transcription_lori": "mayr"
+  },
+  {
+    "id": "family-0002",
+    "folderId": "family",
+    "ru": "Отец",
+    "en": "Father",
+    "transcription_eastern": "hayr",
+    "transcription_lori": "hayr"
+  },
+  {
+    "id": "family-0003",
+    "folderId": "family",
+    "ru": "Брат",
+    "en": "Brother",
+    "transcription_eastern": "eghpayr",
+    "transcription_lori": "eghpayr"
+  },
+  {
+    "id": "family-0004",
+    "folderId": "family",
+    "ru": "Сестра",
+    "en": "Sister",
+    "transcription_eastern": "khoher",
+    "transcription_lori": "khoher"
+  },
+  {
+    "id": "family-0005",
+    "folderId": "family",
+    "ru": "Сын",
+    "en": "Son",
+    "transcription_eastern": "tgha",
+    "transcription_lori": "tgha"
+  },
+  {
+    "id": "family-0006",
+    "folderId": "family",
+    "ru": "Дочь",
+    "en": "Daughter",
+    "transcription_eastern": "aghchik",
+    "transcription_lori": "aghchik"
+  },
+  {
+    "id": "family-0007",
+    "folderId": "family",
+    "ru": "Дедушка",
+    "en": "Grandfather",
+    "transcription_eastern": "papik",
+    "transcription_lori": "papik"
+  },
+  {
+    "id": "family-0008",
+    "folderId": "family",
+    "ru": "Бабушка",
+    "en": "Grandmother",
+    "transcription_eastern": "tatik",
+    "transcription_lori": "tatik"
+  },
+  {
+    "id": "family-0009",
+    "folderId": "family",
+    "ru": "Ребёнок",
+    "en": "Child",
+    "transcription_eastern": "zavag",
+    "transcription_lori": "zavag"
+  },
+  {
+    "id": "family-0010",
+    "folderId": "family",
+    "ru": "Дети",
+    "en": "Children",
+    "transcription_eastern": "yerekutyan",
+    "transcription_lori": "yerekutyan"
+  },
+  {
+    "id": "family-0011",
+    "folderId": "family",
+    "ru": "Муж",
+    "en": "Husband",
+    "transcription_eastern": "patasxan",
+    "transcription_lori": "patasxan"
+  },
+  {
+    "id": "family-0012",
+    "folderId": "family",
+    "ru": "Жена",
+    "en": "Wife",
+    "transcription_eastern": "ankox",
+    "transcription_lori": "ankox"
+  },
+  {
+    "id": "family-0013",
+    "folderId": "family",
+    "ru": "Семья",
+    "en": "Family",
+    "transcription_eastern": "tnjak",
+    "transcription_lori": "tnjak"
+  },
+  {
+    "id": "family-0014",
+    "folderId": "family",
+    "ru": "Род",
+    "en": "Clan / lineage",
+    "transcription_eastern": "azg",
+    "transcription_lori": "azg"
+  },
+  {
+    "id": "family-0015",
+    "folderId": "family",
+    "ru": "Рождение",
+    "en": "Birth",
+    "transcription_eastern": "tsnund",
+    "transcription_lori": "tsnund"
+  },
+  {
+    "id": "family-0016",
+    "folderId": "family",
+    "ru": "Мама",
+    "en": "Mom",
+    "transcription_eastern": "mayrik",
+    "transcription_lori": "mayrik"
+  },
+  {
+    "id": "family-0017",
+    "folderId": "family",
+    "ru": "Папа",
+    "en": "Dad",
+    "transcription_eastern": "hayrik",
+    "transcription_lori": "hayrik"
+  },
+  {
+    "id": "family-0018",
+    "folderId": "family",
+    "ru": "Братик",
+    "en": "Little brother",
+    "transcription_eastern": "tghayr",
+    "transcription_lori": "tghayr"
+  },
+  {
+    "id": "family-0019",
+    "folderId": "family",
+    "ru": "Сноха",
+    "en": "Sister-in-law",
+    "transcription_eastern": "kuyr",
+    "transcription_lori": "kuyr"
+  },
+  {
+    "id": "family-0020",
+    "folderId": "family",
+    "ru": "Шурин",
+    "en": "Brother-in-law",
+    "transcription_eastern": "enker",
+    "transcription_lori": "enker"
+  },
+  {
+    "id": "family-0021",
+    "folderId": "family",
+    "ru": "Дядя",
+    "en": "Uncle",
+    "transcription_eastern": "payr",
+    "transcription_lori": "payr"
+  },
+  {
+    "id": "family-0022",
+    "folderId": "family",
+    "ru": "Тётя",
+    "en": "Aunt",
+    "transcription_eastern": "mayrig",
+    "transcription_lori": "mayrig"
+  },
+  {
+    "id": "family-0023",
+    "folderId": "family",
+    "ru": "Племянник",
+    "en": "Nephew",
+    "transcription_eastern": "dzoughayt",
+    "transcription_lori": "dzoughayt"
+  },
+  {
+    "id": "family-0024",
+    "folderId": "family",
+    "ru": "Племянница",
+    "en": "Niece",
+    "transcription_eastern": "dzoughaytkin",
+    "transcription_lori": "dzoughaytkin"
+  },
+  {
+    "id": "family-0025",
+    "folderId": "family",
+    "ru": "Внук",
+    "en": "Grandson",
+    "transcription_eastern": "t'noren",
+    "transcription_lori": "t'noren"
+  },
+  {
+    "id": "family-0026",
+    "folderId": "family",
+    "ru": "Внучка",
+    "en": "Granddaughter",
+    "transcription_eastern": "t'noren",
+    "transcription_lori": "t'noren"
+  },
+  {
+    "id": "family-0027",
+    "folderId": "family",
+    "ru": "Родственник",
+    "en": "Relative",
+    "transcription_eastern": "naxarar",
+    "transcription_lori": "naxarar"
+  },
+  {
+    "id": "family-0028",
+    "folderId": "family",
+    "ru": "Свекровь",
+    "en": "Mother-in-law",
+    "transcription_eastern": "hasehur",
+    "transcription_lori": "hasehur"
+  },
+  {
+    "id": "family-0029",
+    "folderId": "family",
+    "ru": "Свёкор",
+    "en": "Father-in-law",
+    "transcription_eastern": "hasehur",
+    "transcription_lori": "hasehur"
+  },
+  {
+    "id": "family-0030",
+    "folderId": "family",
+    "ru": "Кум",
+    "en": "Godfather",
+    "transcription_eastern": "qavak",
+    "transcription_lori": "qavak"
+  },
+  {
+    "id": "family-0031",
+    "folderId": "family",
+    "ru": "Кума",
+    "en": "Godmother",
+    "transcription_eastern": "qavakin",
+    "transcription_lori": "qavakin"
+  },
+  {
+    "id": "family-0032",
+    "folderId": "family",
+    "ru": "Невеста",
+    "en": "Bride",
+    "transcription_eastern": "hars",
+    "transcription_lori": "hars"
+  },
+  {
+    "id": "family-0033",
+    "folderId": "family",
+    "ru": "Жених",
+    "en": "Groom",
+    "transcription_eastern": "p'esa",
+    "transcription_lori": "p'esa"
+  },
+  {
+    "id": "family-0034",
+    "folderId": "family",
+    "ru": "Свадьба",
+    "en": "Wedding",
+    "transcription_eastern": "hunatar",
+    "transcription_lori": "hunatar"
+  },
+  {
+    "id": "family-0035",
+    "folderId": "family",
+    "ru": "Помолвка",
+    "en": "Engagement",
+    "transcription_eastern": "nsanq",
+    "transcription_lori": "nsanq"
+  },
+  {
+    "id": "family-0036",
+    "folderId": "family",
+    "ru": "Развод",
+    "en": "Divorce",
+    "transcription_eastern": "bazhanum",
+    "transcription_lori": "bazhanum"
+  },
+  {
+    "id": "family-0037",
+    "folderId": "family",
+    "ru": "Близнец",
+    "en": "Twin",
+    "transcription_eastern": "erku zavag",
+    "transcription_lori": "erku zavag"
+  },
+  {
+    "id": "family-0038",
+    "folderId": "family",
+    "ru": "Младенец",
+    "en": "Baby",
+    "transcription_eastern": "manuk",
+    "transcription_lori": "manuk"
+  },
+  {
+    "id": "family-0039",
+    "folderId": "family",
+    "ru": "Подросток",
+    "en": "Teenager",
+    "transcription_eastern": "serund",
+    "transcription_lori": "serund"
+  },
+  {
+    "id": "family-0040",
+    "folderId": "family",
+    "ru": "Взрослый",
+    "en": "Adult",
+    "transcription_eastern": "mec tarekan",
+    "transcription_lori": "mec tarekan"
+  },
+  {
+    "id": "family-0041",
+    "folderId": "family",
+    "ru": "Старик",
+    "en": "Old man",
+    "transcription_eastern": "tarekan",
+    "transcription_lori": "tarekan"
+  },
+  {
+    "id": "family-0042",
+    "folderId": "family",
+    "ru": "Старуха",
+    "en": "Old woman",
+    "transcription_eastern": "tarekan kin",
+    "transcription_lori": "tarekan kin"
+  },
+  {
+    "id": "family-0043",
+    "folderId": "family",
+    "ru": "Мужчина",
+    "en": "Man",
+    "transcription_eastern": "mard",
+    "transcription_lori": "mard"
+  },
+  {
+    "id": "family-0044",
+    "folderId": "family",
+    "ru": "Женщина",
+    "en": "Woman",
+    "transcription_eastern": "kin",
+    "transcription_lori": "kin"
+  },
+  {
+    "id": "family-0045",
+    "folderId": "family",
+    "ru": "Мальчик",
+    "en": "Boy",
+    "transcription_eastern": "tgha",
+    "transcription_lori": "tgha"
+  },
+  {
+    "id": "family-0046",
+    "folderId": "family",
+    "ru": "Девочка",
+    "en": "Girl",
+    "transcription_eastern": "aghchik",
+    "transcription_lori": "aghchik"
+  },
+  {
+    "id": "family-0047",
+    "folderId": "family",
+    "ru": "Отец семейства",
+    "en": "Head of family",
+    "transcription_eastern": "tnjaki hayr",
+    "transcription_lori": "tnjaki hayr"
+  },
+  {
+    "id": "family-0048",
+    "folderId": "family",
+    "ru": "Мать семейства",
+    "en": "Mother of family",
+    "transcription_eastern": "tnjaki mayr",
+    "transcription_lori": "tnjaki mayr"
+  },
+  {
+    "id": "family-0049",
+    "folderId": "family",
+    "ru": "Старший брат",
+    "en": "Elder brother",
+    "transcription_eastern": "mec eghpayr",
+    "transcription_lori": "mec eghpayr"
+  },
+  {
+    "id": "family-0050",
+    "folderId": "family",
+    "ru": "Младший брат",
+    "en": "Younger brother",
+    "transcription_eastern": "poqr eghpayr",
+    "transcription_lori": "poqr eghpayr"
+  },
+  {
+    "id": "family-0051",
+    "folderId": "family",
+    "ru": "Старшая сестра",
+    "en": "Elder sister",
+    "transcription_eastern": "mec khoher",
+    "transcription_lori": "mec khoher"
+  },
+  {
+    "id": "family-0052",
+    "folderId": "family",
+    "ru": "Младшая сестра",
+    "en": "Younger sister",
+    "transcription_eastern": "poqr khoher",
+    "transcription_lori": "poqr khoher"
+  },
+  {
+    "id": "family-0053",
+    "folderId": "family",
+    "ru": "Единственный ребёнок",
+    "en": "Only child",
+    "transcription_eastern": "miayn zavag",
+    "transcription_lori": "miayn zavag"
+  },
+  {
+    "id": "family-0054",
+    "folderId": "family",
+    "ru": "Сирота",
+    "en": "Orphan",
+    "transcription_eastern": "ankox",
+    "transcription_lori": "ankox"
+  },
+  {
+    "id": "family-0055",
+    "folderId": "family",
+    "ru": "Вдова",
+    "en": "Widow",
+    "transcription_eastern": "aghjka",
+    "transcription_lori": "aghjka"
+  },
+  {
+    "id": "family-0056",
+    "folderId": "family",
+    "ru": "Вдовец",
+    "en": "Widower",
+    "transcription_eastern": "amtxa",
+    "transcription_lori": "amtxa"
+  },
+  {
+    "id": "family-0057",
+    "folderId": "family",
+    "ru": "Приёмный сын",
+    "en": "Adopted son",
+    "transcription_eastern": "ibrats tgha",
+    "transcription_lori": "ibrats tgha"
+  },
+  {
+    "id": "family-0058",
+    "folderId": "family",
+    "ru": "Приёмная дочь",
+    "en": "Adopted daughter",
+    "transcription_eastern": "ibrats aghchik",
+    "transcription_lori": "ibrats aghchik"
+  },
+  {
+    "id": "family-0059",
+    "folderId": "family",
+    "ru": "Сводный брат",
+    "en": "Stepbrother",
+    "transcription_eastern": "sovor eghpayr",
+    "transcription_lori": "sovor eghpayr"
+  },
+  {
+    "id": "family-0060",
+    "folderId": "family",
+    "ru": "Сводная сестра",
+    "en": "Stepsister",
+    "transcription_eastern": "sovor khoher",
+    "transcription_lori": "sovor khoher"
+  },
+  {
+    "id": "family-0061",
+    "folderId": "family",
+    "ru": "Отчим",
+    "en": "Stepfather",
+    "transcription_eastern": "sovor hayr",
+    "transcription_lori": "sovor hayr"
+  },
+  {
+    "id": "family-0062",
+    "folderId": "family",
+    "ru": "Мачеха",
+    "en": "Stepmother",
+    "transcription_eastern": "sovor mayr",
+    "transcription_lori": "sovor mayr"
+  },
+  {
+    "id": "family-0063",
+    "folderId": "family",
+    "ru": "Родители",
+    "en": "Parents",
+    "transcription_eastern": "tsnoghiner",
+    "transcription_lori": "tsnoghiner"
+  },
+  {
+    "id": "family-0064",
+    "folderId": "family",
+    "ru": "Предок",
+    "en": "Ancestor",
+    "transcription_eastern": "nakhatn",
+    "transcription_lori": "nakhatn"
+  },
+  {
+    "id": "family-0065",
+    "folderId": "family",
+    "ru": "Потомок",
+    "en": "Descendant",
+    "transcription_eastern": "tsnogh",
+    "transcription_lori": "tsnogh"
+  },
+  {
+    "id": "family-0066",
+    "folderId": "family",
+    "ru": "Поколение",
+    "en": "Generation",
+    "transcription_eastern": "sherdjan",
+    "transcription_lori": "sherdjan"
+  },
+  {
+    "id": "family-0067",
+    "folderId": "family",
+    "ru": "Родословная",
+    "en": "Family tree",
+    "transcription_eastern": "azgi tsar",
+    "transcription_lori": "azgi tsar"
+  },
+  {
+    "id": "family-0068",
+    "folderId": "family",
+    "ru": "Фамилия",
+    "en": "Surname",
+    "transcription_eastern": "azganun",
+    "transcription_lori": "azganun"
+  },
+  {
+    "id": "family-0069",
+    "folderId": "family",
+    "ru": "Имя",
+    "en": "First name",
+    "transcription_eastern": "anun",
+    "transcription_lori": "anun"
+  },
+  {
+    "id": "family-0070",
+    "folderId": "family",
+    "ru": "Девичья фамилия",
+    "en": "Maiden name",
+    "transcription_eastern": "anvan azganun",
+    "transcription_lori": "anvan azganun"
+  },
+  {
+    "id": "family-0071",
+    "folderId": "family",
+    "ru": "Домохозяйка",
+    "en": "Housewife",
+    "transcription_eastern": "tuni kin",
+    "transcription_lori": "tuni kin"
+  },
+  {
+    "id": "family-0072",
+    "folderId": "family",
+    "ru": "Домохозяин",
+    "en": "Head of household",
+    "transcription_eastern": "tuni mard",
+    "transcription_lori": "tuni mard"
+  },
+  {
+    "id": "family-0073",
+    "folderId": "family",
+    "ru": "Близкий родственник",
+    "en": "Close relative",
+    "transcription_eastern": "miyats naxarar",
+    "transcription_lori": "miyats naxarar"
+  },
+  {
+    "id": "family-0074",
+    "folderId": "family",
+    "ru": "Дальний родственник",
+    "en": "Distant relative",
+    "transcription_eastern": "heru naxarar",
+    "transcription_lori": "heru naxarar"
+  },
+  {
+    "id": "family-0075",
+    "folderId": "family",
+    "ru": "Двоюродный брат",
+    "en": "Male cousin",
+    "transcription_eastern": "dzoughayt",
+    "transcription_lori": "dzoughayt"
+  },
+  {
+    "id": "family-0076",
+    "folderId": "family",
+    "ru": "Двоюродная сестра",
+    "en": "Female cousin",
+    "transcription_eastern": "dzoughaytkin",
+    "transcription_lori": "dzoughaytkin"
+  },
+  {
+    "id": "family-0077",
+    "folderId": "family",
+    "ru": "Бабуля",
+    "en": "Granny",
+    "transcription_eastern": "tatik",
+    "transcription_lori": "tatik"
+  },
+  {
+    "id": "family-0078",
+    "folderId": "family",
+    "ru": "Дедуля",
+    "en": "Grandpa",
+    "transcription_eastern": "papik",
+    "transcription_lori": "papik"
+  },
+  {
+    "id": "family-0079",
+    "folderId": "family",
+    "ru": "Внуки",
+    "en": "Grandchildren",
+    "transcription_eastern": "t'norenner",
+    "transcription_lori": "t'norenner"
+  },
+  {
+    "id": "family-0080",
+    "folderId": "family",
+    "ru": "Правнук",
+    "en": "Great-grandson",
+    "transcription_eastern": "t'noren t'noren",
+    "transcription_lori": "t'noren t'noren"
+  },
+  {
+    "id": "family-0081",
+    "folderId": "family",
+    "ru": "Семейный очаг",
+    "en": "Family hearth",
+    "transcription_eastern": "tnjaki khorhur",
+    "transcription_lori": "tnjaki khorhur"
+  },
+  {
+    "id": "family-0082",
+    "folderId": "family",
+    "ru": "Родной",
+    "en": "Native / kin",
+    "transcription_eastern": "tsnndyan",
+    "transcription_lori": "tsnndyan"
+  },
+  {
+    "id": "family-0083",
+    "folderId": "family",
+    "ru": "Свой",
+    "en": "One's own",
+    "transcription_eastern": "ir",
+    "transcription_lori": "ir"
+  },
+  {
+    "id": "family-0084",
+    "folderId": "family",
+    "ru": "Чужой",
+    "en": "Stranger",
+    "transcription_eastern": "otar",
+    "transcription_lori": "otar"
+  },
+  {
+    "id": "family-0085",
+    "folderId": "family",
+    "ru": "Сосед",
+    "en": "Neighbor",
+    "transcription_eastern": "koghnod",
+    "transcription_lori": "koghnod"
+  },
+  {
+    "id": "family-0086",
+    "folderId": "family",
+    "ru": "Соседи",
+    "en": "Neighbors",
+    "transcription_eastern": "koghnodner",
+    "transcription_lori": "koghnodner"
+  },
+  {
+    "id": "family-0087",
+    "folderId": "family",
+    "ru": "Крёстный отец",
+    "en": "Godfather",
+    "transcription_eastern": "qavak",
+    "transcription_lori": "qavak"
+  },
+  {
+    "id": "family-0088",
+    "folderId": "family",
+    "ru": "Крёстная мать",
+    "en": "Godmother",
+    "transcription_eastern": "qavakin",
+    "transcription_lori": "qavakin"
+  },
+  {
+    "id": "family-0089",
+    "folderId": "family",
+    "ru": "Крестник",
+    "en": "Godson",
+    "transcription_eastern": "qavak tgha",
+    "transcription_lori": "qavak tgha"
+  },
+  {
+    "id": "family-0090",
+    "folderId": "family",
+    "ru": "Крестница",
+    "en": "Goddaughter",
+    "transcription_eastern": "qavak aghchik",
+    "transcription_lori": "qavak aghchik"
+  },
+  {
+    "id": "family-0091",
+    "folderId": "family",
+    "ru": "Медовый месяц",
+    "en": "Honeymoon",
+    "transcription_eastern": "meghri amis",
+    "transcription_lori": "meghri amis"
+  },
+  {
+    "id": "family-0092",
+    "folderId": "family",
+    "ru": "Супружеская пара",
+    "en": "Married couple",
+    "transcription_eastern": "patasxan zug",
+    "transcription_lori": "patasxan zug"
+  },
+  {
+    "id": "family-0093",
+    "folderId": "family",
+    "ru": "Молодожёны",
+    "en": "Newlyweds",
+    "transcription_eastern": "nor hunatar",
+    "transcription_lori": "nor hunatar"
+  },
+  {
+    "id": "family-0094",
+    "folderId": "family",
+    "ru": "Семейное счастье",
+    "en": "Family happiness",
+    "transcription_eastern": "tnjaki urakhutyun",
+    "transcription_lori": "tnjaki urakhutyun"
+  },
+  {
+    "id": "family-0095",
+    "folderId": "family",
+    "ru": "Семейная традиция",
+    "en": "Family tradition",
+    "transcription_eastern": "tnjakan avandutyun",
+    "transcription_lori": "tnjakan avandutyun"
+  },
+  {
+    "id": "family-0096",
+    "folderId": "family",
+    "ru": "Семейный праздник",
+    "en": "Family celebration",
+    "transcription_eastern": "tnjakan ton",
+    "transcription_lori": "tnjakan ton"
+  },
+  {
+    "id": "family-0097",
+    "folderId": "family",
+    "ru": "Семейный ужин",
+    "en": "Family dinner",
+    "transcription_eastern": "tnjakan yerekojash",
+    "transcription_lori": "tnjakan yerekojash"
+  },
+  {
+    "id": "family-0098",
+    "folderId": "family",
+    "ru": "Семейное фото",
+    "en": "Family photo",
+    "transcription_eastern": "tnjakan nkar",
+    "transcription_lori": "tnjakan nkar"
+  },
+  {
+    "id": "family-0099",
+    "folderId": "family",
+    "ru": "Семейный дом",
+    "en": "Family home",
+    "transcription_eastern": "tnjaki tun",
+    "transcription_lori": "tnjaki tun"
+  },
+  {
+    "id": "family-0100",
+    "folderId": "family",
+    "ru": "Родительский дом",
+    "en": "Parents' home",
+    "transcription_eastern": "tsnoghi tun",
+    "transcription_lori": "tsnoghi tun"
+  },
+  {
+    "id": "family-0101",
+    "folderId": "family",
+    "ru": "Детская комната",
+    "en": "Children's room",
+    "transcription_eastern": "yerekutyan senyak",
+    "transcription_lori": "yerekutyan senyak"
+  },
+  {
+    "id": "family-0102",
+    "folderId": "family",
+    "ru": "Материнская любовь",
+    "en": "Mother's love",
+    "transcription_eastern": "mayri ser",
+    "transcription_lori": "mayri ser"
+  },
+  {
+    "id": "family-0103",
+    "folderId": "family",
+    "ru": "Отецкая любовь",
+    "en": "Father's love",
+    "transcription_eastern": "hayri ser",
+    "transcription_lori": "hayri ser"
+  },
+  {
+    "id": "family-0104",
+    "folderId": "family",
+    "ru": "Братская любовь",
+    "en": "Brotherly love",
+    "transcription_eastern": "eghpayri ser",
+    "transcription_lori": "eghpayri ser"
+  },
+  {
+    "id": "family-0105",
+    "folderId": "family",
+    "ru": "Сестринская любовь",
+    "en": "Sisterly love",
+    "transcription_eastern": "khoheri ser",
+    "transcription_lori": "khoheri ser"
+  },
+  {
+    "id": "family-0106",
+    "folderId": "family",
+    "ru": "Родительская любовь",
+    "en": "Parental love",
+    "transcription_eastern": "tsnoghi ser",
+    "transcription_lori": "tsnoghi ser"
+  },
+  {
+    "id": "family-0107",
+    "folderId": "family",
+    "ru": "Семейная забота",
+    "en": "Family care",
+    "transcription_eastern": "tnjaki khndir",
+    "transcription_lori": "tnjaki khndir"
+  },
+  {
+    "id": "family-0108",
+    "folderId": "family",
+    "ru": "Семейная поддержка",
+    "en": "Family support",
+    "transcription_eastern": "tnjaki ognutyun",
+    "transcription_lori": "tnjaki ognutyun"
+  },
+  {
+    "id": "family-0109",
+    "folderId": "family",
+    "ru": "Семейная гордость",
+    "en": "Family pride",
+    "transcription_eastern": "tnjaki hovivutyun",
+    "transcription_lori": "tnjaki hovivutyun"
+  },
+  {
+    "id": "family-0110",
+    "folderId": "family",
+    "ru": "Семейная честь",
+    "en": "Family honor",
+    "transcription_eastern": "tnjaki p'atv",
+    "transcription_lori": "tnjaki p'atv"
+  },
+  {
+    "id": "family-0111",
+    "folderId": "family",
+    "ru": "Семейная история",
+    "en": "Family history",
+    "transcription_eastern": "tnjakan patmutyun",
+    "transcription_lori": "tnjakan patmutyun"
+  },
+  {
+    "id": "family-0112",
+    "folderId": "family",
+    "ru": "Семейный рецепт",
+    "en": "Family recipe",
+    "transcription_eastern": "tnjakan artadranq",
+    "transcription_lori": "tnjakan artadranq"
+  },
+  {
+    "id": "family-0113",
+    "folderId": "family",
+    "ru": "Семейное блюдо",
+    "en": "Family dish",
+    "transcription_eastern": "tnjakan axorjak",
+    "transcription_lori": "tnjakan axorjak"
+  },
+  {
+    "id": "family-0114",
+    "folderId": "family",
+    "ru": "Семейный стол",
+    "en": "Family table",
+    "transcription_eastern": "tnjakan sex",
+    "transcription_lori": "tnjakan sex"
+  },
+  {
+    "id": "family-0115",
+    "folderId": "family",
+    "ru": "Семейный завтрак",
+    "en": "Family breakfast",
+    "transcription_eastern": "tnjakan aravotjash",
+    "transcription_lori": "tnjakan aravotjash"
+  },
+  {
+    "id": "family-0116",
+    "folderId": "family",
+    "ru": "Семейный обед",
+    "en": "Family lunch",
+    "transcription_eastern": "tnjakan jash",
+    "transcription_lori": "tnjakan jash"
+  },
+  {
+    "id": "family-0117",
+    "folderId": "family",
+    "ru": "Семейная прогулка",
+    "en": "Family walk",
+    "transcription_eastern": "tnjakan katar",
+    "transcription_lori": "tnjakan katar"
+  },
+  {
+    "id": "family-0118",
+    "folderId": "family",
+    "ru": "Семейный отдых",
+    "en": "Family rest",
+    "transcription_eastern": "tnjakan hangistutyun",
+    "transcription_lori": "tnjakan hangistutyun"
+  },
+  {
+    "id": "family-0119",
+    "folderId": "family",
+    "ru": "Семейный отпуск",
+    "en": "Family vacation",
+    "transcription_eastern": "tnjakan aragh",
+    "transcription_lori": "tnjakan aragh"
+  },
+  {
+    "id": "family-0120",
+    "folderId": "family",
+    "ru": "Семейная поездка",
+    "en": "Family trip",
+    "transcription_eastern": "tnjakan yntanq",
+    "transcription_lori": "tnjakan yntanq"
+  },
+  {
+    "id": "family-0121",
+    "folderId": "family",
+    "ru": "Семейный подарок",
+    "en": "Family gift",
+    "transcription_eastern": "tnjakan nver",
+    "transcription_lori": "tnjakan nver"
+  },
+  {
+    "id": "family-0122",
+    "folderId": "family",
+    "ru": "Семейная встреча",
+    "en": "Family reunion",
+    "transcription_eastern": "tnjakan havaq",
+    "transcription_lori": "tnjakan havaq"
+  },
+  {
+    "id": "family-0123",
+    "folderId": "family",
+    "ru": "Семейный вечер",
+    "en": "Family evening",
+    "transcription_eastern": "tnjakan yerekon",
+    "transcription_lori": "tnjakan yerekon"
+  },
+  {
+    "id": "family-0124",
+    "folderId": "family",
+    "ru": "Семейный разговор",
+    "en": "Family talk",
+    "transcription_eastern": "tnjakan khosq",
+    "transcription_lori": "tnjakan khosq"
+  },
+  {
+    "id": "family-0125",
+    "folderId": "family",
+    "ru": "Семейный мир",
+    "en": "Family peace",
+    "transcription_eastern": "tnjaki khaghaghutyun",
+    "transcription_lori": "tnjaki khaghaghutyun"
+  },
+  {
+    "id": "family-0126",
+    "folderId": "family",
+    "ru": "Семейная гармония",
+    "en": "Family harmony",
+    "transcription_eastern": "tnjaki hamoni",
+    "transcription_lori": "tnjaki hamoni"
+  },
+  {
+    "id": "family-0127",
+    "folderId": "family",
+    "ru": "Семейное единство",
+    "en": "Family unity",
+    "transcription_eastern": "tnjaki miutyun",
+    "transcription_lori": "tnjaki miutyun"
+  },
+  {
+    "id": "family-0128",
+    "folderId": "family",
+    "ru": "Семейная дружба",
+    "en": "Family friendship",
+    "transcription_eastern": "tnjaki barenutyun",
+    "transcription_lori": "tnjaki barenutyun"
+  },
+  {
+    "id": "family-0129",
+    "folderId": "family",
+    "ru": "Семейная вера",
+    "en": "Family faith",
+    "transcription_eastern": "tnjaki havatar",
+    "transcription_lori": "tnjaki havatar"
+  },
+  {
+    "id": "family-0130",
+    "folderId": "family",
+    "ru": "Семейная надежда",
+    "en": "Family hope",
+    "transcription_eastern": "tnjaki hivand",
+    "transcription_lori": "tnjaki hivand"
+  },
+  {
+    "id": "family-0131",
+    "folderId": "family",
+    "ru": "Семейная мудрость",
+    "en": "Family wisdom",
+    "transcription_eastern": "tnjaki imast",
+    "transcription_lori": "tnjaki imast"
+  },
+  {
+    "id": "family-0132",
+    "folderId": "family",
+    "ru": "Семейная сила",
+    "en": "Family strength",
+    "transcription_eastern": "tnjaki uzh",
+    "transcription_lori": "tnjaki uzh"
+  },
+  {
+    "id": "family-0133",
+    "folderId": "family",
+    "ru": "Семейная радость",
+    "en": "Family joy",
+    "transcription_eastern": "tnjaki urakhutyun",
+    "transcription_lori": "tnjaki urakhutyun"
+  },
+  {
+    "id": "family-0134",
+    "folderId": "family",
+    "ru": "Беременность",
+    "en": "Pregnancy",
+    "transcription_eastern": "usumnasirutyun",
+    "transcription_lori": "usumnasirutyun"
+  },
+  {
+    "id": "family-0135",
+    "folderId": "family",
+    "ru": "Роды",
+    "en": "Childbirth",
+    "transcription_eastern": "tsnund",
+    "transcription_lori": "tsnund"
+  },
+  {
+    "id": "family-0136",
+    "folderId": "family",
+    "ru": "Крещение",
+    "en": "Baptism",
+    "transcription_eastern": "mkhrtaran",
+    "transcription_lori": "mkhrtaran"
+  },
+  {
+    "id": "family-0137",
+    "folderId": "family",
+    "ru": "Именины",
+    "en": "Name day",
+    "transcription_eastern": "anvan tare",
+    "transcription_lori": "anvan tare"
+  },
+  {
+    "id": "family-0138",
+    "folderId": "family",
+    "ru": "Юбилей",
+    "en": "Anniversary",
+    "transcription_eastern": "yubile",
+    "transcription_lori": "yubile"
+  },
+  {
+    "id": "family-0139",
+    "folderId": "family",
+    "ru": "День рождения",
+    "en": "Birthday",
+    "transcription_eastern": "taredatsutyan or",
+    "transcription_lori": "taredatsutyan or"
+  },
+  {
+    "id": "family-0140",
+    "folderId": "family",
+    "ru": "Годовщина свадьбы",
+    "en": "Wedding anniversary",
+    "transcription_eastern": "hunatari tare",
+    "transcription_lori": "hunatari tare"
+  },
+  {
+    "id": "family-0141",
+    "folderId": "family",
+    "ru": "Опекун",
+    "en": "Guardian",
+    "transcription_eastern": "pahpan",
+    "transcription_lori": "pahpan"
+  },
+  {
+    "id": "family-0142",
+    "folderId": "family",
+    "ru": "Опека",
+    "en": "Guardianship",
+    "transcription_eastern": "pahpanum",
+    "transcription_lori": "pahpanum"
+  },
+  {
+    "id": "family-0143",
+    "folderId": "family",
+    "ru": "Приёмная семья",
+    "en": "Foster family",
+    "transcription_eastern": "ibrats tnjak",
+    "transcription_lori": "ibrats tnjak"
+  },
+  {
+    "id": "family-0144",
+    "folderId": "family",
+    "ru": "Многодетная семья",
+    "en": "Large family",
+    "transcription_eastern": "mec tnjak",
+    "transcription_lori": "mec tnjak"
+  },
+  {
+    "id": "family-0145",
+    "folderId": "family",
+    "ru": "Неполная семья",
+    "en": "Single-parent family",
+    "transcription_eastern": "anamem tnjak",
+    "transcription_lori": "anamem tnjak"
+  },
+  {
+    "id": "family-0146",
+    "folderId": "family",
+    "ru": "Наследник",
+    "en": "Heir",
+    "transcription_eastern": "zharang",
+    "transcription_lori": "zharang"
+  },
+  {
+    "id": "family-0147",
+    "folderId": "family",
+    "ru": "Наследница",
+    "en": "Heiress",
+    "transcription_eastern": "zharang kin",
+    "transcription_lori": "zharang kin"
+  },
+  {
+    "id": "family-0148",
+    "folderId": "family",
+    "ru": "Старший в семье",
+    "en": "Eldest in family",
+    "transcription_eastern": "mec tarekan",
+    "transcription_lori": "mec tarekan"
+  },
+  {
+    "id": "family-0149",
+    "folderId": "family",
+    "ru": "Младший в семье",
+    "en": "Youngest in family",
+    "transcription_eastern": "poqr tarekan",
+    "transcription_lori": "poqr tarekan"
+  },
+  {
+    "id": "family-0150",
+    "folderId": "family",
+    "ru": "Тётушка",
+    "en": "Aunt (affectionate)",
+    "transcription_eastern": "mayrik",
+    "transcription_lori": "mayrik"
+  },
+  {
+    "id": "family-0151",
+    "folderId": "family",
+    "ru": "Дяденька",
+    "en": "Uncle (affectionate)",
+    "transcription_eastern": "payrik",
+    "transcription_lori": "payrik"
+  },
+  {
+    "id": "family-0152",
+    "folderId": "family",
+    "ru": "Кумовья",
+    "en": "Godparents",
+    "transcription_eastern": "qavakner",
+    "transcription_lori": "qavakner"
+  },
+  {
+    "id": "family-0153",
+    "folderId": "family",
+    "ru": "Кумовство",
+    "en": "Godparenthood",
+    "transcription_eastern": "qavakutyun",
+    "transcription_lori": "qavakutyun"
+  },
+  {
+    "id": "family-0154",
+    "folderId": "family",
+    "ru": "Сватья",
+    "en": "Mother of groom/bride",
+    "transcription_eastern": "hasehur",
+    "transcription_lori": "hasehur"
+  },
+  {
+    "id": "family-0155",
+    "folderId": "family",
+    "ru": "Тесть",
+    "en": "Father of wife",
+    "transcription_eastern": "hasehur",
+    "transcription_lori": "hasehur"
+  },
+  {
+    "id": "family-0156",
+    "folderId": "family",
+    "ru": "Тёща",
+    "en": "Mother of wife",
+    "transcription_eastern": "hasehur",
+    "transcription_lori": "hasehur"
+  },
+  {
+    "id": "family-0157",
+    "folderId": "family",
+    "ru": "Зять",
+    "en": "Son-in-law",
+    "transcription_eastern": "p'esa",
+    "transcription_lori": "p'esa"
+  },
+  {
+    "id": "family-0158",
+    "folderId": "family",
+    "ru": "Невестка",
+    "en": "Daughter-in-law",
+    "transcription_eastern": "kuyr",
+    "transcription_lori": "kuyr"
+  },
+  {
+    "id": "family-0159",
+    "folderId": "family",
+    "ru": "Свояк",
+    "en": "Brother-in-law",
+    "transcription_eastern": "enker",
+    "transcription_lori": "enker"
+  },
+  {
+    "id": "family-0160",
+    "folderId": "family",
+    "ru": "Свояченица",
+    "en": "Sister-in-law",
+    "transcription_eastern": "kuyr",
+    "transcription_lori": "kuyr"
+  },
+  {
+    "id": "family-0161",
+    "folderId": "family",
+    "ru": "Внучатый племянник",
+    "en": "Grand-nephew",
+    "transcription_eastern": "t'noren dzoughayt",
+    "transcription_lori": "t'noren dzoughayt"
+  },
+  {
+    "id": "family-0162",
+    "folderId": "family",
+    "ru": "Родня",
+    "en": "Relatives",
+    "transcription_eastern": "naxararner",
+    "transcription_lori": "naxararner"
+  },
+  {
+    "id": "family-0163",
+    "folderId": "family",
+    "ru": "Родичи",
+    "en": "Kinsfolk",
+    "transcription_eastern": "naxararner",
+    "transcription_lori": "naxararner"
+  },
+  {
+    "id": "family-0164",
+    "folderId": "family",
+    "ru": "Родной брат",
+    "en": "Blood brother",
+    "transcription_eastern": "tsnndyan eghpayr",
+    "transcription_lori": "tsnndyan eghpayr"
+  },
+  {
+    "id": "family-0165",
+    "folderId": "family",
+    "ru": "Родная сестра",
+    "en": "Blood sister",
+    "transcription_eastern": "tsnndyan khoher",
+    "transcription_lori": "tsnndyan khoher"
+  },
+  {
+    "id": "family-0166",
+    "folderId": "family",
+    "ru": "Родной сын",
+    "en": "Biological son",
+    "transcription_eastern": "tsnndyan tgha",
+    "transcription_lori": "tsnndyan tgha"
+  },
+  {
+    "id": "family-0167",
+    "folderId": "family",
+    "ru": "Родная дочь",
+    "en": "Biological daughter",
+    "transcription_eastern": "tsnndyan aghchik",
+    "transcription_lori": "tsnndyan aghchik"
+  },
+  {
+    "id": "family-0168",
+    "folderId": "family",
+    "ru": "Родной отец",
+    "en": "Biological father",
+    "transcription_eastern": "tsnndyan hayr",
+    "transcription_lori": "tsnndyan hayr"
+  },
+  {
+    "id": "family-0169",
+    "folderId": "family",
+    "ru": "Родная мать",
+    "en": "Biological mother",
+    "transcription_eastern": "tsnndyan mayr",
+    "transcription_lori": "tsnndyan mayr"
+  },
+  {
+    "id": "family-0170",
+    "folderId": "family",
+    "ru": "Приёмный ребёнок",
+    "en": "Foster child",
+    "transcription_eastern": "ibrats zavag",
+    "transcription_lori": "ibrats zavag"
+  },
+  {
+    "id": "family-0171",
+    "folderId": "family",
+    "ru": "Приёмные родители",
+    "en": "Foster parents",
+    "transcription_eastern": "ibrats tsnoghiner",
+    "transcription_lori": "ibrats tsnoghiner"
+  },
+  {
+    "id": "family-0172",
+    "folderId": "family",
+    "ru": "Семейный бюджет",
+    "en": "Family budget",
+    "transcription_eastern": "tnjakan budjet",
+    "transcription_lori": "tnjakan budjet"
+  },
+  {
+    "id": "family-0173",
+    "folderId": "family",
+    "ru": "Семейные ценности",
+    "en": "Family values",
+    "transcription_eastern": "tnjakan arjeqner",
+    "transcription_lori": "tnjakan arjeqner"
+  },
+  {
+    "id": "family-0174",
+    "folderId": "family",
+    "ru": "Семейная любовь",
+    "en": "Family love",
+    "transcription_eastern": "tnjaki ser",
+    "transcription_lori": "tnjaki ser"
+  },
+  {
+    "id": "family-0175",
+    "folderId": "family",
+    "ru": "Семейный совет",
+    "en": "Family council",
+    "transcription_eastern": "tnjakan xorhurd",
+    "transcription_lori": "tnjakan xorhurd"
+  },
+  {
+    "id": "family-0176",
+    "folderId": "family",
+    "ru": "Семейный альбом",
+    "en": "Family album",
+    "transcription_eastern": "tnjakan albom",
+    "transcription_lori": "tnjakan albom"
+  },
+  {
+    "id": "family-0177",
+    "folderId": "family",
+    "ru": "Семейное письмо",
+    "en": "Family letter",
+    "transcription_eastern": "tnjakan namak",
+    "transcription_lori": "tnjakan namak"
+  },
+  {
+    "id": "family-0178",
+    "folderId": "family",
+    "ru": "Семейный звонок",
+    "en": "Family call",
+    "transcription_eastern": "tnjakan zang",
+    "transcription_lori": "tnjakan zang"
+  },
+  {
+    "id": "family-0179",
+    "folderId": "family",
+    "ru": "Семейный спор",
+    "en": "Family argument",
+    "transcription_eastern": "tnjakan vayel",
+    "transcription_lori": "tnjakan vayel"
+  },
+  {
+    "id": "family-0180",
+    "folderId": "family",
+    "ru": "Семейная печаль",
+    "en": "Family sorrow",
+    "transcription_eastern": "tnjaki tsaghkot",
+    "transcription_lori": "tnjaki tsaghkot"
+  }
+]

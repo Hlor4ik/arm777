@@ -1,0 +1,37 @@
+.btn {
+  padding: 12px 20px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 15px;
+  transition: opacity 0.15s, transform 0.1s;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.primary {
+  background: var(--gradient-cta);
+  color: var(--tg-button-text-color);
+  box-shadow: var(--shadow-cta);
+}
+
+.outline {
+  border: 1px solid var(--accent-red);
+  color: var(--accent-red);
+  background: transparent;
+}
+
+.ghost {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.full {
+  width: 100%;
+}

@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "nature-0001",
+    "folderId": "nature",
+    "ru": "Природа",
+    "en": "Nature",
+    "transcription_eastern": "bnutyun",
+    "transcription_lori": "bnutyun"
+  },
+  {
+    "id": "nature-0002",
+    "folderId": "nature",
+    "ru": "Солнце",
+    "en": "Sun",
+    "transcription_eastern": "arev",
+    "transcription_lori": "arev"
+  },
+  {
+    "id": "nature-0003",
+    "folderId": "nature",
+    "ru": "Луна",
+    "en": "Moon",
+    "transcription_eastern": "lusin",
+    "transcription_lori": "lusin"
+  },
+  {
+    "id": "nature-0004",
+    "folderId": "nature",
+    "ru": "Звезда",
+    "en": "Star",
+    "transcription_eastern": "astgh",
+    "transcription_lori": "astgh"
+  },
+  {
+    "id": "nature-0005",
+    "folderId": "nature",
+    "ru": "Звёзды",
+    "en": "Stars",
+    "transcription_eastern": "astghner",
+    "transcription_lori": "astghner"
+  },
+  {
+    "id": "nature-0006",
+    "folderId": "nature",
+    "ru": "Небо",
+    "en": "Sky",
+    "transcription_eastern": "yerkin",
+    "transcription_lori": "yerkin"
+  },
+  {
+    "id": "nature-0007",
+    "folderId": "nature",
+    "ru": "Облако",
+    "en": "Cloud",
+    "transcription_eastern": "amph",
+    "transcription_lori": "amph"
+  },
+  {
+    "id": "nature-0008",
+    "folderId": "nature",
+    "ru": "Облака",
+    "en": "Clouds",
+    "transcription_eastern": "amphner",
+    "transcription_lori": "amphner"
+  },
+  {
+    "id": "nature-0009",
+    "folderId": "nature",
+    "ru": "Дождь",
+    "en": "Rain",
+    "transcription_eastern": "amph",
+    "transcription_lori": "amph"
+  },
+  {
+    "id": "nature-0010",
+    "folderId": "nature",
+    "ru": "Снег",
+    "en": "Snow",
+    "transcription_eastern": "qor",
+    "transcription_lori": "qor"
+  },
+  {
+    "id": "nature-0011",
+    "folderId": "nature",
+    "ru": "Град",
+    "en": "Hail",
+    "transcription_eastern": "qor",
+    "transcription_lori": "qor"
+  },
+  {
+    "id": "nature-0012",
+    "folderId": "nature",
+    "ru": "Туман",
+    "en": "Fog",
+    "transcription_eastern": "amph",
+    "transcription_lori": "amph"
+  },
+  {
+    "id": "nature-0013",
+    "folderId": "nature",
+    "ru": "Ветер",
+    "en": "Wind",
+    "transcription_eastern": "pogh",
+    "transcription_lori": "pogh"
+  },
+  {
+    "id": "nature-0014",
+    "folderId": "nature",
+    "ru": "Буря",
+    "en": "Storm",
+    "transcription_eastern": "pogh",
+    "transcription_lori": "pogh"
+  },
+  {
+    "id": "nature-0015",
+    "folderId": "nature",
+    "ru": "Ураган",
+    "en": "Hurricane",
+    "transcription_eastern": "pogh",
+    "transcription_lori": "pogh"
+  },
+  {
+    "id": "nature-0016",
+    "folderId": "nature",
+    "ru": "Молния",
+    "en": "Lightning",
+    "transcription_eastern": "arev",
+    "transcription_lori": "arev"
+  },
+  {
+    "id": "nature-0017",
+    "folderId": "nature",
+    "ru": "Гром",
+    "en": "Thunder",
+    "transcription_eastern": "pogh",
+    "transcription_lori": "pogh"
+  },
+  {
+    "id": "nature-0018",
+    "folderId": "nature",
+    "ru": "Радуга",
+    "en": "Rainbow",
+    "transcription_eastern": "arev",
+    "transcription_lori": "arev"
+  },
+  {
+    "id": "nature-0019",
+    "folderId": "nature",
+    "ru": "Рассвет",
+    "en": "Dawn",
+    "transcription_eastern": "arevot",
+    "transcription_lori": "arevot"
+  },
+  {
+    "id": "nature-0020",
+    "folderId": "nature",
+    "ru": "Закат",
+    "en": "Sunset",
+    "transcription_eastern": "arevmut",
+    "transcription_lori": "arevmut"
+  },
+  {
+    "id": "nature-0021",
+    "folderId": "nature",
+    "ru": "Утро",
+    "en": "Morning",
+    "transcription_eastern": "luis",
+    "transcription_lori": "luis"
+  },
+  {
+    "id": "nature-0022",
+    "folderId": "nature",
+    "ru": "День",
+    "en": "Day",
+    "transcription_eastern": "or",
+    "transcription_lori": "or"
+  },
+  {
+    "id": "nature-0023",
+    "folderId": "nature",
+    "ru": "Вечер",
+    "en": "Evening",
+    "transcription_eastern": "yerekon",
+    "transcription_lori": "yerekon"
+  },
+  {
+    "id": "nature-0024",
+    "folderId": "nature",
+    "ru": "Ночь",
+    "en": "Night",
+    "transcription_eastern": "gisher",
+    "transcription_lori": "gisher"
+  },
+  {
+    "id": "nature-0025",
+    "folderId": "nature",
+    "ru": "Весна",
+    "en": "Spring",
+    "transcription_eastern": "garun",
+    "transcription_lori": "garun"
+  },
+  {
+    "id": "nature-0026",
+    "folderId": "nature",
+    "ru": "Лето",
+    "en": "Summer",
+    "transcription_eastern": "amran",
+    "transcription_lori": "amran"
+  },
+  {
+    "id": "nature-0027",
+    "folderId": "nature",
+    "ru": "Осень",
+    "en": "Autumn",
+    "transcription_eastern": "ashun",
+    "transcription_lori": "ashun"
+  },
+  {
+    "id": "nature-0028",
+    "folderId": "nature",
+    "ru": "Зима",
+    "en": "Winter",
+    "transcription_eastern": "dzyun",
+    "transcription_lori": "dzyun"
+  },
+  {
+    "id": "nature-0029",
+    "folderId": "nature",
+    "ru": "Сезон",
+    "en": "Season",
+    "transcription_eastern": "zhamanak",
+    "transcription_lori": "zhamanak"
+  },
+  {
+    "id": "nature-0030",
+    "folderId": "nature",
+    "ru": "Погода",
+    "en": "Weather",
+    "transcription_eastern": "zhamanak",
+    "transcription_lori": "zhamanak"
+  },
+  {
+    "id": "nature-0031",
+    "folderId": "nature",
+    "ru": "Тепло",
+    "en": "Warmth",
+    "transcription_eastern": "t'ep",
+    "transcription_lori": "t'ep"
+  },
+  {
+    "id": "nature-0032",
+    "folderId": "nature",
+    "ru": "Холод",
+    "en": "Cold",
+    "transcription_eastern": "ts'urt",
+    "transcription_lori": "ts'urt"
+  },
+  {
+    "id": "nature-0033",
+    "folderId": "nature",
+    "ru": "Жара",
+    "en": "Heat",
+    "transcription_eastern": "t'ep",
+    "transcription_lori": "t'ep"
+  },
+  {
+    "id": "nature-0034",
+    "folderId": "nature",
+    "ru": "Мороз",
+    "en": "Frost",
+    "transcription_eastern": "ts'urt",
+    "transcription_lori": "ts'urt"
+  },
+  {
+    "id": "nature-0035",
+    "folderId": "nature",
+    "ru": "Сухо",
+    "en": "Dry",
+    "transcription_eastern": "ts'or",
+    "transcription_lori": "ts'or"
+  },
+  {
+    "id": "nature-0036",
+    "folderId": "nature",
+    "ru": "Влажно",
+    "en": "Humid",
+    "transcription_eastern": "ts'on",
+    "transcription_lori": "ts'on"
+  },
+  {
+    "id": "nature-0037",
+    "folderId": "nature",
+    "ru": "Ясно",
+    "en": "Clear",
+    "transcription_eastern": "parz",
+    "transcription_lori": "parz"
+  },
+  {
+    "id": "nature-0038",
+    "folderId": "nature",
+    "ru": "Пасмурно",
+    "en": "Cloudy",
+    "transcription_eastern": "amph",
+    "transcription_lori": "amph"
+  },
+  {
+    "id": "nature-0039",
+    "folderId": "nature",
+    "ru": "Гроза",
+    "en": "Thunderstorm",
+    "transcription_eastern": "pogh",
+    "transcription_lori": "pogh"
+  },
+  {
+    "id": "nature-0040",
+    "folderId": "nature",
+    "ru": "Шторм",
+    "en": "Storm",
+    "transcription_eastern": "pogh",
+    "transcription_lori": "pogh"
+  },
+  {
+    "id": "nature-0041",
+    "folderId": "nature",
+    "ru": "Засуха",
+    "en": "Drought",
+    "transcription_eastern": "ts'or",
+    "transcription_lori": "ts'or"
+  },
+  {
+    "id": "nature-0042",
+    "folderId": "nature",
+    "ru": "Наводнение",
+    "en": "Flood",
+    "transcription_eastern": "jermuk",
+    "transcription_lori": "jermuk"
+  },
+  {
+    "id": "nature-0043",
+    "folderId": "nature",
+    "ru": "Земля",
+    "en": "Earth",
+    "transcription_eastern": "hox",
+    "transcription_lori": "hox"
+  },
+  {
+    "id": "nature-0044",
+    "folderId": "nature",
+    "ru": "Почва",
+    "en": "Soil",
+    "transcription_eastern": "hox",
+    "transcription_lori": "hox"
+  },
+  {
+    "id": "nature-0045",
+    "folderId": "nature",
+    "ru": "Песок",
+    "en": "Sand",
+    "transcription_eastern": "qor",
+    "transcription_lori": "qor"
+  },
+  {
+    "id": "nature-0046",
+    "folderId": "nature",
+    "ru": "Глина",
+    "en": "Clay",
+    "transcription_eastern": "hox",
+    "transcription_lori": "hox"
+  },
+  {
+    "id": "nature-0047",
+    "folderId": "nature",
+    "ru": "Камень",
+    "en": "Stone",
+    "transcription_eastern": "kar",
+    "transcription_lori": "kar"
+  },
+  {
+    "id": "nature-0048",
+    "folderId": "nature",
+    "ru": "Скала",
+    "en": "Rock",
+    "transcription_eastern": "kar",
+    "transcription_lori": "kar"
+  },
+  {
+    "id": "nature-0049",
+    "folderId": "nature",
+    "ru": "Гора",
+    "en": "Mountain",
+    "transcription_eastern": "ler",
+    "transcription_lori": "ler"
+  },
+  {
+    "id": "nature-0050",
+    "folderId": "nature",
+    "ru": "Холм",
+    "en": "Hill",
+    "transcription_eastern": "ler",
+    "transcription_lori": "ler"
+  },
+  {
+    "id": "nature-0051",
+    "folderId": "nature",
+    "ru": "Долина",
+    "en": "Valley",
+    "transcription_eastern": "dari",
+    "transcription_lori": "dari"
+  },
+  {
+    "id": "nature-0052",
+    "folderId": "nature",
+    "ru": "Ущелье",
+    "en": "Gorge",
+    "transcription_eastern": "dari",
+    "transcription_lori": "dari"
+  },
+  {
+    "id": "nature-0053",
+    "folderId": "nature",
+    "ru": "Плато",
+    "en": "Plateau",
+    "transcription_eastern": "ler",
+    "transcription_lori": "ler"
+  },
+  {
+    "id": "nature-0054",
+    "folderId": "nature",
+    "ru": "Вершина",
+    "en": "Peak",
+    "transcription_eastern": "ler",
+    "transcription_lori": "ler"
+  },
+  {
+    "id": "nature-0055",
+    "folderId": "nature",
+    "ru": "Склон",
+    "en": "Slope",
+    "transcription_eastern": "ler",
+    "transcription_lori": "ler"
+  },
+  {
+    "id": "nature-0056",
+    "folderId": "nature",
+    "ru": "Обрыв",
+    "en": "Cliff",
+    "transcription_eastern": "kar",
+    "transcription_lori": "kar"
+  },
+  {
+    "id": "nature-0057",
+    "folderId": "nature",
+    "ru": "Пещера",
+    "en": "Cave",
+    "transcription_eastern": "kar",
+    "transcription_lori": "kar"
+  },
+  {
+    "id": "nature-0058",
+    "folderId": "nature",
+    "ru": "Вулкан",
+    "en": "Volcano",
+    "transcription_eastern": "ler",
+    "transcription_lori": "ler"
+  },
+  {
+    "id": "nature-0059",
+    "folderId": "nature",
+    "ru": "Лавина",
+    "en": "Avalanche",
+    "transcription_eastern": "qor",
+    "transcription_lori": "qor"
+  },
+  {
+    "id": "nature-0060",
+    "folderId": "nature",
+    "ru": "Оползень",
+    "en": "Landslide",
+    "transcription_eastern": "hox",
+    "transcription_lori": "hox"
+  },
+  {
+    "id": "nature-0061",
+    "folderId": "nature",
+    "ru": "Река",
+    "en": "River",
+    "transcription_eastern": "get",
+    "transcription_lori": "get"
+  },
+  {
+    "id": "nature-0062",
+    "folderId": "nature",
+    "ru": "Ручей",
+    "en": "Stream",
+    "transcription_eastern": "get",
+    "transcription_lori": "get"
+  },
+  {
+    "id": "nature-0063",
+    "folderId": "nature",
+    "ru": "Озеро",
+    "en": "Lake",
+    "transcription_eastern": "akna",
+    "transcription_lori": "akna"
+  },
+  {
+    "id": "nature-0064",
+    "folderId": "nature",
+    "ru": "Пруд",
+    "en": "Pond",
+    "transcription_eastern": "akna",
+    "transcription_lori": "akna"
+  },
+  {
+    "id": "nature-0065",
+    "folderId": "nature",
+    "ru": "Море",
+    "en": "Sea",
+    "transcription_eastern": "dzov",
+    "transcription_lori": "dzov"
+  },
+  {
+    "id": "nature-0066",
+    "folderId": "nature",
+    "ru": "Океан",
+    "en": "Ocean",
+    "transcription_eastern": "dzov",
+    "transcription_lori": "dzov"
+  },
+  {
+    "id": "nature-0067",
+    "folderId": "nature",
+    "ru": "Волна",
+    "en": "Wave",
+    "transcription_eastern": "dzov",
+    "transcription_lori": "dzov"
+  },
+  {
+    "id": "nature-0068",
+    "folderId": "nature",
+    "ru": "Прибой",
+    "en": "Surf",
+    "transcription_eastern": "dzov",
+    "transcription_lori": "dzov"
+  },
+  {
+    "id": "nature-0069",
+    "folderId": "nature",
+    "ru": "Пляж",
+    "en": "Beach",
+    "transcription_eastern": "dzov",
+    "transcription_lori": "dzov"
+  },
+  {
+    "id": "nature-0070",
+    "folderId": "nature",
+    "ru": "Берег",
+    "en": "Shore",
+    "transcription_eastern": "dzov",
+    "transcription_lori": "dzov"
+  },
+  {
+    "id": "nature-0071",
+    "folderId": "nature",
+    "ru": "Остров",
+    "en": "Island",
+    "transcription_eastern": "kghts",
+    "transcription_lori": "kghts"
+  },
+  {
+    "id": "nature-0072",
+    "folderId": "nature",
+    "ru": "Полуостров",
+    "en": "Peninsula",
+    "transcription_eastern": "kghts",
+    "transcription_lori": "kghts"
+  },
+  {
+    "id": "nature-0073",
+    "folderId": "nature",
+    "ru": "Водопад",
+    "en": "Waterfall",
+    "transcription_eastern": "jermuk",
+    "transcription_lori": "jermuk"
+  },
+  {
+    "id": "nature-0074",
+    "folderId": "nature",
+    "ru": "Источник",
+    "en": "Spring",
+    "transcription_eastern": "jermuk",
+    "transcription_lori": "jermuk"
+  },
+  {
+    "id": "nature-0075",
+    "folderId": "nature",
+    "ru": "Родник",
+    "en": "Spring",
+    "transcription_eastern": "jermuk",
+    "transcription_lori": "jermuk"
+  },
+  {
+    "id": "nature-0076",
+    "folderId": "nature",
+    "ru": "Колодец",
+    "en": "Well",
+    "transcription_eastern": "jermuk",
+    "transcription_lori": "jermuk"
+  },
+  {
+    "id": "nature-0077",
+    "folderId": "nature",
+    "ru": "Лёд",
+    "en": "Ice",
+    "transcription_eastern": "qor",
+    "transcription_lori": "qor"
+  },
+  {
+    "id": "nature-0078",
+    "folderId": "nature",
+    "ru": "Снегопад",
+    "en": "Snowfall",
+    "transcription_eastern": "qor",
+    "transcription_lori": "qor"
+  },
+  {
+    "id": "nature-0079",
+    "folderId": "nature",
+    "ru": "Лес",
+    "en": "Forest",
+    "transcription_eastern": "antsrev",
+    "transcription_lori": "antsrev"
+  },
+  {
+    "id": "nature-0080",
+    "folderId": "nature",
+    "ru": "Роща",
+    "en": "Grove",
+    "transcription_eastern": "antsrev",
+    "transcription_lori": "antsrev"
+  },
+  {
+    "id": "nature-0081",
+    "folderId": "nature",
+    "ru": "Поляна",
+    "en": "Glade",
+    "transcription_eastern": "antsrev",
+    "transcription_lori": "antsrev"
+  },
+  {
+    "id": "nature-0082",
+    "folderId": "nature",
+    "ru": "Поле",
+    "en": "Field",
+    "transcription_eastern": "dari",
+    "transcription_lori": "dari"
+  },
+  {
+    "id": "nature-0083",
+    "folderId": "nature",
+    "ru": "Луг",
+    "en": "Meadow",
+    "transcription_eastern": "dari",
+    "transcription_lori": "dari"
+  },
+  {
+    "id": "nature-0084",
+    "folderId": "nature",
+    "ru": "Степь",
+    "en": "Steppe",
+    "transcription_eastern": "dari",
+    "transcription_lori": "dari"
+  },
+  {
+    "id": "nature-0085",
+    "folderId": "nature",
+    "ru": "Пустыня",
+    "en": "Desert",
+    "transcription_eastern": "dari",
+    "transcription_lori": "dari"
+  },
+  {
+    "id": "nature-0086",
+    "folderId": "nature",
+    "ru": "Болото",
+    "en": "Swamp",
+    "transcription_eastern": "jermuk",
+    "transcription_lori": "jermuk"
+  },
+  {
+    "id": "nature-0087",
+    "folderId": "nature",
+    "ru": "Трясина",
+    "en": "Quagmire",
+    "transcription_eastern": "jermuk",
+    "transcription_lori": "jermuk"
+  },
+  {
+    "id": "nature-0088",
+    "folderId": "nature",
+    "ru": "Джунгли",
+    "en": "Jungle",
+    "transcription_eastern": "antsrev",
+    "transcription_lori": "antsrev"
+  },
+  {
+    "id": "nature-0089",
+    "folderId": "nature",
+    "ru": "Саванна",
+    "en": "Savanna",
+    "transcription_eastern": "dari",
+    "transcription_lori": "dari"
+  },
+  {
+    "id": "nature-0090",
+    "folderId": "nature",
+    "ru": "Тайга",
+    "en": "Taiga",
+    "transcription_eastern": "antsrev",
+    "transcription_lori": "antsrev"
+  },
+  {
+    "id": "nature-0091",
+    "folderId": "nature",
+    "ru": "Тундра",
+    "en": "Tundra",
+    "transcription_eastern": "dari",
+    "transcription_lori": "dari"
+  },
+  {
+    "id": "nature-0092",
+    "folderId": "nature",
+    "ru": "Тропики",
+    "en": "Tropics",
+    "transcription_eastern": "amran",
+    "transcription_lori": "amran"
+  },
+  {
+    "id": "nature-0093",
+    "folderId": "nature",
+    "ru": "Арктика",
+    "en": "Arctic",
+    "transcription_eastern": "ts'urt",
+    "transcription_lori": "ts'urt"
+  },
+  {
+    "id": "nature-0094",
+    "folderId": "nature",
+    "ru": "Антарктика",
+    "en": "Antarctica",
+    "transcription_eastern": "ts'urt",
+    "transcription_lori": "ts'urt"
+  },
+  {
+    "id": "nature-0095",
+    "folderId": "nature",
+    "ru": "Экватор",
+    "en": "Equator",
+    "transcription_eastern": "arev",
+    "transcription_lori": "arev"
+  },
+  {
+    "id": "nature-0096",
+    "folderId": "nature",
+    "ru": "Полюс",
+    "en": "Pole",
+    "transcription_eastern": "ts'urt",
+    "transcription_lori": "ts'urt"
+  },
+  {
+    "id": "nature-0097",
+    "folderId": "nature",
+    "ru": "Дерево",
+    "en": "Tree",
+    "transcription_eastern": "tsar",
+    "transcription_lori": "tsar"
+  },
+  {
+    "id": "nature-0098",
+    "folderId": "nature",
+    "ru": "Куст",
+    "en": "Bush",
+    "transcription_eastern": "tsar",
+    "transcription_lori": "tsar"
+  },
+  {
+    "id": "nature-0099",
+    "folderId": "nature",
+    "ru": "Трава",
+    "en": "Grass",
+    "transcription_eastern": "banjar",
+    "transcription_lori": "banjar"
+  },
+  {
+    "id": "nature-0100",
+    "folderId": "nature",
+    "ru": "Мох",
+    "en": "Moss",
+    "transcription_eastern": "banjar",
+    "transcription_lori": "banjar"
+  },
+  {
+    "id": "nature-0101",
+    "folderId": "nature",
+    "ru": "Лишайник",
+    "en": "Lichen",
+    "transcription_eastern": "banjar",
+    "transcription_lori": "banjar"
+  },
+  {
+    "id": "nature-0102",
+    "folderId": "nature",
+    "ru": "Папоротник",
+    "en": "Fern",
+    "transcription_eastern": "banjar",
+    "transcription_lori": "banjar"
+  },
+  {
+    "id": "nature-0103",
+    "folderId": "nature",
+    "ru": "Цветок",
+    "en": "Flower",
+    "transcription_eastern": "tsaghik",
+    "transcription_lori": "tsaghik"
+  },
+  {
+    "id": "nature-0104",
+    "folderId": "nature",
+    "ru": "Бутон",
+    "en": "Bud",
+    "transcription_eastern": "tsaghik",
+    "transcription_lori": "tsaghik"
+  },
+  {
+    "id": "nature-0105",
+    "folderId": "nature",
+    "ru": "Лепесток",
+    "en": "Petal",
+    "transcription_eastern": "tsaghik",
+    "transcription_lori": "tsaghik"
+  },
+  {
+    "id": "nature-0106",
+    "folderId": "nature",
+    "ru": "Стебель",
+    "en": "Stem",
+    "transcription_eastern": "tsaghik",
+    "transcription_lori": "tsaghik"
+  },
+  {
+    "id": "nature-0107",
+    "folderId": "nature",
+    "ru": "Лист",
+    "en": "Leaf",
+    "transcription_eastern": "tsaghik",
+    "transcription_lori": "tsaghik"
+  },
+  {
+    "id": "nature-0108",
+    "folderId": "nature",
+    "ru": "Листья",
+    "en": "Leaves",
+    "transcription_eastern": "tsaghikner",
+    "transcription_lori": "tsaghikner"
+  },
+  {
+    "id": "nature-0109",
+    "folderId": "nature",
+    "ru": "Корень",
+    "en": "Root",
+    "transcription_eastern": "tsar",
+    "transcription_lori": "tsar"
+  },
+  {
+    "id": "nature-0110",
+    "folderId": "nature",
+    "ru": "Ветка",
+    "en": "Branch",
+    "transcription_eastern": "tsar",
+    "transcription_lori": "tsar"
+  },
+  {
+    "id": "nature-0111",
+    "folderId": "nature",
+    "ru": "Ствол",
+    "en": "Trunk",
+    "transcription_eastern": "tsar",
+    "transcription_lori": "tsar"
+  },
+  {
+    "id": "nature-0112",
+    "folderId": "nature",
+    "ru": "Кора",
+    "en": "Bark",
+    "transcription_eastern": "tsar",
+    "transcription_lori": "tsar"
+  },
+  {
+    "id": "nature-0113",
+    "folderId": "nature",
+    "ru": "Смола",
+    "en": "Resin",
+    "transcription_eastern": "tsar",
+    "transcription_lori": "tsar"
+  },
+  {
+    "id": "nature-0114",
+    "folderId": "nature",
+    "ru": "Сок",
+    "en": "Sap",
+    "transcription_eastern": "tsar",
+    "transcription_lori": "tsar"
+  },
+  {
+    "id": "nature-0115",
+    "folderId": "nature",
+    "ru": "Семя",
+    "en": "Seed",
+    "transcription_eastern": "tsaghik",
+    "transcription_lori": "tsaghik"
+  },
+  {
+    "id": "nature-0116",
+    "folderId": "nature",
+    "ru": "Плод",
+    "en": "Fruit",
+    "transcription_eastern": "hat",
+    "transcription_lori": "hat"
+  },
+  {
+    "id": "nature-0117",
+    "folderId": "nature",
+    "ru": "Ягода",
+    "en": "Berry",
+    "transcription_eastern": "hat",
+    "transcription_lori": "hat"
+  },
+  {
+    "id": "nature-0118",
+    "folderId": "nature",
+    "ru": "Орех",
+    "en": "Nut",
+    "transcription_eastern": "enkh",
+    "transcription_lori": "enkh"
+  },
+  {
+    "id": "nature-0119",
+    "folderId": "nature",
+    "ru": "Шишка",
+    "en": "Cone",
+    "transcription_eastern": "tsaghik",
+    "transcription_lori": "tsaghik"
+  },
+  {
+    "id": "nature-0120",
+    "folderId": "nature",
+    "ru": "Пыльца",
+    "en": "Pollen",
+    "transcription_eastern": "tsaghik",
+    "transcription_lori": "tsaghik"
+  },
+  {
+    "id": "nature-0121",
+    "folderId": "nature",
+    "ru": "Мёд",
+    "en": "Honey",
+    "transcription_eastern": "meghr",
+    "transcription_lori": "meghr"
+  },
+  {
+    "id": "nature-0122",
+    "folderId": "nature",
+    "ru": "Пчела",
+    "en": "Bee",
+    "transcription_eastern": "meghu",
+    "transcription_lori": "meghu"
+  },
+  {
+    "id": "nature-0123",
+    "folderId": "nature",
+    "ru": "Осa",
+    "en": "Wasp",
+    "transcription_eastern": "meghu",
+    "transcription_lori": "meghu"
+  },
+  {
+    "id": "nature-0124",
+    "folderId": "nature",
+    "ru": "Шмель",
+    "en": "Bumblebee",
+    "transcription_eastern": "meghu",
+    "transcription_lori": "meghu"
+  },
+  {
+    "id": "nature-0125",
+    "folderId": "nature",
+    "ru": "Бабочка",
+    "en": "Butterfly",
+    "transcription_eastern": "teghajin",
+    "transcription_lori": "teghajin"
+  },
+  {
+    "id": "nature-0126",
+    "folderId": "nature",
+    "ru": "Мотылёк",
+    "en": "Moth",
+    "transcription_eastern": "teghajin",
+    "transcription_lori": "teghajin"
+  },
+  {
+    "id": "nature-0127",
+    "folderId": "nature",
+    "ru": "Стрекоза",
+    "en": "Dragonfly",
+    "transcription_eastern": "teghajin",
+    "transcription_lori": "teghajin"
+  },
+  {
+    "id": "nature-0128",
+    "folderId": "nature",
+    "ru": "Кузнечик",
+    "en": "Grasshopper",
+    "transcription_eastern": "teghajin",
+    "transcription_lori": "teghajin"
+  },
+  {
+    "id": "nature-0129",
+    "folderId": "nature",
+    "ru": "Сверчок",
+    "en": "Cricket",
+    "transcription_eastern": "teghajin",
+    "transcription_lori": "teghajin"
+  },
+  {
+    "id": "nature-0130",
+    "folderId": "nature",
+    "ru": "Муравей",
+    "en": "Ant",
+    "transcription_eastern": "teghajin",
+    "transcription_lori": "teghajin"
+  },
+  {
+    "id": "nature-0131",
+    "folderId": "nature",
+    "ru": "Паук",
+    "en": "Spider",
+    "transcription_eastern": "teghajin",
+    "transcription_lori": "teghajin"
+  },
+  {
+    "id": "nature-0132",
+    "folderId": "nature",
+    "ru": "Скорпион",
+    "en": "Scorpion",
+    "transcription_eastern": "teghajin",
+    "transcription_lori": "teghajin"
+  },
+  {
+    "id": "nature-0133",
+    "folderId": "nature",
+    "ru": "Комар",
+    "en": "Mosquito",
+    "transcription_eastern": "teghajin",
+    "transcription_lori": "teghajin"
+  },
+  {
+    "id": "nature-0134",
+    "folderId": "nature",
+    "ru": "Муха",
+    "en": "Fly",
+    "transcription_eastern": "teghajin",
+    "transcription_lori": "teghajin"
+  },
+  {
+    "id": "nature-0135",
+    "folderId": "nature",
+    "ru": "Клещ",
+    "en": "Tick",
+    "transcription_eastern": "teghajin",
+    "transcription_lori": "teghajin"
+  },
+  {
+    "id": "nature-0136",
+    "folderId": "nature",
+    "ru": "Блоха",
+    "en": "Flea",
+    "transcription_eastern": "teghajin",
+    "transcription_lori": "teghajin"
+  },
+  {
+    "id": "nature-0137",
+    "folderId": "nature",
+    "ru": "Вошь",
+    "en": "Louse",
+    "transcription_eastern": "teghajin",
+    "transcription_lori": "teghajin"
+  },
+  {
+    "id": "nature-0138",
+    "folderId": "nature",
+    "ru": "Червь",
+    "en": "Worm",
+    "transcription_eastern": "teghajin",
+    "transcription_lori": "teghajin"
+  },
+  {
+    "id": "nature-0139",
+    "folderId": "nature",
+    "ru": "Улитка",
+    "en": "Snail",
+    "transcription_eastern": "teghajin",
+    "transcription_lori": "teghajin"
+  },
+  {
+    "id": "nature-0140",
+    "folderId": "nature",
+    "ru": "Ракушка",
+    "en": "Shell",
+    "transcription_eastern": "teghajin",
+    "transcription_lori": "teghajin"
+  },
+  {
+    "id": "nature-0141",
+    "folderId": "nature",
+    "ru": "Краб",
+    "en": "Crab",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0142",
+    "folderId": "nature",
+    "ru": "Креветка",
+    "en": "Shrimp",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0143",
+    "folderId": "nature",
+    "ru": "Осьминог",
+    "en": "Octopus",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0144",
+    "folderId": "nature",
+    "ru": "Кальмар",
+    "en": "Squid",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0145",
+    "folderId": "nature",
+    "ru": "Медуза",
+    "en": "Jellyfish",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0146",
+    "folderId": "nature",
+    "ru": "Акула",
+    "en": "Shark",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0147",
+    "folderId": "nature",
+    "ru": "Дельфин",
+    "en": "Dolphin",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0148",
+    "folderId": "nature",
+    "ru": "Кит",
+    "en": "Whale",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0149",
+    "folderId": "nature",
+    "ru": "Тюлень",
+    "en": "Seal",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0150",
+    "folderId": "nature",
+    "ru": "Морж",
+    "en": "Walrus",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0151",
+    "folderId": "nature",
+    "ru": "Рыба",
+    "en": "Fish",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0152",
+    "folderId": "nature",
+    "ru": "Форель",
+    "en": "Trout",
+    "transcription_eastern": "iskhan",
+    "transcription_lori": "iskhan"
+  },
+  {
+    "id": "nature-0153",
+    "folderId": "nature",
+    "ru": "Лосось",
+    "en": "Salmon",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0154",
+    "folderId": "nature",
+    "ru": "Карп",
+    "en": "Carp",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0155",
+    "folderId": "nature",
+    "ru": "Щука",
+    "en": "Pike",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0156",
+    "folderId": "nature",
+    "ru": "Окунь",
+    "en": "Perch",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0157",
+    "folderId": "nature",
+    "ru": "Сом",
+    "en": "Catfish",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0158",
+    "folderId": "nature",
+    "ru": "Сельдь",
+    "en": "Herring",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0159",
+    "folderId": "nature",
+    "ru": "Треска",
+    "en": "Cod",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0160",
+    "folderId": "nature",
+    "ru": "Камбала",
+    "en": "Flounder",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0161",
+    "folderId": "nature",
+    "ru": "Скумбрия",
+    "en": "Mackerel",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0162",
+    "folderId": "nature",
+    "ru": "Тунец",
+    "en": "Tuna",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "nature-0163",
+    "folderId": "nature",
+    "ru": "Птица",
+    "en": "Bird",
+    "transcription_eastern": "trchq",
+    "transcription_lori": "trchq"
+  },
+  {
+    "id": "nature-0164",
+    "folderId": "nature",
+    "ru": "Воробей",
+    "en": "Sparrow",
+    "transcription_eastern": "trchq",
+    "transcription_lori": "trchq"
+  },
+  {
+    "id": "nature-0165",
+    "folderId": "nature",
+    "ru": "Голубь",
+    "en": "Pigeon",
+    "transcription_eastern": "trchq",
+    "transcription_lori": "trchq"
+  },
+  {
+    "id": "nature-0166",
+    "folderId": "nature",
+    "ru": "Ворона",
+    "en": "Crow",
+    "transcription_eastern": "trchq",
+    "transcription_lori": "trchq"
+  },
+  {
+    "id": "nature-0167",
+    "folderId": "nature",
+    "ru": "Сорока",
+    "en": "Magpie",
+    "transcription_eastern": "trchq",
+    "transcription_lori": "trchq"
+  },
+  {
+    "id": "nature-0168",
+    "folderId": "nature",
+    "ru": "Синица",
+    "en": "Tit",
+    "transcription_eastern": "trchq",
+    "transcription_lori": "trchq"
+  },
+  {
+    "id": "nature-0169",
+    "folderId": "nature",
+    "ru": "Сова",
+    "en": "Owl",
+    "transcription_eastern": "trchq",
+    "transcription_lori": "trchq"
+  },
+  {
+    "id": "nature-0170",
+    "folderId": "nature",
+    "ru": "Орёл",
+    "en": "Eagle",
+    "transcription_eastern": "trchq",
+    "transcription_lori": "trchq"
+  },
+  {
+    "id": "nature-0171",
+    "folderId": "nature",
+    "ru": "Ястреб",
+    "en": "Hawk",
+    "transcription_eastern": "trchq",
+    "transcription_lori": "trchq"
+  },
+  {
+    "id": "nature-0172",
+    "folderId": "nature",
+    "ru": "Сокол",
+    "en": "Falcon",
+    "transcription_eastern": "trchq",
+    "transcription_lori": "trchq"
+  },
+  {
+    "id": "nature-0173",
+    "folderId": "nature",
+    "ru": "Ласточка",
+    "en": "Swallow",
+    "transcription_eastern": "trchq",
+    "transcription_lori": "trchq"
+  },
+  {
+    "id": "nature-0174",
+    "folderId": "nature",
+    "ru": "Стриж",
+    "en": "Swift",
+    "transcription_eastern": "trchq",
+    "transcription_lori": "trchq"
+  },
+  {
+    "id": "nature-0175",
+    "folderId": "nature",
+    "ru": "Дрозд",
+    "en": "Thrush",
+    "transcription_eastern": "trchq",
+    "transcription_lori": "trchq"
+  },
+  {
+    "id": "nature-0176",
+    "folderId": "nature",
+    "ru": "Скворец",
+    "en": "Starling",
+    "transcription_eastern": "trchq",
+    "transcription_lori": "trchq"
+  },
+  {
+    "id": "nature-0177",
+    "folderId": "nature",
+    "ru": "Дятел",
+    "en": "Woodpecker",
+    "transcription_eastern": "trchq",
+    "transcription_lori": "trchq"
+  },
+  {
+    "id": "nature-0178",
+    "folderId": "nature",
+    "ru": "Кукушка",
+    "en": "Cuckoo",
+    "transcription_eastern": "trchq",
+    "transcription_lori": "trchq"
+  },
+  {
+    "id": "nature-0179",
+    "folderId": "nature",
+    "ru": "Жаворонок",
+    "en": "Lark",
+    "transcription_eastern": "trchq",
+    "transcription_lori": "trchq"
+  },
+  {
+    "id": "nature-0180",
+    "folderId": "nature",
+    "ru": "Соловей",
+    "en": "Nightingale",
+    "transcription_eastern": "trchq",
+    "transcription_lori": "trchq"
+  }
+]

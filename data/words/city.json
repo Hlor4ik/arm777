@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "city-0001",
+    "folderId": "city",
+    "ru": "Город",
+    "en": "City",
+    "transcription_eastern": "kaghak",
+    "transcription_lori": "kaghak"
+  },
+  {
+    "id": "city-0002",
+    "folderId": "city",
+    "ru": "Деревня",
+    "en": "Village",
+    "transcription_eastern": "gyugh",
+    "transcription_lori": "gyugh"
+  },
+  {
+    "id": "city-0003",
+    "folderId": "city",
+    "ru": "Столица",
+    "en": "Capital",
+    "transcription_eastern": "mayrakaghak",
+    "transcription_lori": "mayrakaghak"
+  },
+  {
+    "id": "city-0004",
+    "folderId": "city",
+    "ru": "Центр",
+    "en": "Center",
+    "transcription_eastern": "kentron",
+    "transcription_lori": "kentron"
+  },
+  {
+    "id": "city-0005",
+    "folderId": "city",
+    "ru": "Район",
+    "en": "District",
+    "transcription_eastern": "shrjan",
+    "transcription_lori": "shrjan"
+  },
+  {
+    "id": "city-0006",
+    "folderId": "city",
+    "ru": "Улица",
+    "en": "Street",
+    "transcription_eastern": "poghota",
+    "transcription_lori": "poghota"
+  },
+  {
+    "id": "city-0007",
+    "folderId": "city",
+    "ru": "Проспект",
+    "en": "Avenue",
+    "transcription_eastern": "p'oghotsak",
+    "transcription_lori": "p'oghotsak"
+  },
+  {
+    "id": "city-0008",
+    "folderId": "city",
+    "ru": "Переулок",
+    "en": "Alley",
+    "transcription_eastern": "poghota",
+    "transcription_lori": "poghota"
+  },
+  {
+    "id": "city-0009",
+    "folderId": "city",
+    "ru": "Площадь",
+    "en": "Square",
+    "transcription_eastern": "hraparak",
+    "transcription_lori": "hraparak"
+  },
+  {
+    "id": "city-0010",
+    "folderId": "city",
+    "ru": "Парк",
+    "en": "Park",
+    "transcription_eastern": "park",
+    "transcription_lori": "park"
+  },
+  {
+    "id": "city-0011",
+    "folderId": "city",
+    "ru": "Сквер",
+    "en": "Square garden",
+    "transcription_eastern": "park",
+    "transcription_lori": "park"
+  },
+  {
+    "id": "city-0012",
+    "folderId": "city",
+    "ru": "Сад",
+    "en": "Garden",
+    "transcription_eastern": "bagin",
+    "transcription_lori": "bagin"
+  },
+  {
+    "id": "city-0013",
+    "folderId": "city",
+    "ru": "Мост",
+    "en": "Bridge",
+    "transcription_eastern": "kardr",
+    "transcription_lori": "kardr"
+  },
+  {
+    "id": "city-0014",
+    "folderId": "city",
+    "ru": "Тоннель",
+    "en": "Tunnel",
+    "transcription_eastern": "tonnel",
+    "transcription_lori": "tonnel"
+  },
+  {
+    "id": "city-0015",
+    "folderId": "city",
+    "ru": "Переход",
+    "en": "Crossing",
+    "transcription_eastern": "mtnaran",
+    "transcription_lori": "mtnaran"
+  },
+  {
+    "id": "city-0016",
+    "folderId": "city",
+    "ru": "Пешеходный переход",
+    "en": "Crosswalk",
+    "transcription_eastern": "mtnaran",
+    "transcription_lori": "mtnaran"
+  },
+  {
+    "id": "city-0017",
+    "folderId": "city",
+    "ru": "Светофор",
+    "en": "Traffic light",
+    "transcription_eastern": "eralank",
+    "transcription_lori": "eralank"
+  },
+  {
+    "id": "city-0018",
+    "folderId": "city",
+    "ru": "Знак",
+    "en": "Sign",
+    "transcription_eastern": "nshan",
+    "transcription_lori": "nshan"
+  },
+  {
+    "id": "city-0019",
+    "folderId": "city",
+    "ru": "Дорога",
+    "en": "Road",
+    "transcription_eastern": "poghota",
+    "transcription_lori": "poghota"
+  },
+  {
+    "id": "city-0020",
+    "folderId": "city",
+    "ru": "Шоссе",
+    "en": "Highway",
+    "transcription_eastern": "poghota",
+    "transcription_lori": "poghota"
+  },
+  {
+    "id": "city-0021",
+    "folderId": "city",
+    "ru": "Трасса",
+    "en": "Route",
+    "transcription_eastern": "poghota",
+    "transcription_lori": "poghota"
+  },
+  {
+    "id": "city-0022",
+    "folderId": "city",
+    "ru": "Развязка",
+    "en": "Interchange",
+    "transcription_eastern": "koghm",
+    "transcription_lori": "koghm"
+  },
+  {
+    "id": "city-0023",
+    "folderId": "city",
+    "ru": "Кольцо",
+    "en": "Roundabout",
+    "transcription_eastern": "koghm",
+    "transcription_lori": "koghm"
+  },
+  {
+    "id": "city-0024",
+    "folderId": "city",
+    "ru": "Перекрёсток",
+    "en": "Intersection",
+    "transcription_eastern": "koghm",
+    "transcription_lori": "koghm"
+  },
+  {
+    "id": "city-0025",
+    "folderId": "city",
+    "ru": "Угол",
+    "en": "Corner",
+    "transcription_eastern": "koghm",
+    "transcription_lori": "koghm"
+  },
+  {
+    "id": "city-0026",
+    "folderId": "city",
+    "ru": "Адрес",
+    "en": "Address",
+    "transcription_eastern": "hasce",
+    "transcription_lori": "hasce"
+  },
+  {
+    "id": "city-0027",
+    "folderId": "city",
+    "ru": "Номер дома",
+    "en": "House number",
+    "transcription_eastern": "tuni hamar",
+    "transcription_lori": "tuni hamar"
+  },
+  {
+    "id": "city-0028",
+    "folderId": "city",
+    "ru": "Квартал",
+    "en": "Block",
+    "transcription_eastern": "shrjan",
+    "transcription_lori": "shrjan"
+  },
+  {
+    "id": "city-0029",
+    "folderId": "city",
+    "ru": "Микрорайон",
+    "en": "Microdistrict",
+    "transcription_eastern": "shrjan",
+    "transcription_lori": "shrjan"
+  },
+  {
+    "id": "city-0030",
+    "folderId": "city",
+    "ru": "Окраина",
+    "en": "Outskirts",
+    "transcription_eastern": "kaghaki sahman",
+    "transcription_lori": "kaghaki sahman"
+  },
+  {
+    "id": "city-0031",
+    "folderId": "city",
+    "ru": "Пригород",
+    "en": "Suburb",
+    "transcription_eastern": "kaghaki mot",
+    "transcription_lori": "kaghaki mot"
+  },
+  {
+    "id": "city-0032",
+    "folderId": "city",
+    "ru": "Остановка",
+    "en": "Stop",
+    "transcription_eastern": "kayaran",
+    "transcription_lori": "kayaran"
+  },
+  {
+    "id": "city-0033",
+    "folderId": "city",
+    "ru": "Автобус",
+    "en": "Bus",
+    "transcription_eastern": "avtobus",
+    "transcription_lori": "avtobus"
+  },
+  {
+    "id": "city-0034",
+    "folderId": "city",
+    "ru": "Автобусная остановка",
+    "en": "Bus stop",
+    "transcription_eastern": "avtobusi kayaran",
+    "transcription_lori": "avtobusi kayaran"
+  },
+  {
+    "id": "city-0035",
+    "folderId": "city",
+    "ru": "Троллейбус",
+    "en": "Trolleybus",
+    "transcription_eastern": "trolleybus",
+    "transcription_lori": "trolleybus"
+  },
+  {
+    "id": "city-0036",
+    "folderId": "city",
+    "ru": "Трамвай",
+    "en": "Tram",
+    "transcription_eastern": "tramvay",
+    "transcription_lori": "tramvay"
+  },
+  {
+    "id": "city-0037",
+    "folderId": "city",
+    "ru": "Метро",
+    "en": "Metro",
+    "transcription_eastern": "metro",
+    "transcription_lori": "metro"
+  },
+  {
+    "id": "city-0038",
+    "folderId": "city",
+    "ru": "Станция метро",
+    "en": "Metro station",
+    "transcription_eastern": "metroi kayaran",
+    "transcription_lori": "metroi kayaran"
+  },
+  {
+    "id": "city-0039",
+    "folderId": "city",
+    "ru": "Поезд",
+    "en": "Train",
+    "transcription_eastern": "katar",
+    "transcription_lori": "katar"
+  },
+  {
+    "id": "city-0040",
+    "folderId": "city",
+    "ru": "Железная дорога",
+    "en": "Railway",
+    "transcription_eastern": "katar",
+    "transcription_lori": "katar"
+  },
+  {
+    "id": "city-0041",
+    "folderId": "city",
+    "ru": "Вокзал",
+    "en": "Train station",
+    "transcription_eastern": "kayaran",
+    "transcription_lori": "kayaran"
+  },
+  {
+    "id": "city-0042",
+    "folderId": "city",
+    "ru": "Аэропорт",
+    "en": "Airport",
+    "transcription_eastern": "t'rr",
+    "transcription_lori": "t'rr"
+  },
+  {
+    "id": "city-0043",
+    "folderId": "city",
+    "ru": "Самолёт",
+    "en": "Airplane",
+    "transcription_eastern": "t'rr",
+    "transcription_lori": "t'rr"
+  },
+  {
+    "id": "city-0044",
+    "folderId": "city",
+    "ru": "Такси",
+    "en": "Taxi",
+    "transcription_eastern": "taksi",
+    "transcription_lori": "taksi"
+  },
+  {
+    "id": "city-0045",
+    "folderId": "city",
+    "ru": "Маршрутка",
+    "en": "Minibus",
+    "transcription_eastern": "marshrutka",
+    "transcription_lori": "marshrutka"
+  },
+  {
+    "id": "city-0046",
+    "folderId": "city",
+    "ru": "Парковка",
+    "en": "Parking",
+    "transcription_eastern": "kayaran",
+    "transcription_lori": "kayaran"
+  },
+  {
+    "id": "city-0047",
+    "folderId": "city",
+    "ru": "Стоянка",
+    "en": "Parking lot",
+    "transcription_eastern": "kayaran",
+    "transcription_lori": "kayaran"
+  },
+  {
+    "id": "city-0048",
+    "folderId": "city",
+    "ru": "Гараж",
+    "en": "Garage",
+    "transcription_eastern": "garaj",
+    "transcription_lori": "garaj"
+  },
+  {
+    "id": "city-0049",
+    "folderId": "city",
+    "ru": "Заправка",
+    "en": "Gas station",
+    "transcription_eastern": "benzin",
+    "transcription_lori": "benzin"
+  },
+  {
+    "id": "city-0050",
+    "folderId": "city",
+    "ru": "Бензин",
+    "en": "Gasoline",
+    "transcription_eastern": "benzin",
+    "transcription_lori": "benzin"
+  },
+  {
+    "id": "city-0051",
+    "folderId": "city",
+    "ru": "Дизель",
+    "en": "Diesel",
+    "transcription_eastern": "benzin",
+    "transcription_lori": "benzin"
+  },
+  {
+    "id": "city-0052",
+    "folderId": "city",
+    "ru": "Электрозаправка",
+    "en": "Charging station",
+    "transcription_eastern": "elktrakan",
+    "transcription_lori": "elktrakan"
+  },
+  {
+    "id": "city-0053",
+    "folderId": "city",
+    "ru": "Пробка",
+    "en": "Traffic jam",
+    "transcription_eastern": "poghota",
+    "transcription_lori": "poghota"
+  },
+  {
+    "id": "city-0054",
+    "folderId": "city",
+    "ru": "Движение",
+    "en": "Traffic",
+    "transcription_eastern": "poghota",
+    "transcription_lori": "poghota"
+  },
+  {
+    "id": "city-0055",
+    "folderId": "city",
+    "ru": "Пешеход",
+    "en": "Pedestrian",
+    "transcription_eastern": "katarogh",
+    "transcription_lori": "katarogh"
+  },
+  {
+    "id": "city-0056",
+    "folderId": "city",
+    "ru": "Водитель",
+    "en": "Driver",
+    "transcription_eastern": "vairord",
+    "transcription_lori": "vairord"
+  },
+  {
+    "id": "city-0057",
+    "folderId": "city",
+    "ru": "Пассажир",
+    "en": "Passenger",
+    "transcription_eastern": "nakhagah",
+    "transcription_lori": "nakhagah"
+  },
+  {
+    "id": "city-0058",
+    "folderId": "city",
+    "ru": "Права",
+    "en": "Driver's license",
+    "transcription_eastern": "vairord",
+    "transcription_lori": "vairord"
+  },
+  {
+    "id": "city-0059",
+    "folderId": "city",
+    "ru": "Штраф",
+    "en": "Fine",
+    "transcription_eastern": "tank",
+    "transcription_lori": "tank"
+  },
+  {
+    "id": "city-0060",
+    "folderId": "city",
+    "ru": "Полиция",
+    "en": "Police",
+    "transcription_eastern": "politsia",
+    "transcription_lori": "politsia"
+  },
+  {
+    "id": "city-0061",
+    "folderId": "city",
+    "ru": "Полицейский",
+    "en": "Police officer",
+    "transcription_eastern": "politsia",
+    "transcription_lori": "politsia"
+  },
+  {
+    "id": "city-0062",
+    "folderId": "city",
+    "ru": "Патруль",
+    "en": "Patrol",
+    "transcription_eastern": "politsia",
+    "transcription_lori": "politsia"
+  },
+  {
+    "id": "city-0063",
+    "folderId": "city",
+    "ru": "Пост ДПС",
+    "en": "Traffic police post",
+    "transcription_eastern": "politsia",
+    "transcription_lori": "politsia"
+  },
+  {
+    "id": "city-0064",
+    "folderId": "city",
+    "ru": "Скорая помощь",
+    "en": "Ambulance",
+    "transcription_eastern": "skoraya",
+    "transcription_lori": "skoraya"
+  },
+  {
+    "id": "city-0065",
+    "folderId": "city",
+    "ru": "Пожарная",
+    "en": "Fire department",
+    "transcription_eastern": "krak",
+    "transcription_lori": "krak"
+  },
+  {
+    "id": "city-0066",
+    "folderId": "city",
+    "ru": "Пожарный",
+    "en": "Firefighter",
+    "transcription_eastern": "krak",
+    "transcription_lori": "krak"
+  },
+  {
+    "id": "city-0067",
+    "folderId": "city",
+    "ru": "Магазин",
+    "en": "Shop",
+    "transcription_eastern": "dukkan",
+    "transcription_lori": "dukkan"
+  },
+  {
+    "id": "city-0068",
+    "folderId": "city",
+    "ru": "Супермаркет",
+    "en": "Supermarket",
+    "transcription_eastern": "supermarket",
+    "transcription_lori": "supermarket"
+  },
+  {
+    "id": "city-0069",
+    "folderId": "city",
+    "ru": "Рынок",
+    "en": "Market",
+    "transcription_eastern": "shuka",
+    "transcription_lori": "shuka"
+  },
+  {
+    "id": "city-0070",
+    "folderId": "city",
+    "ru": "Базар",
+    "en": "Bazaar",
+    "transcription_eastern": "baz",
+    "transcription_lori": "baz"
+  },
+  {
+    "id": "city-0071",
+    "folderId": "city",
+    "ru": "Торговый центр",
+    "en": "Mall",
+    "transcription_eastern": "kentron",
+    "transcription_lori": "kentron"
+  },
+  {
+    "id": "city-0072",
+    "folderId": "city",
+    "ru": "Бутик",
+    "en": "Boutique",
+    "transcription_eastern": "butik",
+    "transcription_lori": "butik"
+  },
+  {
+    "id": "city-0073",
+    "folderId": "city",
+    "ru": "Аптека",
+    "en": "Pharmacy",
+    "transcription_eastern": "apteka",
+    "transcription_lori": "apteka"
+  },
+  {
+    "id": "city-0074",
+    "folderId": "city",
+    "ru": "Банк",
+    "en": "Bank",
+    "transcription_eastern": "bank",
+    "transcription_lori": "bank"
+  },
+  {
+    "id": "city-0075",
+    "folderId": "city",
+    "ru": "Банкомат",
+    "en": "ATM",
+    "transcription_eastern": "bank",
+    "transcription_lori": "bank"
+  },
+  {
+    "id": "city-0076",
+    "folderId": "city",
+    "ru": "Почта",
+    "en": "Post office",
+    "transcription_eastern": "poghoc",
+    "transcription_lori": "poghoc"
+  },
+  {
+    "id": "city-0077",
+    "folderId": "city",
+    "ru": "Почтальон",
+    "en": "Postman",
+    "transcription_eastern": "poghoc",
+    "transcription_lori": "poghoc"
+  },
+  {
+    "id": "city-0078",
+    "folderId": "city",
+    "ru": "Отель",
+    "en": "Hotel",
+    "transcription_eastern": "hotel",
+    "transcription_lori": "hotel"
+  },
+  {
+    "id": "city-0079",
+    "folderId": "city",
+    "ru": "Гостиница",
+    "en": "Hotel",
+    "transcription_eastern": "hotel",
+    "transcription_lori": "hotel"
+  },
+  {
+    "id": "city-0080",
+    "folderId": "city",
+    "ru": "Хостел",
+    "en": "Hostel",
+    "transcription_eastern": "hotel",
+    "transcription_lori": "hotel"
+  },
+  {
+    "id": "city-0081",
+    "folderId": "city",
+    "ru": "Ресторан",
+    "en": "Restaurant",
+    "transcription_eastern": "restoran",
+    "transcription_lori": "restoran"
+  },
+  {
+    "id": "city-0082",
+    "folderId": "city",
+    "ru": "Кафе",
+    "en": "Cafe",
+    "transcription_eastern": "kafe",
+    "transcription_lori": "kafe"
+  },
+  {
+    "id": "city-0083",
+    "folderId": "city",
+    "ru": "Бар",
+    "en": "Bar",
+    "transcription_eastern": "bar",
+    "transcription_lori": "bar"
+  },
+  {
+    "id": "city-0084",
+    "folderId": "city",
+    "ru": "Паб",
+    "en": "Pub",
+    "transcription_eastern": "bar",
+    "transcription_lori": "bar"
+  },
+  {
+    "id": "city-0085",
+    "folderId": "city",
+    "ru": "Пекарня",
+    "en": "Bakery",
+    "transcription_eastern": "hac",
+    "transcription_lori": "hac"
+  },
+  {
+    "id": "city-0086",
+    "folderId": "city",
+    "ru": "Кондитерская",
+    "en": "Confectionery",
+    "transcription_eastern": "tort",
+    "transcription_lori": "tort"
+  },
+  {
+    "id": "city-0087",
+    "folderId": "city",
+    "ru": "Мясной магазин",
+    "en": "Butcher shop",
+    "transcription_eastern": "mas",
+    "transcription_lori": "mas"
+  },
+  {
+    "id": "city-0088",
+    "folderId": "city",
+    "ru": "Рыбный магазин",
+    "en": "Fish shop",
+    "transcription_eastern": "koghak",
+    "transcription_lori": "koghak"
+  },
+  {
+    "id": "city-0089",
+    "folderId": "city",
+    "ru": "Овощной магазин",
+    "en": "Vegetable shop",
+    "transcription_eastern": "banjar",
+    "transcription_lori": "banjar"
+  },
+  {
+    "id": "city-0090",
+    "folderId": "city",
+    "ru": "Цветочный магазин",
+    "en": "Flower shop",
+    "transcription_eastern": "tsaghik",
+    "transcription_lori": "tsaghik"
+  },
+  {
+    "id": "city-0091",
+    "folderId": "city",
+    "ru": "Книжный магазин",
+    "en": "Bookstore",
+    "transcription_eastern": "girk",
+    "transcription_lori": "girk"
+  },
+  {
+    "id": "city-0092",
+    "folderId": "city",
+    "ru": "Канцелярия",
+    "en": "Stationery store",
+    "transcription_eastern": "gats",
+    "transcription_lori": "gats"
+  },
+  {
+    "id": "city-0093",
+    "folderId": "city",
+    "ru": "Ювелирный магазин",
+    "en": "Jewelry store",
+    "transcription_eastern": "qahuyq",
+    "transcription_lori": "qahuyq"
+  },
+  {
+    "id": "city-0094",
+    "folderId": "city",
+    "ru": "Оптика",
+    "en": "Optician",
+    "transcription_eastern": "achq",
+    "transcription_lori": "achq"
+  },
+  {
+    "id": "city-0095",
+    "folderId": "city",
+    "ru": "Салон красоты",
+    "en": "Beauty salon",
+    "transcription_eastern": "sirunutyun",
+    "transcription_lori": "sirunutyun"
+  },
+  {
+    "id": "city-0096",
+    "folderId": "city",
+    "ru": "Парикмахерская",
+    "en": "Barbershop",
+    "transcription_eastern": "mord",
+    "transcription_lori": "mord"
+  },
+  {
+    "id": "city-0097",
+    "folderId": "city",
+    "ru": "Барбершоп",
+    "en": "Barbershop",
+    "transcription_eastern": "mord",
+    "transcription_lori": "mord"
+  },
+  {
+    "id": "city-0098",
+    "folderId": "city",
+    "ru": "Спа",
+    "en": "Spa",
+    "transcription_eastern": "hangist",
+    "transcription_lori": "hangist"
+  },
+  {
+    "id": "city-0099",
+    "folderId": "city",
+    "ru": "Баня",
+    "en": "Bathhouse",
+    "transcription_eastern": "lvatsq",
+    "transcription_lori": "lvatsq"
+  },
+  {
+    "id": "city-0100",
+    "folderId": "city",
+    "ru": "Сауна",
+    "en": "Sauna",
+    "transcription_eastern": "lvatsq",
+    "transcription_lori": "lvatsq"
+  },
+  {
+    "id": "city-0101",
+    "folderId": "city",
+    "ru": "Бассейн",
+    "en": "Pool",
+    "transcription_eastern": "lvatsq",
+    "transcription_lori": "lvatsq"
+  },
+  {
+    "id": "city-0102",
+    "folderId": "city",
+    "ru": "Спортзал",
+    "en": "Gym",
+    "transcription_eastern": "sport",
+    "transcription_lori": "sport"
+  },
+  {
+    "id": "city-0103",
+    "folderId": "city",
+    "ru": "Стадион",
+    "en": "Stadium",
+    "transcription_eastern": "sport",
+    "transcription_lori": "sport"
+  },
+  {
+    "id": "city-0104",
+    "folderId": "city",
+    "ru": "Кинотеатр",
+    "en": "Cinema",
+    "transcription_eastern": "kinotegh",
+    "transcription_lori": "kinotegh"
+  },
+  {
+    "id": "city-0105",
+    "folderId": "city",
+    "ru": "Театр",
+    "en": "Theater",
+    "transcription_eastern": "teatr",
+    "transcription_lori": "teatr"
+  },
+  {
+    "id": "city-0106",
+    "folderId": "city",
+    "ru": "Музей",
+    "en": "Museum",
+    "transcription_eastern": "muzej",
+    "transcription_lori": "muzej"
+  },
+  {
+    "id": "city-0107",
+    "folderId": "city",
+    "ru": "Галерея",
+    "en": "Gallery",
+    "transcription_eastern": "nkar",
+    "transcription_lori": "nkar"
+  },
+  {
+    "id": "city-0108",
+    "folderId": "city",
+    "ru": "Библиотека",
+    "en": "Library",
+    "transcription_eastern": "girkhanots",
+    "transcription_lori": "girkhanots"
+  },
+  {
+    "id": "city-0109",
+    "folderId": "city",
+    "ru": "Матенадаран",
+    "en": "Manuscript library",
+    "transcription_eastern": "matenadaran",
+    "transcription_lori": "matenadaran"
+  },
+  {
+    "id": "city-0110",
+    "folderId": "city",
+    "ru": "Школа",
+    "en": "School",
+    "transcription_eastern": "dproc",
+    "transcription_lori": "dproc"
+  },
+  {
+    "id": "city-0111",
+    "folderId": "city",
+    "ru": "Гимназия",
+    "en": "Gymnasium",
+    "transcription_eastern": "dproc",
+    "transcription_lori": "dproc"
+  },
+  {
+    "id": "city-0112",
+    "folderId": "city",
+    "ru": "Университет",
+    "en": "University",
+    "transcription_eastern": "hamalsaran",
+    "transcription_lori": "hamalsaran"
+  },
+  {
+    "id": "city-0113",
+    "folderId": "city",
+    "ru": "Институт",
+    "en": "Institute",
+    "transcription_eastern": "hamalsaran",
+    "transcription_lori": "hamalsaran"
+  },
+  {
+    "id": "city-0114",
+    "folderId": "city",
+    "ru": "Колледж",
+    "en": "College",
+    "transcription_eastern": "hamalsaran",
+    "transcription_lori": "hamalsaran"
+  },
+  {
+    "id": "city-0115",
+    "folderId": "city",
+    "ru": "Детский сад",
+    "en": "Kindergarten",
+    "transcription_eastern": "manuk",
+    "transcription_lori": "manuk"
+  },
+  {
+    "id": "city-0116",
+    "folderId": "city",
+    "ru": "Больница",
+    "en": "Hospital",
+    "transcription_eastern": "hivandanots",
+    "transcription_lori": "hivandanots"
+  },
+  {
+    "id": "city-0117",
+    "folderId": "city",
+    "ru": "Поликлиника",
+    "en": "Clinic",
+    "transcription_eastern": "hivandanots",
+    "transcription_lori": "hivandanots"
+  },
+  {
+    "id": "city-0118",
+    "folderId": "city",
+    "ru": "Стоматология",
+    "en": "Dental clinic",
+    "transcription_eastern": "atamni bzhshk",
+    "transcription_lori": "atamni bzhshk"
+  },
+  {
+    "id": "city-0119",
+    "folderId": "city",
+    "ru": "Амбулатория",
+    "en": "Outpatient clinic",
+    "transcription_eastern": "hivandanots",
+    "transcription_lori": "hivandanots"
+  },
+  {
+    "id": "city-0120",
+    "folderId": "city",
+    "ru": "Церковь",
+    "en": "Church",
+    "transcription_eastern": "yekeghets",
+    "transcription_lori": "yekeghets"
+  },
+  {
+    "id": "city-0121",
+    "folderId": "city",
+    "ru": "Монастырь",
+    "en": "Monastery",
+    "transcription_eastern": "vank",
+    "transcription_lori": "vank"
+  },
+  {
+    "id": "city-0122",
+    "folderId": "city",
+    "ru": "Собор",
+    "en": "Cathedral",
+    "transcription_eastern": "mayr yekeghets",
+    "transcription_lori": "mayr yekeghets"
+  },
+  {
+    "id": "city-0123",
+    "folderId": "city",
+    "ru": "Часовня",
+    "en": "Chapel",
+    "transcription_eastern": "yekeghets",
+    "transcription_lori": "yekeghets"
+  },
+  {
+    "id": "city-0124",
+    "folderId": "city",
+    "ru": "Мечеть",
+    "en": "Mosque",
+    "transcription_eastern": "mezkit",
+    "transcription_lori": "mezkit"
+  },
+  {
+    "id": "city-0125",
+    "folderId": "city",
+    "ru": "Синагога",
+    "en": "Synagogue",
+    "transcription_eastern": "sinagog",
+    "transcription_lori": "sinagog"
+  },
+  {
+    "id": "city-0126",
+    "folderId": "city",
+    "ru": "Кладбище",
+    "en": "Cemetery",
+    "transcription_eastern": "sopan",
+    "transcription_lori": "sopan"
+  },
+  {
+    "id": "city-0127",
+    "folderId": "city",
+    "ru": "Памятник",
+    "en": "Monument",
+    "transcription_eastern": "hushardzan",
+    "transcription_lori": "hushardzan"
+  },
+  {
+    "id": "city-0128",
+    "folderId": "city",
+    "ru": "Статуя",
+    "en": "Statue",
+    "transcription_eastern": "hushardzan",
+    "transcription_lori": "hushardzan"
+  },
+  {
+    "id": "city-0129",
+    "folderId": "city",
+    "ru": "Фонтан",
+    "en": "Fountain",
+    "transcription_eastern": "jermuk",
+    "transcription_lori": "jermuk"
+  },
+  {
+    "id": "city-0130",
+    "folderId": "city",
+    "ru": "Памятник неизвестному солдату",
+    "en": "Unknown soldier monument",
+    "transcription_eastern": "zinvor",
+    "transcription_lori": "zinvor"
+  },
+  {
+    "id": "city-0131",
+    "folderId": "city",
+    "ru": "Мемориал",
+    "en": "Memorial",
+    "transcription_eastern": "hushardzan",
+    "transcription_lori": "hushardzan"
+  },
+  {
+    "id": "city-0132",
+    "folderId": "city",
+    "ru": "Ратуша",
+    "en": "City hall",
+    "transcription_eastern": "kaghakapetaran",
+    "transcription_lori": "kaghakapetaran"
+  },
+  {
+    "id": "city-0133",
+    "folderId": "city",
+    "ru": "Мэрия",
+    "en": "Mayor's office",
+    "transcription_eastern": "kaghakapetaran",
+    "transcription_lori": "kaghakapetaran"
+  },
+  {
+    "id": "city-0134",
+    "folderId": "city",
+    "ru": "Мэр",
+    "en": "Mayor",
+    "transcription_eastern": "kaghakapet",
+    "transcription_lori": "kaghakapet"
+  },
+  {
+    "id": "city-0135",
+    "folderId": "city",
+    "ru": "Правительство",
+    "en": "Government",
+    "transcription_eastern": "karavarutyun",
+    "transcription_lori": "karavarutyun"
+  },
+  {
+    "id": "city-0136",
+    "folderId": "city",
+    "ru": "Парламент",
+    "en": "Parliament",
+    "transcription_eastern": "parlament",
+    "transcription_lori": "parlament"
+  },
+  {
+    "id": "city-0137",
+    "folderId": "city",
+    "ru": "Суд",
+    "en": "Court",
+    "transcription_eastern": "dat",
+    "transcription_lori": "dat"
+  },
+  {
+    "id": "city-0138",
+    "folderId": "city",
+    "ru": "Тюрьма",
+    "en": "Prison",
+    "transcription_eastern": "baste",
+    "transcription_lori": "baste"
+  },
+  {
+    "id": "city-0139",
+    "folderId": "city",
+    "ru": "Военкомат",
+    "en": "Military office",
+    "transcription_eastern": "zinvor",
+    "transcription_lori": "zinvor"
+  },
+  {
+    "id": "city-0140",
+    "folderId": "city",
+    "ru": "ЗАГС",
+    "en": "Registry office",
+    "transcription_eastern": "zags",
+    "transcription_lori": "zags"
+  },
+  {
+    "id": "city-0141",
+    "folderId": "city",
+    "ru": "Паспортный стол",
+    "en": "Passport office",
+    "transcription_eastern": "pasport",
+    "transcription_lori": "pasport"
+  },
+  {
+    "id": "city-0142",
+    "folderId": "city",
+    "ru": "Миграционная служба",
+    "en": "Migration service",
+    "transcription_eastern": "pasport",
+    "transcription_lori": "pasport"
+  },
+  {
+    "id": "city-0143",
+    "folderId": "city",
+    "ru": "Таможня",
+    "en": "Customs",
+    "transcription_eastern": "muit",
+    "transcription_lori": "muit"
+  },
+  {
+    "id": "city-0144",
+    "folderId": "city",
+    "ru": "Пограничный пост",
+    "en": "Border post",
+    "transcription_eastern": "sahman",
+    "transcription_lori": "sahman"
+  },
+  {
+    "id": "city-0145",
+    "folderId": "city",
+    "ru": "Посольство",
+    "en": "Embassy",
+    "transcription_eastern": "d'es",
+    "transcription_lori": "d'es"
+  },
+  {
+    "id": "city-0146",
+    "folderId": "city",
+    "ru": "Консульство",
+    "en": "Consulate",
+    "transcription_eastern": "d'es",
+    "transcription_lori": "d'es"
+  },
+  {
+    "id": "city-0147",
+    "folderId": "city",
+    "ru": "Нотариус",
+    "en": "Notary",
+    "transcription_eastern": "notarius",
+    "transcription_lori": "notarius"
+  },
+  {
+    "id": "city-0148",
+    "folderId": "city",
+    "ru": "Адвокат",
+    "en": "Lawyer",
+    "transcription_eastern": "inchneer",
+    "transcription_lori": "inchneer"
+  },
+  {
+    "id": "city-0149",
+    "folderId": "city",
+    "ru": "Налоговая",
+    "en": "Tax office",
+    "transcription_eastern": "hashvark",
+    "transcription_lori": "hashvark"
+  },
+  {
+    "id": "city-0150",
+    "folderId": "city",
+    "ru": "Соцзащита",
+    "en": "Social services",
+    "transcription_eastern": "apahov",
+    "transcription_lori": "apahov"
+  },
+  {
+    "id": "city-0151",
+    "folderId": "city",
+    "ru": "Пенсионный фонд",
+    "en": "Pension fund",
+    "transcription_eastern": "hashvark",
+    "transcription_lori": "hashvark"
+  },
+  {
+    "id": "city-0152",
+    "folderId": "city",
+    "ru": "Страховая",
+    "en": "Insurance",
+    "transcription_eastern": "apahov",
+    "transcription_lori": "apahov"
+  },
+  {
+    "id": "city-0153",
+    "folderId": "city",
+    "ru": "Агентство недвижимости",
+    "en": "Real estate agency",
+    "transcription_eastern": "tun",
+    "transcription_lori": "tun"
+  },
+  {
+    "id": "city-0154",
+    "folderId": "city",
+    "ru": "Риэлтор",
+    "en": "Realtor",
+    "transcription_eastern": "tun",
+    "transcription_lori": "tun"
+  },
+  {
+    "id": "city-0155",
+    "folderId": "city",
+    "ru": "Стройка",
+    "en": "Construction site",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "city-0156",
+    "folderId": "city",
+    "ru": "Строитель",
+    "en": "Builder",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "city-0157",
+    "folderId": "city",
+    "ru": "Архитектор",
+    "en": "Architect",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "city-0158",
+    "folderId": "city",
+    "ru": "Инженер",
+    "en": "Engineer",
+    "transcription_eastern": "inchneer",
+    "transcription_lori": "inchneer"
+  },
+  {
+    "id": "city-0159",
+    "folderId": "city",
+    "ru": "Электрик",
+    "en": "Electrician",
+    "transcription_eastern": "elktrakan",
+    "transcription_lori": "elktrakan"
+  },
+  {
+    "id": "city-0160",
+    "folderId": "city",
+    "ru": "Сантехник",
+    "en": "Plumber",
+    "transcription_eastern": "jermuk",
+    "transcription_lori": "jermuk"
+  },
+  {
+    "id": "city-0161",
+    "folderId": "city",
+    "ru": "Маляр",
+    "en": "Painter",
+    "transcription_eastern": "nkar",
+    "transcription_lori": "nkar"
+  },
+  {
+    "id": "city-0162",
+    "folderId": "city",
+    "ru": "Плотник",
+    "en": "Carpenter",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "city-0163",
+    "folderId": "city",
+    "ru": "Сварщик",
+    "en": "Welder",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "city-0164",
+    "folderId": "city",
+    "ru": "Кран",
+    "en": "Crane",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "city-0165",
+    "folderId": "city",
+    "ru": "Экскаватор",
+    "en": "Excavator",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "city-0166",
+    "folderId": "city",
+    "ru": "Бульдозер",
+    "en": "Bulldozer",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "city-0167",
+    "folderId": "city",
+    "ru": "Асфальтоукладчик",
+    "en": "Asphalt paver",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "city-0168",
+    "folderId": "city",
+    "ru": "Дорожные работы",
+    "en": "Road works",
+    "transcription_eastern": "poghota karg",
+    "transcription_lori": "poghota karg"
+  },
+  {
+    "id": "city-0169",
+    "folderId": "city",
+    "ru": "Ремонт дороги",
+    "en": "Road repair",
+    "transcription_eastern": "poghota norenman",
+    "transcription_lori": "poghota norenman"
+  },
+  {
+    "id": "city-0170",
+    "folderId": "city",
+    "ru": "Закрытая дорога",
+    "en": "Closed road",
+    "transcription_eastern": "pakel poghota",
+    "transcription_lori": "pakel poghota"
+  },
+  {
+    "id": "city-0171",
+    "folderId": "city",
+    "ru": "Объезд",
+    "en": "Detour",
+    "transcription_eastern": "poghota",
+    "transcription_lori": "poghota"
+  },
+  {
+    "id": "city-0172",
+    "folderId": "city",
+    "ru": "Строительные леса",
+    "en": "Scaffolding",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "city-0173",
+    "folderId": "city",
+    "ru": "Забор стройки",
+    "en": "Construction fence",
+    "transcription_eastern": "sahman",
+    "transcription_lori": "sahman"
+  },
+  {
+    "id": "city-0174",
+    "folderId": "city",
+    "ru": "Стройматериалы",
+    "en": "Building materials",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "city-0175",
+    "folderId": "city",
+    "ru": "Цемент",
+    "en": "Cement",
+    "transcription_eastern": "tsemen",
+    "transcription_lori": "tsemen"
+  },
+  {
+    "id": "city-0176",
+    "folderId": "city",
+    "ru": "Песок",
+    "en": "Sand",
+    "transcription_eastern": "qor",
+    "transcription_lori": "qor"
+  },
+  {
+    "id": "city-0177",
+    "folderId": "city",
+    "ru": "Щебень",
+    "en": "Gravel",
+    "transcription_eastern": "kar",
+    "transcription_lori": "kar"
+  },
+  {
+    "id": "city-0178",
+    "folderId": "city",
+    "ru": "Арматура",
+    "en": "Rebar",
+    "transcription_eastern": "karg",
+    "transcription_lori": "karg"
+  },
+  {
+    "id": "city-0179",
+    "folderId": "city",
+    "ru": "Бетон",
+    "en": "Concrete",
+    "transcription_eastern": "beton",
+    "transcription_lori": "beton"
+  },
+  {
+    "id": "city-0180",
+    "folderId": "city",
+    "ru": "Кирпич",
+    "en": "Brick",
+    "transcription_eastern": "kirpich",
+    "transcription_lori": "kirpich"
+  },
+  {
+    "id": "city-0181",
+    "folderId": "city",
+    "ru": "Плитка",
+    "en": "Tile",
+    "transcription_eastern": "pakag",
+    "transcription_lori": "pakag"
+  },
+  {
+    "id": "city-0182",
+    "folderId": "city",
+    "ru": "Краска",
+    "en": "Paint",
+    "transcription_eastern": "nkar",
+    "transcription_lori": "nkar"
+  },
+  {
+    "id": "city-0183",
+    "folderId": "city",
+    "ru": "Обои",
+    "en": "Wallpaper",
+    "transcription_eastern": "pat",
+    "transcription_lori": "pat"
+  },
+  {
+    "id": "city-0184",
+    "folderId": "city",
+    "ru": "Окно",
+    "en": "Window",
+    "transcription_eastern": "patuhar",
+    "transcription_lori": "patuhar"
+  },
+  {
+    "id": "city-0185",
+    "folderId": "city",
+    "ru": "Дверь",
+    "en": "Door",
+    "transcription_eastern": "der",
+    "transcription_lori": "der"
+  },
+  {
+    "id": "city-0186",
+    "folderId": "city",
+    "ru": "Лифт",
+    "en": "Elevator",
+    "transcription_eastern": "lift",
+    "transcription_lori": "lift"
+  },
+  {
+    "id": "city-0187",
+    "folderId": "city",
+    "ru": "Лестница",
+    "en": "Stairs",
+    "transcription_eastern": "erbequr",
+    "transcription_lori": "erbequr"
+  },
+  {
+    "id": "city-0188",
+    "folderId": "city",
+    "ru": "Этаж",
+    "en": "Floor",
+    "transcription_eastern": "harc",
+    "transcription_lori": "harc"
+  },
+  {
+    "id": "city-0189",
+    "folderId": "city",
+    "ru": "Подъезд",
+    "en": "Entrance",
+    "transcription_eastern": "mtnaran",
+    "transcription_lori": "mtnaran"
+  },
+  {
+    "id": "city-0190",
+    "folderId": "city",
+    "ru": "Дом",
+    "en": "Building",
+    "transcription_eastern": "tun",
+    "transcription_lori": "tun"
+  },
+  {
+    "id": "city-0191",
+    "folderId": "city",
+    "ru": "Небоскрёб",
+    "en": "Skyscraper",
+    "transcription_eastern": "barzr tun",
+    "transcription_lori": "barzr tun"
+  },
+  {
+    "id": "city-0192",
+    "folderId": "city",
+    "ru": "Многоэтажка",
+    "en": "Apartment building",
+    "transcription_eastern": "bnakaran",
+    "transcription_lori": "bnakaran"
+  },
+  {
+    "id": "city-0193",
+    "folderId": "city",
+    "ru": "Частный дом",
+    "en": "Private house",
+    "transcription_eastern": "tun",
+    "transcription_lori": "tun"
+  },
+  {
+    "id": "city-0194",
+    "folderId": "city",
+    "ru": "Коттедж",
+    "en": "Cottage",
+    "transcription_eastern": "tun",
+    "transcription_lori": "tun"
+  },
+  {
+    "id": "city-0195",
+    "folderId": "city",
+    "ru": "Дача",
+    "en": "Country house",
+    "transcription_eastern": "tun",
+    "transcription_lori": "tun"
+  },
+  {
+    "id": "city-0196",
+    "folderId": "city",
+    "ru": "Офис",
+    "en": "Office",
+    "transcription_eastern": "ofis",
+    "transcription_lori": "ofis"
+  },
+  {
+    "id": "city-0197",
+    "folderId": "city",
+    "ru": "Офисное здание",
+    "en": "Office building",
+    "transcription_eastern": "ofis",
+    "transcription_lori": "ofis"
+  },
+  {
+    "id": "city-0198",
+    "folderId": "city",
+    "ru": "Бизнес-центр",
+    "en": "Business center",
+    "transcription_eastern": "ofis",
+    "transcription_lori": "ofis"
+  },
+  {
+    "id": "city-0199",
+    "folderId": "city",
+    "ru": "Склад",
+    "en": "Warehouse",
+    "transcription_eastern": "sanduq",
+    "transcription_lori": "sanduq"
+  },
+  {
+    "id": "city-0200",
+    "folderId": "city",
+    "ru": "Завод",
+    "en": "Factory",
+    "transcription_eastern": "artadranots",
+    "transcription_lori": "artadranots"
+  }
+]
