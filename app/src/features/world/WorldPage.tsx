@@ -69,7 +69,6 @@ export function WorldPage() {
         labels={{
           upgrade: t('game.upgrade'),
           maxLevel: t('game.maxLevel'),
-          notOwned: lang === 'ru' ? 'Не куплено' : 'Not owned',
         }}
       />
     </div>

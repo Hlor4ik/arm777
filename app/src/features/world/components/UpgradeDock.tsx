@@ -4,8 +4,9 @@ import {
   getUpgradeDisplay,
   UPGRADE_CONFIG,
 } from '../../../engine/gamification';
-import { getNextTrackAsset, getTrackAsset } from '../../../assets/world';
+import { IllustrationPreview } from '../illustrations';
 import { Button } from '../../../components/Button/Button';
+import { StarSvg } from '../illustrations/StarSvg';
 import styles from './UpgradeDock.module.css';
 
 interface UpgradeDockProps {
@@ -18,7 +19,6 @@ interface UpgradeDockProps {
   labels: {
     upgrade: string;
     maxLevel: string;
-    notOwned: string;
   };
 }
 
@@ -38,18 +38,18 @@ export function UpgradeDock({
   const cost = getUpgradeCost(activeTrack, level);
   const maxed = cost === null;
   const next = cfg.levels[level];
-  const currentImg = getTrackAsset(activeTrack, level);
-  const nextImg = getNextTrackAsset(activeTrack, level);
   const canAfford = cost !== null && stars >= cost;
+  const previewCurrent = Math.max(level, 0);
+  const previewNext = Math.min(level + 1, cfg.levels.length);
 
   return (
     <div className={styles.dock}>
       <div className={styles.tabs}>
         {TRACKS.map((track) => {
           const trackCfg = UPGRADE_CONFIG[track];
-          const thumb = getTrackAsset(track, upgrades[track]) ?? getNextTrackAsset(track, upgrades[track]);
           const isActive = track === activeTrack;
           const trackMaxed = getUpgradeCost(track, upgrades[track]) === null;
+          const thumbLevel = upgrades[track] || 1;
 
           return (
             <button
@@ -58,11 +58,7 @@ export function UpgradeDock({
               className={`${styles.tab} ${isActive ? styles.tabActive : ''} ${trackMaxed ? styles.tabMaxed : ''}`}
               onClick={() => onSelectTrack(track)}
             >
-              {thumb ? (
-                <img src={thumb} alt="" className={styles.tabImg} draggable={false} />
-              ) : (
-                <span className={styles.tabPlaceholder}>+</span>
-              )}
+              <IllustrationPreview track={track} level={thumbLevel} size={52} />
               <span className={styles.tabName}>{lang === 'ru' ? trackCfg.titleRu : trackCfg.titleEn}</span>
               <span className={styles.tabLevel}>{upgrades[track]}/{trackCfg.levels.length}</span>
             </button>
@@ -73,21 +69,17 @@ export function UpgradeDock({
       <div className={styles.panel}>
         <div className={styles.previewRow}>
           <div className={styles.previewBox}>
-            {currentImg ? (
-              <img src={currentImg} alt="" className={styles.previewImg} draggable={false} />
-            ) : (
-              <span className={styles.previewEmpty}>?</span>
-            )}
+            <IllustrationPreview track={activeTrack} level={previewCurrent} size={80} />
             <span className={styles.previewCaption}>
               {getUpgradeDisplay(activeTrack, level, lang)}
             </span>
           </div>
 
-          {!maxed && nextImg && (
+          {!maxed && (
             <>
               <span className={styles.arrow}>→</span>
               <div className={`${styles.previewBox} ${styles.previewNext}`}>
-                <img src={nextImg} alt="" className={styles.previewImg} draggable={false} />
+                <IllustrationPreview track={activeTrack} level={previewNext} size={80} />
                 <span className={styles.previewCaption}>
                   {lang === 'ru' ? next!.nameRu : next!.nameEn}
                 </span>
@@ -99,13 +91,14 @@ export function UpgradeDock({
         {maxed ? (
           <p className={styles.maxed}>{labels.maxLevel}</p>
         ) : (
-          <Button
-            fullWidth
-            disabled={!canAfford}
-            onClick={() => onUpgrade(activeTrack)}
-            className={styles.upgradeBtn}
-          >
-            {labels.upgrade} · {cost} ★
+          <Button fullWidth disabled={!canAfford} onClick={() => onUpgrade(activeTrack)} className={styles.upgradeBtn}>
+            <span className={styles.upgradeLabel}>
+              {labels.upgrade}
+              <span className={styles.upgradeCost}>
+                <StarSvg size={18} />
+                {cost}
+              </span>
+            </span>
           </Button>
         )}
       </div>

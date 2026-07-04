@@ -1,5 +1,11 @@
 import type { UpgradeTrack } from '../../../engine/gamification';
-import { WORLD_ASSETS, getTrackAsset } from '../../../assets/world';
+import {
+  HouseIllustration,
+  PetIllustration,
+  SceneBackdrop,
+  TRACK_POSITIONS,
+  VehicleIllustration,
+} from '../illustrations';
 import styles from './CourtyardScene.module.css';
 
 interface CourtyardSceneProps {
@@ -9,60 +15,43 @@ interface CourtyardSceneProps {
 }
 
 export function CourtyardScene({ upgrades, highlight, celebrate }: CourtyardSceneProps) {
-  const homeSrc = getTrackAsset('home', upgrades.home);
-  const petSrc = getTrackAsset('pet', upgrades.pet);
-  const carSrc = getTrackAsset('car', upgrades.car);
+  const renderSlot = (track: UpgradeTrack, Illustration: typeof HouseIllustration) => {
+    const pos = TRACK_POSITIONS[track];
+    const level = upgrades[track];
+    const isHighlight = highlight === track;
+    const isCelebrate = celebrate === track;
+
+    return (
+      <g
+        transform={`translate(${pos.x}, ${pos.y}) scale(${pos.scale})`}
+        className={`${styles.entity} ${isHighlight ? styles.entityHighlight : ''} ${isCelebrate ? styles.entityCelebrate : ''}`}
+      >
+        <Illustration level={level} highlight={isHighlight} />
+      </g>
+    );
+  };
 
   return (
-    <div className={styles.scene} style={{ backgroundImage: `url(${WORLD_ASSETS.courtyardBg})` }}>
-      <div className={styles.skyGlow} />
-      <div className={styles.clouds}>
-        <span className={styles.cloud} style={{ top: '8%', left: '-10%', animationDelay: '0s' }} />
-        <span className={styles.cloud} style={{ top: '14%', left: '40%', animationDelay: '-8s', opacity: 0.7 }} />
-        <span className={styles.cloud} style={{ top: '6%', left: '70%', animationDelay: '-14s', opacity: 0.85 }} />
-      </div>
-
-      <div className={styles.groundShadow} />
-
-      <div
-        className={`${styles.slot} ${styles.homeSlot} ${highlight === 'home' ? styles.highlight : ''} ${celebrate === 'home' ? styles.celebrate : ''}`}
+    <div className={styles.scene}>
+      <svg
+        viewBox="0 0 400 300"
+        className={styles.svg}
+        preserveAspectRatio="xMidYMid slice"
+        aria-label="Courtyard"
       >
-        {homeSrc ? (
-          <img src={homeSrc} alt="" className={styles.homeImg} draggable={false} />
-        ) : (
-          <div className={styles.emptyPlot}>
-            <span className={styles.plotMarker} />
-            <span className={styles.plotLabel}>+</span>
-          </div>
+        <SceneBackdrop />
+        {renderSlot('home', HouseIllustration)}
+        {renderSlot('pet', PetIllustration)}
+        {renderSlot('car', VehicleIllustration)}
+        {celebrate && (
+          <g className={styles.sparkBurst}>
+            <circle cx="200" cy="160" r="80" fill="rgba(255,215,0,0.25)" />
+            <circle cx="160" cy="140" r="40" fill="rgba(255,255,255,0.2)" />
+            <circle cx="240" cy="150" r="50" fill="rgba(255,180,50,0.2)" />
+          </g>
         )}
-      </div>
-
-      <div
-        className={`${styles.slot} ${styles.petSlot} ${highlight === 'pet' ? styles.highlight : ''} ${celebrate === 'pet' ? styles.celebrate : ''}`}
-      >
-        {petSrc ? (
-          <img src={petSrc} alt="" className={styles.petImg} draggable={false} />
-        ) : (
-          <div className={styles.emptyPet}>
-            <span className={styles.petShadow} />
-          </div>
-        )}
-      </div>
-
-      <div
-        className={`${styles.slot} ${styles.carSlot} ${highlight === 'car' ? styles.highlight : ''} ${celebrate === 'car' ? styles.celebrate : ''}`}
-      >
-        {carSrc ? (
-          <img src={carSrc} alt="" className={styles.carImg} draggable={false} />
-        ) : (
-          <div className={styles.emptyDriveway}>
-            <span className={styles.driveLine} />
-          </div>
-        )}
-      </div>
-
-      {celebrate && <div className={styles.sparkBurst} aria-hidden />}
-      <div className={styles.vignette} />
+      </svg>
+      <div className={styles.frame} aria-hidden />
     </div>
   );
 }

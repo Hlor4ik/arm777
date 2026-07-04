@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "optimize:world": "node scripts/optimize-world-assets.mjs",
     "lint": "oxlint",
     "preview": "vite preview"
   },

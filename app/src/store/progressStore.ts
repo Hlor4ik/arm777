@@ -233,31 +233,3 @@ export async function loadFromCloudStorage(): Promise<void> {
   }
 }
 
-declare global {
-  interface Window {
-    Telegram?: {
-      WebApp: {
-        ready: () => void;
-        expand: () => void;
-        close: () => void;
-        setHeaderColor: (color: string) => void;
-        setBackgroundColor: (color: string) => void;
-        BackButton: {
-          show: () => void;
-          hide: () => void;
-          onClick: (cb: () => void) => void;
-          offClick: (cb: () => void) => void;
-        };
-        HapticFeedback?: {
-          impactOccurred: (style: 'light' | 'medium' | 'heavy') => void;
-          notificationOccurred: (type: 'error' | 'success' | 'warning') => void;
-        };
-        CloudStorage?: {
-          setItem: (key: string, value: string, cb: (err: Error | null) => void) => void;
-          getItem: (key: string, cb: (err: Error | null, val: string | null) => void) => void;
-          removeItem: (key: string, cb: (err: Error | null) => void) => void;
-        };
-      };
-    };
-  }
-}

@@ -71,5 +71,6 @@
   --tg-button-text-color: #0b1426;
 
   --tab-bar-height: 64px;
+  --safe-top: env(safe-area-inset-top, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
 }
