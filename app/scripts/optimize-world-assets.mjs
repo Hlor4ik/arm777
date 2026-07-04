@@ -12,32 +12,74 @@ const sizes = {
   'star-icon.webp': 128,
 };
 
-const SKIP_WHITE_REMOVAL = new Set(['courtyard-bg.webp']);
+/** Full scene background — only resize, never strip pixels */
+const SKIP_CUTOUT = new Set(['courtyard-bg.webp']);
 
-function removeWhiteBackground(data, width, height) {
-  const hard = 225;
-  const soft = 28;
+function isBackgroundColor(r, g, b) {
+  const min = Math.min(r, g, b);
+  const max = Math.max(r, g, b);
+  const sat = max - min;
+  // Only treat flat bright areas as removable backdrop (not subject highlights)
+  return min >= 218 && sat <= 36;
+}
 
+/**
+ * Remove ONLY backdrop connected to image edges.
+ * Keeps white fur, walls, windows inside the subject intact.
+ */
+function removeEdgeBackground(data, width, height) {
+  const total = width * height;
+  const bg = new Uint8Array(total);
+  const queue = [];
+
+  const pushIfBg = (idx) => {
+    if (bg[idx]) return;
+    const i = idx * 4;
+    if (!isBackgroundColor(data[i], data[i + 1], data[i + 2])) return;
+    bg[idx] = 1;
+    queue.push(idx);
+  };
+
+  for (let x = 0; x < width; x++) {
+    pushIfBg(x);
+    pushIfBg((height - 1) * width + x);
+  }
   for (let y = 0; y < height; y++) {
-    for (let x = 0; x < width; x++) {
-      const i = (y * width + x) * 4;
-      const r = data[i];
-      const g = data[i + 1];
-      const b = data[i + 2];
-      const max = Math.max(r, g, b);
-      const min = Math.min(r, g, b);
-      const lum = 0.2126 * r + 0.7152 * g + 0.0722 * b;
-      const sat = max - min;
+    pushIfBg(y * width);
+    pushIfBg(y * width + width - 1);
+  }
 
-      if (lum >= hard && sat <= 42) {
-        const fade = Math.min(1, (lum - hard + 6) / soft);
-        data[i + 3] = Math.round(data[i + 3] * (1 - fade));
-        continue;
+  while (queue.length) {
+    const idx = queue.pop();
+    const x = idx % width;
+    const y = (idx / width) | 0;
+
+    if (x > 0) pushIfBg(idx - 1);
+    if (x < width - 1) pushIfBg(idx + 1);
+    if (y > 0) pushIfBg(idx - width);
+    if (y < height - 1) pushIfBg(idx + width);
+  }
+
+  for (let idx = 0; idx < total; idx++) {
+    if (!bg[idx]) continue;
+    const i = idx * 4;
+    data[i + 3] = 0;
+  }
+
+  // Soft 1px fringe on cutout edge for smoother blend on grass
+  for (let y = 1; y < height - 1; y++) {
+    for (let x = 1; x < width - 1; x++) {
+      const idx = y * width + x;
+      if (bg[idx]) continue;
+      const i = idx * 4;
+      if (data[i + 3] === 0) continue;
+
+      let touchesBg = false;
+      for (const n of [idx - 1, idx + 1, idx - width, idx + width]) {
+        if (bg[n]) touchesBg = true;
       }
-
-      if (lum >= hard - soft && sat <= 55) {
-        const fade = Math.min(0.9, (lum - (hard - soft)) / (soft * 1.6));
-        data[i + 3] = Math.round(data[i + 3] * (1 - fade));
+      if (touchesBg && isBackgroundColor(data[i], data[i + 1], data[i + 2])) {
+        data[i + 3] = Math.round(data[i + 3] * 0.35);
       }
     }
   }
@@ -59,23 +101,29 @@ async function processFile(file) {
   const maxWidth = sizes[file] ?? 360;
   const before = (await stat(input)).size;
 
-  let pipeline = sharp(await readFile(input))
-    .resize({ width: maxWidth, withoutEnlargement: true })
-    .ensureAlpha();
+  let pipeline = sharp(await readFile(input)).resize({
+    width: maxWidth,
+    withoutEnlargement: true,
+  });
 
-  if (!SKIP_WHITE_REMOVAL.has(file)) {
+  if (SKIP_CUTOUT.has(file)) {
+    const buffer = await pipeline.webp({ quality: 86, effort: 6 }).toBuffer();
+    await writeViaTemp(input, buffer);
+  } else {
+    pipeline = pipeline.ensureAlpha();
     const { data, info } = await pipeline.clone().raw().toBuffer({ resolveWithObject: true });
-    removeWhiteBackground(data, info.width, info.height);
-    pipeline = sharp(data, {
+    removeEdgeBackground(data, info.width, info.height);
+    const buffer = await sharp(data, {
       raw: { width: info.width, height: info.height, channels: 4 },
-    }).trim({ threshold: 8 });
+    })
+      .trim({ threshold: 10 })
+      .webp({ quality: 90, alphaQuality: 100, effort: 6 })
+      .toBuffer();
+    await writeViaTemp(input, buffer);
   }
 
-  const buffer = await pipeline.webp({ quality: 88, alphaQuality: 100, effort: 6 }).toBuffer();
-  await writeViaTemp(input, buffer);
-
   const after = (await stat(input)).size;
-  const tag = SKIP_WHITE_REMOVAL.has(file) ? 'bg' : 'cutout';
+  const tag = SKIP_CUTOUT.has(file) ? 'scene' : 'object';
   console.log(`${file} [${tag}]: ${(before / 1024).toFixed(0)}KB → ${(after / 1024).toFixed(0)}KB`);
 }
 
