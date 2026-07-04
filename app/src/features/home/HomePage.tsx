@@ -8,6 +8,7 @@ import { getModeTitle } from '../../engine/questions';
 import { useProgressStore } from '../../store/progressStore';
 import { useT } from '../../i18n/useT';
 import { OrnateFrame } from '../../components/ui/OrnateFrame';
+import { UI_ASSETS } from '../../assets/ui';
 import styles from './HomePage.module.css';
 
 const TOPIC_DESC: Record<string, { ru: string; en: string }> = {
@@ -90,8 +91,15 @@ export function HomePage() {
   };
 
   return (
-    <div className={styles.page}>
-      <div className={styles.ararat} aria-hidden />
+    <div
+      className={styles.page}
+      style={{ ['--home-mock' as string]: `url(${UI_ASSETS.mockHome})` }}
+    >
+      <div
+        className={styles.ararat}
+        style={{ backgroundImage: `url(${UI_ASSETS.mockHome})` }}
+        aria-hidden
+      />
 
       <header className={styles.header}>
         <div>
@@ -172,7 +180,6 @@ export function HomePage() {
             <div className={styles.continueMeta}>{continueSubtitle}</div>
           </div>
           <span className={styles.continueArrow}>→</span>
-          <div className={styles.khachkar} aria-hidden />
         </button>
 
         <div className={styles.goalCard}>

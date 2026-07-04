@@ -9,6 +9,8 @@ interface Props {
   disabled?: boolean;
 }
 
+const LABELS = ['A', 'B', 'C', 'D', 'E', 'F'];
+
 export function AnswerOptions({
   options,
   selected,
@@ -19,7 +21,7 @@ export function AnswerOptions({
 }: Props) {
   return (
     <div className={styles.list}>
-      {options.map((opt) => {
+      {options.map((opt, index) => {
         let cls = styles.option;
         if (revealed && opt === correct) cls += ` ${styles.correct}`;
         else if (revealed && opt === selected && opt !== correct) cls += ` ${styles.wrong}`;
@@ -33,7 +35,8 @@ export function AnswerOptions({
             disabled={disabled || revealed}
             onClick={() => onSelect(opt)}
           >
-            {opt}
+            <span className={styles.label}>{LABELS[index] ?? '?'}</span>
+            <span className={styles.text}>{opt}</span>
           </button>
         );
       })}

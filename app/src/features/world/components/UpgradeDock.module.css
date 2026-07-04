@@ -1,50 +1,45 @@
 .panel {
-  margin: 0 10px calc(8px + var(--safe-bottom));
-  padding: 14px 14px 12px;
-  background: rgba(12, 12, 14, 0.94);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 18px 18px 14px 14px;
-  backdrop-filter: blur(14px);
-  box-shadow: 0 -8px 40px rgba(0, 0, 0, 0.5);
+  margin: 0 8px calc(6px + var(--safe-bottom));
+  padding: 16px 16px 14px;
+  background: rgba(10, 10, 12, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px 20px 16px 16px;
+  backdrop-filter: blur(18px);
+  box-shadow: 0 -12px 48px rgba(0, 0, 0, 0.55);
 }
 
 .tabs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0;
-  margin-bottom: 14px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  margin-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .tab {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
-  padding: 0 4px 12px;
-  color: var(--text-muted);
+  gap: 6px;
+  padding: 0 4px 14px;
+  color: #8a8580;
   position: relative;
   cursor: pointer;
 }
 
 .tabActive {
-  color: var(--accent-primary);
+  color: #d4a853;
 }
 
 .tabActive::after {
   content: '';
   position: absolute;
-  left: 20%;
-  right: 20%;
+  left: 18%;
+  right: 18%;
   bottom: 0;
   height: 2px;
-  background: var(--gradient-cta);
+  background: linear-gradient(90deg, #a67c2e, #e8c878);
   border-radius: 2px 2px 0 0;
-}
-
-.tabIcon {
-  font-size: 18px;
-  line-height: 1;
 }
 
 .tabName {
@@ -67,17 +62,19 @@
 }
 
 .levelCircle {
-  width: 42px;
-  height: 42px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
-  border: 1px solid var(--border-gold);
+  border: 1px solid rgba(212, 168, 83, 0.45);
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: var(--font-serif);
   font-size: 18px;
   font-weight: 700;
-  color: var(--accent-primary);
+  color: #d4a853;
   flex-shrink: 0;
+  background: rgba(212, 168, 83, 0.06);
 }
 
 .levelInfo {
@@ -89,6 +86,7 @@
   display: block;
   font-size: 12px;
   font-weight: 600;
+  color: #f5f0e8;
   margin-bottom: 6px;
 }
 
@@ -98,15 +96,16 @@
 
 .levelMeta {
   font-size: 10px;
-  color: var(--text-muted);
+  color: #8a8580;
 }
 
 .upgradeBtn {
   flex-shrink: 0;
   font-size: 13px !important;
-  padding: 12px 16px !important;
+  padding: 13px 18px !important;
   white-space: nowrap;
-  border-radius: 10px !important;
+  border-radius: 12px !important;
+  min-width: 130px;
 }
 
 .maxedBadge {
@@ -116,7 +115,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
+  border-radius: 12px;
   background: rgba(107, 143, 113, 0.15);
   border: 1px solid rgba(107, 143, 113, 0.4);
   color: var(--accent-sage);

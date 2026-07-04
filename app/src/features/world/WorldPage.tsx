@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useT } from '../../i18n/useT';
 import { useProgressStore } from '../../store/progressStore';
@@ -6,7 +6,7 @@ import type { UpgradeTrack } from '../../engine/gamification';
 import { haptic } from '../../hooks/useTelegramBackButton';
 import { StarHud } from './components/StarHud';
 import { UpgradeDock } from './components/UpgradeDock';
-import { CourtyardScene } from './scene/CourtyardScene';
+import { ApprovedCourtyardScene } from './scene/ApprovedCourtyardScene';
 import styles from './WorldPage.module.css';
 
 export function WorldPage() {
@@ -17,22 +17,12 @@ export function WorldPage() {
   const lang = useProgressStore((s) => s.settings.baseLang);
 
   const [activeTrack, setActiveTrack] = useState<UpgradeTrack>('home');
-  const [celebrate, setCelebrate] = useState<UpgradeTrack | null>(null);
-
-  useEffect(() => {
-    if (!celebrate) return;
-    const id = window.setTimeout(() => setCelebrate(null), 900);
-    return () => window.clearTimeout(id);
-  }, [celebrate]);
 
   const handleUpgrade = useCallback(
     (track: UpgradeTrack) => {
       const ok = buyUpgrade(track);
       haptic(ok ? 'success' : 'error');
-      if (ok) {
-        setActiveTrack(track);
-        setCelebrate(track);
-      }
+      if (ok) setActiveTrack(track);
     },
     [buyUpgrade]
   );
@@ -40,11 +30,7 @@ export function WorldPage() {
   return (
     <div className={styles.page}>
       <div className={styles.sceneStage}>
-        <CourtyardScene
-          upgrades={game.upgrades}
-          highlight={activeTrack}
-          celebrate={celebrate}
-        />
+        <ApprovedCourtyardScene />
         <div className={styles.topOverlay}>
           <button
             type="button"
@@ -54,6 +40,7 @@ export function WorldPage() {
           >
             ‹
           </button>
+          <h1 className={styles.pageTitle}>{t('game.worldTitle')}</h1>
           <StarHud stars={game.stars} label="" />
         </div>
       </div>
