@@ -1,0 +1,242 @@
+.scene {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 11;
+  min-height: 240px;
+  max-height: 52vh;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow:
+    0 12px 40px rgba(0, 0, 0, 0.45),
+    inset 0 0 0 2px rgba(255, 255, 255, 0.08);
+}
+
+.skyGlow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 80% 50% at 50% 0%, rgba(255, 220, 120, 0.25), transparent 60%);
+  pointer-events: none;
+}
+
+.clouds {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.cloud {
+  position: absolute;
+  width: 90px;
+  height: 28px;
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 999px;
+  filter: blur(1px);
+  animation: cloudDrift 28s linear infinite;
+}
+
+.cloud::before,
+.cloud::after {
+  content: '';
+  position: absolute;
+  background: inherit;
+  border-radius: 50%;
+}
+
+.cloud::before {
+  width: 36px;
+  height: 36px;
+  top: -16px;
+  left: 12px;
+}
+
+.cloud::after {
+  width: 28px;
+  height: 28px;
+  top: -10px;
+  right: 10px;
+}
+
+@keyframes cloudDrift {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(100vw + 120px)); }
+}
+
+.groundShadow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 35%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.22), transparent);
+  pointer-events: none;
+}
+
+.vignette {
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 60px rgba(0, 20, 60, 0.25);
+  pointer-events: none;
+}
+
+.slot {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transition: transform 0.35s ease, filter 0.35s ease;
+}
+
+.highlight {
+  z-index: 3;
+  transform: scale(1.04);
+  filter: drop-shadow(0 0 18px rgba(242, 168, 0, 0.75));
+}
+
+.celebrate {
+  animation: popCelebrate 0.65s ease;
+}
+
+@keyframes popCelebrate {
+  0% { transform: scale(0.85); opacity: 0.6; }
+  45% { transform: scale(1.12); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.homeSlot {
+  left: 4%;
+  bottom: 8%;
+  width: 46%;
+  height: 58%;
+}
+
+.homeImg {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: bottom center;
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.35));
+}
+
+.petSlot {
+  left: 38%;
+  bottom: 10%;
+  width: 22%;
+  height: 32%;
+  z-index: 2;
+}
+
+.petImg {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: bottom center;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.3));
+  animation: petIdle 3s ease-in-out infinite;
+}
+
+@keyframes petIdle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+.carSlot {
+  right: 4%;
+  bottom: 12%;
+  width: 28%;
+  height: 28%;
+  z-index: 2;
+}
+
+.carImg {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: bottom center;
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.35));
+}
+
+.emptyPlot {
+  width: 72%;
+  aspect-ratio: 1;
+  border: 2px dashed rgba(255, 255, 255, 0.35);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.plotMarker {
+  position: absolute;
+  bottom: -8px;
+  width: 60%;
+  height: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  filter: blur(4px);
+}
+
+.plotLabel {
+  font-size: 28px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.emptyPet {
+  width: 70%;
+  height: 40%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.petShadow {
+  width: 80%;
+  height: 12px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  filter: blur(3px);
+}
+
+.emptyDriveway {
+  width: 85%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.driveLine {
+  width: 100%;
+  height: 3px;
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.25) 0 12px,
+    transparent 12px 22px
+  );
+  border-radius: 2px;
+}
+
+.sparkBurst {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 50% 60%, rgba(255, 215, 0, 0.45) 0%, transparent 35%),
+    radial-gradient(circle at 30% 50%, rgba(255, 255, 255, 0.3) 0%, transparent 25%),
+    radial-gradient(circle at 70% 55%, rgba(255, 180, 50, 0.35) 0%, transparent 28%);
+  animation: sparkFade 0.8s ease forwards;
+}
+
+@keyframes sparkFade {
+  from { opacity: 1; transform: scale(0.9); }
+  to { opacity: 0; transform: scale(1.15); }
+}

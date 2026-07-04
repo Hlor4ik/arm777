@@ -10,47 +10,43 @@ export interface UpgradeLevel {
   cost: number;
   nameRu: string;
   nameEn: string;
-  emoji: string;
 }
 
 export const UPGRADE_CONFIG: Record<
   UpgradeTrack,
-  { titleRu: string; titleEn: string; icon: string; levels: UpgradeLevel[] }
+  { titleRu: string; titleEn: string; levels: UpgradeLevel[] }
 > = {
   home: {
     titleRu: 'Дом',
     titleEn: 'Home',
-    icon: '🏠',
     levels: [
-      { cost: 40, nameRu: 'Шалаш', nameEn: 'Shed', emoji: '🛖' },
-      { cost: 90, nameRu: 'Комната', nameEn: 'Room', emoji: '🏚️' },
-      { cost: 160, nameRu: 'Двор', nameEn: 'Yard', emoji: '🏡' },
-      { cost: 280, nameRu: 'Таунхаус', nameEn: 'Townhouse', emoji: '🏘️' },
-      { cost: 450, nameRu: 'Особняк', nameEn: 'Villa', emoji: '🏛️' },
+      { cost: 40, nameRu: 'Шалаш', nameEn: 'Shed' },
+      { cost: 90, nameRu: 'Комната', nameEn: 'Room' },
+      { cost: 160, nameRu: 'Двор', nameEn: 'Yard' },
+      { cost: 280, nameRu: 'Таунхаус', nameEn: 'Townhouse' },
+      { cost: 450, nameRu: 'Особняк', nameEn: 'Villa' },
     ],
   },
   pet: {
     titleRu: 'Питомец',
     titleEn: 'Pet',
-    icon: '🐑',
     levels: [
-      { cost: 30, nameRu: 'Ягнёнок', nameEn: 'Lamb', emoji: '🐑' },
-      { cost: 75, nameRu: 'Котёнок', nameEn: 'Kitten', emoji: '🐱' },
-      { cost: 140, nameRu: 'Щенок', nameEn: 'Puppy', emoji: '🐕' },
-      { cost: 240, nameRu: 'Орёл', nameEn: 'Eagle', emoji: '🦅' },
-      { cost: 400, nameRu: 'Лев', nameEn: 'Guardian', emoji: '🦁' },
+      { cost: 30, nameRu: 'Ягнёнок', nameEn: 'Lamb' },
+      { cost: 75, nameRu: 'Котёнок', nameEn: 'Kitten' },
+      { cost: 140, nameRu: 'Щенок', nameEn: 'Puppy' },
+      { cost: 240, nameRu: 'Орёл', nameEn: 'Eagle' },
+      { cost: 400, nameRu: 'Лев', nameEn: 'Guardian' },
     ],
   },
   car: {
     titleRu: 'Машина',
     titleEn: 'Car',
-    icon: '🚗',
     levels: [
-      { cost: 50, nameRu: 'Велосипед', nameEn: 'Bike', emoji: '🚲' },
-      { cost: 100, nameRu: 'Мoped', nameEn: 'Scooter', emoji: '🛵' },
-      { cost: 180, nameRu: 'Седан', nameEn: 'Sedan', emoji: '🚗' },
-      { cost: 300, nameRu: 'Джип', nameEn: 'SUV', emoji: '🚙' },
-      { cost: 500, nameRu: 'Спорткар', nameEn: 'Sport', emoji: '🏎️' },
+      { cost: 50, nameRu: 'Велосипед', nameEn: 'Bike' },
+      { cost: 100, nameRu: 'Мопед', nameEn: 'Scooter' },
+      { cost: 180, nameRu: 'Седан', nameEn: 'Sedan' },
+      { cost: 300, nameRu: 'Джип', nameEn: 'SUV' },
+      { cost: 500, nameRu: 'Спорткар', nameEn: 'Sport' },
     ],
   },
 };

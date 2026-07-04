@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getFoldersMeta, loadWords } from '../../data/loaders';
+import { WORLD_ASSETS } from '../../assets/world';
 import { ALL_STUDY_FOLDER_IDS } from '../../data/folders';
 import { getFolderStats, getReadiness } from '../../engine/progress';
 import { useProgressStore } from '../../store/progressStore';
@@ -61,14 +62,14 @@ export function ProgressPage() {
       </div>
 
       <button type="button" className={styles.worldCard} onClick={() => navigate('/world')}>
-        <div className={styles.worldLeft}>
-          <span className={styles.worldIcon}>⭐</span>
-          <div>
-            <div className={styles.worldStars}>{progress.game.stars}</div>
-            <div className={styles.worldLabel}>{t('progress.stars')}</div>
-          </div>
+        <div className={styles.worldPreview} style={{ backgroundImage: `url(${WORLD_ASSETS.courtyardBg})` }}>
+          <img src={WORLD_ASSETS.starIcon} alt="" className={styles.worldStarBadge} draggable={false} />
         </div>
-        <span className={styles.worldCta}>{t('game.openWorld')} →</span>
+        <div className={styles.worldInfo}>
+          <div className={styles.worldStars}>{progress.game.stars.toLocaleString()}</div>
+          <div className={styles.worldLabel}>{t('progress.stars')} · {t('game.toWorld')}</div>
+          <span className={styles.worldCta}>{t('game.openWorld')} →</span>
+        </div>
       </button>
 
       <div className={styles.stats}>
