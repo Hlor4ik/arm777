@@ -45,20 +45,20 @@
   width: 96px;
   min-height: 72px;
   border-radius: var(--radius-md);
-  background: linear-gradient(180deg, #7ec8ff 0%, #4fa838 100%);
+  background-size: cover;
+  background-position: center;
   position: relative;
   flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
 }
 
 .worldStarBadge {
   position: absolute;
-  bottom: -4px;
-  right: -4px;
+  bottom: -6px;
+  right: -6px;
+  width: 32px;
+  height: 32px;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.4));
 }
 
 .worldInfo {

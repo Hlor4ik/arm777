@@ -1,4 +1,4 @@
-import { StarSvg } from '../illustrations/StarSvg';
+import { WORLD_ASSETS } from '../../../assets/world';
 import styles from './StarHud.module.css';
 
 interface StarHudProps {
@@ -9,7 +9,7 @@ interface StarHudProps {
 export function StarHud({ stars, label }: StarHudProps) {
   return (
     <div className={styles.hud}>
-      <StarSvg size={34} />
+      <img src={WORLD_ASSETS.starIcon} alt="" className={styles.icon} draggable={false} />
       <div className={styles.info}>
         <span className={styles.count}>{stars.toLocaleString()}</span>
         <span className={styles.label}>{label}</span>

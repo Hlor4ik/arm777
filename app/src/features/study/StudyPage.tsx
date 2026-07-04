@@ -19,7 +19,7 @@ import {
   getModeTitle,
 } from '../../engine/questions';
 import { getTranslation, getTranscription, shuffle } from '../../engine/utils';
-import { StarSvg } from '../world/illustrations/StarSvg';
+import { WORLD_ASSETS } from '../../assets/world';
 import { haptic } from '../../hooks/useTelegramBackButton';
 import { ProgressBar } from '../../components/ProgressBar/ProgressBar';
 import { Button } from '../../components/Button/Button';
@@ -225,7 +225,7 @@ export function StudyPage() {
         <h2>{t('study.done')}</h2>
         {isSpeed && <p className={styles.score}>{t('speed.score')}: {speedScore}</p>}
         <p className={styles.starsEarned}>
-          <StarSvg size={28} />
+          <img src={WORLD_ASSETS.starIcon} alt="" className={styles.starIcon} draggable={false} />
           +{earnedStars}
         </p>
         <Button onClick={() => navigate('/world')}>{t('game.toWorld')}</Button>
