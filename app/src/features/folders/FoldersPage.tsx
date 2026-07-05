@@ -6,11 +6,22 @@ import { getFolderStatus, getReadiness } from '../../engine/progress';
 import { ALL_STUDY_FOLDER_IDS } from '../../data/folders';
 import { useProgressStore } from '../../store/progressStore';
 import { useT } from '../../i18n/useT';
-import { UI_ASSETS } from '../../assets/ui';
 import { Button } from '../../components/Button/Button';
 import { ProgressBar } from '../../components/ProgressBar/ProgressBar';
 import { Card } from '../../components/Card/Card';
 import styles from './FoldersPage.module.css';
+
+const FOLDER_ICONS: Record<string, string> = {
+  greetings: '🤝',
+  food: '🍷',
+  travel: '🧭',
+  family: '🏠',
+  numbers: '🔢',
+  time: '🕐',
+  colors: '🎨',
+  body: '💪',
+  grammar: '📖',
+};
 
 export function FoldersPage() {
   const { t, lang } = useT();
@@ -36,12 +47,12 @@ export function FoldersPage() {
   const getName = (f: FolderMeta) => (lang === 'ru' ? f.nameRu : f.nameEn);
 
   return (
-    <div className={styles.page} style={{ ['--folders-mock' as string]: `url(${UI_ASSETS.mockFolders})` }}>
+    <div className={styles.page}>
       <div className="ornamentDivider" />
-      <h1 className={`screenTitle ${styles.title}`}>{t('folders.title')}</h1>
-      <p className="screenSubtitle">{lang === 'ru' ? 'Ваш путь к fluency' : 'Your path to fluency'}</p>
+      <h1 className={styles.title}>{t('folders.title')}</h1>
+      <p className={styles.subtitle}>{lang === 'ru' ? 'Ваш путь к fluency' : 'Your path to fluency'}</p>
       <div className={styles.list}>
-        {folders.map((folder, index) => {
+        {folders.map((folder) => {
           if (folder.isAlphabet) return null;
           const status = getFolderStatus(folder, progress);
           const isOpen =
@@ -59,31 +70,20 @@ export function FoldersPage() {
               onClick={() => {
                 if (isOpen) navigate('/modes');
               }}
-              className={`${styles.folderCard} ${isOpen ? styles.open : ''} ${passed ? styles.passedCard : ''}`}
+              className={`${styles.folderCard} ${isOpen ? styles.open : ''} ${passed ? styles.passedCard : ''} ${locked ? styles.lockedCard : ''}`}
             >
               <div className={styles.row}>
                 <div className={styles.left}>
-                  <span
-                    className={`${styles.thumb} ${locked ? styles.thumbLocked : ''}`}
-                    style={
-                      locked
-                        ? undefined
-                        : {
-                            backgroundImage: `url(${UI_ASSETS.mockFolders})`,
-                            backgroundSize: '100% 400%',
-                            backgroundPosition: `center ${index * 25}%`,
-                          }
-                    }
-                  >
-                    {locked ? '🔒' : ''}
+                  <span className={`${styles.thumb} ${locked ? styles.thumbLocked : ''}`}>
+                    {locked ? '🔒' : (FOLDER_ICONS[folder.id] ?? '📁')}
                   </span>
                   <div>
                     <h3 className={styles.name}>{getName(folder)}</h3>
-                    {passed && (
-                  <span className={styles.passedBadge}>{lang === 'ru' ? 'Сдано' : 'Passed'}</span>
-                )}
                   </div>
                 </div>
+                {passed && (
+                  <span className={styles.passedBadge}>{lang === 'ru' ? 'Сдано' : 'Passed'}</span>
+                )}
                 {showExam && (
                   <button
                     type="button"

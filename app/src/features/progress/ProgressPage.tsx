@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getFoldersMeta, loadWords } from '../../data/loaders';
-import { UI_ASSETS } from '../../assets/ui';
+import { WORLD_ASSETS } from '../../assets/world';
 import { ALL_STUDY_FOLDER_IDS } from '../../data/folders';
 import { getFolderStats, getReadiness } from '../../engine/progress';
 import { useProgressStore } from '../../store/progressStore';
@@ -75,7 +75,7 @@ export function ProgressPage() {
       <button type="button" className={styles.worldCard} onClick={() => navigate('/world')}>
         <div
           className={styles.worldPreview}
-          style={{ backgroundImage: `url(${UI_ASSETS.mockWorld})` }}
+          style={{ backgroundImage: `url(${WORLD_ASSETS.courtyardBg})` }}
         />
         <div className={styles.worldInfo}>
           <span className={styles.worldTitle}>{t('game.toWorld')}</span>

@@ -40,24 +40,20 @@
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 16px 48px rgba(0, 0, 0, 0.45);
+  background:
+    linear-gradient(to bottom, rgba(8, 8, 10, 0.35) 0%, rgba(8, 8, 10, 0.85) 100%),
+    radial-gradient(ellipse 120% 80% at 50% 0%, rgba(180, 150, 100, 0.25), transparent 60%),
+    linear-gradient(180deg, #3a3530 0%, #1a1816 100%);
 }
 
 .questionCard::before {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: var(--study-mock);
-  background-size: cover;
-  background-position: center 25%;
-  opacity: 0.55;
-  pointer-events: none;
-}
-
-.questionCard::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to bottom, rgba(8, 8, 10, 0.2) 0%, rgba(8, 8, 10, 0.75) 100%);
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 120' preserveAspectRatio='none'%3E%3Cpath fill='rgba(120,110,100,0.15)' d='M0 120 L80 60 L160 90 L240 40 L320 70 L400 50 L400 120 Z'/%3E%3C/svg%3E")
+      center top / 100% auto no-repeat;
+  opacity: 0.8;
   pointer-events: none;
 }
 

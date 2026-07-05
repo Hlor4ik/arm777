@@ -2,8 +2,8 @@
   padding: 16px 16px 28px;
   min-height: 100%;
   background:
-    radial-gradient(circle at 20% 15%, rgba(212, 168, 83, 0.08), transparent 30%),
-    radial-gradient(circle at 80% 25%, rgba(90, 122, 154, 0.06), transparent 25%),
+    radial-gradient(circle at 15% 20%, rgba(212, 168, 83, 0.06), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(212, 168, 83, 0.05), transparent 20%),
     #080809;
 }
 
@@ -33,61 +33,27 @@
 }
 
 .modeCard {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
-  min-height: 148px;
+  min-height: 140px;
   padding: 16px 14px;
   text-align: left;
   border-radius: 14px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   overflow: hidden;
   transition: transform 0.12s ease;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
 }
-
-.modeCard::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image: var(--modes-mock);
-  background-size: 200% 800%;
-  opacity: 0.55;
-  pointer-events: none;
-}
-
-.modeCard::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to bottom, rgba(8, 8, 10, 0.15) 0%, rgba(8, 8, 10, 0.72) 100%);
-  pointer-events: none;
-}
-
-.modeCard:nth-child(1)::before { background-position: 0% 0%; }
-.modeCard:nth-child(2)::before { background-position: 100% 0%; }
-.modeCard:nth-child(3)::before { background-position: 0% 14.3%; }
-.modeCard:nth-child(4)::before { background-position: 100% 14.3%; }
-.modeCard:nth-child(5)::before { background-position: 0% 28.6%; }
-.modeCard:nth-child(6)::before { background-position: 100% 28.6%; }
-.modeCard:nth-child(7)::before { background-position: 0% 42.9%; }
-.modeCard:nth-child(8)::before { background-position: 100% 42.9%; }
-.modeCard:nth-child(9)::before { background-position: 0% 57.2%; }
-.modeCard:nth-child(10)::before { background-position: 100% 57.2%; }
-.modeCard:nth-child(11)::before { background-position: 0% 71.5%; }
-.modeCard:nth-child(12)::before { background-position: 100% 71.5%; }
 
 .modeCard:active {
   transform: scale(0.98);
 }
 
 .modeCard.featured {
-  border-color: rgba(224, 138, 61, 0.55);
-  box-shadow:
-    0 0 32px rgba(224, 138, 61, 0.25),
-    inset 0 0 0 1px rgba(224, 138, 61, 0.2);
+  border-color: rgba(224, 138, 61, 0.5);
+  box-shadow: 0 0 24px rgba(224, 138, 61, 0.2);
 }
 
 .iconWrap {
@@ -100,18 +66,14 @@
   font-size: 18px;
   font-weight: 700;
   flex-shrink: 0;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  background: rgba(0, 0, 0, 0.35);
-  position: relative;
-  z-index: 1;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.25);
 }
 
 .modeTitle {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.2;
-  position: relative;
-  z-index: 1;
   color: #f5f0e8;
 }
 
@@ -120,31 +82,23 @@
   color: rgba(245, 240, 232, 0.72);
   line-height: 1.4;
   margin-top: auto;
-  position: relative;
-  z-index: 1;
 }
 
 .featuredBody {
   flex: 1;
   min-width: 0;
-  position: relative;
-  z-index: 1;
 }
 
-.accent_orange::after {
-  background: linear-gradient(to bottom, rgba(74, 53, 32, 0.2) 0%, rgba(42, 32, 24, 0.75) 100%);
+.accent_orange {
+  background: linear-gradient(155deg, #4a3520 0%, #2a2018 100%);
 }
 
-.accent_blue::after {
-  background: linear-gradient(to bottom, rgba(30, 42, 50, 0.2) 0%, rgba(20, 26, 32, 0.75) 100%);
+.accent_blue {
+  background: linear-gradient(155deg, #1e2a32 0%, #141a20 100%);
 }
 
-.accent_red::after {
-  background: linear-gradient(to bottom, rgba(58, 34, 34, 0.2) 0%, rgba(30, 20, 20, 0.75) 100%);
-}
-
-.modeCard.alphabet {
-  border-color: rgba(212, 168, 83, 0.25);
+.accent_red {
+  background: linear-gradient(155deg, #3a2222 0%, #1e1414 100%);
 }
 
 .featured {

@@ -4,7 +4,6 @@ import { useProgressStore } from '../../store/progressStore';
 import type { StudyModeId } from '../../data/types';
 import { getModeTitle } from '../../engine/questions';
 import { ALL_STUDY_FOLDER_IDS } from '../../data/folders';
-import { UI_ASSETS } from '../../assets/ui';
 import styles from './ModesPage.module.css';
 
 const MODES: {
@@ -49,10 +48,7 @@ export function ModesPage() {
   };
 
   return (
-    <div
-      className={styles.page}
-      style={{ ['--modes-mock' as string]: `url(${UI_ASSETS.mockModes})` }}
-    >
+    <div className={styles.page}>
       <header className={styles.header}>
         <div className="ornateDivider" />
         <h1 className={styles.title}>{t('modes.title')}</h1>

@@ -19,7 +19,6 @@ import {
 } from '../../engine/questions';
 import { getTranslation, getTranscription, shuffle } from '../../engine/utils';
 import { WORLD_ASSETS } from '../../assets/world';
-import { UI_ASSETS } from '../../assets/ui';
 import { haptic } from '../../hooks/useTelegramBackButton';
 import { ProgressBar } from '../../components/ProgressBar/ProgressBar';
 import { Button } from '../../components/Button/Button';
@@ -237,7 +236,7 @@ export function StudyPage() {
   if (!current || !modeId) return null;
 
   return (
-    <div className={styles.study} style={{ ['--study-mock' as string]: `url(${UI_ASSETS.mockStudy})` }}>
+    <div className={styles.study}>
       <div className={styles.topBar}>
         <span className={styles.stepLabel}>
           {isMatching ? `${index + 1} / ${MATCHING_ROUNDS}` : isSpeed ? `${speedScore} ★` : `${index + 1} / ${totalSteps}`}

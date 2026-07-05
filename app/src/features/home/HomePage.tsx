@@ -8,7 +8,6 @@ import { getModeTitle } from '../../engine/questions';
 import { useProgressStore } from '../../store/progressStore';
 import { useT } from '../../i18n/useT';
 import { OrnateFrame } from '../../components/ui/OrnateFrame';
-import { UI_ASSETS } from '../../assets/ui';
 import styles from './HomePage.module.css';
 
 const TOPIC_DESC: Record<string, { ru: string; en: string }> = {
@@ -91,28 +90,22 @@ export function HomePage() {
   };
 
   return (
-    <div
-      className={styles.page}
-      style={{ ['--home-mock' as string]: `url(${UI_ASSETS.mockHome})` }}
-    >
-      <div
-        className={styles.ararat}
-        style={{ backgroundImage: `url(${UI_ASSETS.mockHome})` }}
-        aria-hidden
-      />
-
-      <header className={styles.header}>
-        <div>
-          <h1 className={styles.welcome}>{t('home.greeting')}</h1>
-          <p className={styles.subtitle}>
-            {t('home.subtitle')}
-            <span className={styles.dot} aria-hidden> ·</span>
-          </p>
-        </div>
-        <div className={styles.flameBadge} aria-hidden>
-          <span>🔥</span>
-        </div>
-      </header>
+    <div className={styles.page}>
+      <section className={styles.hero}>
+        <div className={styles.heroBg} aria-hidden />
+        <header className={styles.header}>
+          <div>
+            <h1 className={styles.welcome}>{t('home.greeting')}</h1>
+            <p className={styles.subtitle}>
+              {t('home.subtitle')}
+              <span className={styles.dot} aria-hidden> ·</span>
+            </p>
+          </div>
+          <div className={styles.flameBadge} aria-hidden>
+            <span>🔥</span>
+          </div>
+        </header>
+      </section>
 
       <OrnateFrame className={styles.topicFrame}>
         <div className={styles.topicRow}>
@@ -180,6 +173,7 @@ export function HomePage() {
             <div className={styles.continueMeta}>{continueSubtitle}</div>
           </div>
           <span className={styles.continueArrow}>→</span>
+          <div className={styles.khachkar} aria-hidden />
         </button>
 
         <div className={styles.goalCard}>
