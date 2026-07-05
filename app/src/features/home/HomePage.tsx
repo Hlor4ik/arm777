@@ -8,6 +8,7 @@ import { getModeTitle } from '../../engine/questions';
 import { useProgressStore } from '../../store/progressStore';
 import { useT } from '../../i18n/useT';
 import { OrnateFrame } from '../../components/ui/OrnateFrame';
+import { HOME_ASSETS } from '../../assets/ui/home';
 import styles from './HomePage.module.css';
 
 const TOPIC_DESC: Record<string, { ru: string; en: string }> = {
@@ -16,6 +17,38 @@ const TOPIC_DESC: Record<string, { ru: string; en: string }> = {
     en: 'Learn to confidently greet and introduce yourself in Armenian',
   },
 };
+
+function FlameIcon({ size = 20 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 28" fill="none" aria-hidden>
+      <path
+        d="M12 2c0 6-6 8-6 14a6 6 0 1 0 12 0c0-4-4-6-4-10 0 2 2 3 2 5 0-3-2-5-4-9Z"
+        fill="url(#flameGrad)"
+      />
+      <defs>
+        <linearGradient id="flameGrad" x1="12" y1="2" x2="12" y2="26">
+          <stop stopColor="#ffd080" />
+          <stop offset="0.5" stopColor="#e8943a" />
+          <stop offset="1" stopColor="#c86020" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+}
+
+function BookIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
+      <path
+        d="M5 4h9a3 3 0 0 1 3 3v14l-3-2-3 2-3-2-3 2V7a3 3 0 0 1 3-3Z"
+        stroke="#3a2408"
+        strokeWidth="1.6"
+        strokeLinejoin="round"
+      />
+      <path d="M14 4v14" stroke="#3a2408" strokeWidth="1.4" />
+    </svg>
+  );
+}
 
 export function HomePage() {
   const { t, lang } = useT();
@@ -91,35 +124,42 @@ export function HomePage() {
 
   return (
     <div className={styles.page}>
-      <section className={styles.hero}>
-        <div className={styles.heroBg} aria-hidden />
+      {/* Block A — Hero + Ararat */}
+      <section className={styles.blockHero}>
+        <img
+          src={HOME_ASSETS.araratBg}
+          alt=""
+          className={styles.araratImg}
+          draggable={false}
+        />
         <header className={styles.header}>
-          <div>
+          <div className={styles.headerText}>
             <h1 className={styles.welcome}>{t('home.greeting')}</h1>
             <p className={styles.subtitle}>
               {t('home.subtitle')}
               <span className={styles.dot} aria-hidden> ·</span>
             </p>
           </div>
-          <div className={styles.flameBadge} aria-hidden>
-            <span>🔥</span>
+          <div className={styles.flameBadge}>
+            <FlameIcon size={22} />
           </div>
         </header>
       </section>
 
-      <OrnateFrame className={styles.topicFrame}>
+      {/* Block B — Current topic */}
+      <OrnateFrame className={styles.blockTopic} texture={HOME_ASSETS.topicCardBg}>
         <div className={styles.topicRow}>
           <div className={styles.ringWrap}>
-            <svg className={styles.ring} viewBox="0 0 96 96">
-              <circle cx="48" cy="48" r="40" className={styles.ringTrack} />
+            <svg className={styles.ring} viewBox="0 0 108 108">
+              <circle cx="54" cy="54" r="44" className={styles.ringTrack} />
               <circle
-                cx="48"
-                cy="48"
-                r="40"
+                cx="54"
+                cy="54"
+                r="44"
                 className={styles.ringFill}
                 style={{
-                  strokeDasharray: `${2 * Math.PI * 40}`,
-                  strokeDashoffset: `${2 * Math.PI * 40 * (1 - readiness / 100)}`,
+                  strokeDasharray: `${2 * Math.PI * 44}`,
+                  strokeDashoffset: `${2 * Math.PI * 44 * (1 - readiness / 100)}`,
                 }}
               />
             </svg>
@@ -131,9 +171,9 @@ export function HomePage() {
 
           <div className={styles.topicInfo}>
             <p className={styles.topicLabel}>
-              <span className={styles.diamond}>✦</span>
+              <span className={styles.diamond}>◆</span>
               {t('home.continueTopic')}
-              <span className={styles.diamond}>✦</span>
+              <span className={styles.diamond}>◆</span>
             </p>
             <h2 className={styles.topicName}>{topicName || '—'}</h2>
             <p className={styles.topicDesc}>{topicDesc}</p>
@@ -141,9 +181,11 @@ export function HomePage() {
         </div>
       </OrnateFrame>
 
-      <div className={styles.statsRow}>
+      {/* Block C — Stats */}
+      <section className={styles.blockStats}>
         <div className={styles.statCard}>
-          <span className={styles.statIcon}>🔥</span>
+          <img src={HOME_ASSETS.statTopo} alt="" className={styles.statBg} draggable={false} />
+          <FlameIcon size={24} />
           <div className={styles.statBody}>
             <div className={styles.statLine}>
               <span className={styles.statNum}>{progress.streak.current}</span>
@@ -152,6 +194,7 @@ export function HomePage() {
             <div className={styles.statHint}>{t('home.streakHint')}</div>
           </div>
         </div>
+
         <div className={styles.statCard}>
           <div className={styles.statBody}>
             <div className={styles.statLine}>
@@ -161,19 +204,20 @@ export function HomePage() {
             <div className={styles.statHint}>{t('home.starsHint')}</div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className={styles.actionRow}>
+      {/* Block D — Continue + daily goal */}
+      <section className={styles.blockActions}>
         <button type="button" className={styles.continueCard} onClick={handleContinue}>
-          <div className={styles.continueTop}>
-            <span className={styles.bookIcon}>📖</span>
-          </div>
+          <span className={styles.bookCircle}>
+            <BookIcon />
+          </span>
+          <img src={HOME_ASSETS.khachkar} alt="" className={styles.khachkar} draggable={false} />
           <div className={styles.continueText}>
             <div className={styles.continueTitle}>{t('home.continueShort')}</div>
             <div className={styles.continueMeta}>{continueSubtitle}</div>
           </div>
-          <span className={styles.continueArrow}>→</span>
-          <div className={styles.khachkar} aria-hidden />
+          <span className={styles.arrowCircle} aria-hidden>→</span>
         </button>
 
         <div className={styles.goalCard}>
@@ -188,10 +232,11 @@ export function HomePage() {
             />
           </div>
           <div className={styles.goalRemain}>
-            ⏱ {dailyRemain} {t('home.minLeft')}
+            <span className={styles.clockIcon} aria-hidden>🕒</span>
+            {dailyRemain} {t('home.minLeft')}
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }
