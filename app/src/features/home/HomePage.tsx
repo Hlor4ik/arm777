@@ -8,7 +8,6 @@ import { getModeTitle } from '../../engine/questions';
 import { useProgressStore } from '../../store/progressStore';
 import { useT } from '../../i18n/useT';
 import { OrnateFrame } from '../../components/ui/OrnateFrame';
-import { HOME_ASSETS } from '../../assets/ui/home';
 import styles from './HomePage.module.css';
 
 const TOPIC_DESC: Record<string, { ru: string; en: string }> = {
@@ -23,10 +22,10 @@ function FlameIcon({ size = 20 }: { size?: number }) {
     <svg width={size} height={size} viewBox="0 0 24 28" fill="none" aria-hidden>
       <path
         d="M12 2c0 6-6 8-6 14a6 6 0 1 0 12 0c0-4-4-6-4-10 0 2 2 3 2 5 0-3-2-5-4-9Z"
-        fill="url(#flameGrad)"
+        fill="url(#homeFlameGrad)"
       />
       <defs>
-        <linearGradient id="flameGrad" x1="12" y1="2" x2="12" y2="26">
+        <linearGradient id="homeFlameGrad" x1="12" y1="2" x2="12" y2="26">
           <stop stopColor="#ffd080" />
           <stop offset="0.5" stopColor="#e8943a" />
           <stop offset="1" stopColor="#c86020" />
@@ -46,6 +45,20 @@ function BookIcon() {
         strokeLinejoin="round"
       />
       <path d="M14 4v14" stroke="#3a2408" strokeWidth="1.4" />
+    </svg>
+  );
+}
+
+function KhachkarIcon() {
+  return (
+    <svg className={styles.khachkarSvg} viewBox="0 0 60 100" fill="none" aria-hidden>
+      <rect x="24" y="0" width="12" height="100" fill="#2a1808" opacity="0.9" />
+      <rect x="8" y="10" width="44" height="7" fill="#2a1808" opacity="0.85" />
+      <rect x="4" y="26" width="52" height="5" fill="#2a1808" opacity="0.8" />
+      <rect x="10" y="40" width="40" height="4" fill="#2a1808" opacity="0.75" />
+      <circle cx="30" cy="58" r="9" stroke="#2a1808" strokeWidth="2" opacity="0.8" />
+      <path d="M30 22v14M22 36h16" stroke="#2a1808" strokeWidth="1.5" opacity="0.7" />
+      <rect x="12" y="72" width="36" height="4" fill="#2a1808" opacity="0.7" />
     </svg>
   );
 }
@@ -122,16 +135,13 @@ export function HomePage() {
     navigate(`/study/${continueMode}/pick`);
   };
 
+  const ringR = 44;
+  const ringLen = 2 * Math.PI * ringR;
+
   return (
     <div className={styles.page}>
-      {/* Block A — Hero + Ararat */}
       <section className={styles.blockHero}>
-        <img
-          src={HOME_ASSETS.araratBg}
-          alt=""
-          className={styles.araratImg}
-          draggable={false}
-        />
+        <div className={styles.araratSilhouette} aria-hidden />
         <header className={styles.header}>
           <div className={styles.headerText}>
             <h1 className={styles.welcome}>{t('home.greeting')}</h1>
@@ -146,20 +156,19 @@ export function HomePage() {
         </header>
       </section>
 
-      {/* Block B — Current topic */}
-      <OrnateFrame className={styles.blockTopic} texture={HOME_ASSETS.topicCardBg}>
+      <OrnateFrame className={styles.blockTopic}>
         <div className={styles.topicRow}>
           <div className={styles.ringWrap}>
             <svg className={styles.ring} viewBox="0 0 108 108">
-              <circle cx="54" cy="54" r="44" className={styles.ringTrack} />
+              <circle cx="54" cy="54" r={ringR} className={styles.ringTrack} />
               <circle
                 cx="54"
                 cy="54"
-                r="44"
+                r={ringR}
                 className={styles.ringFill}
                 style={{
-                  strokeDasharray: `${2 * Math.PI * 44}`,
-                  strokeDashoffset: `${2 * Math.PI * 44 * (1 - readiness / 100)}`,
+                  strokeDasharray: ringLen,
+                  strokeDashoffset: ringLen * (1 - readiness / 100),
                 }}
               />
             </svg>
@@ -181,10 +190,8 @@ export function HomePage() {
         </div>
       </OrnateFrame>
 
-      {/* Block C — Stats */}
       <section className={styles.blockStats}>
-        <div className={styles.statCard}>
-          <img src={HOME_ASSETS.statTopo} alt="" className={styles.statBg} draggable={false} />
+        <div className={`${styles.statCard} ${styles.statCardStreak}`}>
           <FlameIcon size={24} />
           <div className={styles.statBody}>
             <div className={styles.statLine}>
@@ -206,13 +213,12 @@ export function HomePage() {
         </div>
       </section>
 
-      {/* Block D — Continue + daily goal */}
       <section className={styles.blockActions}>
         <button type="button" className={styles.continueCard} onClick={handleContinue}>
           <span className={styles.bookCircle}>
             <BookIcon />
           </span>
-          <img src={HOME_ASSETS.khachkar} alt="" className={styles.khachkar} draggable={false} />
+          <KhachkarIcon />
           <div className={styles.continueText}>
             <div className={styles.continueTitle}>{t('home.continueShort')}</div>
             <div className={styles.continueMeta}>{continueSubtitle}</div>

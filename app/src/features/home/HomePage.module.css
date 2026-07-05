@@ -1,11 +1,4 @@
-/**
- * Home screen — block layout matched to approved mock-home.png
- *
- * Block A: hero + ararat-bg.webp
- * Block B: ornate topic card + topic-card-bg.webp texture
- * Block C: streak + stars row + stat-topo.webp on streak
- * Block D: continue (khachkar.webp) + daily goal
- */
+/* Home — pure CSS/SVG blocks (mock-home.png is reference only, no photo layers) */
 
 .page {
   display: flex;
@@ -14,32 +7,28 @@
   padding: 8px 16px 24px;
   min-height: 100%;
   background:
-    radial-gradient(ellipse 70% 40% at 88% 0%, rgba(212, 168, 83, 0.1), transparent 55%),
+    radial-gradient(ellipse 70% 40% at 88% 0%, rgba(212, 168, 83, 0.08), transparent 55%),
     #0a0a0c;
 }
 
-/* ── Block A: Hero ── */
 .blockHero {
   position: relative;
-  min-height: 118px;
-  margin: 0 -16px;
-  padding: 8px 16px 0;
+  padding: 4px 0 8px;
   overflow: hidden;
 }
 
-.araratImg {
+.araratSilhouette {
   position: absolute;
-  top: 0;
+  top: 28px;
   left: 0;
-  width: 100%;
-  height: auto;
-  min-height: 130px;
-  object-fit: cover;
-  object-position: center top;
-  opacity: 0.55;
+  right: 0;
+  height: 72px;
   pointer-events: none;
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.35) 70%, transparent 100%);
-  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.35) 70%, transparent 100%);
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 72' preserveAspectRatio='none'%3E%3Cpath fill='rgba(80,72,64,0.28)' d='M0 72 L60 38 L110 52 L165 22 L210 42 L255 28 L310 48 L360 32 L400 44 L400 72 Z'/%3E%3Cpath fill='rgba(100,90,80,0.18)' d='M130 72 L175 48 L220 58 L280 36 L340 50 L400 40 L400 72 Z'/%3E%3C/svg%3E")
+      center bottom / 100% 100% no-repeat;
+  mask-image: linear-gradient(to bottom, transparent 0%, black 30%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 30%, transparent 100%);
 }
 
 .header {
@@ -58,17 +47,16 @@
 
 .welcome {
   font-family: var(--font-serif);
-  font-size: 38px;
+  font-size: 36px;
   font-weight: 600;
-  line-height: 1.02;
+  line-height: 1.05;
   color: #f5f0e8;
-  margin-bottom: 10px;
-  letter-spacing: -0.01em;
+  margin-bottom: 8px;
 }
 
 .subtitle {
   font-size: 13px;
-  line-height: 1.55;
+  line-height: 1.5;
   color: #9a9590;
   max-width: 280px;
 }
@@ -81,30 +69,28 @@
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  border: 1px solid rgba(212, 168, 83, 0.4);
-  background: rgba(10, 10, 12, 0.65);
+  border: 1px solid rgba(212, 168, 83, 0.38);
+  background: rgba(10, 10, 12, 0.7);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  box-shadow: 0 0 18px rgba(212, 168, 83, 0.15);
 }
 
-/* ── Block B: Topic card ── */
 .blockTopic {
   margin: 0;
 }
 
 .topicRow {
   display: flex;
-  gap: 16px;
+  gap: 14px;
   align-items: center;
 }
 
 .ringWrap {
   position: relative;
-  width: 108px;
-  height: 108px;
+  width: 100px;
+  height: 100px;
   flex-shrink: 0;
 }
 
@@ -112,20 +98,19 @@
   width: 100%;
   height: 100%;
   transform: rotate(-90deg);
-  filter: drop-shadow(0 0 10px rgba(212, 168, 83, 0.45));
+  filter: drop-shadow(0 0 8px rgba(212, 168, 83, 0.35));
 }
 
 .ringTrack {
   fill: none;
   stroke: rgba(255, 255, 255, 0.06);
-  stroke-width: 6;
+  stroke-width: 5;
 }
 
 .ringFill {
   fill: none;
-  stroke: url(#ringGold);
   stroke: #e8b84a;
-  stroke-width: 6;
+  stroke-width: 5;
   stroke-linecap: round;
   transition: stroke-dashoffset 0.6s ease;
 }
@@ -141,16 +126,16 @@
 
 .ringPct {
   font-family: var(--font-serif);
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   color: #e8c060;
   line-height: 1;
 }
 
 .ringCaption {
-  font-size: 10px;
+  font-size: 9px;
   color: #7a7570;
-  margin-top: 4px;
+  margin-top: 3px;
 }
 
 .topicInfo {
@@ -161,35 +146,33 @@
 .topicLabel {
   display: flex;
   align-items: center;
-  gap: 7px;
+  gap: 6px;
   font-size: 9px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(212, 168, 83, 0.8);
-  margin-bottom: 10px;
+  color: rgba(212, 168, 83, 0.78);
+  margin-bottom: 8px;
 }
 
 .diamond {
   font-size: 6px;
-  color: #d4a853;
 }
 
 .topicName {
   font-family: var(--font-serif);
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 600;
   line-height: 1.05;
   color: #f5f0e8;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .topicDesc {
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 1.45;
   color: #8a8580;
 }
 
-/* ── Block C: Stats ── */
 .blockStats {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -197,30 +180,38 @@
 }
 
 .statCard {
-  position: relative;
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 16px 14px;
+  padding: 14px 12px;
   background: linear-gradient(165deg, rgba(22, 22, 26, 0.98), rgba(12, 12, 14, 0.99));
   border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 14px;
-  overflow: hidden;
-  min-height: 76px;
+  min-height: 72px;
 }
 
-.statBg {
+.statCardStreak {
+  position: relative;
+  overflow: hidden;
+}
+
+.statCardStreak::before {
+  content: '';
   position: absolute;
   inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.45;
+  background:
+    repeating-radial-gradient(
+      circle at 30% 40%,
+      transparent 0,
+      transparent 8px,
+      rgba(212, 168, 83, 0.04) 8px,
+      rgba(212, 168, 83, 0.04) 9px
+    );
   pointer-events: none;
 }
 
-.statCard > svg,
-.statCard > .statBody {
+.statCardStreak > svg,
+.statCardStreak > .statBody {
   position: relative;
   z-index: 1;
 }
@@ -233,56 +224,49 @@
 .statLine {
   display: flex;
   align-items: baseline;
-  gap: 6px;
+  gap: 5px;
 }
 
 .statNum {
   font-family: var(--font-serif);
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 600;
   color: #f5f0e8;
   line-height: 1;
 }
 
 .statUnit {
-  font-size: 15px;
+  font-size: 14px;
   color: #9a9590;
 }
 
 .statStar {
-  font-size: 18px;
+  font-size: 17px;
   color: #d4a853;
-  margin-left: 2px;
 }
 
 .statHint {
   font-size: 11px;
   color: #6e6a65;
-  margin-top: 3px;
+  margin-top: 2px;
 }
 
-/* ── Block D: Actions ── */
 .blockActions {
   display: grid;
   grid-template-columns: 1.18fr 0.82fr;
   gap: 10px;
-  align-items: stretch;
 }
 
 .continueCard {
   position: relative;
   overflow: hidden;
-  display: block;
-  min-height: 136px;
-  padding: 14px 12px 12px;
+  min-height: 132px;
+  padding: 14px 12px;
   text-align: left;
-  border: 1px solid rgba(255, 220, 140, 0.5);
+  border: 1px solid rgba(255, 220, 140, 0.45);
   border-radius: 16px;
-  background:
-    linear-gradient(145deg, #f0d888 0%, #d4a853 32%, #a07830 68%, #6a5020 100%);
-  box-shadow:
-    0 0 36px rgba(212, 168, 83, 0.38),
-    inset 0 1px 0 rgba(255, 240, 200, 0.4);
+  background: linear-gradient(145deg, #f0d888 0%, #d4a853 35%, #8a6828 100%);
+  box-shadow: 0 0 32px rgba(212, 168, 83, 0.32);
   cursor: pointer;
 }
 
@@ -291,8 +275,6 @@
 }
 
 .bookCircle {
-  position: relative;
-  z-index: 2;
   display: inline-flex;
   width: 36px;
   height: 36px;
@@ -303,33 +285,29 @@
   background: rgba(255, 235, 180, 0.35);
 }
 
-.khachkar {
+.khachkarSvg {
   position: absolute;
-  right: 0;
+  right: 6px;
   top: 50%;
   transform: translateY(-50%);
-  width: 72px;
-  height: 110px;
-  object-fit: contain;
-  opacity: 0.55;
+  width: 56px;
+  height: 88px;
+  opacity: 0.28;
   pointer-events: none;
-  mix-blend-mode: multiply;
 }
 
 .continueText {
   position: absolute;
   left: 12px;
   bottom: 14px;
-  z-index: 2;
 }
 
 .continueTitle {
   font-family: var(--font-serif);
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   color: #2a1806;
   margin-bottom: 4px;
-  line-height: 1;
 }
 
 .continueMeta {
@@ -341,7 +319,6 @@
   position: absolute;
   right: 12px;
   bottom: 12px;
-  z-index: 2;
   width: 28px;
   height: 28px;
   border-radius: 50%;
@@ -350,7 +327,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
+  font-size: 15px;
   color: rgba(42, 24, 6, 0.7);
 }
 
@@ -367,16 +344,15 @@
 .goalTitle {
   font-size: 12px;
   color: #9a9590;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .goalMeta {
   font-family: var(--font-serif);
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
   color: #f5f0e8;
-  margin-bottom: 12px;
-  line-height: 1;
+  margin-bottom: 10px;
 }
 
 .goalTrack {
@@ -384,14 +360,13 @@
   background: rgba(255, 255, 255, 0.08);
   border-radius: 999px;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .goalFill {
   height: 100%;
   background: linear-gradient(90deg, #a67c2e, #e8c060);
   border-radius: 999px;
-  box-shadow: 0 0 10px rgba(212, 168, 83, 0.55);
 }
 
 .goalRemain {
@@ -402,21 +377,12 @@
   color: #6e6a65;
 }
 
-.clockIcon {
-  font-size: 11px;
-}
-
 @media (max-width: 360px) {
   .blockActions {
     grid-template-columns: 1fr;
   }
 
   .welcome {
-    font-size: 32px;
-  }
-
-  .ringWrap {
-    width: 92px;
-    height: 92px;
+    font-size: 30px;
   }
 }
